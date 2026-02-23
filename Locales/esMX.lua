@@ -67,7 +67,7 @@ local STRINGS = {
 
     SLASH_USAGE_TOGGLE = "Uso: /larias o /lcl para mostrar/ocultar la lista",
 
-    SLASH_USAGE_LOCALE = "Uso: /larias locale auto|enUS|deDE|esES|esMX|frFR|itIT|koKR|ptBR|ruRU|zhCN|zhTW",
+    SLASH_USAGE_LOCALE = "Uso: /larias locale auto|enUS|deDE|esES|esMX|frFR|itIT|ptBR|ruRU",
     SLASH_LOCALE_SET_FMT = "Idioma configurado a %s (efectivo: %s)",
 }
 

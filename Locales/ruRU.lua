@@ -67,7 +67,7 @@ local STRINGS = {
     TAB_OPTIONS = "Настройки",
 
     SLASH_USAGE_TOGGLE = "Использование: /larias или /lcl для показа/скрытия списка",
-    SLASH_USAGE_LOCALE = "Использование: /larias locale auto|enUS|deDE|esES|esMX|frFR|itIT|koKR|ptBR|ruRU|zhCN|zhTW",
+    SLASH_USAGE_LOCALE = "Использование: /larias locale auto|enUS|deDE|esES|esMX|frFR|itIT|ptBR|ruRU",
     SLASH_LOCALE_SET_FMT = "Язык установлен на %s (активный: %s)",
 }
 
