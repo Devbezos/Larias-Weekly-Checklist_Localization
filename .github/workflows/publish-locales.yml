@@ -148,11 +148,28 @@ jobs:
           echo "wago_enabled=$WAGO_ENABLED" >> "$GITHUB_OUTPUT"
 
       - name: Package + Upload (CurseForge & Wago)
+        id: packager
         if: steps.commitstep.outputs.released == 'true' && steps.pkgmeta.outputs.ready == 'true'
         uses: BigWigsMods/packager@v2.4.3
         env:
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+
+      - name: Summary (why upload did/did not run)
+        if: always()
+        shell: bash
+        env:
+          RELEASED: ${{ steps.commitstep.outputs.released }}
+          TAG: ${{ steps.commitstep.outputs.tag }}
+          PKG_READY: ${{ steps.pkgmeta.outputs.ready }}
+          PKG_REASON: ${{ steps.pkgmeta.outputs.reason }}
+          PACKAGER_OUTCOME: ${{ steps.packager.outcome }}
+        run: |
+          echo "released=${RELEASED:-<unset>}"
+          echo "tag=${TAG:-<unset>}"
+          echo "pkgmeta.ready=${PKG_READY:-<unset>}"
+          echo "pkgmeta.reason=${PKG_REASON:-<unset>}"
+          echo "packager.outcome=${PACKAGER_OUTCOME:-<unset>}"
 
       - name: Notify Discord (release posted)
         if: steps.commitstep.outputs.released == 'true' && success()
