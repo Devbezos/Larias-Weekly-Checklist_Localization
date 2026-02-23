@@ -1,8 +1,8 @@
 --[[
-Spanish (esMX) strings for Larias's Weekly Checklist
+Spanish Spain (esES) strings for Larias's Weekly Checklist
 ]]
 
-local LOCALE = "esMX"
+local LOCALE = "esES"
 local LOCALE_REGISTRY_KEY = "LARIASWEEKLYCHECKLIST_LOCALE_REGISTRY"
 
 local reg = _G[LOCALE_REGISTRY_KEY]
@@ -18,10 +18,9 @@ local L = reg.strings[LOCALE]
 local STRINGS = {
     DISPLAY_NAME = "Larias's Weekly Checklist",
 
-    -- UI: popup shown when a new addon version is installed (until acknowledged).
     UPDATE_AVAILABLE_TITLE = "Nueva versión disponible",
     UPDATE_AVAILABLE_TEXT = "Nueva versión disponible",
-    UPDATE_AVAILABLE_FMT = "%s tiene una actualización disponible.\n\nPor favor, actualiza el addon a la versión más reciente.",
+    UPDATE_AVAILABLE_FMT = "%s tiene una actualización disponible.\n\nPor favor, actualiza el complemento a la versión más reciente.",
 
     BUTTON_OK = "Aceptar",
     BUTTON_CANCEL = "Cancelar",
@@ -55,10 +54,11 @@ local STRINGS = {
     TRACKING_CATALYST_LABEL = "Catalizador:",
 
     TRACKING_CURRENCY_FALLBACK_PREFIX = "Moneda ",
+    -- NOTE: should match the lowercase substring found in Spanish WoW crest currency names ("cresta").
     TRACKING_CREST_MATCH_SUBSTRING = "cresta",
     TRACKING_INF = "INF",
-    MINIMAP_TOOLTIP_TEXT = "Clic izquierdo: mostrar/ocultar la lista",
 
+    MINIMAP_TOOLTIP_TEXT = "Clic izquierdo: mostrar/ocultar la lista",
     MINIMAP_TOOLTIP_LEFT_CLICK_TOGGLE = "Clic izquierdo: mostrar/ocultar la lista",
     MINIMAP_TOOLTIP_RIGHT_CLICK_OPTIONS = "Clic derecho: opciones",
 
@@ -66,7 +66,6 @@ local STRINGS = {
     TAB_OPTIONS = "Opciones",
 
     SLASH_USAGE_TOGGLE = "Uso: /larias o /lcl para mostrar/ocultar la lista",
-
     SLASH_USAGE_LOCALE = "Uso: /larias locale auto|enUS|deDE|esES|esMX|frFR|itIT|koKR|ptBR|ruRU|zhCN|zhTW",
     SLASH_LOCALE_SET_FMT = "Idioma configurado a %s (efectivo: %s)",
 }

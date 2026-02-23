@@ -13,8 +13,6 @@ local listKey = MAIN_ADDON_NAME .. "_LIST_DATA"
 
 local LOCALE_REGISTRY_KEY = "LARIASWEEKLYCHECKLIST_LOCALE_REGISTRY"
 
-if locale ~= LOCALE then return end
-
 local reg = _G[LOCALE_REGISTRY_KEY]
 if type(reg) ~= "table" then
     reg = {}
@@ -22,7 +20,7 @@ if type(reg) ~= "table" then
 end
 if type(reg.data) ~= "table" then reg.data = {} end
 
-_G[listKey] = {
+local DATASET = {
 
     {
         id = "early_access_feb_26_through_mar_2_pay_to_win",
@@ -168,6 +166,10 @@ _G[listKey] = {
     },
 }
 
-if type(_G[listKey]) == "table" then
-    reg.data[LOCALE] = _G[listKey]
+reg.data[LOCALE] = DATASET
+
+-- Back-compat: only set the legacy global dataset when the client locale matches.
+-- Locale override uses `reg.data[LOCALE]` and should not require a matching client locale.
+if locale == LOCALE then
+    _G[listKey] = DATASET
 end
