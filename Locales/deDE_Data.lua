@@ -5,11 +5,7 @@ NOTE: IDs are kept identical to the enUS dataset so completion tracking stays co
 across locales.
 ]]
 
-local addonName = ...
-local locale = (GetLocale and GetLocale()) or nil
 local LOCALE = "deDE"
-local MAIN_ADDON_NAME = "LariasWeeklyChecklist"
-local listKey = MAIN_ADDON_NAME .. "_LIST_DATA"
 
 local LOCALE_REGISTRY_KEY = "LARIASWEEKLYCHECKLIST_LOCALE_REGISTRY"
 
@@ -168,6 +164,3 @@ local DATASET = {
 
 reg.data[LOCALE] = DATASET
 
-if locale == LOCALE then
-    _G[listKey] = DATASET
-end

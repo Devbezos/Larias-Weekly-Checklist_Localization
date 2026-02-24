@@ -48,6 +48,15 @@ local STRINGS = {
 
     TRACKING_CREST_LABEL = "Cresta:",
     TRACKING_CREST_ID_LABEL_FMT = "Cresta %s:",
+    -- Optional: if present, crest labels are taken from this table instead of the game currency name.
+    -- Keys are currency IDs; values should be display names (with or without a trailing ':').
+    TRACKING_CREST_NAMES_BY_ID = {
+        [3383] = "Avventuriero",
+        [3341] = "Veterano",
+        [3343] = "Campione",
+        [3345] = "Eroe",
+        [3347] = "Dorato",
+    },
     TRACKING_NO_ID = "Nessun ID",
     TRACKING_TRADE_UP_SUFFIX = " Potenzia)",
 
