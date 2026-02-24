@@ -104,10 +104,39 @@ jobs:
           echo "released=true" >> "$GITHUB_OUTPUT"
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
 
-      - name: Create GitHub Release
+      - name: Package + Upload (CurseForge & Wago)
         if: steps.commitstep.outputs.released == 'true'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ steps.commitstep.outputs.tag }}
-          name: ${{ steps.commitstep.outputs.tag }}
-          generate_release_notes: true
+        uses: BigWigsMods/packager@v2.4.3
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+
+      - name: Notify Discord (release posted)
+        if: steps.commitstep.outputs.released == 'true' && success()
+        shell: bash
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TAG: ${{ steps.commitstep.outputs.tag }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${DISCORD_WEBHOOK_URL:-}" ]; then
+            echo "DISCORD_WEBHOOK_URL not set; skipping Discord notification."
+            exit 0
+          fi
+
+          RELEASE_URL="https://github.com/${REPO}/releases/tag/${TAG}"
+          MSG="🚀 **Larias's Weekly Checklist: Localization ${TAG}** is live!\n\n📦 GitHub: ${RELEASE_URL}\n🛠 Workflow: ${RUN_URL}"
+          export MSG
+
+          payload=$(python3 - <<'PY'
+          import json, os
+          print(json.dumps({"content": os.environ.get("MSG", "")}))
+          PY
+          )
+
+          curl -sS -H "Content-Type: application/json" \
+            -d "$payload" \
+            "$DISCORD_WEBHOOK_URL" || true
