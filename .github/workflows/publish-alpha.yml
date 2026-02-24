@@ -95,7 +95,7 @@ jobs:
           ALPHA_VERSION: ${{ steps.newversion.outputs.alpha }}
         run: |
           sed -i "s/^## Version:.*/## Version: $ALPHA_VERSION/" LariasWeeklyChecklist_Localization.toc
-          sed -i "s/^## Title:.*/## Title: Larias's Weekly Checklist: Localization(ALPHA)/" LariasWeeklyChecklist_Localization.toc
+          sed -i "s/^## Title:.*/## Title: Larias's Weekly Checklist Localization (ALPHA)/" LariasWeeklyChecklist_Localization.toc
 
       - name: Commit and tag
         env:
@@ -150,11 +150,11 @@ jobs:
           echo "wago_enabled=${WAGO_ENABLED}" >> "$GITHUB_OUTPUT"
           echo "cf_id=${CF_ID}" >> "$GITHUB_OUTPUT"
 
-      # - name: Package + Upload (CurseForge & Wago)
-      #   uses: BigWigsMods/packager@v2.4.3
-      #   env:
-      #     CF_API_KEY: ${{ secrets.CF_API_KEY }}
-      #     WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+      - name: Package + Upload (CurseForge & Wago)
+        uses: BigWigsMods/packager@v2.4.3
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
 
       - name: Notify Discord (alpha deployed)
         if: success()
@@ -187,7 +187,7 @@ jobs:
 
           payload=$(cat <<EOF
           {
-            "content": "🧪 **Larias's Weekly Checklist (Localization) ${TAG}** (ALPHA from \`${BRANCH}\`) is ready!\n\n📦 GitHub: ${RELEASE_URL}${CURSE_URL:+\n🔥 CurseForge: ${CURSE_URL}}\n🛠 Workflow: ${RUN_URL}"
+            "content": "🧪 **Larias's Weekly Checklist Localization ${TAG}** (ALPHA from \`${BRANCH}\`) is ready!\n\n📦 GitHub: ${RELEASE_URL}${CURSE_URL:+\n🔥 CurseForge: ${CURSE_URL}}\n🛠 Workflow: ${RUN_URL}"
           }
           EOF
           )
