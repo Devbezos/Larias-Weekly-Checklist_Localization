@@ -1,4 +1,4 @@
-name: Deploy Alpha Release
+name: Publish Alpha
 
 on:
   workflow_dispatch:
