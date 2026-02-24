@@ -1,0 +1,303 @@
+name: Translate From Upstream (Claude)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode: 'pr' creates a PR for Copilot coding agent; 'claude' runs Anthropic translation"
+        required: false
+        default: "pr"
+      upstream_repo:
+        description: "Upstream repo (owner/name) that contains canonical enUS locale files"
+        required: false
+        default: ""
+      upstream_ref:
+        description: "Upstream ref/branch to compare against (e.g. main)"
+        required: false
+        default: "main"
+      force:
+        description: "Force translation even if upstream has no changes since last tag"
+        required: false
+        default: "false"
+  schedule:
+    # Check hourly for upstream locale changes.
+    - cron: "15 * * * *"
+  push:
+    branches:
+      - main
+      - master
+
+concurrency:
+  group: locales-translate-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    # Avoid looping if this workflow creates commits via a PR branch.
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]' || !contains(github.event.head_commit.message, 'Auto-translate locales')
+
+    runs-on: ubuntu-latest
+
+    env:
+      # Default upstream repo: canonical addon repo containing enUS locale sources.
+      DEFAULT_UPSTREAM_REPO: Devbezos/Larias-Weekly-Midnight-Checklist
+      DEFAULT_UPSTREAM_REF: main
+
+      # Default behavior for scheduled/push triggers.
+      DEFAULT_MODE: pr
+
+      # workflow_dispatch inputs (empty string on non-dispatch events)
+      MODE_INPUT: ${{ github.event.inputs.mode }}
+      UPSTREAM_REPO_INPUT: ${{ github.event.inputs.upstream_repo }}
+      UPSTREAM_REF_INPUT: ${{ github.event.inputs.upstream_ref }}
+      FORCE_INPUT: ${{ github.event.inputs.force }}
+
+      # Claude settings
+      ANTHROPIC_MODEL: claude-sonnet-4-6
+
+    steps:
+      - name: Checkout locales repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve run mode
+        id: mode
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          MODE_RAW="${MODE_INPUT:-${DEFAULT_MODE}}"
+          MODE=$(echo "${MODE_RAW}" | tr '[:upper:]' '[:lower:]')
+
+          # Back-compat: treat legacy 'agent' as 'pr'.
+          if [ "${MODE}" = "agent" ]; then
+            MODE="pr"
+          fi
+
+          if [ "${MODE}" != "pr" ] && [ "${MODE}" != "claude" ]; then
+            echo "Invalid mode: ${MODE_RAW}. Use 'pr' or 'claude'." >&2
+            exit 2
+          fi
+
+          echo "mode=${MODE}" >> "$GITHUB_OUTPUT"
+          echo "Mode: ${MODE}"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Determine last stable tag
+        id: lasttag
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --tags --force
+
+          # Stable tags are vMAJOR.MINOR.PATCH
+          LAST_TAG=$(git tag --list 'v*' --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1 || true)
+          echo "last_tag=${LAST_TAG}" >> "$GITHUB_OUTPUT"
+          echo "Last stable tag: ${LAST_TAG:-<none>}"
+
+      - name: Checkout upstream repo
+        id: upstream
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          UPSTREAM_REPO="${UPSTREAM_REPO_INPUT:-${DEFAULT_UPSTREAM_REPO}}"
+          UPSTREAM_REF="${UPSTREAM_REF_INPUT:-${DEFAULT_UPSTREAM_REF}}"
+          echo "Using upstream: ${UPSTREAM_REPO}@${UPSTREAM_REF}"
+
+          rm -rf upstream
+          # Full clone (not shallow) so tag-based diffs work reliably.
+          git clone --no-tags --branch "${UPSTREAM_REF}" "https://github.com/${UPSTREAM_REPO}.git" upstream
+
+          # Fetch tags for comparison baseline.
+          (cd upstream && git fetch --tags --force origin '+refs/tags/*:refs/tags/*')
+
+          UPSTREAM_SHA=$(cd upstream && git rev-parse HEAD)
+          echo "repo=${UPSTREAM_REPO}" >> "$GITHUB_OUTPUT"
+          echo "ref=${UPSTREAM_REF}" >> "$GITHUB_OUTPUT"
+          echo "sha=${UPSTREAM_SHA}" >> "$GITHUB_OUTPUT"
+
+      - name: Decide whether translation is needed
+        id: shouldrun
+        shell: bash
+        env:
+          FORCE: ${{ env.FORCE_INPUT }}
+          LAST_TAG: ${{ steps.lasttag.outputs.last_tag }}
+        run: |
+          set -euo pipefail
+
+          FORCE_LC=$(echo "${FORCE:-false}" | tr '[:upper:]' '[:lower:]')
+          if [ "${FORCE_LC}" = "true" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "base_tag=${LAST_TAG:-}" >> "$GITHUB_OUTPUT"
+            echo "Forced run requested."
+            exit 0
+          fi
+
+          if [ -z "${LAST_TAG:-}" ]; then
+            echo "No stable tag found in locales repo; allowing first translation run."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "base_tag=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if !(cd upstream && git rev-parse -q --verify "${LAST_TAG}" >/dev/null); then
+            echo "Upstream does not have tag ${LAST_TAG}; translation will use upstream's latest stable tag as baseline."
+            BASE_TAG=$(cd upstream && git tag --list 'v*' --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1 || true)
+            echo "base_tag=${BASE_TAG}" >> "$GITHUB_OUTPUT"
+          else
+            echo "base_tag=${LAST_TAG}" >> "$GITHUB_OUTPUT"
+            BASE_TAG="${LAST_TAG}"
+          fi
+
+          if [ -z "${BASE_TAG:-}" ]; then
+            echo "No baseline tag available; allowing translation run."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          CHANGED=$(cd upstream && git diff --name-only "${BASE_TAG}"..HEAD -- Locales/enUS.lua Locales/enUS_Data.lua || true)
+          if [ -z "${CHANGED}" ]; then
+            echo "No upstream changes in Locales/enUS.lua or Locales/enUS_Data.lua since ${BASE_TAG}."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Upstream locale changes since ${BASE_TAG}:"
+            echo "${CHANGED}"
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Prepare enUS snapshots
+        if: steps.shouldrun.outputs.should_run == 'true'
+        shell: bash
+        env:
+          BASE_TAG: ${{ steps.shouldrun.outputs.base_tag }}
+        run: |
+          set -euo pipefail
+          mkdir -p .upstream
+
+          cp upstream/Locales/enUS.lua .upstream/enUS_new.lua
+          cp upstream/Locales/enUS_Data.lua .upstream/enUS_new_Data.lua
+
+          if [ -n "${BASE_TAG:-}" ]; then
+            (cd upstream && git show "${BASE_TAG}:Locales/enUS.lua" > "../.upstream/enUS_old.lua")
+            (cd upstream && git show "${BASE_TAG}:Locales/enUS_Data.lua" > "../.upstream/enUS_old_Data.lua")
+          else
+            # No baseline; treat "old" as empty so everything is considered new.
+            : > .upstream/enUS_old.lua
+            : > .upstream/enUS_old_Data.lua
+          fi
+
+      - name: Generate change report (agent handoff)
+        if: steps.shouldrun.outputs.should_run == 'true' && steps.mode.outputs.mode == 'pr'
+        shell: bash
+        env:
+          UPSTREAM_REPO: ${{ steps.upstream.outputs.repo }}
+          UPSTREAM_REF: ${{ steps.upstream.outputs.ref }}
+          UPSTREAM_SHA: ${{ steps.upstream.outputs.sha }}
+          BASE_TAG: ${{ steps.shouldrun.outputs.base_tag }}
+        run: |
+          set -euo pipefail
+
+          python scripts/translate_from_upstream_claude.py \
+            --context translation-context.json \
+            --old-enus .upstream/enUS_old.lua \
+            --new-enus .upstream/enUS_new.lua \
+            --old-enus-data .upstream/enUS_old_Data.lua \
+            --new-enus-data .upstream/enUS_new_Data.lua \
+            --locales-dir Locales \
+            --languages frFR \
+            --dry-run \
+            --report .upstream/change-report.md \
+            --report-format md
+
+      - name: Install Python deps
+        if: steps.shouldrun.outputs.should_run == 'true' && steps.mode.outputs.mode == 'claude'
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          python -m pip install requests
+
+      - name: Translate changed strings with Claude
+        if: steps.shouldrun.outputs.should_run == 'true' && steps.mode.outputs.mode == 'claude'
+        shell: bash
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ env.ANTHROPIC_MODEL }}
+          UPSTREAM_REPO: ${{ steps.upstream.outputs.repo }}
+          UPSTREAM_REF: ${{ steps.upstream.outputs.ref }}
+          UPSTREAM_SHA: ${{ steps.upstream.outputs.sha }}
+          BASE_TAG: ${{ steps.shouldrun.outputs.base_tag }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+            echo "ANTHROPIC_API_KEY secret is not set; cannot run translation." >&2
+            exit 1
+          fi
+
+          python scripts/translate_from_upstream_claude.py \
+            --context translation-context.json \
+            --old-enus .upstream/enUS_old.lua \
+            --new-enus .upstream/enUS_new.lua \
+            --old-enus-data .upstream/enUS_old_Data.lua \
+            --new-enus-data .upstream/enUS_new_Data.lua \
+            --locales-dir Locales \
+            --languages deDE esES esMX frFR itIT ptBR ruRU
+
+      - name: Cleanup upstream clone
+        if: steps.shouldrun.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf upstream
+
+      - name: Create agent handoff pull request (if changes)
+        if: steps.shouldrun.outputs.should_run == 'true' && steps.mode.outputs.mode == 'pr'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: Upstream enUS change report [skip ci]
+          title: Upstream enUS changed (delegate translation to agent)
+          body: |
+            Upstream enUS locale sources changed; this PR includes snapshots and a change report.
+
+            Next step (no external API keys):
+            - Open this PR in GitHub, then use **Copilot coding agent** / **Delegate** to update translated locale files under `Locales/`.
+            - Use `.upstream/change-report.md` as the source-of-truth for what changed in English.
+
+            Metadata:
+            - Upstream: ${{ steps.upstream.outputs.repo }}@${{ steps.upstream.outputs.ref }} (${{ steps.upstream.outputs.sha }})
+            - Baseline tag: ${{ steps.shouldrun.outputs.base_tag || '<none>' }}
+            - Translation context: translation-context.json
+
+            Generated by `Translate From Upstream (Claude)` workflow in `pr` mode.
+          branch: auto/upstream-enus-change-report
+          delete-branch: true
+          signoff: false
+
+      - name: Create pull request (if changes)
+        if: steps.shouldrun.outputs.should_run == 'true' && steps.mode.outputs.mode == 'claude'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: Auto-translate locales from upstream [skip ci]
+          title: Auto-translate locales from upstream
+          body: |
+            Updates translated locale files based on upstream enUS changes.
+
+            - Upstream: ${{ steps.upstream.outputs.repo }}@${{ steps.upstream.outputs.ref }} (${{ steps.upstream.outputs.sha }})
+            - Baseline tag: ${{ steps.shouldrun.outputs.base_tag || '<none>' }}
+            - Translation context: translation-context.json
+
+            Generated by `Translate From Upstream (Claude)` workflow.
+          branch: auto/translate-from-upstream
+          delete-branch: true
+          signoff: false
