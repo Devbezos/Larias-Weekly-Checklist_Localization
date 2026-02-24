@@ -1,4 +1,4 @@
---[[
+﻿--[[
 French (frFR) strings for Larias's Weekly Checklist
 ]]
 
@@ -29,7 +29,6 @@ local STRINGS = {
     OPTIONS_SHOW_CURRENCY = "Afficher la monnaie",
 
     HIDE_COMPLETED_WEEKS = "Masquer les semaines complétées",
-    OPTIONS_BUTTON = "Options",
     RESET_BUTTON = "Réinitialiser",
     DONE_PREFIX = "[Fait] ",
 
@@ -44,10 +43,10 @@ local STRINGS = {
     TRACKING_NOT_DONE = "Non terminé",
 
     TRACKING_QUEST_DELVERS_BOUNTY = "Prime de l'explorateur :",
-    TRACKING_QUEST_WEEKLY_PREY = "Proie hebdomadaire :",
+    TRACKING_QUEST_WEEKLY_PREY = "Traque hebdomadaire :",
 
-    TRACKING_CREST_LABEL = "Crête :",
-    TRACKING_CREST_ID_LABEL_FMT = "Crête %s :",
+    TRACKING_CREST_LABEL = "Écu :",
+    TRACKING_CREST_ID_LABEL_FMT = "Écu %s :",
     -- Optional: if present, crest labels are taken from this table instead of the game currency name.
     -- Keys are currency IDs; values should be display names (with or without a trailing ':').
     TRACKING_CREST_NAMES_BY_ID = {
@@ -62,12 +61,8 @@ local STRINGS = {
 
     TRACKING_CATALYST_LABEL = "Catalyseur :",
 
-    TRACKING_CURRENCY_FALLBACK_PREFIX = "Monnaie ",
-    -- NOTE: should match the lowercase substring found in French WoW crest currency names ("crête").
-    TRACKING_CREST_MATCH_SUBSTRING = "crête",
     TRACKING_INF = "INF",
 
-    MINIMAP_TOOLTIP_TEXT = "Clic gauche : afficher/masquer la liste",
     MINIMAP_TOOLTIP_LEFT_CLICK_TOGGLE = "Clic gauche : Afficher/masquer la liste",
     MINIMAP_TOOLTIP_RIGHT_CLICK_OPTIONS = "Clic droit : Options",
 
