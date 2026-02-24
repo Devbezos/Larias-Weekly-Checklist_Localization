@@ -1,0 +1,113 @@
+name: Publish Stable
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Check hourly for new commits and/or interface bumps.
+    - cron: "0 * * * *"
+  push:
+    branches:
+      - main
+      - master
+
+concurrency:
+  group: locales-publish-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    # Avoid looping when this workflow pushes a version-bump commit.
+    # Allow scheduled/manual runs, and allow other automation pushes.
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]' || !contains(github.event.head_commit.message, 'Auto-release locales')
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update .toc Interface versions (latest 3)
+        shell: bash
+        run: |
+          set -euo pipefail
+          TOC="LariasWeeklyChecklist_Localization.toc"
+          python scripts/update_toc_interface.py --toc "$TOC" --count 3
+
+      - name: Commit + Tag + Push (only if repo changed since last release)
+        id: commitstep
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          TOC="LariasWeeklyChecklist_Localization.toc"
+
+          # Ensure stable releases never keep an ALPHA display name.
+          sed -i "s/^## Title:.*/## Title: Larias's Weekly Checklist: Localization/" "$TOC"
+
+          # Detect whether we have any new commits since the last *stable* release tag.
+          # Important: ignore alpha tags (vX.Y.Z.W-alpha) and 4-part tags (vX.Y.Z.W),
+          # otherwise stable can get stuck thinking nothing changed since the last alpha.
+          #
+          # Note: `git describe --match` uses glob patterns (not regex) and cannot anchor
+          # to end-of-string, so it can still match alpha tags. Instead, list tags and
+          # filter for exact vMAJOR.MINOR.PATCH.
+          LAST_TAG=$(git tag --list 'v*' --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1 || true)
+          if [ -n "$LAST_TAG" ]; then
+            COMMITS_SINCE_TAG=$(git rev-list --count "$LAST_TAG"..HEAD)
+          else
+            COMMITS_SINCE_TAG=999999
+          fi
+
+          echo "Last tag: ${LAST_TAG:-<none>}"
+          echo "Commits since tag: ${COMMITS_SINCE_TAG}"
+
+          TOC_CHANGED=false
+          if ! git diff --quiet -- "$TOC"; then
+            TOC_CHANGED=true
+          fi
+
+          echo "TOC changed (working tree): ${TOC_CHANGED}"
+          echo "TOC Interface (after update): $(sed -n 's/^## Interface:[[:space:]]*//p' "$TOC" | head -n 1 | tr -d '[:space:]' || true)"
+
+          # Nothing to publish.
+          if [ "$COMMITS_SINCE_TAG" -eq 0 ] && [ "$TOC_CHANGED" = "false" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "released=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Always bump addon version for a publish.
+          NEW_VERSION=$(python scripts/bump_toc_version.py --toc "$TOC")
+          TAG="v$NEW_VERSION"
+
+          git add "$TOC"
+          git commit -m "Auto-release locales ($TAG) [skip ci]" || true
+          git push
+
+          git tag -a "$TAG" -m "Release $TAG"
+          git push origin "$TAG"
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "released=true" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        if: steps.commitstep.outputs.released == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.commitstep.outputs.tag }}
+          name: ${{ steps.commitstep.outputs.tag }}
+          generate_release_notes: true
