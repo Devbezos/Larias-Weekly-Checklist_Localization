@@ -48,6 +48,15 @@ local STRINGS = {
 
     TRACKING_CREST_LABEL = "Гребень:",
     TRACKING_CREST_ID_LABEL_FMT = "Гребень %s:",
+    -- Optional: if present, crest labels are taken from this table instead of the game currency name.
+    -- Keys are currency IDs; values should be display names (with or without a trailing ':').
+    TRACKING_CREST_NAMES_BY_ID = {
+        [3383] = "Путешественник",
+        [3341] = "Ветеран",
+        [3343] = "Чемпион",
+        [3345] = "Герой",
+        [3347] = "Позолоченный",
+    },
     TRACKING_NO_ID = "Нет ID",
     TRACKING_TRADE_UP_SUFFIX = " Улучшить)",
 
