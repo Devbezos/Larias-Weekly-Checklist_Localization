@@ -3,8 +3,6 @@ package-as: LariasWeeklyChecklist_Localization
 curse-project-id: 1469589
 wago-id: mNw78XNo
 
-manual-changelog: CHANGELOG.md
-
 # Explicit game versions (Retail)
 # Pick the ones you actually want shown on CF.
 game-versions:

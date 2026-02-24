@@ -2,6 +2,12 @@ name: Publish Stable
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Force a stable release even if no locales changes were detected"
+        required: false
+        type: boolean
+        default: false
   schedule:
     # Check hourly for new commits and/or interface bumps.
     - cron: "0 * * * *"
@@ -46,6 +52,8 @@ jobs:
       - name: Commit + Tag + Push (only if repo changed since last release)
         id: commitstep
         shell: bash
+        env:
+          FORCE_DEPLOY: ${{ github.event.inputs.force || 'false' }}
         run: |
           set -euo pipefail
 
@@ -56,6 +64,8 @@ jobs:
 
           # Ensure tags are available for diffing.
           git fetch --tags --force
+
+          FORCE_DEPLOY="${FORCE_DEPLOY:-false}"
 
           # Find the last *stable* release tag.
           # Important: ignore alpha tags (vX.Y.Z.W-alpha) and 4-part tags (vX.Y.Z.W),
@@ -85,7 +95,7 @@ jobs:
           echo "TOC Interface (after update): $(sed -n 's/^## Interface:[[:space:]]*//p' "$TOC" | head -n 1 | tr -d '[:space:]' || true)"
 
           # Nothing to do (no new locales, no toc/interface updates).
-          if [ "$LOCALES_CHANGED" = "false" ] && [ "$TOC_CHANGED" = "false" ]; then
+          if [ "$LOCALES_CHANGED" = "false" ] && [ "$TOC_CHANGED" = "false" ] && [ "$FORCE_DEPLOY" != "true" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "released=false" >> "$GITHUB_OUTPUT"
             exit 0
@@ -94,8 +104,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if [ "$LOCALES_CHANGED" = "true" ]; then
-            # Locales changed: bump addon version and publish a stable release.
+          DO_RELEASE=false
+          if [ "$FORCE_DEPLOY" = "true" ] || [ "$LOCALES_CHANGED" = "true" ]; then
+            DO_RELEASE=true
+          fi
+
+          if [ "$DO_RELEASE" = "true" ]; then
+            # Locales changed (or force): bump addon version and publish a stable release.
             NEW_VERSION=$(python scripts/bump_toc_version.py --toc "$TOC")
             TAG="v$NEW_VERSION"
 
@@ -123,6 +138,13 @@ jobs:
             fi
             echo "released=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Fetch tags (packager)
+        if: steps.commitstep.outputs.released == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --tags --force
 
       - name: Package + Upload (CurseForge & Wago)
         if: steps.commitstep.outputs.released == 'true'
