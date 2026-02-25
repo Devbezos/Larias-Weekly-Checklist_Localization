@@ -24,7 +24,7 @@ local STRINGS = {
     BUTTON_OK = "ОК",
     BUTTON_CANCEL = "Отмена",
 
-    OPTIONS_HIDE_GREAT_VAULT = "Скрыть Великое хранилище",
+    OPTIONS_HIDE_GREAT_VAULT = "Скрыть Великий тайник",
     OPTIONS_HIDE_CURRENCY = "Скрыть валюту",
 
     HIDE_COMPLETED_WEEKS = "Скрыть завершённые недели",
@@ -34,7 +34,7 @@ local STRINGS = {
     RESET_BUTTON = "Сбросить",
     DONE_PREFIX = "[Готово] ",
 
-    TRACKING_GREAT_VAULT_TITLE = "Великое хранилище",
+    TRACKING_GREAT_VAULT_TITLE = "Великий тайник",
     TRACKING_CURRENCY_TITLE = "Валюта",
     TRACKING_GV_RAID = "Рейд",
     TRACKING_GV_DUNGEONS = "Подземелья",
@@ -80,7 +80,7 @@ local STRINGS = {
     ILVLREF_SEC_CRAFTED   = "Уровни созданных предметов",
     ILVLREF_SEC_DUNGEONS  = "Уровни предметов в подземельях",
     ILVLREF_SEC_RAID      = "Прибл. уровни предметов рейда Midnight",
-    ILVLREF_SEC_DELVES    = "Уровни предметов из щедрых руин",
+    ILVLREF_SEC_DELVES    = "Уровни предметов из щедрых вылазок",
 
     ILVLREF_COL_ILVL         = "ур. пред.",
     ILVLREF_COL_TRACK        = "Пути улучшения",
@@ -88,7 +88,7 @@ local STRINGS = {
     ILVLREF_COL_QUALITY      = "Качество",
     ILVLREF_COL_SOURCE       = "Источник",
     ILVLREF_COL_END_LOOT     = "Конечные предметы",
-    ILVLREF_COL_GREAT_VAULT  = "Великое хранилище",
+    ILVLREF_COL_GREAT_VAULT  = "Великий тайник",
     ILVLREF_COL_DIFFICULTY   = "Сложность",
     ILVLREF_COL_BOSS1        = "Начало",
     ILVLREF_COL_BOSS2        = "Середина",

@@ -46,8 +46,8 @@ local STRINGS = {
     TRACKING_QUEST_DELVERS_BOUNTY = "Recompensa do explorador:",
     TRACKING_QUEST_WEEKLY_PREY = "Presa semanal:",
 
-    TRACKING_CREST_LABEL = "Crista:",
-    TRACKING_CREST_ID_LABEL_FMT = "Crista %s:",
+    TRACKING_CREST_LABEL = "Brasão:",
+    TRACKING_CREST_ID_LABEL_FMT = "Brasão %s:",
     -- Optional: if present, crest labels are taken from this table instead of the game currency name.
     -- Keys are currency IDs; values should be display names (with or without a trailing ':').
     TRACKING_CREST_NAMES_BY_ID = {
@@ -75,15 +75,15 @@ local STRINGS = {
     -- Item level reference popup
     ILVLREF_WINDOW_TITLE  = "Referência de nível de item – Midnight Temporada 1",
 
-    ILVLREF_SEC_TRACKS    = "Trilhas de melhoria  (20 cristas por passo)",
+    ILVLREF_SEC_TRACKS    = "Trilhas de melhoria  (20 brasões por passo)",
     ILVLREF_SEC_CRAFTED   = "Níveis de item criado",
     ILVLREF_SEC_DUNGEONS  = "Níveis de item de masmorra",
     ILVLREF_SEC_RAID      = "Aprox. níveis de item de raid de Midnight",
-    ILVLREF_SEC_DELVES    = "Níveis de item de covil fértil",
+    ILVLREF_SEC_DELVES    = "Níveis de item de profundezas abundantes",
 
     ILVLREF_COL_ILVL         = "n. item",
     ILVLREF_COL_TRACK        = "Trilhas de melhoria",
-    ILVLREF_COL_CREST_NEEDED = "Cristas",
+    ILVLREF_COL_CREST_NEEDED = "Brasões",
     ILVLREF_COL_QUALITY      = "Qualidade",
     ILVLREF_COL_SOURCE       = "Fonte",
     ILVLREF_COL_END_LOOT     = "Saque final",
@@ -101,7 +101,7 @@ local STRINGS = {
     ILVLREF_CREST_CHAMP        = "Camp",
     ILVLREF_CREST_HERO         = "Herói",
     ILVLREF_CREST_MYTH         = "Dour",
-    ILVLREF_DO_NOT_USE_CRESTS_FMT = "NÃO USAR CRISTAS %s",
+    ILVLREF_DO_NOT_USE_CRESTS_FMT = "NÃO USAR BRASÕES %s",
 
     ILVLREF_DUNGEON_PRE_HEROIC = "Heróico pré-temp.",
     ILVLREF_DUNGEON_HEROIC     = "Heróico",

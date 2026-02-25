@@ -24,7 +24,7 @@ local STRINGS = {
     BUTTON_OK = "OK",
     BUTTON_CANCEL = "Abbrechen",
 
-    OPTIONS_HIDE_GREAT_VAULT = "Großes Gewölbe ausblenden",
+    OPTIONS_HIDE_GREAT_VAULT = "Große Schatzkammer ausblenden",
     OPTIONS_HIDE_CURRENCY = "Währung ausblenden",
 
     HIDE_COMPLETED_WEEKS = "Abgeschlossene Wochen ausblenden",
@@ -33,7 +33,7 @@ local STRINGS = {
     RESET_BUTTON = "Zurücksetzen",
     DONE_PREFIX = "[Fertig] ",
 
-    TRACKING_GREAT_VAULT_TITLE = "Großes Gewölbe",
+    TRACKING_GREAT_VAULT_TITLE = "Große Schatzkammer",
     TRACKING_CURRENCY_TITLE = "Währung",
     TRACKING_GV_RAID = "Schlachtzug",
     TRACKING_GV_DUNGEONS = "Dungeons",
@@ -46,8 +46,8 @@ local STRINGS = {
     TRACKING_QUEST_DELVERS_BOUNTY = "Erkundsuchprämie:",
     TRACKING_QUEST_WEEKLY_PREY = "Wöchentliche Beute:",
 
-    TRACKING_CREST_LABEL = "Zinne:",
-    TRACKING_CREST_ID_LABEL_FMT = "Zinne %s:",
+    TRACKING_CREST_LABEL = "Wappen:",
+    TRACKING_CREST_ID_LABEL_FMT = "Wappen %s:",
     -- Optional: if present, crest labels are taken from this table instead of the game currency name.
     -- Keys are currency IDs; values should be display names (with or without a trailing ':').
     TRACKING_CREST_NAMES_BY_ID = {
@@ -75,19 +75,19 @@ local STRINGS = {
     -- Item level reference popup
     ILVLREF_WINDOW_TITLE  = "Midnight Saison 1 Gegenstandsstufen-Referenz",
 
-    ILVLREF_SEC_TRACKS    = "Aufwertungspfade  (20 Zinnen pro Schritt)",
+    ILVLREF_SEC_TRACKS    = "Aufwertungspfade  (20 Wappen pro Schritt)",
     ILVLREF_SEC_CRAFTED   = "Hergestellte Gegenstandsstufen",
     ILVLREF_SEC_DUNGEONS  = "Dungeon-Gegenstandsstufen",
     ILVLREF_SEC_RAID      = "Ca. Midnight-Schlachtzug-Gegenstandsstufen",
-    ILVLREF_SEC_DELVES    = "Ergiebige Grotten-Gegenstandsstufen",
+    ILVLREF_SEC_DELVES    = "Üppige Tiefen-Gegenstandsstufen",
 
     ILVLREF_COL_ILVL         = "ilvl",
     ILVLREF_COL_TRACK        = "Aufwertungspfade",
-    ILVLREF_COL_CREST_NEEDED = "Zinnen",
+    ILVLREF_COL_CREST_NEEDED = "Wappen",
     ILVLREF_COL_QUALITY      = "Qualität",
     ILVLREF_COL_SOURCE       = "Quelle",
     ILVLREF_COL_END_LOOT     = "Endbelohnung",
-    ILVLREF_COL_GREAT_VAULT  = "Großes Gewölbe",
+    ILVLREF_COL_GREAT_VAULT  = "Große Schatzkammer",
     ILVLREF_COL_DIFFICULTY   = "Schwierigkeit",
     ILVLREF_COL_BOSS1        = "Früh",
     ILVLREF_COL_BOSS2        = "Mitte",
@@ -101,7 +101,7 @@ local STRINGS = {
     ILVLREF_CREST_CHAMP        = "Champ",
     ILVLREF_CREST_HERO         = "Held",
     ILVLREF_CREST_MYTH         = "Verg",
-    ILVLREF_DO_NOT_USE_CRESTS_FMT = "KEINE %s-ZINNEN VERWENDEN",
+    ILVLREF_DO_NOT_USE_CRESTS_FMT = "KEINE %s-WAPPEN VERWENDEN",
 
     ILVLREF_DUNGEON_PRE_HEROIC = "Vorjahres-Heroisch",
     ILVLREF_DUNGEON_HEROIC     = "Heroisch",

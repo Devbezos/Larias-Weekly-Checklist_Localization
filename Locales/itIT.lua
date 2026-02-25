@@ -24,7 +24,7 @@ local STRINGS = {
     BUTTON_OK = "OK",
     BUTTON_CANCEL = "Annulla",
 
-    OPTIONS_HIDE_GREAT_VAULT = "Nascondi Grande Volta",
+    OPTIONS_HIDE_GREAT_VAULT = "Nascondi Grande Forziere",
     OPTIONS_HIDE_CURRENCY = "Nascondi valuta",
 
     HIDE_COMPLETED_WEEKS = "Nascondi settimane completate",
@@ -34,7 +34,7 @@ local STRINGS = {
     RESET_BUTTON = "Reimposta",
     DONE_PREFIX = "[Fatto] ",
 
-    TRACKING_GREAT_VAULT_TITLE = "Grande Volta",
+    TRACKING_GREAT_VAULT_TITLE = "Grande Forziere",
     TRACKING_CURRENCY_TITLE = "Valuta",
     TRACKING_GV_RAID = "Raid",
     TRACKING_GV_DUNGEONS = "Dungeon",
@@ -47,8 +47,8 @@ local STRINGS = {
     TRACKING_QUEST_DELVERS_BOUNTY = "Ricompensa dell'esploratore:",
     TRACKING_QUEST_WEEKLY_PREY = "Preda settimanale:",
 
-    TRACKING_CREST_LABEL = "Cresta:",
-    TRACKING_CREST_ID_LABEL_FMT = "Cresta %s:",
+    TRACKING_CREST_LABEL = "Emblema:",
+    TRACKING_CREST_ID_LABEL_FMT = "Emblema %s:",
     -- Optional: if present, crest labels are taken from this table instead of the game currency name.
     -- Keys are currency IDs; values should be display names (with or without a trailing ':').
     TRACKING_CREST_NAMES_BY_ID = {
@@ -76,19 +76,19 @@ local STRINGS = {
     -- Item level reference popup
     ILVLREF_WINDOW_TITLE  = "Riferimento livelli oggetto – Midnight Stagione 1",
 
-    ILVLREF_SEC_TRACKS    = "Percorsi di potenziamento  (20 creste per passo)",
+    ILVLREF_SEC_TRACKS    = "Percorsi di potenziamento  (20 emblemi per passo)",
     ILVLREF_SEC_CRAFTED   = "Livelli degli oggetti artigianali",
     ILVLREF_SEC_DUNGEONS  = "Livelli degli oggetti nei dungeon",
     ILVLREF_SEC_RAID      = "Livelli oggetto appross. del raid di Midnight",
-    ILVLREF_SEC_DELVES    = "Livelli oggetto delle grotte generose",
+    ILVLREF_SEC_DELVES    = "Livelli oggetto delle profondità rigogliose",
 
     ILVLREF_COL_ILVL         = "liv. ogg.",
     ILVLREF_COL_TRACK        = "Percorsi potenziamento",
-    ILVLREF_COL_CREST_NEEDED = "Creste",
+    ILVLREF_COL_CREST_NEEDED = "Emblemi",
     ILVLREF_COL_QUALITY      = "Qualità",
     ILVLREF_COL_SOURCE       = "Fonte",
     ILVLREF_COL_END_LOOT     = "Bottino finale",
-    ILVLREF_COL_GREAT_VAULT  = "Grande Volta",
+    ILVLREF_COL_GREAT_VAULT  = "Grande Forziere",
     ILVLREF_COL_DIFFICULTY   = "Difficoltà",
     ILVLREF_COL_BOSS1        = "Inizio",
     ILVLREF_COL_BOSS2        = "Metà",
@@ -102,7 +102,7 @@ local STRINGS = {
     ILVLREF_CREST_CHAMP        = "Camp",
     ILVLREF_CREST_HERO         = "Eroe",
     ILVLREF_CREST_MYTH         = "Dor",
-    ILVLREF_DO_NOT_USE_CRESTS_FMT = "NON USARE CRESTE %s",
+    ILVLREF_DO_NOT_USE_CRESTS_FMT = "NON USARE EMBLEMI %s",
 
     ILVLREF_DUNGEON_PRE_HEROIC = "Eroico pre-stagione",
     ILVLREF_DUNGEON_HEROIC     = "Eroico",

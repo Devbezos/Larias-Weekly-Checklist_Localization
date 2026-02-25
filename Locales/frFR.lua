@@ -80,7 +80,7 @@ local STRINGS = {
     ILVLREF_SEC_CRAFTED   = "Niveaux d'objet fabriqué",
     ILVLREF_SEC_DUNGEONS  = "Niveaux d'objet en donjon",
     ILVLREF_SEC_RAID      = "Niveaux d'objet approx. du raid Midnight",
-    ILVLREF_SEC_DELVES    = "Niveaux d'objet des cavernes abondantes",
+    ILVLREF_SEC_DELVES    = "Niveaux d'objet des gouffres abondants",
 
     ILVLREF_COL_ILVL         = "niv. obj.",
     ILVLREF_COL_TRACK        = "Voies d'amélioration",
