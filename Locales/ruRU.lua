@@ -1,6 +1,7 @@
 --[[
 Russian (ruRU) strings for Larias's Weekly Checklist
 ]]
+if GetLocale() ~= "ruRU" and not _G["LARIASWEEKLYCHECKLIST_LOAD_ALL_LOCALES"] then return end
 
 local LOCALE = "ruRU"
 local LOCALE_REGISTRY_KEY = "LARIASWEEKLYCHECKLIST_LOCALE_REGISTRY"
