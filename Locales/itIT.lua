@@ -1,6 +1,7 @@
 --[[
 Italian (itIT) strings for Larias's Weekly Checklist
 ]]
+if GetLocale() ~= "itIT" and not _G["LARIASWEEKLYCHECKLIST_LOAD_ALL_LOCALES"] then return end
 
 local LOCALE = "itIT"
 local LOCALE_REGISTRY_KEY = "LARIASWEEKLYCHECKLIST_LOCALE_REGISTRY"

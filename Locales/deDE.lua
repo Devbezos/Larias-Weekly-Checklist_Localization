@@ -1,6 +1,7 @@
 --[[
 German (deDE) strings for Larias's Weekly Checklist
 ]]
+if GetLocale() ~= "deDE" and not _G["LARIASWEEKLYCHECKLIST_LOAD_ALL_LOCALES"] then return end
 
 local LOCALE = "deDE"
 local LOCALE_REGISTRY_KEY = "LARIASWEEKLYCHECKLIST_LOCALE_REGISTRY"

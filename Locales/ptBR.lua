@@ -1,6 +1,7 @@
 --[[
 Portuguese-Brazil (ptBR) strings for Larias's Weekly Checklist
 ]]
+if GetLocale() ~= "ptBR" and not _G["LARIASWEEKLYCHECKLIST_LOAD_ALL_LOCALES"] then return end
 
 local LOCALE = "ptBR"
 local LOCALE_REGISTRY_KEY = "LARIASWEEKLYCHECKLIST_LOCALE_REGISTRY"
