@@ -25,9 +25,9 @@
         "Delves": "Gouffres",
         "Bountiful Delves": "Gouffres abondants",
         "Crests": "Écus",
-        "Sparks": "Flux de mana d'aubastre",
+        "Sparks": "Étincelle de radiance",
         "Prey": "Traque",
-        "Great Vault": "Grand Coffre",
+        "Great Vault": "Grande Chambre Forte",
         "Dungeon": "Donjon",
         "Raid": "Raid",
         "Crest tiers": {
@@ -39,7 +39,9 @@
         },
         "_notes": {
             "Crests": "Singular: Écu. Plural: Écus. Tracker label: 'Écu:'. Full crest names: 'Écu de l'aube [tier]'. Note hero tier uses adjective form 'héroïque' (not 'de héros'), mythic uses 'mythique'.",
-            "Delves": "Singular and plural both 'Gouffres' in common usage (plural noun)."
+            "Delves": "Singular and plural both 'Gouffres' in common usage (plural noun).",
+            "Sparks": "Singular: Étincelle de radiance. Plural: Étincelles de radiance.",
+            "Great Vault": "Use 'Grande Chambre Forte'. Do NOT use 'Grand Coffre'."
         }
     },
 
