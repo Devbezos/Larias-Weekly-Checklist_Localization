@@ -14,8 +14,9 @@ game-versions:
 ignore:
   - .github
   - scripts
-  - data 
+  - data
   - SETUP.md
+  - CHANGELOG.md
   - setup-libs.ps1
   - setup-libs.sh
   - .pkgmeta

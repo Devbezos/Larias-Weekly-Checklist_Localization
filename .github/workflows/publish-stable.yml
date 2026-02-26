@@ -70,8 +70,18 @@ jobs:
 
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
-          # Find the last stable release tag to compare locales against.
+          # If this exact version tag is already on remote, there is nothing to do.
+          # Avoids "tag already exists" failures when the push trigger races with a
+          # completed scheduled run that already released this version.
           git fetch --tags --force
+          if git ls-remote --tags origin "refs/tags/v$VERSION" | grep -q .; then
+            echo "Tag v$VERSION already exists on remote; nothing to release."
+            echo "should_release=false" >> "$GITHUB_OUTPUT"
+            echo "should_commit=false"  >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Find the last stable release tag to compare locales against.
           LAST_TAG=$(git tag --list 'v*' --sort=-version:refname \
             | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1 || true)
           echo "Last stable tag: ${LAST_TAG:-<none>}"
@@ -129,11 +139,41 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Commit toc at the stable version and tag it.
-          git add "$TOC"
+          # Generate CHANGELOG.md for this release so the packager uses curated
+          # notes rather than the raw git log (which includes bot commits).
+          PREV_STABLE=$(git tag --list 'v*' --sort=-version:refname \
+            | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1 || true)
+          DATE=$(date -u +%Y-%m-%d)
+          IFACE_LINE=$(sed -n 's/^## Interface:[[:space:]]*//p' "$TOC" | head -n 1 | tr -d '\n')
+          CHANGED_LOCALES=""
+          if [ -n "${PREV_STABLE:-}" ]; then
+            CHANGED_LOCALES=$(git diff --name-only "${PREV_STABLE}"..HEAD -- Locales/ \
+              | sed -E 's|Locales/||;s|_Data\.lua||;s|\.lua||' \
+              | sort -u | tr '\n' ' ' | sed 's/ $//' || true)
+          fi
+          {
+            echo "## [$VERSION] ($DATE)"
+            # Human commits only — filter out all automated bot messages.
+            if [ -n "${PREV_STABLE:-}" ]; then
+              git log "${PREV_STABLE}..HEAD" --pretty=format:"- %s" --no-merges \
+                | grep -v -iE "^- (post-release:|alpha release:|auto-update|release v)" \
+                || true
+            fi
+            if [ -n "${CHANGED_LOCALES:-}" ]; then
+              echo "- Updated locales: $CHANGED_LOCALES"
+            fi
+            echo "- Updated interface versions: $IFACE_LINE"
+            echo ""
+          } > .changelog_new
+          [ -f CHANGELOG.md ] && cat CHANGELOG.md >> .changelog_new
+          mv .changelog_new CHANGELOG.md
+
+          # Commit toc + changelog at the stable version and tag it.
+          git add "$TOC" CHANGELOG.md
           git diff --cached --quiet || git commit -m "Release $TAG [skip ci]"
           git tag -a "$TAG" -m "Release $TAG"
           git push
+          git push origin "$TAG"
 
           # Post-release bump so the branch always starts at the next version.
           NEW_VERSION=$(python scripts/bump_toc_version.py --toc "$TOC")

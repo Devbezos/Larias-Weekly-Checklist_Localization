@@ -1,10 +1,18 @@
 ﻿{
-    "_readme": "Verified WoW in-game terminology per locale, confirmed by native speakers or in-game inspection. Read this before editing any locale file. Do NOT assume dictionary translations are correct for WoW-specific terms.",
+    "_readme": "WoW-verified terminology for this addon's locales. Terms are confirmed by native speakers or in-game inspection — do NOT rely on dictionary translations for WoW-specific terms. Read this entire file before editing any locale.",
+
+    "_how_to_use": [
+        "1. Find your target locale's section (e.g. 'ruRU', 'deDE', 'frFR').",
+        "2. Use the EXACT terms listed — never substitute with dictionary equivalents.",
+        "3. Read ALL '_notes' entries for your locale before writing any text. Notes override everything else.",
+        "4. Locales are INDEPENDENT — do not assume a term from one locale carries over to another. esES and esMX look similar but differ on key terms (e.g. Crests).",
+        "5. Crest tier keys (3383, 3341, etc.) are Blizzard tier IDs — always match by ID, not by list position."
+    ],
 
     "_format_rules": {
-        "CRITICAL_lua_encoding": "Lua does NOT support \\uXXXX unicode escape sequences. Always write literal UTF-8 characters in all .lua string values. NEVER output \\u0420 style escapes — write the actual character (e.g. Р, not \\u0420). This applies to every title, text, and string field in every *_Data.lua file.",
-        "encoding": "All .lua files must be saved as UTF-8. Accented Latin characters (e.g. ã, ö, é), Cyrillic, and all other non-ASCII characters must be written literally, not escaped.",
-        "json_vs_lua": "\\uXXXX escapes are valid in this .json context file, but are INVALID in Lua. Never copy JSON-escaped strings directly into .lua files without decoding them first."
+        "CRITICAL_no_unicode_escapes_in_lua": "Lua does NOT support \\uXXXX unicode escape sequences. ALWAYS write literal UTF-8 characters in .lua files. NEVER write \\u0420-style escapes — write the actual character (e.g. Р, not \\u0420). Applies to every string, title, and text field in every *_Data.lua file.",
+        "utf8_files": "All .lua files must be saved as UTF-8. Accented Latin (e.g. ã, ö, é), Cyrillic, and all other non-ASCII characters must be written as literal characters, not escaped.",
+        "json_vs_lua": "\\uXXXX escapes are valid inside this .json context file, but are INVALID in Lua. Never copy JSON-escaped text into .lua files without decoding it first."
     },
 
     "enUS": {
@@ -44,10 +52,10 @@
             "3347": "mythique"
         },
         "_notes": {
-            "Crests": "Singular: Écu. Plural: Écus. Tracker label: 'Écu:'. Full crest names: 'Écu de l'aube [tier]'. Note hero tier uses adjective form 'héroïque' (not 'de héros'), mythic uses 'mythique'.",
-            "Delves": "Singular and plural both 'Gouffres' in common usage (plural noun).",
-            "Sparks": "Singular: Étincelle de radiance. Plural: Étincelles de radiance.",
-            "Great Vault": "Use 'Grande Chambre Forte'. Do NOT use 'Grand Coffre'."
+            "Crests": "USE: Écu (singular), Écus (plural). Full name pattern: 'Écu de l'aube [tier]'. IMPORTANT: Hero tier uses adjective 'héroïque' (NOT 'de héros'); Mythic uses 'mythique'. Do NOT use 'Crête/Crêtes'.",
+            "Delves": "USE: Gouffres (same for singular and plural). Do NOT use 'Plongées' or 'Expéditions'.",
+            "Sparks": "USE: Étincelle de radiance (singular), Étincelles de radiance (plural).",
+            "Great Vault": "USE: 'Grande Chambre Forte'. Do NOT use 'Grand Coffre'."
         }
     },
 
@@ -68,9 +76,9 @@
             "3347": "Mythen"
         },
         "_notes": {
-            "Crests": "Wappen (coat of arms) is the WoW DE term. Do NOT use 'Zinnen' (battlements) — common mistranslation. Full names: 'Morgenlichtwappen des [tier]' (genitive). Hero = 'des Helden', Mythic = 'der Mythen' (note: plural genitive for Mythen).",
-            "Great Vault": "Full name is 'Große Schatzkammer'. Do NOT abbreviate to 'Gewölbe' in written text.",
-            "Raid": "Schlachtzug in formal UI text. 'Raid' is also widely understood but 'Schlachtzug' is Blizzard's official DE term."
+            "Crests": "USE: Wappen (coat of arms). Do NOT use 'Zinnen' (battlements) — common mistranslation. Full name pattern: 'Morgenlichtwappen des [tier]' (genitive). Hero tier = 'des Helden', Mythic tier = 'der Mythen' (plural genitive).",
+            "Great Vault": "USE: 'Große Schatzkammer' (full name). Do NOT abbreviate to 'Gewölbe' in UI text.",
+            "Raid": "USE: 'Schlachtzug' in formal UI text — Blizzard's official DE term. 'Raid' is widely understood but non-standard."
         }
     },
 
@@ -169,7 +177,7 @@
         "Bountiful Delves": "Многообещающие вылазки",
         "Crests": "Гербы",
         "Prey (weekly event)": "Охота",
-        "Great Vault": "Великий тайник",
+        "Great Vault": "Великое хранилище",
         "Dark Moon Fair": "Ярмарка Новолуния",
         "Silvermoon faction": "Двор Луносвета",
         "Dungeon": "Подземелье",
@@ -185,12 +193,12 @@
             "3347": "Эпохи"
         },
         "_notes": {
-            "Great Vault": "Великий тайник (masculine). Genitive: 'Великого тайника'. Do NOT use 'Великое хранилище' — that is an old Shadowlands-era term.",
-            "Delves": "Вылазки. Do NOT use 'Экспедиции'.",
-            "Crests": "Герб singular, Гербы plural, Гербов genitive plural. Do NOT use 'Гребень/Гребни'. Crest tiers confirmed by human translator: [3343] Защитник (Champion), [3347] Эпохи (Gilded). Mythic/Gilded gear track label = 'Легенды'; gilded crest short label = 'Эпохи' (of the Epoch).",
-            "Mythic_mode": "Official WoW RU for Mythic difficulty = 'Эпохальный'. NOT 'Эпический'.",
-            "Prey": "'Охота' is the RU event name (Hunt). The label TRACKING_QUEST_WEEKLY_PREY stays 'Еженедельная добыча' (generic 'weekly loot'), but item text uses 'событие Охота'.",
-            "Silvermoon": "Faction name in WoW RU is 'Двор Луносвета' (Court of Lunosvет/Silvermoon). NOT literal 'Серебряный Город'."
+            "Great Vault": "USE: Великое хранилище (neuter). Genitive: 'Великого хранилища'. хранилище = repository/storage place, which correctly conveys 'vault'. Do NOT use 'Великий тайник' — тайник means a secret hiding place/cache, which is semantically wrong.",
+            "Mythic difficulty": "USE: 'Эпохальный'. Do NOT use 'Эпический'.",
+            "Delves": "USE: Вылазки. Do NOT use 'Экспедиции'.",
+            "Crests": "USE: Герб (singular), Гербы (plural), Гербов (genitive plural). Do NOT use 'Гребень/Гребни'. Tier names confirmed by human translator: [3343] Защитник (Champion), [3347] Эпохи (Gilded). Mythic/Gilded gear track label = 'Легенды'; gilded crest short label = 'Эпохи' (of the Epoch).",
+            "Prey": "Event name: USE 'Охота' (Hunt). EXCEPTION: the label key TRACKING_QUEST_WEEKLY_PREY keeps its value 'Еженедельная добыча' (generic weekly loot); only item body text uses 'событие Охота'.",
+            "Silvermoon": "USE: 'Двор Луносвета' (Court of Silvermoon — WoW RU official). Do NOT use literal 'Серебряный Город'."
         }
     }
 }

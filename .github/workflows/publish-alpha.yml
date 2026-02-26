@@ -2,6 +2,9 @@ name: Deploy Alpha
 
 on:
   push:
+    paths:
+      - 'Locales/**'
+      - '*.toc'
     branches-ignore:
       # Auto-deploy alphas only from NON long-lived branches.
       - main
@@ -77,7 +80,23 @@ jobs:
           echo "tag=v$ALPHA_VERSION"   >> "$GITHUB_OUTPUT"
           echo "branch=$BRANCH_NAME"   >> "$GITHUB_OUTPUT"
 
+          # Skip if no Locales/ changes since the last tag (any alpha or stable).
+          # workflow_dispatch always proceeds regardless.
+          SKIP=false
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            LAST_ANY=$(git tag --list 'v*' --sort=-v:refname \
+              | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+(\.[0-9]+-alpha)?$' | head -n 1 || true)
+            if [ -n "${LAST_ANY:-}" ]; then
+              if git diff --quiet "${LAST_ANY}"..HEAD -- Locales/; then
+                echo "No Locales/ changes since ${LAST_ANY}; skipping alpha release."
+                SKIP=true
+              fi
+            fi
+          fi
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+
       - name: Tag alpha (no branch commit)
+        if: steps.ver.outputs.skip != 'true'
         env:
           ALPHA_VERSION: ${{ steps.ver.outputs.alpha }}
           TAG:           ${{ steps.ver.outputs.tag }}
@@ -96,17 +115,25 @@ jobs:
           git checkout --detach HEAD
           git add "$TOC"
           git commit -m "Alpha release: $ALPHA_VERSION"
+
+          # Guard against a concurrent run that already pushed this tag.
+          if git ls-remote --tags origin "refs/tags/$TAG" | grep -q .; then
+            echo "Tag $TAG already exists on remote; skipping."
+            exit 0
+          fi
+
           git tag -a "$TAG" -m "Alpha Release $ALPHA_VERSION"
           git push origin "$TAG"
 
       - name: Package + Upload (CurseForge & Wago)
+        if: steps.ver.outputs.skip != 'true'
         uses: BigWigsMods/packager@v2.4.3
         env:
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
 
       - name: Notify Discord (alpha deployed)
-        if: success()
+        if: steps.ver.outputs.skip != 'true' && success()
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           TAG:     ${{ steps.ver.outputs.tag }}
