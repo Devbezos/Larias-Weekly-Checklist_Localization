@@ -166,8 +166,8 @@ local DATASET = {
         title = "7주차 - 4월 30일+",
         items = {
             { id = "do_not_craft_if_you_can_get_vault_items_higher_than_1_6", text = "금고에서 1/6보다 높은 아이템을 먹을 수 있는 부위는 절대 제작하지 말 것" },
-            { id = "upgrade_mythic_items_as_you_get_them_preferring_to_jump_them_to_289_for_the_4_jump", text = "신화템 먹으면 업그레이드, 289까지 4단 업그레이드 준비" },
-            { id = "plan_for_possible_1h_crafted_oh_swap", text = "Plan for possible 1H + crafted OH swap" },
+            { id = "upgrade_mythic_items_as_you_get_them_preferring_to_jump_them_to_289_for_the_4_jump", text = "신화템 먹을 때 마다 업그레이드 하되, 285-289구간의 템렙+4 구간을 우선할 것" },
+            { id = "plan_for_possible_1h_crafted_oh_swap", text = "무기 장식 효과를 유지하면서 주 무기를 신화 6/6으로 하고 싶다면, 향후 보조무기 제작을 계획할 것" },
             { id = "enjoy_blizzard_s_much_better_upgrade_system", text = "블리자드의 더 나아진 업그레이드 시스템을 즐기세요!" },
         },
     },
