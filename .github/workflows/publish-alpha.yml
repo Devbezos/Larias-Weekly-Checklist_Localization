@@ -128,6 +128,7 @@ jobs:
           
           TAG="v$ALPHA_VERSION"
           git tag -a "$TAG" -m "Alpha Release $ALPHA_VERSION"
+          git push
           git push origin "$TAG"
           
           echo "tag=$TAG" >> $GITHUB_ENV
@@ -166,6 +167,13 @@ jobs:
           echo "cf_enabled=${CF_ENABLED}" >> "$GITHUB_OUTPUT"
           echo "wago_enabled=${WAGO_ENABLED}" >> "$GITHUB_OUTPUT"
           echo "cf_id=${CF_ID}" >> "$GITHUB_OUTPUT"
+
+      - name: Fetch tags (packager)
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --tags --force
+          git reset --hard v${{ steps.newversion.outputs.alpha }}
 
       - name: Package + Upload (CurseForge & Wago)
         uses: BigWigsMods/packager@v2.4.3
