@@ -28,7 +28,7 @@ local STRINGS = {
     BUTTON_CANCEL = "Annuler",
 
     -- Options tab
-    OPTIONS_HIDE_GREAT_VAULT = "Masquer le Grand Coffre",
+    OPTIONS_HIDE_GREAT_VAULT = "Masquer la Grande Chambre Forte",
     OPTIONS_HIDE_CURRENCY = "Masquer la monnaie",
 
     HIDE_COMPLETED_WEEKS = "Masquer les semaines complétées",
@@ -47,7 +47,7 @@ local STRINGS = {
     DONE_PREFIX = "[Fait] ",
 
     -- Tracking panel
-    TRACKING_GREAT_VAULT_TITLE = "Grand Coffre",
+    TRACKING_GREAT_VAULT_TITLE = "Grande Chambre Forte",
     TRACKING_CURRENCY_TITLE = "Monnaie",
     TRACKING_GV_RAID = "Raid",
     TRACKING_GV_DUNGEONS = "Donjons",
@@ -105,7 +105,7 @@ local STRINGS = {
     ILVLREF_COL_QUALITY      = "Qualité",
     ILVLREF_COL_SOURCE       = "Source",
     ILVLREF_COL_END_LOOT     = "Butin final",
-    ILVLREF_COL_GREAT_VAULT  = "Grand Coffre",
+    ILVLREF_COL_GREAT_VAULT  = "Grande Chambre Forte",
     ILVLREF_COL_DIFFICULTY   = "Difficulté",
     ILVLREF_COL_BOSS1        = "Début",
     ILVLREF_COL_BOSS2        = "Milieu",
