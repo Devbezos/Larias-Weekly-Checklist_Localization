@@ -118,14 +118,14 @@ local STRINGS = {
     ILVLREF_COL_BOSS3        = "후반",
     ILVLREF_COL_BOSS4        = "막넴",
     ILVLREF_COL_TIER         = "티어",
-    ILVLREF_COL_MAP_DROP     = "지도 드롭",
+    ILVLREF_COL_MAP_DROP     = "은혜 보상",
 
     ILVLREF_CREST_ADV          = "모험가",
     ILVLREF_CREST_VET          = "노련가",
     ILVLREF_CREST_CHAMP        = "챔피언",
     ILVLREF_CREST_HERO         = "영웅",
     ILVLREF_CREST_MYTH         = "신화",
-    ILVLREF_DO_NOT_USE_CRESTS_FMT = "%s 문장 사용 금지",
+    ILVLREF_DO_NOT_USE_CRESTS_FMT = "%s문장 절대 사용 금지",
 
     ILVLREF_DUNGEON_PRE_HEROIC = "프리시즌 영웅",
     ILVLREF_DUNGEON_HEROIC     = "영웅",
@@ -145,7 +145,7 @@ local STRINGS = {
     -- Slash commands
     SLASH_USAGE_TOGGLE = "사용법: /larias 혹은 /lcl 를 입력하여 체크리스트를 켜거나 끄세요.",
     SLASH_USAGE_LOCALE = "사용법: /larias locale auto|enUS|deDE|esES|esMX|frFR|itIT|ptBR|ruRU|koKR",
-    SLASH_LOCALE_SET_FMT = "언어가 %s로 설정되었습니다. (현재 적용: %s)",
+    SLASH_LOCALE_SET_FMT = "언어가 %s로 할당 되었습니다. (effective: %s)",
 }
 
 for key, value in pairs(STRINGS) do
