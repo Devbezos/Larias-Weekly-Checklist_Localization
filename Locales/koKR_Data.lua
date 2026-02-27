@@ -21,35 +21,36 @@ local DATASET = {
 
     {
         id = "early_access_feb_26_through_mar_2_pay_to_win",
-        title = "얼리 억세스 - 2월 26일부터 3월 2일 까지 - 페이투윈 ㄷㄷ",
+        title = "얼리 액세스 - 2월 26일 ~ 3월 2일 - 과금 구간",
         items = {
-            { id = "do_not_spend_any_crests_until_told_to_do_so", text = "언급하기 전까지는 절대 문장을 소모하지 말 것" },
-            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp", text = "전쟁 모드를 켜고 90까지 레벨업 - 일요일부터 다크문으로 10% 경험치/영예 버프 가능" },
-            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "가능하다면, 다크문 버프 받은 채로 Eversong Woods에서 주간 Saltheril's Soiree 완료" },
-            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "가능하다면, 다크문 버프 받은 채로 줄아만에서 주간 Abundance 이벤트 완료" },
-            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "가능하다면, 다크문 버프 받은 채로 하란다르에서 주간 하라니르의 전설 이벤트 완료" },
-            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "가능하다면, 다크문 버프 받은 채로 공허폭풍에서 주간 Stormarion Assault 완료" },
-            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 영예를 위해 모든 희귀몹을 한번씩 잡기. 희귀몹마다 주1회만 평판 지급" },
-            { id = "complete_4x_prey_on_normal_difficulty_for_veteran_gear", text = "노련가 장비를 위해 4x 사냥감을 일반 난이도로 완료" },
-            { id = "once_dmf_opens_complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time", text = "다크문이 시작되면, 영예 획득을 위해 사이드 퀘스트 진행 (부캐들 레벨업 하면서 진행해도 됨)" },
-            { id = "unlikely_see_doc_for_info_complete_a_world_tour_of_m0_s_after_full_release_but_before_your_region_s_reset", text = "(자세한 정보는 Larias문서 참고) 정식 출시 이후부터 목요일 리셋 전까지 깡신런 완료" },
+            { id = "log_on_to_each_character_you_plan_on_leveling_so_they_start_accumulating_rested_xp", text = "레벨업할 캐릭터에 접속하여 휴식 경험치 누적 시작." },
+            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp", text = "전쟁 모드를 켜고 90까지 레벨업 - 일요일부터 다크문으로 경험치 10% 버프 적용" },
+            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "가능하다면, 다크문 버프 받은 채로 에버송 숲에서 주간 살테릴의 파티 완료." },
+            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "가능하다면, 다크문 버프 받은 채로 줄아만에서 주간 풍요 이벤트 완료." },
+            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "가능하다면, 다크문 버프 받은 채로 하란다르에서 주간 하라니르의 전설 이벤트 완료." },
+            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "가능하다면, 다크문 버프 받은 채로 공허폭풍에서 주간 스톰아리온 공격 완료." },
+            { id = "optional_with_dmf_buff_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 다크문 버프로 각 지역 희귀몹 1회씩 처치하여 영예 획득. 희귀몹마다 주1회 잠금." },
+            { id = "with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "다크문 버프로 각 지역 보물 획득하여 영예 획득. 가이드는 문서 참조." },
+            { id = "complete_4x_prey_on_normal_difficulty_for_veteran_gear", text = "노련가 장비를 위해 4x 사냥감을 일반 난이도로 완료." },
+            { id = "once_dmf_opens_complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time", text = "다크문 시작 후, 영예 획득을 위해 사이드 퀘스트 진행. (부캐 레벨업과 병행 가능)" },
         },
     },
     {
         id = "pre_season_week_1_march_3_m0_s",
-        title = "프리시즌 1주차 - 3월 3일 - 주로 깡신런",
+        title = "프리시즌 1주차 - 3월 3일 - 깡신런",
         items = {
             { id = "do_not_spend_any_crests_until_told_to_do_so", text = "언급하기 전까지는 절대 문장을 소모하지 말 것" },
             { id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket", text = "The Singularity 영예 7까지 올려서 챔피언 1/6 장신구 획득" },
             { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt", text = "Hara'ti 영예 8까지 올려서 챔피언 1/6 허리띠 획득" },
             { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm", text = "실버문 영예 9까지 올려서 챔피언 1/6 머리 투구 획득" },
             { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace", text = "아마니 부족 영예 9까지 올려서 챔피언 1/6 목걸이 획득" },
-            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "다크문 버프 받은 채로 Eversong Woods에서 주간 Saltheril's Soiree 완료" },
-            { id = "complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "다크문 버프 받은 채로 줄아만에서 주간 Abundance 이벤트 완료" },
-            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "다크문 버프 받은 채로 하란다르에서 주간 하라니르의 전설 이벤트 완료" },
-            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "다크문 버프 받은 채로 공허폭풍에서 주간 Stormarion Assault 완료" },
-            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 영예를 위해 모든 희귀몹을 한번씩 잡기. 희귀몹마다 주1회만 평판 지급" },
-            { id = "unlock_delves_through_tier_8_11_if_available", text = "구렁 8단까지 뚫어 놓기 (가능하면 11단 까지)" },
+            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "다크문 버프 받은 채로 에버송 숲에서 주간 살테릴의 파티 완료." },
+            { id = "complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "다크문 버프 받은 채로 줄아만에서 주간 풍요 이벤트 완료." },
+            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "다크문 버프 받은 채로 하란다르에서 주간 하라니르의 전설 이벤트 완료." },
+            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "다크문 버프 받은 채로 공허폭풍에서 주간 스톰아리온 공격 완료." },
+            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 각 지역 희귀몹 1회씩 처치하여 영예 획득. 희귀몹마다 주1회 잠금." },
+            { id = "if_not_done_with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "미완료시, 다크문 버프로 각 지역 보물 획득하여 영예 획득. 가이드는 문서 참조." },
+            { id = "unlock_delves_through_tier_8_11_if_available", text = "구렁 8단 해금 (가능하면 11단까지)" },
             { id = "optional_complete_4x_normal_prey_for_adventurer_gear_and_renown", text = "(선택) 모험가 장비 및 영예를 위해 4x 사냥감을 일반 난이도로 완료" },
             { id = "complete_4x_hard_prey_for_veteran_gear_and_renown", text = "노련가 장비 및 영예를 위해 4x 사냥감을 어려움 난이도로 완료" },
             { id = "complete_a_world_tour_of_m0_dungeons_rewards_vet_ilvl_do_not_upgrade_yet", text = "깡신런 완료 - 보상 노련가 240 장비 - 아직 업그레이드 안 함" },
@@ -57,25 +58,25 @@ local DATASET = {
     },
     {
         id = "pre_season_week_2_march_10_m0_s",
-        title = "프리시즌 2주차 - 3월 12일 - 여전히 깡신런",
+        title = "프리시즌 2주차 - 3월 10일 - 깡신런",
         items = {
             { id = "do_not_spend_any_crests_until_told_to_do_so", text = "언급하기 전까지는 절대 문장을 소모하지 말 것" },
             { id = "if_not_completed_continue_to_raise_renown_for_champion_pieces", text = "아직 영예로 챔피언 템 못샀으면, 영예 작업 수행" },
-            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "Eversong Woods에서 주간 Saltheril's Soiree 완료" },
-            { id = "complete_the_weekly_abundance_event_in_zul_aman", text = "줄아만에서 주간 Abundance 이벤트 완료" },
-            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "하란다르에서 주간 하라니르의 전설 이벤트 완료" },
-            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm", text = "공허폭풍에서 주간 Stormarion Assault 완료" },
-            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 영예를 위해 모든 희귀몹을 한번씩 잡기. 희귀몹마다 주1회만 평판 지급" },
-            { id = "unlock_delves_through_tier_8_11_if_available_if_not_done_yet", text = "아직 안했으면, 구렁 8단까지 뚫어 놓기 (가능하면 11단 까지)" },
+            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "에버송 숲에서 주간 살테릴의 파티 완료." },
+            { id = "complete_the_weekly_abundance_event_in_zul_aman", text = "줄아만에서 주간 풍요 이벤트 완료." },
+            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "하란다르에서 주간 하라니르의 전설 이벤트 완료." },
+            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm", text = "공허폭풍에서 주간 스톰아리온 공격 완료." },
+            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 각 지역 희귀몹 1회씩 처치하여 영예 획득. 희귀몹마다 주1회 잠금." },
+            { id = "unlock_delves_through_tier_8_11_if_available_if_not_done_yet", text = "미완료시, 구렁 8단 해금 (가능하면 11단까지)" },
             { id = "optional_complete_4x_normal_prey_for_adventurer_gear_and_renown", text = "(선택) 모험가 장비 및 영예를 위해 4x 사냥감을 일반 난이도로 완료" },
-            { id = "complete_4x_hard_prey_for_veteran_gear_and_renown", text = "노련가 장비 및 영예를 위해 4x 사냥감을 어려움 난이도로 완료" },
-            { id = "complete_a_world_tour_of_m0_dungeons_rewards_vet_ilvl_do_not_upgrade_yet", text = "깡신런 완료 - 보상 노련가 240 장비 - 아직 업그레이드 안 함" },
-            { id = "if_you_raid_tuesday_the_17th_craft_see_doc_for_more_info", text = "19일 리셋날 레이드가 있다면, 장비 제작. 자세한 내용은 Larias문서 참조" },
+            { id = "complete_4x_hard_prey_for_veteran_gear_and_renown", text = "노련가 장비 및 영예를 위해 4x 어려움 사냥감 완료." },
+            { id = "complete_a_world_tour_of_m0_dungeons_rewards_vet_ilvl_do_not_upgrade_yet", text = "깡신런 완료 - 노련가 템렙 보상 - 아직 업그레이드 금지" },
+            { id = "if_you_raid_tuesday_the_17th_craft_see_doc_for_more_info", text = "17일 화요일에 레이드가 있다면 장비 제작. 자세한 내용은 문서 참조." },
         },
     },
     {
         id = "season_1_week_1_mar_17_heroic_week",
-        title = "1시즌 1주차 - 3월 19일 - 영웅 레이드 오픈",
+        title = "1시즌 1주차 - 3월 17일 - 영웅 주간",
         items = {
             { id = "do_not_spend_any_crests_until_told_to_do_so", text = "언급하기 전까지는 절대 문장을 소모하지 말 것" },
             { id = "do_lfr_for_tier_pieces_check_guide_for_why", text = "티어 획득을 위해 공찾 돌기 (이유는 문서 참조)" },
@@ -91,7 +92,7 @@ local DATASET = {
     },
     {
         id = "week_2_mar_24_mythic_week_m_opens_take_off_work_giganerds",
-        title = "2주차 - 3월 26일 - 신화 레이드, 쐐기 던전 오픈. 연차 몰아 쓰는 주간",
+        title = "2주차 - 3월 24일 - 신화 주간, 신화+ 오픈. 연차 내세요 여러분",
         items = {
             { id = "do_not_spend_any_crests_until_told_to_do_so", text = "언급하기 전까지는 절대 문장을 소모하지 말 것" },
             { id = "1h_crafted_note_check_guide_check_craft_path_info_very_important", text = "(매우 중요) 한손 무기 사용자는 Larias문서 참조해서 제작 루트 따라가기." },
@@ -109,7 +110,7 @@ local DATASET = {
     },
     {
         id = "week_3_mar_31_final_raid_opens",
-        title = "3주차 - 4월 2일 - 마지막 레이드 오픈",
+        title = "3주차 - 3월 31일 - 마지막 레이드 오픈",
         items = {
             { id = "open_vault_272_myth_item_upgrade_after_crafting", text = "금고 열기 (272+ 신화템) - 제작 후 업그레이드" },
             { id = "craft_items_see_guide_for_2_paths_to_pick", text = "아이템 제작 - Larias문서의 2가지 루트 확인하여 따라가기" },
@@ -124,7 +125,7 @@ local DATASET = {
     },
     {
         id = "week_4_apr_7",
-        title = "4주차 - 4월 9일",
+        title = "4주차 - 4월 7일",
         items = {
             { id = "open_vault_272_myth_item", text = "금고 열기 (272+ 신화템)" },
             { id = "farm_10s_for_vault_crests", text = "쐐기 10단 8회 이상 돌아서 문장 및 금고 3상자 확보" },
@@ -137,7 +138,7 @@ local DATASET = {
     },
     {
         id = "week_5_apr_14",
-        title = "5주차 - 4월 16일",
+        title = "5주차 - 4월 14일",
         items = {
             { id = "open_vault_272_myth_item", text = "금고 열기 (272+ 신화템)" },
             { id = "farm_10s_for_vault_crests", text = "쐐기 10단 8회 이상 돌아서 문장 및 금고 3상자 확보" },
@@ -150,7 +151,7 @@ local DATASET = {
     },
     {
         id = "week_6_apr_21_done_with_heroic_crests",
-        title = "6주차 - 4월 23일 - 영웅 문장 졸업",
+        title = "6주차 - 4월 21일 - 영웅 문장 졸업",
         items = {
             { id = "open_vault_272_myth_item", text = "금고 열기 (272+ 신화템)" },
             { id = "farm_10s_for_vault_crests", text = "쐐기 10단 8회 이상 돌아서 문장 및 금고 3상자 확보" },
@@ -163,7 +164,7 @@ local DATASET = {
     },
     {
         id = "week_7_apr_28",
-        title = "7주차 - 4월 30일+",
+        title = "7주차 - 4월 28일+",
         items = {
             { id = "do_not_craft_if_you_can_get_vault_items_higher_than_1_6", text = "금고에서 1/6보다 높은 아이템을 먹을 수 있는 부위는 절대 제작하지 말 것" },
             { id = "upgrade_mythic_items_as_you_get_them_preferring_to_jump_them_to_289_for_the_4_jump", text = "신화템 먹을 때 마다 업그레이드 하되, 285-289구간의 템렙+4 구간을 우선할 것" },
