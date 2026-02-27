@@ -1,3 +1,8 @@
+## [2.0.6] (2026-02-27)
+- added koKR translation with fix (#13)
+- Updated locales: koKR
+- Updated interface versions: 120001, 120000, 110207
+
 ## [2.0.5] (2026-02-26)
 - Update translations
 - Feature/20260226/update locales (#11)
