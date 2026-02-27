@@ -44,6 +44,11 @@ local STRINGS = {
     OPTIONS_HIDE_SCALE_SLIDER   = "Ocultar control de escala",
     OPTIONS_HIDE_SLIDERS        = "Ocultar controles deslizantes",
     OPTIONS_HIDE_OPACITY_SLIDER = "Ocultar control de opacidad",
+    OPTIONS_HIDE_UPDATE_NOTICE  = "Ocultar avisos de actualización", -- ⚠️ UNVERIFIED
+    -- Status banner
+    STATUS_UPDATE_AVAILABLE_FMT = "¡Actualización disponible! Tienes %s, la más reciente es %s.", -- ⚠️ UNVERIFIED
+    STATUS_NO_TRANSLATION_FMT   = "No hay traducción disponible para %s. ¡Considera contribuir!", -- ⚠️ UNVERIFIED
+    STATUS_TRANSLATION_NOTICE   = "Esta es una traducción de la guía en inglés. ¿Notas algún problema? ¡Considera contribuir!", -- ⚠️ UNVERIFIED
     UI_OPACITY_LABEL            = "Opacidad",
     UI_OPACITY_MIN_LABEL        = "10%",
     UI_OPACITY_MAX_LABEL        = "100%",
@@ -51,9 +56,12 @@ local STRINGS = {
     -- List tab
     DONE_PREFIX = "[Hecho] ",
 
+    -- Tracking panel header tooltips
+    TOOLTIP_OPEN_GREAT_VAULT  = "<localized>", -- ⚠️ UNVERIFIED
+    TOOLTIP_OPEN_CURRENCIES   = "<localized>", -- ⚠️ UNVERIFIED
+
     -- Tracking panel
     TRACKING_GREAT_VAULT_TITLE = "Gran Cámara",
-    TRACKING_CURRENCY_TITLE = "Moneda",
     TRACKING_GV_RAID = "Banda",
     TRACKING_GV_DUNGEONS = "Mazmorras",
     TRACKING_GV_WORLD    = "Mundo",

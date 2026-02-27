@@ -44,12 +44,21 @@ local STRINGS = {
     OPTIONS_HIDE_SCALE_SLIDER   = "Скрыть ползунок масштаба",
     OPTIONS_HIDE_SLIDERS        = "Скрыть ползунки",
     OPTIONS_HIDE_OPACITY_SLIDER = "Скрыть ползунок прозрачности",
+    OPTIONS_HIDE_UPDATE_NOTICE  = "Скрыть уведомления об обновлениях", -- ⚠️ UNVERIFIED
+    -- Status banner
+    STATUS_UPDATE_AVAILABLE_FMT = "Доступно обновление! У вас %s, новейшая версия — %s.", -- ⚠️ UNVERIFIED
+    STATUS_NO_TRANSLATION_FMT   = "Перевод для %s недоступен. Рассмотрите возможность внести вклад!", -- ⚠️ UNVERIFIED
+    STATUS_TRANSLATION_NOTICE   = "Это перевод английского руководства. Заметили ошибки? Рассмотрите возможность внести вклад!", -- ⚠️ UNVERIFIED
     UI_OPACITY_LABEL            = "Прозрачность",
     UI_OPACITY_MIN_LABEL        = "10%",
     UI_OPACITY_MAX_LABEL        = "100%",
 
     -- List tab
     DONE_PREFIX = "[Готово] ",
+
+    -- Tracking panel header tooltips
+    TOOLTIP_OPEN_GREAT_VAULT  = "<localized>", -- ⚠️ UNVERIFIED
+    TOOLTIP_OPEN_CURRENCIES   = "<localized>", -- ⚠️ UNVERIFIED
 
     -- Tracking panel
     TRACKING_GREAT_VAULT_TITLE = "Великое хранилище",

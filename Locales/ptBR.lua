@@ -44,12 +44,21 @@ local STRINGS = {
     OPTIONS_HIDE_SCALE_SLIDER   = "Ocultar controle de escala",
     OPTIONS_HIDE_SLIDERS        = "Ocultar controles deslizantes",
     OPTIONS_HIDE_OPACITY_SLIDER = "Ocultar controle de opacidade",
+    OPTIONS_HIDE_UPDATE_NOTICE  = "Ocultar avisos de atualização", -- ⚠️ UNVERIFIED
+    -- Status banner
+    STATUS_UPDATE_AVAILABLE_FMT = "Atualização disponível! Você tem %s, a mais recente é %s.", -- ⚠️ UNVERIFIED
+    STATUS_NO_TRANSLATION_FMT   = "Nenhuma tradução disponível para %s. Considere contribuir!", -- ⚠️ UNVERIFIED
+    STATUS_TRANSLATION_NOTICE   = "Esta é uma tradução do guia em inglês. Notou algum problema? Considere contribuir!", -- ⚠️ UNVERIFIED
     UI_OPACITY_LABEL            = "Opacidade",
     UI_OPACITY_MIN_LABEL        = "10%",
     UI_OPACITY_MAX_LABEL        = "100%",
 
     -- List tab
     DONE_PREFIX = "[Feito] ",
+
+    -- Tracking panel header tooltips
+    TOOLTIP_OPEN_GREAT_VAULT  = "<localized>", -- ⚠️ UNVERIFIED
+    TOOLTIP_OPEN_CURRENCIES   = "<localized>", -- ⚠️ UNVERIFIED
 
     -- Tracking panel
     TRACKING_GREAT_VAULT_TITLE = "Grande Cofre",

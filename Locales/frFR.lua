@@ -43,13 +43,22 @@ local STRINGS = {
     UI_SCALE_MAX_LABEL = "150%",
     OPTIONS_HIDE_SCALE_SLIDER   = "Masquer le curseur de mise \u00e0 l'\u00e9chelle",
     OPTIONS_HIDE_SLIDERS        = "Masquer les curseurs",
-    OPTIONS_HIDE_OPACITY_SLIDER = "Masquer le curseur d'opacit\u00e9",
-    UI_OPACITY_LABEL            = "Opacit\u00e9",
+    OPTIONS_HIDE_OPACITY_SLIDER = "Masquer le curseur d'opacité",
+    OPTIONS_HIDE_UPDATE_NOTICE  = "Masquer les avis de mise à jour", -- ⚠️ UNVERIFIED
+    -- Status banner
+    STATUS_UPDATE_AVAILABLE_FMT = "Mise à jour disponible ! Vous avez %s, la plus récente est %s.", -- ⚠️ UNVERIFIED
+    STATUS_NO_TRANSLATION_FMT   = "Aucune traduction disponible pour %s. Envisagez de contribuer !", -- ⚠️ UNVERIFIED
+    STATUS_TRANSLATION_NOTICE   = "Ceci est une traduction du guide en anglais. Vous remarquez des problèmes ? Envisagez de contribuer !", -- ⚠️ UNVERIFIED
+    UI_OPACITY_LABEL            = "Opacité",
     UI_OPACITY_MIN_LABEL        = "10%",
     UI_OPACITY_MAX_LABEL        = "100%",
 
     -- List tab
     DONE_PREFIX = "[Fait] ",
+
+    -- Tracking panel header tooltips
+    TOOLTIP_OPEN_GREAT_VAULT  = "<localized>", -- ⚠️ UNVERIFIED
+    TOOLTIP_OPEN_CURRENCIES   = "<localized>", -- ⚠️ UNVERIFIED
 
     -- Tracking panel
     TRACKING_GREAT_VAULT_TITLE = "Grande Chambre Forte",

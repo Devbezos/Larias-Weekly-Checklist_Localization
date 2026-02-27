@@ -44,12 +44,21 @@ local STRINGS = {
     OPTIONS_HIDE_SCALE_SLIDER   = "Skalierungsregler ausblenden",
     OPTIONS_HIDE_SLIDERS        = "Regler ausblenden",
     OPTIONS_HIDE_OPACITY_SLIDER = "Deckkraftregler ausblenden",
+    OPTIONS_HIDE_UPDATE_NOTICE  = "Update-Hinweise ausblenden", -- ⚠️ UNVERIFIED
+    -- Status banner
+    STATUS_UPDATE_AVAILABLE_FMT = "Update verfügbar! Du hast %s, neueste Version ist %s.", -- ⚠️ UNVERIFIED
+    STATUS_NO_TRANSLATION_FMT   = "Keine Übersetzung für %s verfügbar. Trage gerne bei!", -- ⚠️ UNVERIFIED
+    STATUS_TRANSLATION_NOTICE   = "Dies ist eine Übersetzung des englischen Leitfadens. Fehler bemerkt? Gerne beitragen!", -- ⚠️ UNVERIFIED
     UI_OPACITY_LABEL            = "Deckkraft",
     UI_OPACITY_MIN_LABEL        = "10%",
     UI_OPACITY_MAX_LABEL        = "100%",
 
     -- List tab
     DONE_PREFIX = "[Fertig] ",
+
+    -- Tracking panel header tooltips
+    TOOLTIP_OPEN_GREAT_VAULT  = "<localized>", -- ⚠️ UNVERIFIED
+    TOOLTIP_OPEN_CURRENCIES   = "<localized>", -- ⚠️ UNVERIFIED
 
     -- Tracking panel
     TRACKING_GREAT_VAULT_TITLE = "Große Schatzkammer",

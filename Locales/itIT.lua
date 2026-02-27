@@ -44,12 +44,21 @@ local STRINGS = {
     OPTIONS_HIDE_SCALE_SLIDER   = "Nascondi cursore di scala",
     OPTIONS_HIDE_SLIDERS        = "Nascondi cursori",
     OPTIONS_HIDE_OPACITY_SLIDER = "Nascondi cursore di opacità",
+    OPTIONS_HIDE_UPDATE_NOTICE  = "Nascondi avvisi di aggiornamento", -- ⚠️ UNVERIFIED
+    -- Status banner
+    STATUS_UPDATE_AVAILABLE_FMT = "Aggiornamento disponibile! Hai %s, il più recente è %s.", -- ⚠️ UNVERIFIED
+    STATUS_NO_TRANSLATION_FMT   = "Nessuna traduzione disponibile per %s. Considera di contribuire!", -- ⚠️ UNVERIFIED
+    STATUS_TRANSLATION_NOTICE   = "Questa è una traduzione della guida inglese. Noti problemi? Considera di contribuire!", -- ⚠️ UNVERIFIED
     UI_OPACITY_LABEL            = "Opacità",
     UI_OPACITY_MIN_LABEL        = "10%",
     UI_OPACITY_MAX_LABEL        = "100%",
 
     -- List tab
     DONE_PREFIX = "[Fatto] ",
+
+    -- Tracking panel header tooltips
+    TOOLTIP_OPEN_GREAT_VAULT  = "<localized>", -- ⚠️ UNVERIFIED
+    TOOLTIP_OPEN_CURRENCIES   = "<localized>", -- ⚠️ UNVERIFIED
 
     -- Tracking panel
     TRACKING_GREAT_VAULT_TITLE = "Grande Forziere",
