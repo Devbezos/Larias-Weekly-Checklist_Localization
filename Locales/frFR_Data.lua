@@ -34,15 +34,15 @@ local DATASET = {
         title = "Accès anticipé - 26 fév. au 2 mars - Pay to Win",
         items = {
             { id = "log_on_to_each_character_you_plan_on_leveling_so_they_start_accumulating_rested_xp", text = "Connectez-vous sur chaque personnage que vous prévoyez de monter pour qu'ils commencent à accumuler de l'XP reposée." }, -- ⚠️ UNVERIFIED: XP reposée (Rested XP)
-            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp", text = "Montez vos personnages en Mode Guerre au niveau 90 – la FLN ouvre dimanche pour +10 % d'XP. NE DONNE PLUS DE RENOM" },
-            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Si disponible, complétez la Soirée de Saltheril hebdo dans les Bois des Chants éternels." },
-            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "Si disponible, complétez l'Événement d'abondance hebdo dans Zul'Aman." },
-            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "Si disponible, complétez l'événement Légendes des Haranir hebdo à Harandar." },
-            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "Si disponible, complétez l'Assaut de Stormarion hebdo dans la Tempête du néant." },
-            { id = "optional_with_dmf_buff_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Optionnel) Tuez chaque créature rare une fois par zone pour de la renommée. Chaque rare a un blocage hebdomadaire." },
-            { id = "with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Cherchez les trésors de chaque région pour de la renommée gratuite. Voir doc pour le guide." }, -- ⚠️ UNVERIFIED: trésors de chaque région (Midnight regional treasures)
-            { id = "complete_4x_prey_on_normal_difficulty_for_veteran_gear", text = "Complétez 4 fois la Traque en difficulté normale pour de l'équipement vétéran." },
-            { id = "once_dmf_opens_complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time", text = "Complétez les chaînes de quêtes secondaires pour la renommée. (Peut être fait sur les alts en levant en même temps). NOUVEAU : LA FOIRE DE LA LUNE NOIRE NE DONNE PLUS DE BONUS DE RENOM !" },
+            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp_no_longer_gives_renown", text = "Montez vos personnages en Mode Guerre au niveau 90 – la FLN ouvre dimanche pour +10 % d'XP. NE DONNE PLUS DE RENOM" },
+            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_not_available_in_early_access", text = "Si disponible, complétez la Soirée de Saltheril hebdo dans les Bois des Chants éternels. - NOT AVAILABLE IN EARLY ACCESS" },
+            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_bugged_in_early_access_dont_do", text = "Si disponible, complétez l'Événement d'abondance hebdo dans Zul'Aman. - BUGGED IN EARLY ACCESS - DON'T DO" },
+            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Si disponible, complétez l'événement Légendes des Haranir hebdo à Harandar." },
+            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_available_in_early_access", text = "Si disponible, complétez l'Assaut de Stormarion hebdo dans la Tempête du néant. - AVAILABLE IN EARLY ACCESS" },
+            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Optionnel) Tuez chaque créature rare une fois par zone pour de la renommée. Chaque rare a un blocage hebdomadaire." },
+            { id = "hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Cherchez les trésors de chaque région pour de la renommée gratuite. Voir doc pour le guide." }, -- ⚠️ UNVERIFIED: trésors de chaque région (Midnight regional treasures)
+            { id = "complete_4x_prey_on_normal_difficulty_for_renown", text = "Complétez 4 fois la Traque en difficulté normale pour de la renommée." },
+            { id = "complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time_new_darkmoon_faire_no_longer_gives_a_renown_buff", text = "Complétez les chaînes de quêtes secondaires pour la renommée. (Peut être fait sur les alts en levant en même temps). NOUVEAU : LA FOIRE DE LA LUNE NOIRE NE DONNE PLUS DE BONUS DE RENOM !" },
         },
     },
     {
@@ -50,16 +50,16 @@ local DATASET = {
         title = "Pré-saison semaine 1 - 3 mars - M0",
         items = {
                         { id = "do_not_spend_any_crests_until_told_to_do_so", text = "Ne dépensez aucun Écu avant d'en recevoir l'instruction" },
-{ id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket", text = "Montez la renommée de La Singularité au rang 7 pour une babiole champion 1/6" },
-            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt", text = "Montez la renommée de Hara'ti au rang 8 pour une ceinture champion 1/6" },
-            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm", text = "Montez la renommée de Lune-d'Argent au rang 9 pour un casque champion 1/6" },
-            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace", text = "Montez la renommée de la tribu Amani au rang 9 pour un collier champion 1/6" },
-            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Complétez la Soirée de Saltheril hebdo dans les Bois des Chants éternels." },
-            { id = "complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "Complétez l'Événement d'abondance hebdo dans Zul'Aman." },
-            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "Complétez l'événement Légendes des Haranir hebdo à Harandar." },
-            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "Complétez l'Assaut de Stormarion hebdo dans la Tempête du néant." },
+            { id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Montez la renommée de La Singularité au rang 7 pour une babiole champion 1/6 - available in early access - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Montez la renommée de Hara'ti au rang 8 pour une ceinture champion 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Montez la renommée de Lune-d'Argent au rang 9 pour un casque champion 1/6 - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Montez la renommée de la tribu Amani au rang 9 pour un collier champion 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "Complétez la Soirée de Saltheril hebdo dans les Bois des Chants éternels." },
+            { id = "complete_the_weekly_abundance_event_in_zul_aman", text = "Complétez l'Événement d'abondance hebdo dans Zul'Aman." },
+            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Complétez l'événement Légendes des Haranir hebdo à Harandar." },
+            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm", text = "Complétez l'Assaut de Stormarion hebdo dans la Tempête du néant." },
             { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Optionnel) Tuez chaque rare une fois par zone pour de la renommée. Blocage hebdomadaire par rare." },
-            { id = "if_not_done_with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Si pas encore fait, cherchez les trésors de chaque région pour de la renommée gratuite. Voir doc pour le guide." }, -- ⚠️ UNVERIFIED: trésors de chaque région (Midnight regional treasures)
+            { id = "if_not_done_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Si pas encore fait, cherchez les trésors de chaque région pour de la renommée gratuite. Voir doc pour le guide." }, -- ⚠️ UNVERIFIED: trésors de chaque région (Midnight regional treasures)
             { id = "unlock_delves_through_tier_8_11_if_available", text = "Débloquez les Gouffres jusqu'au niveau 8 (11 si disponible)" },
             { id = "optional_complete_4x_normal_prey_for_adventurer_gear_and_renown", text = "(Optionnel) Complétez 4 fois la Traque normale pour équipement aventure et renommée." },
             { id = "complete_4x_hard_prey_for_veteran_gear_and_renown", text = "Complétez 4 fois la Traque difficile pour équipement vétéran et renommée." },

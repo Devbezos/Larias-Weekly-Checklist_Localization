@@ -34,15 +34,15 @@ local DATASET = {
         title = "Ранний доступ - 26 фев. - 2 мар. - Pay to Win",
         items = {
             { id = "log_on_to_each_character_you_plan_on_leveling_so_they_start_accumulating_rested_xp", text = "Войдите на каждого персонажа, которого планируете качать, чтобы начать накапливать опыт отдыха." }, -- ⚠️ UNVERIFIED: опыт отдыха (Rested XP)
-            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp", text = "Прокачайте персонажей в режиме войны до 90 — ЯН открывается в воскресенье (+10% опыта). БОЛЬШЕ НЕ ДАЁТ РЕПУТАЦИЮ" },
-            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Если доступно, выполните еженедельный вечер Сальтериля в Лесу Вечной Песни." },
-            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "Если доступно, выполните еженедельное мероприятие Эбундансия в Зул'Амане." },
-            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "Если доступно, выполните еженедельное мероприятие Легенды Харанир в Харандаре." },
-            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "Если доступно, выполните еженедельный штурм Тайфуносца в Буре Пустоты." },
-            { id = "optional_with_dmf_buff_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Необяз.) Убивайте каждого редкого по одному разу в каждой зоне для репутации. У каждого редкого недельный кулдаун." },
-            { id = "with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Ищите сокровища каждого региона для бесплатной репутации. Гайд в документе." }, -- ⚠️ UNVERIFIED: сокровища регионов (Midnight regional treasures)
-            { id = "complete_4x_prey_on_normal_difficulty_for_veteran_gear", text = "Выполните Охоту 4 раза на обычной сложности для получения снаряжения ветерана." },
-            { id = "once_dmf_opens_complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time", text = "Выполняйте побочные цепочки заданий для репутации. (Можно на алтах параллельно с прокачкой). НОВОСТЬ: ЯРМАРКА НОВОЛУНИЯ БОЛЬШЕ НЕ ДАЁТ БОНУС РЕПУТАЦИИ!" },
+            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp_no_longer_gives_renown", text = "Прокачайте персонажей в режиме войны до 90 — ЯН открывается в воскресенье (+10% опыта). БОЛЬШЕ НЕ ДАЁТ РЕПУТАЦИЮ" },
+            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_not_available_in_early_access", text = "Если доступно, выполните еженедельный вечер Сальтериля в Лесу Вечной Песни. - NOT AVAILABLE IN EARLY ACCESS" },
+            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_bugged_in_early_access_dont_do", text = "Если доступно, выполните еженедельное мероприятие Эбундансия в Зул'Амане. - BUGGED IN EARLY ACCESS - DON'T DO" },
+            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Если доступно, выполните еженедельное мероприятие Легенды Харанир в Харандаре." },
+            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_available_in_early_access", text = "Если доступно, выполните еженедельный штурм Тайфуносца в Буре Пустоты. - AVAILABLE IN EARLY ACCESS" },
+            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Необяз.) Убивайте каждого редкого по одному разу в каждой зоне для репутации. У каждого редкого недельный кулдаун." },
+            { id = "hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Ищите сокровища каждого региона для бесплатной репутации. Гайд в документе." }, -- ⚠️ UNVERIFIED: сокровища регионов (Midnight regional treasures)
+            { id = "complete_4x_prey_on_normal_difficulty_for_renown", text = "Выполните Охоту 4 раза на обычной сложности для получения репутации." },
+            { id = "complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time_new_darkmoon_faire_no_longer_gives_a_renown_buff", text = "Выполняйте побочные цепочки заданий для репутации. (Можно на алтах параллельно с прокачкой). НОВОСТЬ: ЯРМАРКА НОВОЛУНИЯ БОЛЬШЕ НЕ ДАЁТ БОНУС РЕПУТАЦИИ!" },
         },
     },
     {
@@ -50,16 +50,16 @@ local DATASET = {
         title = "Предсезон неделя 1 - 3 марта - M0",
         items = {
                         { id = "do_not_spend_any_crests_until_told_to_do_so", text = "Не тратьте Гербы до получения указаний" },
-{ id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket", text = "Повысьте репутацию С Сингулярностью до 7 ранга для тринкета чемпиона 1/6" },
-            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt", text = "Повысьте репутацию с Хара'ти до 8 ранга для пояса чемпиона 1/6" },
-            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm", text = "Повысьте репутацию с Двором Луносвета до 9 ранга для шлема чемпиона 1/6" },
-            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace", text = "Повысьте репутацию с Племенем Амани до 9 ранга для ожерелья чемпиона 1/6" },
-            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Выполните еженедельный вечер Сальтериля в Лесу Вечной Песни." },
-            { id = "complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "Выполните еженедельное мероприятие Эбундансия в Зул'Амане." },
-            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "Выполните еженедельное мероприятие Легенды Харанир в Харандаре." },
-            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "Выполните еженедельный штурм Тайфуносца в Буре Пустоты." },
+            { id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Повысьте репутацию С Сингулярностью до 7 ранга для тринкета чемпиона 1/6 - available in early access - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Повысьте репутацию с Хара'ти до 8 ранга для пояса чемпиона 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Повысьте репутацию с Двором Луносвета до 9 ранга для шлема чемпиона 1/6 - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Повысьте репутацию с Племенем Амани до 9 ранга для ожерелья чемпиона 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "Выполните еженедельный вечер Сальтериля в Лесу Вечной Песни." },
+            { id = "complete_the_weekly_abundance_event_in_zul_aman", text = "Выполните еженедельное мероприятие Эбундансия в Зул'Амане." },
+            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Выполните еженедельное мероприятие Легенды Харанир в Харандаре." },
+            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm", text = "Выполните еженедельный штурм Тайфуносца в Буре Пустоты." },
             { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Необяз.) Убивайте каждого редкого по одному разу в каждой зоне для репутации. У каждого редкого недельный кулдаун." },
-            { id = "if_not_done_with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Если ещё не сделано, ищите сокровища каждого региона для бесплатной репутации. Гайд в документе." }, -- ⚠️ UNVERIFIED: сокровища регионов (Midnight regional treasures)
+            { id = "if_not_done_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Если ещё не сделано, ищите сокровища каждого региона для бесплатной репутации. Гайд в документе." }, -- ⚠️ UNVERIFIED: сокровища регионов (Midnight regional treasures)
             { id = "unlock_delves_through_tier_8_11_if_available", text = "Откройте Вылазки до уровня Ь8 (или Ь11, если доступно)" },
             { id = "optional_complete_4x_normal_prey_for_adventurer_gear_and_renown", text = "(Необяз.) Выполните Охоту 4 раза на обычной сложности для снаряжения авантюриста и репутации." },
             { id = "complete_4x_hard_prey_for_veteran_gear_and_renown", text = "Выполните Охоту 4 раза на сложной сложности для снаряжения ветерана и репутации." },

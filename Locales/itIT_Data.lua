@@ -34,15 +34,15 @@ local DATASET = {
         title = "Accesso anticipato - dal 26 feb. al 2 mar. - Pay to Win",
         items = {
             { id = "log_on_to_each_character_you_plan_on_leveling_so_they_start_accumulating_rested_xp", text = "Accedi a ogni personaggio che intendi livellare in modo che inizi ad accumulare EP di riposo." }, -- ⚠️ UNVERIFIED: EP di riposo (Rested XP)
-            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp", text = "Porta i personaggi in Modalità Guerra al livello 90 – la FLO apre domenica per +10% di esperienza. NON DÀ PIÙ REPUTAZIONE" },
-            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Se disponibile, completa la Serata di Saltheril settimanale nel Bosco dei Canti Eterni." },
-            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "Se disponibile, completa l'Evento dell'abbondanza settimanale a Zul'Aman." },
-            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "Se disponibile, completa l'evento Leggende degli Haranir settimanale a Harandar." },
-            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "Se disponibile, completa l'Assalto di Stormarion settimanale nella Tempesta del Vuoto." },
-            { id = "optional_with_dmf_buff_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Facoltativo) Uccidi ogni raro una volta per zona per reputazione. Ogni raro ha un limite settimanale." },
-            { id = "with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Cerca i tesori di ogni regione per reputazione gratuita. Vedi doc per la guida." }, -- ⚠️ UNVERIFIED: tesori di ogni regione (Midnight regional treasures)
-            { id = "complete_4x_prey_on_normal_difficulty_for_veteran_gear", text = "Completa 4 volte la Preda in difficoltà normale per equipaggiamento veterano." },
-            { id = "once_dmf_opens_complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time", text = "Completa le catene di missioni secondarie per la reputazione. (Può essere fatto sugli alt mentre si livella). NOVITÀ: LA FIERA DI LUNOSCURA NON DÀ PIÙ IL BONUS REPUTAZIONE!" },
+            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp_no_longer_gives_renown", text = "Porta i personaggi in Modalità Guerra al livello 90 – la FLO apre domenica per +10% di esperienza. NON Dà PIÙ REPUTAZIONE" },
+            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_not_available_in_early_access", text = "Se disponibile, completa la Serata di Saltheril settimanale nel Bosco dei Canti Eterni. - NOT AVAILABLE IN EARLY ACCESS" },
+            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_bugged_in_early_access_dont_do", text = "Se disponibile, completa l'Evento dell'abbondanza settimanale a Zul'Aman. - BUGGED IN EARLY ACCESS - DON'T DO" },
+            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Se disponibile, completa l'evento Leggende degli Haranir settimanale a Harandar." },
+            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_available_in_early_access", text = "Se disponibile, completa l'Assalto di Stormarion settimanale nella Tempesta del Vuoto. - AVAILABLE IN EARLY ACCESS" },
+            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Facoltativo) Uccidi ogni raro una volta per zona per reputazione. Ogni raro ha un limite settimanale." },
+            { id = "hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Cerca i tesori di ogni regione per reputazione gratuita. Vedi doc per la guida." }, -- ⚠️ UNVERIFIED: tesori di ogni regione (Midnight regional treasures)
+            { id = "complete_4x_prey_on_normal_difficulty_for_renown", text = "Completa 4 volte la Preda in difficoltà normale per reputazione." },
+            { id = "complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time_new_darkmoon_faire_no_longer_gives_a_renown_buff", text = "Completa le catene di missioni secondarie per la reputazione. (Può essere fatto sugli alt mentre si livella). NOVITÀ: LA FIERA DI LUNOSCURA NON DÀ PIÙ IL BONUS REPUTAZIONE!" },
         },
     },
     {
@@ -50,16 +50,16 @@ local DATASET = {
         title = "Pre-stagione settimana 1 - 3 marzo - M0",
         items = {
                         { id = "do_not_spend_any_crests_until_told_to_do_so", text = "Non spendere nessun Emblema finché non ti viene detto" },
-{ id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket", text = "Porta la reputazione con La Singolarità al grado 7 per il ciondolo campione 1/6" },
-            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt", text = "Porta la reputazione con Hara'ti al grado 8 per la cintura campione 1/6" },
-            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm", text = "Porta la reputazione con Lunargento al grado 9 per l'elmo campione 1/6" },
-            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace", text = "Porta la reputazione con la Tribù Amani al grado 9 per la collana campione 1/6" },
-            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Completa la Serata di Saltheril settimanale nel Bosco dei Canti Eterni." },
-            { id = "complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "Completa l'Evento dell'abbondanza settimanale a Zul'Aman." },
-            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "Completa l'evento Leggende degli Haranir settimanale a Harandar." },
-            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "Completa l'Assalto di Stormarion settimanale nella Tempesta del Vuoto." },
+            { id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Porta la reputazione con La Singolarità al grado 7 per il ciondolo campione 1/6 - available in early access - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Porta la reputazione con Hara'ti al grado 8 per la cintura campione 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Porta la reputazione con Lunargento al grado 9 per l'elmo campione 1/6 - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Porta la reputazione con la Tribù Amani al grado 9 per la collana campione 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "Completa la Serata di Saltheril settimanale nel Bosco dei Canti Eterni." },
+            { id = "complete_the_weekly_abundance_event_in_zul_aman", text = "Completa l'Evento dell'abbondanza settimanale a Zul'Aman." },
+            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Completa l'evento Leggende degli Haranir settimanale a Harandar." },
+            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm", text = "Completa l'Assalto di Stormarion settimanale nella Tempesta del Vuoto." },
             { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Facoltativo) Uccidi ogni raro una volta per zona per reputazione. Ogni raro ha un limite settimanale." },
-            { id = "if_not_done_with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Se non ancora fatto, cerca i tesori di ogni regione per reputazione gratuita. Vedi doc per la guida." }, -- ⚠️ UNVERIFIED: tesori di ogni regione (Midnight regional treasures)
+            { id = "if_not_done_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Se non ancora fatto, cerca i tesori di ogni regione per reputazione gratuita. Vedi doc per la guida." }, -- ⚠️ UNVERIFIED: tesori di ogni regione (Midnight regional treasures)
             { id = "unlock_delves_through_tier_8_11_if_available", text = "Sblocca le Scorribande fino al livello 8 (11 se disponibile)" },
             { id = "optional_complete_4x_normal_prey_for_adventurer_gear_and_renown", text = "(Facoltativo) Completa 4 volte la Preda normale per equipaggiamento esploratore e reputazione." },
             { id = "complete_4x_hard_prey_for_veteran_gear_and_renown", text = "Completa 4 volte la Preda difficile per equipaggiamento veterano e reputazione." },

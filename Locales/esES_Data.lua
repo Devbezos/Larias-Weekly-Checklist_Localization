@@ -19,7 +19,7 @@ if type(reg.data) ~= "table" then reg.data = {} end
 
 -- ⚠️ TÉRMINOS MIDNIGHT NO VERIFICADOS – Verificar en el juego antes de publicar:
 --   Modo de Guerra (Warmode), FLN = Feria de la Luna Negra (DMF),
---   Velada de Saltheril (Saltheril's Soiree), Bosque Cantarín (Eversong Woods),
+--   Velada de Saltheril (Saltheril's Soiree), Bosque Canción Eterna (Eversong Woods),
 --   Evento de la abundancia (Abundance Event), Leyendas de los Haranir (Legends of the Haranir),
 --   Harandar, Asalto de Stormarion (Stormarion Assault), Tormenta del vacío (Voidstorm),
 --   La Singularidad (The Singularity), Piedra de Runas resquebrajada (Cracked Keystone),
@@ -32,15 +32,15 @@ local DATASET = {
         title = "Acceso anticipado - 26 feb. al 2 mar. - Paga para ganar",
         items = {
             { id = "log_on_to_each_character_you_plan_on_leveling_so_they_start_accumulating_rested_xp", text = "Inicia sesión en cada personaje que planeas subir de nivel para que empiecen a acumular EXP de descanso." }, -- ⚠️ UNVERIFIED: EXP de descanso (Rested XP)
-            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp", text = "Sube personajes en Modo de Guerra a nivel 90 – la FLN abre el domingo para +10 % de exp. YA NO DA REPUTACIÓN" },
-            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Si disponible, completa la Velada de Saltheril semanal en el Bosque Cantarín." },
-            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "Si disponible, completa el Evento de la abundancia semanal en Zul'Aman." },
-            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "Si disponible, completa el evento Leyendas de los Haranir semanal en Harandar." },
-            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "Si disponible, completa el Asalto de Stormarion semanal en la Tormenta del vacío." },
-            { id = "optional_with_dmf_buff_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Opcional) Mata cada élite raro una vez en cada zona para reputación. Tienen un bloqueo semanal por raro." },
-            { id = "with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Busca los tesoros de cada región para reputación gratuita. Ver documento para la guía." }, -- ⚠️ UNVERIFIED: tesoros de región Midnight
-            { id = "complete_4x_prey_on_normal_difficulty_for_veteran_gear", text = "Completa 4 veces la Presa en dificultad normal para equipo de veterano." },
-            { id = "once_dmf_opens_complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time", text = "Completa cadenas de misiones secundarias para reputación. (Se puede hacer en alts mientras subes de nivel). NUEVO: ¡LA FERIA DE LA LUNA NEGRA YA NO DA BONUS DE REPUTACIÓN!" },
+            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp_no_longer_gives_renown", text = "Sube personajes en Modo de Guerra a nivel 90 – la FLN abre el domingo para +10 % de exp. YA NO DA REPUTACIÓN" },
+            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_not_available_in_early_access", text = "Si disponible, completa la Velada de Saltheril semanal en el Bosque Canción Eterna. - NOT AVAILABLE IN EARLY ACCESS" },
+            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_bugged_in_early_access_dont_do", text = "Si disponible, completa el Evento de la abundancia semanal en Zul'Aman. - BUGGED IN EARLY ACCESS - DON'T DO" },
+            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Si disponible, completa el evento Leyendas de los Haranir semanal en Harandar." },
+            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_available_in_early_access", text = "Si disponible, completa el Asalto de Stormarion semanal en la Tormenta del vacío. - AVAILABLE IN EARLY ACCESS" },
+            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Opcional) Mata cada élite raro una vez en cada zona para reputación. Tienen un bloqueo semanal por raro." },
+            { id = "hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Busca los tesoros de cada región para reputación gratuita. Ver documento para la guía." }, -- ⚠️ UNVERIFIED: tesoros de región Midnight
+            { id = "complete_4x_prey_on_normal_difficulty_for_renown", text = "Completa 4 veces la Presa en dificultad normal para reputación." },
+            { id = "complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time_new_darkmoon_faire_no_longer_gives_a_renown_buff", text = "Completa cadenas de misiones secundarias para reputación. (Se puede hacer en alts mientras subes de nivel). NUEVO: ¡LA FERIA DE LA LUNA NEGRA YA NO DA BONUS DE REPUTACIÓN!" },
         },
     },
     {
@@ -48,16 +48,16 @@ local DATASET = {
         title = "Pretemporada semana 1 - 3 de marzo - M0",
         items = {
             { id = "do_not_spend_any_crests_until_told_to_do_so", text = "No gastes ningún Blasón hasta que se indique" },
-            { id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket", text = "Sube la reputación de La Singularidad a rango 7 para abalorio de campeón 1/6" },
-            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt", text = "Sube la reputación de Hara'ti a rango 8 para cinturón de campeón 1/6" },
-            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm", text = "Sube la reputación de Lunargenta a rango 9 para yelmo de campeón 1/6" },
-            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace", text = "Sube la reputación de la Tribu Amani a rango 9 para collar de campeón 1/6" },
-            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Completa la Velada de Saltheril semanal en el Bosque Cantarín." },
-            { id = "complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "Completa el Evento de la abundancia semanal en Zul'Aman." },
-            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "Completa el evento Leyendas de los Haranir semanal en Harandar." },
-            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "Completa el Asalto de Stormarion semanal en la Tormenta del vacío." },
+            { id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Sube la reputación de La Singularidad a rango 7 para abalorio de campeón 1/6 - disponible en acceso anticipado - viene de misión del vendedor de reputación (no se compra)" },
+            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Sube la reputación de Hara'ti a rango 8 para cinturón de campeón 1/6 - ¿no disponible en acceso anticipado? - viene de misión del vendedor de reputación (no se compra)" },
+            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Sube la reputación de Lunargenta a rango 9 para yelmo de campeón 1/6 - NO disponible en acceso anticipado - viene de misión del vendedor de reputación (no se compra)" },
+            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Sube la reputación de la Tribu Amani a rango 9 para collar de campeón 1/6 - ¿no disponible en acceso anticipado? - viene de misión del vendedor de reputación (no se compra)" },
+            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "Completa la Velada de Saltheril semanal en el Bosque Canción Eterna." },
+            { id = "complete_the_weekly_abundance_event_in_zul_aman", text = "Completa el Evento de la abundancia semanal en Zul'Aman." },
+            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Completa el evento Leyendas de los Haranir semanal en Harandar." },
+            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm", text = "Completa el Asalto de Stormarion semanal en la Tormenta del vacío." },
             { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(Opcional) Mata cada élite raro una vez por zona para reputación. Tienen un bloqueo semanal por raro." },
-            { id = "if_not_done_with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Si no se ha hecho, busca los tesoros de cada región para reputación gratuita. Ver documento para la guía." }, -- ⚠️ UNVERIFIED: tesoros de región Midnight
+            { id = "if_not_done_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "Si no se ha hecho, busca los tesoros de cada región para reputación gratuita. Ver documento para la guía." }, -- ⚠️ UNVERIFIED: tesoros de región Midnight
             { id = "unlock_delves_through_tier_8_11_if_available", text = "Desbloquea Profundidades hasta nivel 8 (11 si está disponible)" },
             { id = "optional_complete_4x_normal_prey_for_adventurer_gear_and_renown", text = "(Opcional) Completa 4 veces la Presa normal para equipo de aventurero y reputación." },
             { id = "complete_4x_hard_prey_for_veteran_gear_and_renown", text = "Completa 4 veces la Presa difícil para equipo de veterano y reputación." },
@@ -70,7 +70,7 @@ local DATASET = {
         items = {
             { id = "do_not_spend_any_crests_until_told_to_do_so", text = "No gastes ningún Blasón hasta que se indique" },
             { id = "if_not_completed_continue_to_raise_renown_for_champion_pieces", text = "Si no está completo, continúa subiendo reputación para piezas de campeón" },
-            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "Completa la Velada de Saltheril semanal en el Bosque Cantarín." },
+            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "Completa la Velada de Saltheril semanal en el Bosque Canción Eterna." },
             { id = "complete_the_weekly_abundance_event_in_zul_aman", text = "Completa el Evento de la abundancia semanal en Zul'Aman." },
             { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "Completa el evento Leyendas de los Haranir semanal en Harandar." },
             { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm", text = "Completa el Asalto de Stormarion semanal en la Tormenta del vacío." },

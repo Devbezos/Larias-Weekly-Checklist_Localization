@@ -32,15 +32,15 @@ local DATASET = {
         title = "얼리 억세스 - 2월 26일부터 3월 2일 까지 - 페이투윈 ㄷㄷ",
         items = {
             { id = "log_on_to_each_character_you_plan_on_leveling_so_they_start_accumulating_rested_xp", text = "레벨업할 각 캐릭터에 로그인하여 휴식 경험치 누적을 시작하게 하세요." }, -- ⚠️ UNVERIFIED: 휴식 경험치 (Rested XP)
-            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp", text = "전쟁 모드를 켜고 90까지 레벨업 - 일요일부터 다크문으로 10% 경험치 버프. 더 이상 영예를 주지 않음" },
-            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "가능하다면, Eversong Woods에서 주간 Saltheril's Soiree 완료" },
-            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "가능하다면, 줄아만에서 주간 풍요 이벤트 완료" },
-            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "가능하다면, 하란다르에서 주간 하라니르의 전설 이벤트 완료" },
-            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "가능하다면, 공허폭풍에서 주간 Stormarion Assault 완료" },
-            { id = "optional_with_dmf_buff_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 영예를 위해 모든 희귀몹을 한번씩 잡기. 희귀몹마다 주1회만 평판 지급" },
-            { id = "with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "각 지역의 보물을 찾아 무료 영예 획득. 가이드는 문서 참조." }, -- ⚠️ UNVERIFIED: 각 지역의 보물 (Midnight regional treasures)
-            { id = "complete_4x_prey_on_normal_difficulty_for_veteran_gear", text = "노련가 장비를 위해 4x 사냥감을 일반 난이도로 완료" },
-            { id = "once_dmf_opens_complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time", text = "영예 획득을 위해 사이드 퀘스트 진행 (부캐들 레벨업 하면서 진행 가능). 신규: 다크문 페어가 더 이상 영예 버프를 제공하지 않습니다!" },
+            { id = "level_characters_warmode_on_to_90_dmf_opens_sunday_for_10_more_exp_no_longer_gives_renown", text = "전쟁 모드를 켜고 90까지 레벨업 - 일요일부터 다크문으로 10% 경험치 버프. 더 이상 영예를 주지 않음" },
+            { id = "if_available_complete_the_weekly_saltheril_s_soiree_in_eversong_woods_not_available_in_early_access", text = "가능하다면, Eversong Woods에서 주간 Saltheril's Soiree 완료 - NOT AVAILABLE IN EARLY ACCESS" },
+            { id = "if_available_complete_the_weekly_abundance_event_in_zul_aman_bugged_in_early_access_dont_do", text = "가능하다면, 줄아만에서 주간 풍요 이벤트 완료 - BUGGED IN EARLY ACCESS - DON'T DO" },
+            { id = "if_available_complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "가능하다면, 하란다르에서 주간 하라니르의 전설 이벤트 완료" },
+            { id = "if_available_complete_the_weekly_stormarion_assault_in_the_voidstorm_available_in_early_access", text = "가능하다면, 공허폭풍에서 주간 Stormarion Assault 완료 - AVAILABLE IN EARLY ACCESS" },
+            { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 영예를 위해 모든 희귀몹을 한번씩 잡기. 희귀몹마다 주1회만 평판 지급" },
+            { id = "hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "각 지역의 보물을 찾아 무료 영예 획득. 가이드는 문서 참조." }, -- ⚠️ UNVERIFIED: 각 지역의 보물 (Midnight regional treasures)
+            { id = "complete_4x_prey_on_normal_difficulty_for_renown", text = "영예를 위해 4x 사낥감을 일반 난이도로 완료" },
+            { id = "complete_side_quest_chains_for_renown_can_be_done_on_alts_to_level_at_same_time_new_darkmoon_faire_no_longer_gives_a_renown_buff", text = "영예 획득을 위해 사이드 쿠스트 진행 (부캐들 레벨업 하면서 진행 가능). 신규: 다크문 페어가 더 이상 영예 버프를 제공하지 않습니다!" },
         },
     },
     {
@@ -48,16 +48,16 @@ local DATASET = {
         title = "프리시즌 1주차 - 3월 3일 - 주로 깡신런",
         items = {
                         { id = "do_not_spend_any_crests_until_told_to_do_so", text = "언급하기 전까지는 절대 문장을 소모하지 말 것" },
-{ id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket", text = "The Singularity 영예 7까지 올려서 챔피언 1/6 장신구 획득" },
-            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt", text = "Hara'ti 영예 8까지 올려서 챔피언 1/6 허리띠 획득" },
-            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm", text = "실버문 영예 9까지 올려서 챔피언 1/6 머리 투구 획득" },
-            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace", text = "아마니 부족 영예 9까지 올려서 챔피언 1/6 목걸이 획득" },
-            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods_with_the_dmf_buff", text = "Eversong Woods에서 주간 Saltheril's Soiree 완료" },
-            { id = "complete_the_weekly_abundance_event_in_zul_aman_with_the_dmf_buff", text = "줄아만에서 주간 풍요 이벤트 완료" },
-            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar_with_the_dmf_buff", text = "하란다르에서 주간 하라니르의 전설 이벤트 완료" },
-            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm_with_the_dmf_buff", text = "공허폭풍에서 주간 Stormarion Assault 완료" },
+            { id = "raise_the_singularity_renown_to_rank_7_for_1_6_champion_trinket_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "The Singularity 영예 7까지 올려서 쳴피언 1/6 장신구 획득 - available in early access - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_hara_ti_renown_to_rank_8_for_1_6_champion_belt_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "Hara'ti 영예 8까지 올려서 쳴피언 1/6 허리띄 획득 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_silvermoon_renown_to_rank_9_for_1_6_champion_helm_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "실버문 영예 9까지 올려서 쳴피언 1/6 머리 투구 획득 - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
+            { id = "raise_amani_tribe_renown_to_rank_9_for_1_6_champion_necklace_not_available_in_early_access_comes_from_quest_from_the_renown_vendor_not_purchased", text = "아마니 부족 영예 9까지 올려서 쳴피언 1/6 목걸이 획득 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "complete_the_weekly_saltheril_s_soiree_in_eversong_woods", text = "Eversong Woods에서 주간 Saltheril's Soiree 완료" },
+            { id = "complete_the_weekly_abundance_event_in_zul_aman", text = "줄아만에서 주간 풍요 이벤트 완료" },
+            { id = "complete_the_weekly_legends_of_the_haranir_event_in_harandar", text = "하란다르에서 주간 하라니르의 전설 이벤트 완료" },
+            { id = "complete_the_weekly_stormarion_assault_in_the_voidstorm", text = "공허폭풍에서 주간 Stormarion Assault 완료" },
             { id = "optional_kill_each_rare_once_in_each_zone_for_renown_these_are_a_weekly_lockout_for_each_rare", text = "(선택) 영예를 위해 모든 희귀몹을 한번씩 잡기. 희귀몹마다 주1회만 평판 지급" },
-            { id = "if_not_done_with_dmf_buff_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "아직 안 했다면, 각 지역의 보물을 찾아 무료 영예 획득. 가이드는 문서 참조." }, -- ⚠️ UNVERIFIED: 각 지역의 보물 (Midnight regional treasures)
+            { id = "if_not_done_hunt_down_each_region_s_treasures_for_free_renown_see_doc_for_guide", text = "아직 안 했다면, 각 지역의 보물을 찾아 무료 영예 획득. 가이드는 문서 참조." }, -- ⚠️ UNVERIFIED: 각 지역의 보물 (Midnight regional treasures)
             { id = "unlock_delves_through_tier_8_11_if_available", text = "구렁 8단까지 뚫어 놓기 (가능하면 11단 까지)" },
             { id = "optional_complete_4x_normal_prey_for_adventurer_gear_and_renown", text = "(선택) 모험가 장비 및 영예를 위해 4x 사냥감을 일반 난이도로 완료" },
             { id = "complete_4x_hard_prey_for_veteran_gear_and_renown", text = "노련가 장비 및 영예를 위해 4x 사냥감을 어려움 난이도로 완료" },
