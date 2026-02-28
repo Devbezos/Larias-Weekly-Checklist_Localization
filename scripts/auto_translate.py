@@ -43,8 +43,9 @@ REPO_ROOT    = SCRIPT_DIR.parent
 LOCALES_DIR  = REPO_ROOT / "locales"
 CONTEXT_FILE = REPO_ROOT / "translation-context.json"
 
-# enUS.lua lives in the sibling main repo
-ENUS_FILE = REPO_ROOT.parent / "Larias-Weekly-Midnight-Checklist" / "Locales" / "enUS.lua"
+# enUS.lua – use MAIN_ADDON_PATH env var if set, else fall back to sibling repo layout
+_addon_root = pathlib.Path(os.environ["MAIN_ADDON_PATH"]) if "MAIN_ADDON_PATH" in os.environ else REPO_ROOT.parent / "Larias-Weekly-Midnight-Checklist"
+ENUS_FILE = _addon_root / "Locales" / "enUS.lua"
 
 SUPPORTED_LOCALES = ["deDE", "esES", "esMX", "frFR", "itIT", "koKR", "ptBR", "ruRU"]
 

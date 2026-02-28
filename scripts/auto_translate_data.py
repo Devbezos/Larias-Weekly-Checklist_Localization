@@ -43,10 +43,9 @@ CONTEXT_FILE = REPO_ROOT / "translation-context.json"
 
 LOCALES_DIR = REPO_ROOT / "locales"
 
-# Default: sibling repo layout. Override with --enus in CI.
-ENUS_DATA_FILE = (
-    REPO_ROOT.parent / "Larias-Weekly-Midnight-Checklist" / "Locales" / "enUS_Data.lua"
-)
+# Default: use MAIN_ADDON_PATH env var if set, else fall back to sibling repo layout
+_addon_root = pathlib.Path(os.environ["MAIN_ADDON_PATH"]) if "MAIN_ADDON_PATH" in os.environ else REPO_ROOT.parent / "Larias-Weekly-Midnight-Checklist"
+ENUS_DATA_FILE = _addon_root / "Locales" / "enUS_Data.lua"
 
 SUPPORTED_LOCALES = ["deDE", "esES", "esMX", "frFR", "itIT", "koKR", "ptBR", "ruRU"]
 
