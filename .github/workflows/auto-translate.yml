@@ -1,0 +1,107 @@
+name: Auto-Translate Locales
+
+# ─── Triggers ────────────────────────────────────────────────────────────────
+on:
+  workflow_dispatch:
+    inputs:
+      locale:
+        description: "Single locale to translate (e.g. deDE). Leave blank for all 8."
+        required: false
+        default: ""
+      dry_run:
+        description: "Dry run – preview untranslated entries without calling the API"
+        required: false
+        type: boolean
+        default: false
+      model:
+        description: "Claude model to use"
+        required: false
+        default: "claude-sonnet-4-5"
+
+concurrency:
+  group: auto-translate-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+# ─── Job ─────────────────────────────────────────────────────────────────────
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout locales repo ────────────────────────────────────────────
+      - name: Checkout locales repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── 2. Checkout main addon repo (source of enUS*.lua) ──────────────────
+      - name: Checkout main addon repo
+        uses: actions/checkout@v4
+        with:
+          repository: Devbezos/Larias-Weekly-Checklist
+          path: _main-addon
+          # Uses the default GITHUB_TOKEN – works as long as both repos are
+          # under the same account. If the main repo is private, add a PAT
+          # secret (e.g. ADDON_REPO_TOKEN) and reference it here instead.
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 3. Python ───────────────────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      # ── 4. Translate string files (enUS.lua -> *.lua) ──────────────────────
+      - name: Translate string files
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS="--enus _main-addon/locales/enUS.lua --model ${{ inputs.model || 'claude-sonnet-4-5' }}"
+          if [ -n "${{ inputs.locale }}" ]; then
+            ARGS="$ARGS --locale ${{ inputs.locale }}"
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python scripts/auto_translate.py $ARGS
+
+      # ── 5. Translate data files (enUS_Data.lua -> *_Data.lua) ──────────────
+      - name: Translate data files
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS="--enus _main-addon/locales/enUS_Data.lua --model ${{ inputs.model || 'claude-sonnet-4-5' }}"
+          if [ -n "${{ inputs.locale }}" ]; then
+            ARGS="$ARGS --locale ${{ inputs.locale }}"
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python scripts/auto_translate_data.py $ARGS
+
+      # ── 6. Commit & push (skipped on dry run) ──────────────────────────────
+      - name: Commit and push translations
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add Locales/
+          if git diff --cached --quiet; then
+            echo "No locale changes to commit."
+            exit 0
+          fi
+
+          LOCALE_LABEL="${{ inputs.locale }}"
+          if [ -z "$LOCALE_LABEL" ]; then
+            LOCALE_LABEL="all locales"
+          fi
+
+          git commit -m "Auto-translate ${LOCALE_LABEL} – generated with AI translator, unverified terms flagged"
+          git push
