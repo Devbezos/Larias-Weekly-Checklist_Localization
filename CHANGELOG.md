@@ -1,3 +1,8 @@
+## [2.1.3] (2026-03-01)
+- Feature/20260228/sync from main (#16)
+- Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU
+- Updated interface versions: 120001, 120000, 110207
+
 ## [2.1.2] (2026-02-28)
 - feat: read MAIN_ADDON_PATH from .env for local enUS path resolution
 - feat: auto-load .env for local API key; add .env to gitignore
