@@ -52,6 +52,22 @@ local STRINGS = {
     COLOR_PICKER_BG             = "Фон", -- ⚠️ UNVERIFIED
     COLOR_PICKER_TEXT           = "Текст", -- ⚠️ UNVERIFIED
     COLOR_PICKER_HDR            = "Заголовок", -- ⚠️ UNVERIFIED
+    -- Settings panel section headers
+    SETTINGS_SECTION_ACTIONS    = "Действия", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_DISPLAY    = "Отображение", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_COLORS     = "Цвета", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_LANGUAGE   = "Язык", -- ⚠️ UNVERIFIED
+    -- Settings panel color-row labels
+    SETTINGS_COLOR_RESET        = "Сбросить", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_BACKGROUND   = "Фон", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_LIST_TEXT    = "Текст списка", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_HEADER_TEXT  = "Текст заголовка", -- ⚠️ UNVERIFIED
+    -- Settings panel language override
+    SETTINGS_LANGUAGE_AUTO      = "Авто (по умолчанию клиента)", -- ⚠️ UNVERIFIED
+    -- Upgrade warning
+    UPGRADE_WARN_MSG             = "Вы можете сэкономить %d %s гербов, улучшив вместо этого предмет %s", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_BTN     = "Отключить", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_TOOLTIP = "Ознакомьтесь с руководством Laria для получения подробной информации.", -- ⚠️ UNVERIFIED
     -- Status banner
     STATUS_UPDATE_AVAILABLE_FMT = "Доступно обновление! У вас %s, новейшая версия — %s.", -- ⚠️ UNVERIFIED
     STATUS_SHEET_UPDATE_FMT     = "Обнаружено обновление таблицы — вы отстаёте на %d версию/версии", -- ⚠️ UNVERIFIED
@@ -109,6 +125,7 @@ local STRINGS = {
     -- Main window
     TAB_OPTIONS = "Настройки",
     CHANGE_WEEK_BUTTON = "Сменить неделю",
+    ALL_WEEKS_COMPLETE = "Готово!", -- ⚠️ UNVERIFIED
     ILVLREF_BUTTON = "Уровни предметов",
 
     -- Item level reference popup

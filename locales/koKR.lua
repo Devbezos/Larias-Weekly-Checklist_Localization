@@ -51,6 +51,22 @@ local STRINGS = {
     COLOR_PICKER_BG             = "배경", -- ⚠️ UNVERIFIED
     COLOR_PICKER_TEXT           = "텍스트", -- ⚠️ UNVERIFIED
     COLOR_PICKER_HDR            = "헤더", -- ⚠️ UNVERIFIED
+    -- Settings panel section headers
+    SETTINGS_SECTION_ACTIONS    = "작업", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_DISPLAY    = "표시", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_COLORS     = "색상", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_LANGUAGE   = "언어", -- ⚠️ UNVERIFIED
+    -- Settings panel color-row labels
+    SETTINGS_COLOR_RESET        = "초기화", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_BACKGROUND   = "배경", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_LIST_TEXT    = "목록 텍스트", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_HEADER_TEXT  = "헤더 텍스트", -- ⚠️ UNVERIFIED
+    -- Settings panel language override
+    SETTINGS_LANGUAGE_AUTO      = "자동 (클라이언트 기본값)", -- ⚠️ UNVERIFIED
+    -- Upgrade warning
+    UPGRADE_WARN_MSG             = "%d %s문장을 절약할 수 있습니다. 대신 %s 아이템을 강화하세요", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_BTN     = "비활성화", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_TOOLTIP = "자세한 정보는 Laria의 가이드를 확인하세요.", -- ⚠️ UNVERIFIED
 
     -- Status banner
     STATUS_UPDATE_AVAILABLE_FMT = "업데이트 가능합니다! 현재 버전: %s, 최신 버전: %s.", -- ⚠️ UNVERIFIED
@@ -108,6 +124,7 @@ local STRINGS = {
 	TAB_LIST = "목록",
 	TAB_OPTIONS = "설정",
 	CHANGE_WEEK_BUTTON = "주 변경",
+	ALL_WEEKS_COMPLETE = "완료!", -- ⚠️ UNVERIFIED
 	ILVLREF_BUTTON = "아이템 레벨 참조 표",
 
 	-- Item level reference popup

@@ -51,6 +51,22 @@ local STRINGS = {
     COLOR_PICKER_BG             = "Fond", -- ⚠️ UNVERIFIED
     COLOR_PICKER_TEXT           = "Texte", -- ⚠️ UNVERIFIED
     COLOR_PICKER_HDR            = "En-tête", -- ⚠️ UNVERIFIED
+    -- Settings panel section headers
+    SETTINGS_SECTION_ACTIONS    = "Actions", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_DISPLAY    = "Affichage", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_COLORS     = "Couleurs", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_LANGUAGE   = "Langue", -- ⚠️ UNVERIFIED
+    -- Settings panel color-row labels
+    SETTINGS_COLOR_RESET        = "Réinitialiser", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_BACKGROUND   = "Fond", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_LIST_TEXT    = "Texte de liste", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_HEADER_TEXT  = "Texte d'en-tête", -- ⚠️ UNVERIFIED
+    -- Settings panel language override
+    SETTINGS_LANGUAGE_AUTO      = "Auto (langue du client)", -- ⚠️ UNVERIFIED
+    -- Upgrade warning
+    UPGRADE_WARN_MSG             = "Vous pouvez économiser %d %s écus en améliorant un objet %s à la place", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_BTN     = "Désactiver", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_TOOLTIP = "Consultez le guide de Laria pour plus d'informations.", -- ⚠️ UNVERIFIED
     -- Status banner
     STATUS_UPDATE_AVAILABLE_FMT = "Mise à jour disponible ! Vous avez %s, la plus récente est %s.", -- ⚠️ UNVERIFIED
     STATUS_SHEET_UPDATE_FMT     = "Mise à jour de la feuille détectée – %d version(s) de retard", -- ⚠️ UNVERIFIED
@@ -109,6 +125,7 @@ local STRINGS = {
     TAB_OPTIONS = "Options",
 
     CHANGE_WEEK_BUTTON = "Changer de semaine",
+    ALL_WEEKS_COMPLETE = "Terminé !", -- ⚠️ UNVERIFIED
     ILVLREF_BUTTON = "Voir les niveaux d'objet",
 
     -- Item level reference popup

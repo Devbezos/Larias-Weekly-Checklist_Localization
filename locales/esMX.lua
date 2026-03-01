@@ -51,6 +51,22 @@ local STRINGS = {
     COLOR_PICKER_BG             = "Fondo", -- ⚠️ UNVERIFIED
     COLOR_PICKER_TEXT           = "Texto", -- ⚠️ UNVERIFIED
     COLOR_PICKER_HDR            = "Encabezado", -- ⚠️ UNVERIFIED
+    -- Settings panel section headers
+    SETTINGS_SECTION_ACTIONS    = "Acciones", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_DISPLAY    = "Pantalla", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_COLORS     = "Colores", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_LANGUAGE   = "Idioma", -- ⚠️ UNVERIFIED
+    -- Settings panel color-row labels
+    SETTINGS_COLOR_RESET        = "Restablecer", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_BACKGROUND   = "Fondo", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_LIST_TEXT    = "Texto de lista", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_HEADER_TEXT  = "Texto de encabezado", -- ⚠️ UNVERIFIED
+    -- Settings panel language override
+    SETTINGS_LANGUAGE_AUTO      = "Auto (predeterminado del cliente)", -- ⚠️ UNVERIFIED
+    -- Upgrade warning
+    UPGRADE_WARN_MSG             = "Puedes ahorrar %d %s crestalboradas mejorando un objeto %s en su lugar", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_BTN     = "Desactivar", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_TOOLTIP = "Consulta la guía de Laria para más información.", -- ⚠️ UNVERIFIED
     -- Status banner
     STATUS_UPDATE_AVAILABLE_FMT = "¡Actualización disponible! Tienes %s, la más reciente es %s.", -- ⚠️ UNVERIFIED
     STATUS_SHEET_UPDATE_FMT     = "Actualización de hoja detectada – llevas %d versión/versiones de retraso", -- ⚠️ UNVERIFIED
@@ -108,6 +124,7 @@ local STRINGS = {
     -- Main window
     TAB_OPTIONS = "Opciones",
     CHANGE_WEEK_BUTTON = "Cambiar semana",
+    ALL_WEEKS_COMPLETE = "¡Terminado!", -- ⚠️ UNVERIFIED
     ILVLREF_BUTTON = "Ver niveles de objeto",
 
     -- Item level reference popup

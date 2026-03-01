@@ -51,6 +51,22 @@ local STRINGS = {
     COLOR_PICKER_BG             = "Fundo", -- ⚠️ UNVERIFIED
     COLOR_PICKER_TEXT           = "Texto", -- ⚠️ UNVERIFIED
     COLOR_PICKER_HDR            = "Cabeçalho", -- ⚠️ UNVERIFIED
+    -- Settings panel section headers
+    SETTINGS_SECTION_ACTIONS    = "Ações", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_DISPLAY    = "Exibição", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_COLORS     = "Cores", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_LANGUAGE   = "Idioma", -- ⚠️ UNVERIFIED
+    -- Settings panel color-row labels
+    SETTINGS_COLOR_RESET        = "Redefinir", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_BACKGROUND   = "Fundo", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_LIST_TEXT    = "Texto da lista", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_HEADER_TEXT  = "Texto do cabeçalho", -- ⚠️ UNVERIFIED
+    -- Settings panel language override
+    SETTINGS_LANGUAGE_AUTO      = "Auto (padrão do cliente)", -- ⚠️ UNVERIFIED
+    -- Upgrade warning
+    UPGRADE_WARN_MSG             = "Você pode economizar %d %s brasões ao melhorar um item %s em vez disso", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_BTN     = "Desativar", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_TOOLTIP = "Consulte o guia de Laria para mais informações.", -- ⚠️ UNVERIFIED
     -- Status banner
     STATUS_UPDATE_AVAILABLE_FMT = "Atualização disponível! Você tem %s, a mais recente é %s.", -- ⚠️ UNVERIFIED
     STATUS_SHEET_UPDATE_FMT     = "Atualização da planilha detectada – você está %d versão/versões atrás", -- ⚠️ UNVERIFIED
@@ -108,6 +124,7 @@ local STRINGS = {
     -- Main window
     TAB_OPTIONS = "Opções",
     CHANGE_WEEK_BUTTON = "Mudar semana",
+    ALL_WEEKS_COMPLETE = "Concluído!", -- ⚠️ UNVERIFIED
     ILVLREF_BUTTON = "Ver níveis de item",
 
     -- Item level reference popup

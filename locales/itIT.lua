@@ -51,6 +51,22 @@ local STRINGS = {
     COLOR_PICKER_BG             = "Sfondo", -- ⚠️ UNVERIFIED
     COLOR_PICKER_TEXT           = "Testo", -- ⚠️ UNVERIFIED
     COLOR_PICKER_HDR            = "Intestazione", -- ⚠️ UNVERIFIED
+    -- Settings panel section headers
+    SETTINGS_SECTION_ACTIONS    = "Azioni", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_DISPLAY    = "Schermo", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_COLORS     = "Colori", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_LANGUAGE   = "Lingua", -- ⚠️ UNVERIFIED
+    -- Settings panel color-row labels
+    SETTINGS_COLOR_RESET        = "Reimposta", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_BACKGROUND   = "Sfondo", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_LIST_TEXT    = "Testo elenco", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_HEADER_TEXT  = "Testo intestazione", -- ⚠️ UNVERIFIED
+    -- Settings panel language override
+    SETTINGS_LANGUAGE_AUTO      = "Auto (predefinito client)", -- ⚠️ UNVERIFIED
+    -- Upgrade warning
+    UPGRADE_WARN_MSG             = "Puoi risparmiare %d %s emblemi potenziando un oggetto %s invece", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_BTN     = "Disabilita", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_TOOLTIP = "Consulta la guida di Laria per ulteriori informazioni.", -- ⚠️ UNVERIFIED
     -- Status banner
     STATUS_UPDATE_AVAILABLE_FMT = "Aggiornamento disponibile! Hai %s, il più recente è %s.", -- ⚠️ UNVERIFIED
     STATUS_NO_TRANSLATION_FMT   = "Nessuna traduzione disponibile per %s. Considera di contribuire!", -- ⚠️ UNVERIFIED
@@ -107,6 +123,7 @@ local STRINGS = {
     -- Main window
     TAB_OPTIONS = "Opzioni",
     CHANGE_WEEK_BUTTON = "Cambia settimana",
+    ALL_WEEKS_COMPLETE = "Completato!", -- ⚠️ UNVERIFIED
     ILVLREF_BUTTON = "Vedi livelli oggetto",
 
     -- Item level reference popup

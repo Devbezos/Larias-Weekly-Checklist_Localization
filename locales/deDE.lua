@@ -51,6 +51,22 @@ local STRINGS = {
     COLOR_PICKER_BG             = "Hintergrund", -- ⚠️ UNVERIFIED
     COLOR_PICKER_TEXT           = "Text", -- ⚠️ UNVERIFIED
     COLOR_PICKER_HDR            = "Kopfzeile", -- ⚠️ UNVERIFIED
+    -- Settings panel section headers
+    SETTINGS_SECTION_ACTIONS    = "Aktionen", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_DISPLAY    = "Anzeige", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_COLORS     = "Farben", -- ⚠️ UNVERIFIED
+    SETTINGS_SECTION_LANGUAGE   = "Sprache", -- ⚠️ UNVERIFIED
+    -- Settings panel color-row labels
+    SETTINGS_COLOR_RESET        = "Zurücksetzen", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_BACKGROUND   = "Hintergrund", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_LIST_TEXT    = "Listentext", -- ⚠️ UNVERIFIED
+    SETTINGS_COLOR_HEADER_TEXT  = "Kopfzeile", -- ⚠️ UNVERIFIED
+    -- Settings panel language override
+    SETTINGS_LANGUAGE_AUTO      = "Auto (Client-Standard)", -- ⚠️ UNVERIFIED
+    -- Upgrade warning
+    UPGRADE_WARN_MSG             = "Du kannst %d %s Wappen sparen, indem du stattdessen einen %s Gegenstand aufwertest", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_BTN     = "Deaktivieren", -- ⚠️ UNVERIFIED
+    UPGRADE_WARN_DISABLE_TOOLTIP = "Schau in Larias Guide für mehr Informationen.", -- ⚠️ UNVERIFIED
     -- Status banner
     STATUS_UPDATE_AVAILABLE_FMT = "Update verfügbar! Du hast %s, neueste Version ist %s.", -- ⚠️ UNVERIFIED
     STATUS_SHEET_UPDATE_FMT     = "Tabellen-Update erkannt – Du hast %d Version(en) Rückstand", -- ⚠️ UNVERIFIED
@@ -108,6 +124,7 @@ local STRINGS = {
     -- Main window
     TAB_OPTIONS = "Optionen",
     CHANGE_WEEK_BUTTON = "Woche wechseln",
+    ALL_WEEKS_COMPLETE = "Fertig!", -- ⚠️ UNVERIFIED
     ILVLREF_BUTTON = "Gegenstandsstufen anzeigen",
 
     -- Item level reference popup
