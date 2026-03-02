@@ -20,19 +20,19 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "e225d803",
-        title = "Acesso Antecipado - 26 fev. a 2 mar. - Pay to Win",
+        id = "bd6b2f68",
+        title = "Acesso Antecipado - 26 de Fev até 2 de Mar",
         items = {
-            { id = "f4b92a82", text = "Entre com cada personagem que planeja nivelar para que comecem a acumular EXP descansada." }, -- ⚠️ UNVERIFIED
-            { id = "90db618c", text = "Suba personagens para 90 com modo guerra ativado - FLN abre no domingo para 10% a mais de exp." },
-            { id = "6af1d802", text = "Complete o Ataque Stormarion semanal na Tempestade do Caos. (Está disponível no Acesso Antecipado)" }, -- ⚠️ UNVERIFIED
-            { id = "35bc0cfd", text = "(Opcional) Mate cada raro uma vez em cada zona para renome. Cada raro tem bloqueio semanal." },
-            { id = "2687fe6c", text = "Complete a conquista Os Picos Mais Altos para renome - veja o documento para o guia" }, -- ⚠️ UNVERIFIED
-            { id = "91e7ee6c", text = "Complete cadeias de missões secundárias para renome. (Pode ser feito em alts enquanto lvla). O buff da FLN não dá renome." },
-            { id = "8bf4f442", text = "Complete a conquista Caçador da História de Midnight para renome - veja o doc para guia" }, -- ⚠️ UNVERIFIED
-            { id = "c886190c", text = "Complete a conquista Picos Mais Altos para renome - veja o doc para guia" }, -- ⚠️ UNVERIFIED
-            { id = "f9b8eb01", text = "Complete cadeias de missões secundárias para renome. (pode ser feito em personagens alternativos para subir ao mesmo tempo). Bônus da FLN não dá renome." },
-            { id = "fc025216", text = "Nota: Apenas o berloque de renome de campeão da Singularidade está disponível no acesso antecipado - os outros ficarão disponíveis ou na segunda-feira após o lançamento oficial ou após a reinicialização semanal de cada região." },
+            { id = "f4b92a82", text = "Entre com cada personagem que você planeja upar para que eles comecem a acumular XP de descanso." },
+            { id = "90db618c", text = "Suba personagens com modo guerra ativado até 90 - A FDL abre no domingo para 10% de exp a mais." },
+            { id = "6af1d802", text = "Complete o Assalto Stormarion semanal na Tempestade Etérea. (Está disponível no Acesso Antecipado)" }, -- ⚠️ UNVERIFIED
+            { id = "35bc0cfd", text = "(Opcional) Mate cada raro uma vez em cada zona para renome. Estes têm bloqueio semanal para cada raro." },
+            { id = "2687fe6c", text = "Procure os tesouros de cada região para Renome grátis. Veja o doc para guia" },
+            { id = "91e7ee6c", text = "Complete 4x Presa em dificuldade normal para renome" }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Complete a conquista Caçador de Tradições de Midnight para renome - veja o doc para guia" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Complete a conquista Picos Mais Altos para renome - veja o doc para guia" },
+            { id = "f9b8eb01", text = "Complete cadeias de missões secundárias para renome. (pode ser feito em personagens alternativos para upar ao mesmo tempo). O bônus da FDL não dá renome." },
+            { id = "fc025216", text = "Nota: Apenas o berloque de renome de campeão da Singularidade está disponível no acesso antecipado - os outros ficarão disponíveis na segunda-feira após o lançamento oficial ou após o reset semanal de cada região." }, -- ⚠️ UNVERIFIED
         },
     },
 
@@ -41,19 +41,23 @@ local DATASET = {
         title = "Pré-temporada Semana 1 - 3 de março - M0",
         items = {
             { id = "c3de7d35", text = "Não gaste nenhum Brasão até receber instruções" },
+            { id = "c06ee1a3", text = "Se você está em um personagem alternativo e não vê algumas dessas missões, vá até Soridormi na Estalagem de Lua Prateada e escolha \"Eu Detive a Tempestade Etérea\" para pular a campanha." }, -- ⚠️ UNVERIFIED
             { id = "6b199064", text = "Aumente o renome da Singularidade para posto 7 para 1/6 berloque de campeão - disponível no acesso antecipado - vem de missão do vendedor de renome (não é comprado)" },
             { id = "2a9b4f4c", text = "Aumente o renome de Hara'ti para posto 8 para 1/6 cinto de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" },
             { id = "6f39070d", text = "Aumente o renome de Luaprata para posto 9 para 1/6 elmo de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" }, -- ⚠️ UNVERIFIED
             { id = "6ba4afc1", text = "Aumente o renome da Tribo Amani para posto 9 para 1/6 colar de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" },
+            { id = "101e78a9", text = "Complete a missão semanal de masmorra de Halduron Asa Brilhante para 1000 de renome" },
+            { id = "0c3b8835", text = "Complete a missão semanal de evento mundial para baú de pináculo de Lady Liadrin - pode pegar a missão de evento semanal e fazê-la com os eventos abaixo" },
+            { id = "879d3833", text = "Complete a missão semanal de tour mundial de Lorthremar para centelha fazendo as missões abaixo" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Complete a missão semanal de moradia de Vaeli para ??" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Complete a Soiree de Saltheril semanal em Bosques da Canção Eterna." },
             { id = "da2fa0ef", text = "Complete o Evento de Abundância semanal em Zul'Aman." },
             { id = "dbc8384b", text = "Complete o evento semanal Lendas dos Haranir em Harandar." },
             { id = "9ad64245", text = "Complete o Assalto de Stormarion semanal na Voragem do Vázio." },
-            { id = "35bc0cfd", text = "(Opcional) Mate cada raro uma vez em cada zona para renome. Cada raro tem bloqueio semanal." },
-            { id = "d47e5b93", text = "Se ainda não feito, procure os tesouros de cada região para renome gratuito. Veja o documento para o guia." }, -- ⚠️ UNVERIFIED
+            { id = "35bc0cfd", text = "(Opcional) Mate cada raro uma vez em cada zona para renome. Estes têm bloqueio semanal para cada raro." },
+            { id = "1b42ce30", text = "Se não foi feito, procure os tesouros de cada região, caçador de tradições e picos altos para Renome grátis. Veja o doc para guia" },
             { id = "346bdd7e", text = "Desbloqueie Imersões até o nível 8 (11 se disponível)" },
-            { id = "91b50b0a", text = "(Opcional) Complete a Presa normal 4 vezes para equipamento aventureiro e renome." },
-            { id = "e0029ef7", text = "Complete a Presa difícil 4 vezes para equipamento veteranário e renome." },
+            { id = "9bc44f02", text = "Complete 2x Presa Difícil para equipamento Veterano em cada personagem - se tiver apenas um personagem, faça 4x em um personagem para renome" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Complete um tour mundial das masmorras M0 - recompensa nível de item veteranário - não melhore ainda" },
         },
     },
@@ -64,14 +68,17 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Não gaste nenhum Brasão até receber instruções" },
             { id = "75c5fe6e", text = "Se não concluído, continue elevando o renome para peças campeã" },
+            { id = "101e78a9", text = "Complete a missão semanal de masmorra de Halduron Asa Brilhante para 1000 de renome" },
+            { id = "0c3b8835", text = "Complete a missão semanal de evento mundial para baú de pináculo de Lady Liadrin - pode pegar a missão de evento semanal e fazê-la com os eventos abaixo" },
+            { id = "879d3833", text = "Complete a missão semanal de tour mundial de Lorthremar para centelha fazendo as missões abaixo" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Complete a missão semanal de moradia de Vaeli para ??" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Complete a Soiree de Saltheril semanal em Bosques da Canção Eterna." },
             { id = "da2fa0ef", text = "Complete o Evento de Abundância semanal em Zul'Aman." },
             { id = "dbc8384b", text = "Complete o evento semanal Lendas dos Haranir em Harandar." },
             { id = "9ad64245", text = "Complete o Assalto de Stormarion semanal na Voragem do Vázio." },
-            { id = "35bc0cfd", text = "(Opcional) Mate cada raro uma vez em cada zona para renome. Cada raro tem bloqueio semanal." },
+            { id = "35bc0cfd", text = "(Opcional) Mate cada raro uma vez em cada zona para renome. Estes têm bloqueio semanal para cada raro." },
             { id = "072e6955", text = "Desbloqueie Imersões até o nível 8 (11 se disponível), se ainda não feito" },
-            { id = "91b50b0a", text = "(Opcional) Complete a Presa normal 4 vezes para equipamento aventureiro e renome." },
-            { id = "e0029ef7", text = "Complete a Presa difícil 4 vezes para equipamento veteranário e renome." },
+            { id = "9bc44f02", text = "Complete 2x Presa Difícil para equipamento Veterano em cada personagem - se tiver apenas um personagem, faça 4x em um personagem para renome" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Complete um tour mundial das masmorras M0 - recompensa nível de item veteranário - não melhore ainda" },
             { id = "c33e5c84", text = "Se for raidy na terça dia 17, crie itens. Veja o documento para mais informações." },
         },
@@ -83,8 +90,10 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Não gaste nenhum Brasão até receber instruções" },
             { id = "5b379666", text = "Faça o LFR para peças de conjunto (veja o guia para entender o porquê)" },
-            { id = "1e5c80bc", text = "(Opcional?) Complete um Tour Mundial de masmorras M0 - recompensas nível de item de campeão" },
-            { id = "123747cb", text = "Complete a Presa Pesadelo 4 vezes para equipamento campeão e renome." },
+            { id = "879d3833", text = "Complete a missão semanal de tour mundial de Lorthremar para centelha fazendo as missões abaixo" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Complete a missão semanal de moradia de Vaeli para ??" }, -- ⚠️ UNVERIFIED
+            { id = "952916cd", text = "(Opcional) Complete um Tour Mundial de masmorras M0 - recompensa nível de item de campeão" },
+            { id = "22842538", text = "Complete 2x Presa Pesadelo para equipamento de Campeão em cada personagem" }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Mate o chefe mundial para um item campeão 2/6 nível 250" },
             { id = "3e0dfde7", text = "Se disponível, complete a missão de JcJ para colar/anel herói garantido" },
             { id = "fdfd56bc", text = "Faça Imersões Abundantes T8 com chaves do cofre, use o mapa nas Imersões T8+" },

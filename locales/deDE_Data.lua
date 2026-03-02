@@ -20,19 +20,19 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "e225d803",
-        title = "Früher Zugang - 26. Feb. bis 2. März - Pay to Win",
+        id = "bd6b2f68",
+        title = "Früher Zugang - 26. Feb bis 2. Mär",
         items = {
-            { id = "f4b92a82", text = "Mit jedem Charakter einloggen, den du leveln möchtest, damit er mit dem Ansammeln ausgeruhter EP beginnt." }, -- ⚠️ UNVERIFIED
-            { id = "90db618c", text = "Levele Charaktere mit Kriegsmodus auf 90 - DMF öffnet Sonntag für 10% mehr EP." },
-            { id = "6af1d802", text = "Schließe den wöchentlichen Sturmarion-Angriff im Leersturm ab. (Ist im Early Access verfügbar)" }, -- ⚠️ UNVERIFIED
-            { id = "35bc0cfd", text = "(Optional) Jeden seltenen Gegner einmal pro Zone für Ansehen töten. Wöchentlicher Lockout pro Seltenem." },
-            { id = "2687fe6c", text = "Die-höchsten-Gipfel-Errungenschaft für Ansehen abschließen – Guide im Dokument lesen" }, -- ⚠️ UNVERIFIED
-            { id = "91e7ee6c", text = "Nebenquestketten für Ansehen abschließen. (Kann auf Alts gleichzeitig beim Leveln erledigt werden). JdD-Buff gewährt kein Ansehen." },
-            { id = "8bf4f442", text = "Schließe den Erfolg 'Midnight-Geschichtsjäger' für Ruhm ab - siehe Dokument für Anleitung" }, -- ⚠️ UNVERIFIED
-            { id = "c886190c", text = "Schließe den Erfolg 'Höchste Gipfel' für Ruhm ab - siehe Dokument für Anleitung" }, -- ⚠️ UNVERIFIED
+            { id = "f4b92a82", text = "Logge dich mit jedem Charakter ein, den du leveln möchtest, damit sie anfangen, Erholt-EP zu sammeln." },
+            { id = "90db618c", text = "Level Charaktere mit Kriegsmodus auf 90 - DMF öffnet Sonntag für 10% mehr EP." },
+            { id = "6af1d802", text = "Schließe den wöchentlichen Stormarion-Angriff im Leerensturm ab. (Er ist im Frühen Zugang verfügbar)" }, -- ⚠️ UNVERIFIED
+            { id = "35bc0cfd", text = "(Optional) Töte jeden seltenen Gegner einmal in jeder Zone für Ruhm. Diese haben eine wöchentliche Sperre für jeden seltenen Gegner." },
+            { id = "2687fe6c", text = "Jage die Schätze jeder Region für kostenlosen Ruhm. Siehe Dokument für Anleitung" },
+            { id = "91e7ee6c", text = "Schließe 4x Beute im normalen Schwierigkeitsgrad für Ruhm ab" }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Schließe den Erfolg Mitternachts-Geschichtsjäger für Ruhm ab - siehe Dokument für Anleitung" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Schließe den Erfolg Höchste Gipfel für Ruhm ab - siehe Dokument für Anleitung" },
             { id = "f9b8eb01", text = "Schließe Nebenquestreihen für Ruhm ab. (kann auf Twinks erledigt werden, um gleichzeitig zu leveln). DMF-Buff gibt keinen Ruhm." },
-            { id = "fc025216", text = "Hinweis: Nur das Ruhm-Trinket des Singularitäts-Champions ist im Early Access verfügbar - die anderen werden entweder Montag nach dem offiziellen Start oder nach dem wöchentlichen Reset jeder Region verfügbar." }, -- ⚠️ UNVERIFIED
+            { id = "fc025216", text = "Hinweis: Nur das Singularitäts-Champion-Ruhm-Trinket ist im frühen Zugang verfügbar - die anderen werden entweder Montag nach dem offiziellen Start oder nach dem wöchentlichen Reset jeder Region verfügbar." }, -- ⚠️ UNVERIFIED
         },
     },
 
@@ -41,19 +41,23 @@ local DATASET = {
         title = "Vorsaison Woche 1 - 3. März - M0s",
         items = {
             { id = "c3de7d35", text = "Keine Wappen ausgeben, bis es angewiesen wird" },
+            { id = "c06ee1a3", text = "Wenn du auf einem Twink bist und einige dieser Quests nicht siehst, gehe zu Soridormi im Gasthaus von Silbermond und wähle \\\"Ich habe den Leerensturm gestoppt\\\", um die Kampagne zu überspringen." },
             { id = "6b199064", text = "Erhöhe den Ruhm der Singularität auf Rang 7 für 1/6 Champions-Trinket - im Early Access verfügbar - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" }, -- ⚠️ UNVERIFIED
             { id = "2a9b4f4c", text = "Erhöhe den Ruhm von Hara'ti auf Rang 8 für 1/6 Champions-Gürtel - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" }, -- ⚠️ UNVERIFIED
             { id = "6f39070d", text = "Erhöhe den Ruhm von Silbermond auf Rang 9 für 1/6 Champions-Helm - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" },
             { id = "6ba4afc1", text = "Erhöhe den Ruhm des Amani-Stamms auf Rang 9 für 1/6 Champions-Halskette - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" },
+            { id = "101e78a9", text = "Schließe die wöchentliche Dungeonquest von Halduron Hellfittich für 1000 Ruhm ab" },
+            { id = "0c3b8835", text = "Schließe die wöchentliche Weltereignisquest für Gipfeltruhe von Lady Liadrin ab - kann wöchentliche Ereignisquest annehmen und mit den untenstehenden Ereignissen erledigen" },
+            { id = "879d3833", text = "Schließe die wöchentliche Welttour-Quest von Lorthremar für Funken ab, indem du die untenstehenden Quests erledigst" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Schließe die wöchentliche Behausungsquest von Vaeli für ?? ab" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Wöchentliches Saltheril-Fest im Immergrünen Wald abschließen." },
             { id = "da2fa0ef", text = "Wöchentliches Überfluss-Ereignis in Zul'Aman abschließen." },
             { id = "dbc8384b", text = "Wöchentliches Legenden der Haranir-Ereignis in Harandar abschließen." },
             { id = "9ad64245", text = "Wöchentlichen Sturmarion-Angriff im Nichtsturm abschließen." },
-            { id = "35bc0cfd", text = "(Optional) Jeden seltenen Gegner einmal pro Zone für Ansehen töten. Wöchentlicher Lockout pro Seltenem." },
-            { id = "d47e5b93", text = "Falls noch nicht erledigt, Schätze jeder Region für kostenloses Ansehen aufspüren. Dokument für Guide lesen." }, -- ⚠️ UNVERIFIED
+            { id = "35bc0cfd", text = "(Optional) Töte jeden seltenen Gegner einmal in jeder Zone für Ruhm. Diese haben eine wöchentliche Sperre für jeden seltenen Gegner." },
+            { id = "1b42ce30", text = "Falls noch nicht erledigt, jage die Schätze jeder Region, Geschichtsjäger und hohe Gipfel für kostenlosen Ruhm. Siehe Dokument für Anleitung" },
             { id = "346bdd7e", text = "Tiefen bis Stufe 8 freischalten (11 falls verfügbar)" },
-            { id = "91b50b0a", text = "(Optional) 4x Normale Beute für Abenteurer-Ausrüstung und Ansehen abschließen." },
-            { id = "e0029ef7", text = "4x Schwere Beute für Veteran-Ausrüstung und Ansehen abschließen." },
+            { id = "9bc44f02", text = "Schließe 2x Schwere Beute für Veteranen-Ausrüstung auf jedem Charakter ab - falls nur ein Charakter, mache 4x auf einem Charakter für Ruhm" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Welttour der M0-Dungeons abschließen – Veteran-Gs – noch nicht aufwerten" },
         },
     },
@@ -64,14 +68,17 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Keine Wappen ausgeben, bis es angewiesen wird" },
             { id = "75c5fe6e", text = "Falls nicht abgeschlossen: weiter Ansehen für Champion-Teile erhöhen" },
+            { id = "101e78a9", text = "Schließe die wöchentliche Dungeonquest von Halduron Hellfittich für 1000 Ruhm ab" },
+            { id = "0c3b8835", text = "Schließe die wöchentliche Weltereignisquest für Gipfeltruhe von Lady Liadrin ab - kann wöchentliche Ereignisquest annehmen und mit den untenstehenden Ereignissen erledigen" },
+            { id = "879d3833", text = "Schließe die wöchentliche Welttour-Quest von Lorthremar für Funken ab, indem du die untenstehenden Quests erledigst" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Schließe die wöchentliche Behausungsquest von Vaeli für ?? ab" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Wöchentliches Saltheril-Fest im Immergrünen Wald abschließen." },
             { id = "da2fa0ef", text = "Wöchentliches Überfluss-Ereignis in Zul'Aman abschließen." },
             { id = "dbc8384b", text = "Wöchentliches Legenden der Haranir-Ereignis in Harandar abschließen." },
             { id = "9ad64245", text = "Wöchentlichen Sturmarion-Angriff im Nichtsturm abschließen." },
-            { id = "35bc0cfd", text = "(Optional) Jeden seltenen Gegner einmal pro Zone für Ansehen töten. Wöchentlicher Lockout pro Seltenem." },
+            { id = "35bc0cfd", text = "(Optional) Töte jeden seltenen Gegner einmal in jeder Zone für Ruhm. Diese haben eine wöchentliche Sperre für jeden seltenen Gegner." },
             { id = "072e6955", text = "Tiefen bis Stufe 8 freischalten (11 falls verfügbar), falls noch nicht erledigt" },
-            { id = "91b50b0a", text = "(Optional) 4x Normale Beute für Abenteurer-Ausrüstung und Ansehen abschließen." },
-            { id = "e0029ef7", text = "4x Schwere Beute für Veteran-Ausrüstung und Ansehen abschließen." },
+            { id = "9bc44f02", text = "Schließe 2x Schwere Beute für Veteranen-Ausrüstung auf jedem Charakter ab - falls nur ein Charakter, mache 4x auf einem Charakter für Ruhm" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Welttour der M0-Dungeons abschließen – Veteran-Gs – noch nicht aufwerten" },
             { id = "c33e5c84", text = "Falls du Dienstag den 17. raidest, craften. Dokument für mehr Infos lesen." },
         },
@@ -83,8 +90,10 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Keine Wappen ausgeben, bis es angewiesen wird" },
             { id = "5b379666", text = "LFR für Tier-Teile machen (Guide lesen warum)" },
-            { id = "1e5c80bc", text = "(Optional?) Schließe eine Welttournee von M0-Dungeons ab - belohnt Champions-Gegenstandsstufe" },
-            { id = "123747cb", text = "4x Albtraum-Beute für Champion-Ausrüstung und Ansehen abschließen." },
+            { id = "879d3833", text = "Schließe die wöchentliche Welttour-Quest von Lorthremar für Funken ab, indem du die untenstehenden Quests erledigst" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Schließe die wöchentliche Behausungsquest von Vaeli für ?? ab" }, -- ⚠️ UNVERIFIED
+            { id = "952916cd", text = "(Optional) Schließe eine Welttour von M0-Dungeons ab - belohnt Champion-Gegenstandsstufe" },
+            { id = "22842538", text = "Schließe 2x Albtraum-Beute für Champion-Ausrüstung auf jedem Charakter ab" }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Weltboss töten für Champion 2/6 250-Gs-Item" },
             { id = "3e0dfde7", text = "Falls verfügbar: PvP-Quest für garantierten Helden-Hals/-Ring abschließen" },
             { id = "fdfd56bc", text = "T8-Üppige Tiefen mit Truhen-Schlüsseln machen, Karte bei T8+-Tiefen nutzen" },
