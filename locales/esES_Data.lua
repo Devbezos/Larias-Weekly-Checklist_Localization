@@ -20,19 +20,19 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "e225d803",
-        title = "Acceso anticipado - 26 feb. al 2 mar. - Paga para ganar",
+        id = "bd6b2f68",
+        title = "Acceso Anticipado - 26 de febrero al 2 de marzo",
         items = {
-            { id = "f4b92a82", text = "Inicia sesión con cada personaje que planees subir de nivel para que empiecen a acumular experiencia de descanso." },
-            { id = "90db618c", text = "Sube personajes con modo guerra activado hasta nivel 90 - FDL abre el domingo para 10% más de exp." },
+            { id = "f4b92a82", text = "Inicia sesión con cada personaje que planees subir de nivel para que empiecen a acumular EXP de descanso." },
+            { id = "90db618c", text = "Sube personajes hasta nivel 90 con modo guerra activado - La FLO abre el domingo para 10% más de exp." },
             { id = "6af1d802", text = "Completa el Asalto de Tormarión semanal en la Tormenta del Vacío. (Está disponible en Acceso Anticipado)" }, -- ⚠️ UNVERIFIED
-            { id = "35bc0cfd", text = "(Opcional) Mata cada élite raro una vez por zona para reputación. Tienen un bloqueo semanal por raro." },
-            { id = "2687fe6c", text = "Completa el logro Las Cimas más Altas para reputación - ver documento para la guía" }, -- ⚠️ UNVERIFIED
-            { id = "91e7ee6c", text = "Completa cadenas de misiones secundarias para reputación. (Se puede hacer en alts mientras subes de nivel). El buff de la FLN no da reputación." },
-            { id = "8bf4f442", text = "Completa el logro Cazador de historia de Medianoche para renombre - consulta la documentación para la guía" }, -- ⚠️ UNVERIFIED
-            { id = "c886190c", text = "Completa el logro Picos Más Altos para renombre - consulta la documentación para la guía" }, -- ⚠️ UNVERIFIED
-            { id = "f9b8eb01", text = "Completa cadenas de misiones secundarias para renombre. (se puede hacer con alternativos para subir de nivel al mismo tiempo). El beneficio de FDL no otorga renombre." },
-            { id = "fc025216", text = "Nota: Solo el abalorio de renombre de campeón de la Singularidad está disponible en acceso anticipado - los demás estarán disponibles el lunes después del lanzamiento oficial o tras el reinicio semanal de cada región." },
+            { id = "35bc0cfd", text = "(Opcional) Mata cada raro una vez en cada zona para renombre. Estos tienen un bloqueo semanal para cada raro." },
+            { id = "2687fe6c", text = "Busca los tesoros de cada región para Renombre gratis. Consulta el documento para la guía" },
+            { id = "91e7ee6c", text = "Completa 4x Presa en dificultad normal para renombre" }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Completa el logro Cazador de Tradiciones de Medianoche para renombre - consulta el documento para la guía" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Completa el logro Picos Más Altos para renombre - consulta el documento para la guía" }, -- ⚠️ UNVERIFIED
+            { id = "f9b8eb01", text = "Completa cadenas de misiones secundarias para renombre. (se puede hacer con alts para subir de nivel al mismo tiempo). El bonus de FLO no otorga renombre." },
+            { id = "fc025216", text = "Nota: Solo el abalorio de renombre de campeón de Singularidad está disponible en acceso anticipado - los demás estarán disponibles el lunes después del lanzamiento oficial o después del reinicio semanal de cada región." }, -- ⚠️ UNVERIFIED
         },
     },
 
@@ -41,19 +41,23 @@ local DATASET = {
         title = "Pretemporada semana 1 - 3 de marzo - M0",
         items = {
             { id = "c3de7d35", text = "No gastes ningún Blasón hasta que se indique" },
+            { id = "c06ee1a3", text = "Si estás en un alt y no ves algunas de estas misiones, ve a Soridormi en la Posada de Lunargenta y elige \"Detuve la Tormenta del Vacío\" para saltarte la campaña." }, -- ⚠️ UNVERIFIED
             { id = "6b199064", text = "Sube el renombre de la Singularidad a rango 7 para abalorio de campeón 1/6 - disponible en acceso anticipado - proviene de misión del vendedor de renombre (no se compra)" },
             { id = "2a9b4f4c", text = "Sube el renombre de Hara'ti a rango 8 para cinturón de campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - proviene de misión del vendedor de renombre (no se compra)" }, -- ⚠️ UNVERIFIED
             { id = "6f39070d", text = "Sube el renombre de Luna de Plata a rango 9 para yelmo de campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - proviene de misión del vendedor de renombre (no se compra)" },
             { id = "6ba4afc1", text = "Sube el renombre de Tribu Amani a rango 9 para collar de campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - proviene de misión del vendedor de renombre (no se compra)" },
+            { id = "101e78a9", text = "Completa la misión semanal de mazmorras de Halduron Ala Luminosa para 1000 de renombre" }, -- ⚠️ UNVERIFIED
+            { id = "0c3b8835", text = "Completa la misión semanal de evento de mundo para cofre de pináculo de Lady Liadrin - puedes recoger la misión de evento semanal y hacerla con los eventos de abajo" }, -- ⚠️ UNVERIFIED
+            { id = "879d3833", text = "Completa la misión semanal de gira mundial de Lorthremar para chispa haciendo las misiones de abajo" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Completa la misión semanal de vivienda de Vaeli para ??" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Completa la Velada de Saltheril semanal en el Bosque Canción Eterna." },
             { id = "da2fa0ef", text = "Completa el Evento de la abundancia semanal en Zul'Aman." },
             { id = "dbc8384b", text = "Completa el evento Leyendas de los Haranir semanal en Harandar." },
             { id = "9ad64245", text = "Completa el Asalto de Stormarion semanal en la Tormenta del vacío." },
-            { id = "35bc0cfd", text = "(Opcional) Mata cada élite raro una vez por zona para reputación. Tienen un bloqueo semanal por raro." },
-            { id = "d47e5b93", text = "Si no se ha hecho, busca los tesoros de cada región para reputación gratuita. Ver documento para la guía." }, -- ⚠️ UNVERIFIED
+            { id = "35bc0cfd", text = "(Opcional) Mata cada raro una vez en cada zona para renombre. Estos tienen un bloqueo semanal para cada raro." },
+            { id = "1b42ce30", text = "Si no está hecho, busca los tesoros de cada región, cazador de tradiciones y picos altos para Renombre gratis. Consulta el documento para la guía" }, -- ⚠️ UNVERIFIED
             { id = "346bdd7e", text = "Desbloquea Profundidades hasta nivel 8 (11 si está disponible)" },
-            { id = "91b50b0a", text = "(Opcional) Completa 4 veces la Presa normal para equipo de aventurero y reputación." },
-            { id = "e0029ef7", text = "Completa 4 veces la Presa difícil para equipo de veterano y reputación." },
+            { id = "9bc44f02", text = "Completa 2x Presa Difícil para equipo Veterano en cada personaje - si solo tienes un personaje, haz 4x en un personaje para renombre" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Completa un tour mundial de mazmorras M0 – recompensa nivel de objeto veterano – no mejores todavía" },
         },
     },
@@ -64,14 +68,17 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "No gastes ningún Blasón hasta que se indique" },
             { id = "75c5fe6e", text = "Si no está completo, continúa subiendo reputación para piezas de campeón" },
+            { id = "101e78a9", text = "Completa la misión semanal de mazmorras de Halduron Ala Luminosa para 1000 de renombre" }, -- ⚠️ UNVERIFIED
+            { id = "0c3b8835", text = "Completa la misión semanal de evento de mundo para cofre de pináculo de Lady Liadrin - puedes recoger la misión de evento semanal y hacerla con los eventos de abajo" }, -- ⚠️ UNVERIFIED
+            { id = "879d3833", text = "Completa la misión semanal de gira mundial de Lorthremar para chispa haciendo las misiones de abajo" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Completa la misión semanal de vivienda de Vaeli para ??" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Completa la Velada de Saltheril semanal en el Bosque Canción Eterna." },
             { id = "da2fa0ef", text = "Completa el Evento de la abundancia semanal en Zul'Aman." },
             { id = "dbc8384b", text = "Completa el evento Leyendas de los Haranir semanal en Harandar." },
             { id = "9ad64245", text = "Completa el Asalto de Stormarion semanal en la Tormenta del vacío." },
-            { id = "35bc0cfd", text = "(Opcional) Mata cada élite raro una vez por zona para reputación. Tienen un bloqueo semanal por raro." },
+            { id = "35bc0cfd", text = "(Opcional) Mata cada raro una vez en cada zona para renombre. Estos tienen un bloqueo semanal para cada raro." },
             { id = "072e6955", text = "Desbloquea Profundidades hasta nivel 8 (11 si disponible), si aún no está hecho" },
-            { id = "91b50b0a", text = "(Opcional) Completa 4 veces la Presa normal para equipo de aventurero y reputación." },
-            { id = "e0029ef7", text = "Completa 4 veces la Presa difícil para equipo de veterano y reputación." },
+            { id = "9bc44f02", text = "Completa 2x Presa Difícil para equipo Veterano en cada personaje - si solo tienes un personaje, haz 4x en un personaje para renombre" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Completa un tour mundial de mazmorras M0 – recompensa nivel de objeto veterano – no mejores todavía" },
             { id = "c33e5c84", text = "Si raideas el martes 17, fabrica. Consulta el documento para más información." },
         },
@@ -83,8 +90,10 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "No gastes ningún Blasón hasta que se indique" },
             { id = "5b379666", text = "Haz LFR para piezas de conjunto (consulta la guía para saber por qué)" },
-            { id = "1e5c80bc", text = "(¿Opcional?) Completa un Tour Mundial de mazmorras M0 - recompensa nivel de objeto de campeón" },
-            { id = "123747cb", text = "Completa 4 veces la Presa de pesadilla para equipo de campeón y reputación." },
+            { id = "879d3833", text = "Completa la misión semanal de gira mundial de Lorthremar para chispa haciendo las misiones de abajo" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Completa la misión semanal de vivienda de Vaeli para ??" }, -- ⚠️ UNVERIFIED
+            { id = "952916cd", text = "(Opcional) Completa una Gira Mundial de mazmorras M0 - recompensa nvl de objeto de campeón" }, -- ⚠️ UNVERIFIED
+            { id = "22842538", text = "Completa 2x Presa Pesadilla para equipo de Campeón en cada personaje" }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Mata al jefe del mundo para objeto campeón 2/6 nivel 250" },
             { id = "3e0dfde7", text = "Si disponible, completa la misión JcJ para collar/anillo de héroe garantizado" },
             { id = "fdfd56bc", text = "Haz Profundidades abundantes T8 con llaves de cofre, usa el mapa en Profundidades T8+" },

@@ -20,19 +20,19 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "e225d803",
-        title = "Accès anticipé - 26 fév. au 2 mars - Pay to Win",
+        id = "bd6b2f68",
+        title = "Accès Anticipé - 26 fév. au 2 mars",
         items = {
-            { id = "f4b92a82", text = "Connectez-vous sur chaque personnage que vous prévoyez de monter pour qu'ils commencent à accumuler de l'XP reposée." }, -- ⚠️ UNVERIFIED
-            { id = "90db618c", text = "Montez des personnages en mode guerre jusqu'au niveau 90 - La Foire de Sombrelune ouvre dimanche pour 10% d'exp en plus." },
-            { id = "6af1d802", text = "Terminez l'assaut hebdomadaire de Stormarion dans la Tempête du Vide. (Il est disponible en Accès Anticipé)" }, -- ⚠️ UNVERIFIED
-            { id = "35bc0cfd", text = "(Optionnel) Tuez chaque rare une fois par zone pour de la renommée. Blocage hebdomadaire par rare." },
-            { id = "2687fe6c", text = "Complétez le haut fait Les Sommets les Plus Hauts pour de la renommée - voir doc pour le guide" }, -- ⚠️ UNVERIFIED
-            { id = "91e7ee6c", text = "Complétez les chaînes de quêtes secondaires pour la renommée. (Peut être fait sur les alts en levant en même temps). Le buff de la FLN ne donne pas de renommée." },
-            { id = "8bf4f442", text = "Terminez le haut fait Chasseur de traditions de Minuit pour la renommée - voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
-            { id = "c886190c", text = "Terminez le haut fait Sommets les plus hauts pour la renommée - voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
-            { id = "f9b8eb01", text = "Terminez les chaînes de quêtes secondaires pour la renommée. (peut être fait sur des rerolls pour monter en même temps). Le bonus de la Foire de Sombrelune ne donne pas de renommée." },
-            { id = "fc025216", text = "Note : Seul le bijou champion de renommée de la Singularité est disponible en accès anticipé - les autres deviendront disponibles soit lundi après le lancement officiel, soit après la réinitialisation hebdomadaire de chaque région." },
+            { id = "f4b92a82", text = "Connectez-vous sur chaque personnage que vous prévoyez de monter de niveau afin qu'ils commencent à accumuler de l'XP reposée." },
+            { id = "90db618c", text = "Montez les personnages en mode guerre jusqu'au niveau 90 - La Foire de Sombrelune ouvre dimanche pour 10% d'exp en plus." },
+            { id = "6af1d802", text = "Terminez l'assaut hebdomadaire de Stormarion dans le Voidstorm. (Il est disponible en Accès Anticipé)" }, -- ⚠️ UNVERIFIED
+            { id = "35bc0cfd", text = "(Optionnel) Tuez chaque créature rare une fois dans chaque zone pour du renom. Celles-ci ont un verrouillage hebdomadaire pour chaque rare." },
+            { id = "2687fe6c", text = "Traquez les trésors de chaque région pour du Renom gratuit. Voir le doc pour le guide" },
+            { id = "91e7ee6c", text = "Terminez 4x Proie en difficulté normale pour du renom" }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Terminez le haut fait Chasseur de Légendes de Midnight pour du renom - voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Terminez le haut fait Pics les Plus Élevés pour du renom - voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
+            { id = "f9b8eb01", text = "Terminez les chaînes de quêtes secondaires pour du renom. (peut être fait sur les rerolls pour monter de niveau en même temps). Le bonus de la Foire de Sombrelune ne donne pas de renom." },
+            { id = "fc025216", text = "Note : Seul le bijou de renom du champion de la Singularité est disponible en accès anticipé - les autres deviendront disponibles soit lundi après le lancement officiel, soit après la réinitialisation hebdomadaire de chaque région." }, -- ⚠️ UNVERIFIED
         },
     },
 
@@ -41,19 +41,23 @@ local DATASET = {
         title = "Pré-saison semaine 1 - 3 mars - M0",
         items = {
             { id = "c3de7d35", text = "Ne dépensez aucun Écu avant d'en recevoir l'instruction" },
+            { id = "c06ee1a3", text = "Si vous êtes sur un reroll et ne voyez pas certaines de ces quêtes, allez voir Soridormi à l'auberge de Lune-d'Argent et choisissez « J'ai arrêté le Voidstorm » pour passer la campagne." }, -- ⚠️ UNVERIFIED
             { id = "6b199064", text = "Montez la renommée de la Singularité au rang 7 pour le bijou champion 1/6 - disponible en accès anticipé - vient d'une quête du vendeur de renommée (pas acheté)" },
             { id = "2a9b4f4c", text = "Montez la renommée des Hara'ti au rang 8 pour la ceinture champion 1/6 - NON DISPONIBLE EN ACCÈS ANTICIPÉ - vient d'une quête du vendeur de renommée (pas achetée)" },
             { id = "6f39070d", text = "Montez la renommée de Lune-d'Argent au rang 9 pour le heaume champion 1/6 - NON DISPONIBLE EN ACCÈS ANTICIPÉ - vient d'une quête du vendeur de renommée (pas acheté)" },
             { id = "6ba4afc1", text = "Montez la renommée de la tribu Amani au rang 9 pour le collier champion 1/6 - NON DISPONIBLE EN ACCÈS ANTICIPÉ - vient d'une quête du vendeur de renommée (pas acheté)" },
+            { id = "101e78a9", text = "Terminez la quête de donjon hebdomadaire de Halduron Brightewing pour 1000 de renom" }, -- ⚠️ UNVERIFIED
+            { id = "0c3b8835", text = "Terminez la quête d'événement mondial hebdomadaire pour un coffre apogée auprès de Dame Liadrin - vous pouvez prendre la quête d'événement hebdomadaire et la faire avec les événements ci-dessous" }, -- ⚠️ UNVERIFIED
+            { id = "879d3833", text = "Terminez la quête de tour du monde hebdomadaire de Lorthremar pour une étincelle en faisant les quêtes ci-dessous" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Terminez la quête de logement hebdomadaire de Vaeli pour ??" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Complétez la Soirée de Saltheril hebdo dans les Bois des Chants éternels." },
             { id = "da2fa0ef", text = "Complétez l'Événement d'abondance hebdo dans Zul'Aman." },
             { id = "dbc8384b", text = "Complétez l'événement Légendes des Haranir hebdo à Harandar." },
             { id = "9ad64245", text = "Complétez l'Assaut de Stormarion hebdo dans la Tempête du néant." },
-            { id = "35bc0cfd", text = "(Optionnel) Tuez chaque rare une fois par zone pour de la renommée. Blocage hebdomadaire par rare." },
-            { id = "d47e5b93", text = "Si pas encore fait, cherchez les trésors de chaque région pour de la renommée gratuite. Voir doc pour le guide." }, -- ⚠️ UNVERIFIED
+            { id = "35bc0cfd", text = "(Optionnel) Tuez chaque créature rare une fois dans chaque zone pour du renom. Celles-ci ont un verrouillage hebdomadaire pour chaque rare." },
+            { id = "1b42ce30", text = "Si ce n'est pas fait, traquez les trésors de chaque région, le chasseur de légendes et les hauts pics pour du Renom gratuit. Voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
             { id = "346bdd7e", text = "Débloquez les Gouffres jusqu'au niveau 8 (11 si disponible)" },
-            { id = "91b50b0a", text = "(Optionnel) Complétez 4 fois la Traque normale pour équipement aventure et renommée." },
-            { id = "e0029ef7", text = "Complétez 4 fois la Traque difficile pour équipement vétéran et renommée." },
+            { id = "9bc44f02", text = "Terminez 2x Proie difficile pour de l'équipement Vétéran sur chaque personnage - si un seul personnage, faites-en 4x sur un personnage pour du renom" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Effectuez un tour mondial des donjons M0 – récompense niv. obj. vétéran – n'améliorez pas encore" },
         },
     },
@@ -64,14 +68,17 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Ne dépensez aucun Écu avant d'en recevoir l'instruction" },
             { id = "75c5fe6e", text = "Si pas terminé, continuez à augmenter la renommée pour les pièces champion" },
+            { id = "101e78a9", text = "Terminez la quête de donjon hebdomadaire de Halduron Brightewing pour 1000 de renom" }, -- ⚠️ UNVERIFIED
+            { id = "0c3b8835", text = "Terminez la quête d'événement mondial hebdomadaire pour un coffre apogée auprès de Dame Liadrin - vous pouvez prendre la quête d'événement hebdomadaire et la faire avec les événements ci-dessous" }, -- ⚠️ UNVERIFIED
+            { id = "879d3833", text = "Terminez la quête de tour du monde hebdomadaire de Lorthremar pour une étincelle en faisant les quêtes ci-dessous" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Terminez la quête de logement hebdomadaire de Vaeli pour ??" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Complétez la Soirée de Saltheril hebdo dans les Bois des Chants éternels." },
             { id = "da2fa0ef", text = "Complétez l'Événement d'abondance hebdo dans Zul'Aman." },
             { id = "dbc8384b", text = "Complétez l'événement Légendes des Haranir hebdo à Harandar." },
             { id = "9ad64245", text = "Complétez l'Assaut de Stormarion hebdo dans la Tempête du néant." },
-            { id = "35bc0cfd", text = "(Optionnel) Tuez chaque rare une fois par zone pour de la renommée. Blocage hebdomadaire par rare." },
+            { id = "35bc0cfd", text = "(Optionnel) Tuez chaque créature rare une fois dans chaque zone pour du renom. Celles-ci ont un verrouillage hebdomadaire pour chaque rare." },
             { id = "072e6955", text = "Débloquez les Gouffres jusqu'au niveau 8 (11 si disponible), si pas encore fait" },
-            { id = "91b50b0a", text = "(Optionnel) Complétez 4 fois la Traque normale pour équipement aventure et renommée." },
-            { id = "e0029ef7", text = "Complétez 4 fois la Traque difficile pour équipement vétéran et renommée." },
+            { id = "9bc44f02", text = "Terminez 2x Proie difficile pour de l'équipement Vétéran sur chaque personnage - si un seul personnage, faites-en 4x sur un personnage pour du renom" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Effectuez un tour mondial des donjons M0 – récompense niv. obj. vétéran – n'améliorez pas encore" },
             { id = "c33e5c84", text = "Si vous raidez le mardi 17, fabriquez. Consultez le document pour plus d'informations." },
         },
@@ -83,8 +90,10 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Ne dépensez aucun Écu avant d'en recevoir l'instruction" },
             { id = "5b379666", text = "Faites le LFR pour les pièces de palier (consultez le guide pour savoir pourquoi)" },
-            { id = "1e5c80bc", text = "(Optionnel ?) Terminez un Tour du Monde des donjons M0 - récompense un ilvl champion" },
-            { id = "123747cb", text = "Complétez 4 fois la Traque de cauchemar pour équipement champion et renommée." },
+            { id = "879d3833", text = "Terminez la quête de tour du monde hebdomadaire de Lorthremar pour une étincelle en faisant les quêtes ci-dessous" }, -- ⚠️ UNVERIFIED
+            { id = "9f3c8578", text = "Terminez la quête de logement hebdomadaire de Vaeli pour ??" }, -- ⚠️ UNVERIFIED
+            { id = "952916cd", text = "(Optionnel) Terminez un Tour du Monde de donjons M0 - récompense ilvl champion" }, -- ⚠️ UNVERIFIED
+            { id = "22842538", text = "Terminez 2x Proie cauchemardesque pour de l'équipement Champion sur chaque personnage" }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Tuez le boss mondial pour un objet champion 2/6 niv. 250" },
             { id = "3e0dfde7", text = "Si disponible, complétez la quête JcJ pour un collier/anneau héroïque garanti" },
             { id = "fdfd56bc", text = "Faites des Gouffres abondants T8 avec des clés de coffre, utilisez la carte sur les Gouffres T8+" },
