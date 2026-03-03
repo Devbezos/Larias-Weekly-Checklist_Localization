@@ -32,7 +32,15 @@ local DATASET = {
             { id = "8bf4f442", text = "Terminez le haut fait Chasseur de Légendes de Midnight pour du renom - voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
             { id = "c886190c", text = "Terminez le haut fait Pics les Plus Élevés pour du renom - voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
             { id = "f9b8eb01", text = "Terminez les chaînes de quêtes secondaires pour du renom. (peut être fait sur les rerolls pour monter de niveau en même temps). Le bonus de la Foire de Sombrelune ne donne pas de renom." },
-            { id = "fc025216", text = "Note : Seul le bijou de renom du champion de la Singularité est disponible en accès anticipé - les autres deviendront disponibles soit lundi après le lancement officiel, soit après la réinitialisation hebdomadaire de chaque région." }, -- ⚠️ UNVERIFIED
+            { id = "11425027", text = "Note : Seuls les bijoux de renom de champion de Singularité ET Bois-des-Chants sont disponibles en accès anticipé - les autres deviendront disponibles soit lundi après le lancement officiel, soit après la réinitialisation hebdomadaire de chaque région." },
+        },
+    },
+
+    {
+        id = "eae61254",
+        title = "Mise à jour d'urgence - 2 mars",
+        items = {
+            { id = "2c77c3c4", text = "Terminez la soirée de Saltheril hebdomadaire dans les Bois-des-Chants. CELA VIENT JUSTE D'OUVRIR, VOUS DEVEZ TERMINER AVANT LA RÉINITIALISATION HEBDOMADAIRE ! N'oubliez pas de prendre la quête de renom pour le casque de champion si vous avez le renom" },
         },
     },
 

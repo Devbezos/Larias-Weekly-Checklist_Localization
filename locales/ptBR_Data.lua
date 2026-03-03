@@ -32,7 +32,15 @@ local DATASET = {
             { id = "8bf4f442", text = "Complete a conquista Caçador de Tradições de Midnight para renome - veja o doc para guia" }, -- ⚠️ UNVERIFIED
             { id = "c886190c", text = "Complete a conquista Picos Mais Altos para renome - veja o doc para guia" },
             { id = "f9b8eb01", text = "Complete cadeias de missões secundárias para renome. (pode ser feito em personagens alternativos para upar ao mesmo tempo). O bônus da FDL não dá renome." },
-            { id = "fc025216", text = "Nota: Apenas o berloque de renome de campeão da Singularidade está disponível no acesso antecipado - os outros ficarão disponíveis na segunda-feira após o lançamento oficial ou após o reset semanal de cada região." }, -- ⚠️ UNVERIFIED
+            { id = "11425027", text = "Nota: Apenas os troféus de renome de campeão da Singularidade E de Canção Eterna estão disponíveis no acesso antecipado - os outros ficarão disponíveis na segunda-feira após o lançamento oficial ou após a reinicialização semanal de cada região." },
+        },
+    },
+
+    {
+        id = "eae61254",
+        title = "Atualização Emergencial - 2 de Março",
+        items = {
+            { id = "2c77c3c4", text = "Complete a Festa de Saltheril semanal em Bosque de Canção Eterna. ISSO ACABOU DE ABRIR, VOCÊ TEM QUE COMPLETAR ANTES DA REINICIALIZAÇÃO SEMANAL! Não se esqueça de pegar a missão de renome para o elmo de campeão se você tiver o renome" },
         },
     },
 
@@ -41,7 +49,7 @@ local DATASET = {
         title = "Pré-temporada Semana 1 - 3 de março - M0",
         items = {
             { id = "c3de7d35", text = "Não gaste nenhum Brasão até receber instruções" },
-            { id = "c06ee1a3", text = "Se você está em um personagem alternativo e não vê algumas dessas missões, vá até Soridormi na Estalagem de Lua Prateada e escolha \"Eu Detive a Tempestade Etérea\" para pular a campanha." }, -- ⚠️ UNVERIFIED
+            { id = "c06ee1a3", text = "Se você está em um personagem alternativo e não vê algumas dessas missões, vá até Soridormi na Estalagem de Lua Prateada e escolha \\\"Eu Detive a Tempestade Etérea\\\" para pular a campanha." }, -- ⚠️ UNVERIFIED
             { id = "6b199064", text = "Aumente o renome da Singularidade para posto 7 para 1/6 berloque de campeão - disponível no acesso antecipado - vem de missão do vendedor de renome (não é comprado)" },
             { id = "2a9b4f4c", text = "Aumente o renome de Hara'ti para posto 8 para 1/6 cinto de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" },
             { id = "6f39070d", text = "Aumente o renome de Luaprata para posto 9 para 1/6 elmo de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" }, -- ⚠️ UNVERIFIED

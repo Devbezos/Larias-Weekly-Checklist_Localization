@@ -32,7 +32,15 @@ local DATASET = {
             { id = "8bf4f442", text = "Completa el logro Cazador de Tradiciones de Medianoche para renombre - ve la guía en el documento" }, -- ⚠️ UNVERIFIED
             { id = "c886190c", text = "Completa el logro Picos Más Altos para renombre - ve la guía en el documento" }, -- ⚠️ UNVERIFIED
             { id = "f9b8eb01", text = "Completa cadenas de misiones secundarias para renombre. (se pueden hacer con alts para subir de nivel al mismo tiempo). El bonus de FDL no da renombre." },
-            { id = "fc025216", text = "Nota: Solo el abalorios de renombre de campeón de Singularidad está disponible en acceso anticipado - los demás estarán disponibles el lunes después del lanzamiento oficial o después del reinicio semanal de cada región." }, -- ⚠️ UNVERIFIED
+            { id = "11425027", text = "Nota: Solo el abalorio de renombre de campeón de Singularidad Y Bosque Canción Eterna están disponibles en el acceso anticipado - los demás estarán disponibles el lunes después del lanzamiento oficial o después del reinicio semanal de cada región." }, -- ⚠️ UNVERIFIED
+        },
+    },
+
+    {
+        id = "eae61254",
+        title = "Actualización de Emergencia - 2 de Marzo",
+        items = {
+            { id = "2c77c3c4", text = "Completa la velada semanal de Saltheril en el Bosque Canción Eterna. ¡ACABA DE ABRIRSE, DEBES COMPLETARLA ANTES DEL REINICIO SEMANAL! No olvides tomar la misión de renombre para el yelmo de campeón si tienes el renombre" }, -- ⚠️ UNVERIFIED
         },
     },
 
@@ -41,7 +49,7 @@ local DATASET = {
         title = "Pretemporada semana 1 - 3 de marzo - M0",
         items = {
             { id = "c3de7d35", text = "No gastes ninguna Crestalborada hasta que se indique" },
-            { id = "c06ee1a3", text = "Si estás en un alt y no ves algunas de estas misiones, ve con Soridormi en la Posada de Ciudad de Lunargenta y elige \"Detuve la Tormenta del Vacío\" para saltar la campaña." }, -- ⚠️ UNVERIFIED
+            { id = "c06ee1a3", text = "Si estás en un alt y no ves algunas de estas misiones, ve con Soridormi en la Posada de Ciudad de Lunargenta y elige \\\"Detuve la Tormenta del Vacío\\\" para saltar la campaña." }, -- ⚠️ UNVERIFIED
             { id = "6b199064", text = "Eleva el renombre de La Singularidad a rango 7 para abalorio campeón 1/6 - disponible en acceso anticipado - viene de misión del vendedor de renombre (no se compra)" },
             { id = "2a9b4f4c", text = "Eleva el renombre de Hara'ti a rango 8 para cinturón campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - viene de misión del vendedor de renombre (no se compra)" },
             { id = "6f39070d", text = "Eleva el renombre de Luna de Plata a rango 9 para yelmo campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - viene de misión del vendedor de renombre (no se compra)" },

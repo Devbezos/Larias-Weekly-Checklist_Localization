@@ -32,7 +32,15 @@ local DATASET = {
             { id = "8bf4f442", text = "Schließe den Erfolg Mitternachts-Geschichtsjäger für Ruhm ab - siehe Dokument für Anleitung" }, -- ⚠️ UNVERIFIED
             { id = "c886190c", text = "Schließe den Erfolg Höchste Gipfel für Ruhm ab - siehe Dokument für Anleitung" },
             { id = "f9b8eb01", text = "Schließe Nebenquestreihen für Ruhm ab. (kann auf Twinks erledigt werden, um gleichzeitig zu leveln). DMF-Buff gibt keinen Ruhm." },
-            { id = "fc025216", text = "Hinweis: Nur das Singularitäts-Champion-Ruhm-Trinket ist im frühen Zugang verfügbar - die anderen werden entweder Montag nach dem offiziellen Start oder nach dem wöchentlichen Reset jeder Region verfügbar." }, -- ⚠️ UNVERIFIED
+            { id = "11425027", text = "Hinweis: Nur das Singularitäts- UND Eversong-Champion-Ruhm-Trinket sind im Early Access verfügbar - die anderen werden entweder am Montag nach dem offiziellen Start oder nach dem wöchentlichen Reset jeder Region verfügbar." },
+        },
+    },
+
+    {
+        id = "eae61254",
+        title = "Notfall-Update - 2. März",
+        items = {
+            { id = "2c77c3c4", text = "Schließe die wöchentliche Salthérils Soiree in den Ewigen Wäldern ab. DIES HAT GERADE GEÖFFNET, DU MUSST ES VOR DEM WÖCHENTLICHEN RESET ABSCHLIESSEN! Vergiss nicht, die Ruhmquest für den Champion-Helm zu holen, wenn du den Ruhm hast" },
         },
     },
 
@@ -41,7 +49,7 @@ local DATASET = {
         title = "Vorsaison Woche 1 - 3. März - M0s",
         items = {
             { id = "c3de7d35", text = "Keine Wappen ausgeben, bis es angewiesen wird" },
-            { id = "c06ee1a3", text = "Wenn du auf einem Twink bist und einige dieser Quests nicht siehst, gehe zu Soridormi im Gasthaus von Silbermond und wähle \\\"Ich habe den Leerensturm gestoppt\\\", um die Kampagne zu überspringen." },
+            { id = "c06ee1a3", text = "Wenn du auf einem Twink bist und einige dieser Quests nicht siehst, gehe zu Soridormi im Gasthaus von Silbermond und wähle \\\\\\\"Ich habe den Leerensturm gestoppt\\\\\\\", um die Kampagne zu überspringen." },
             { id = "6b199064", text = "Erhöhe den Ruhm der Singularität auf Rang 7 für 1/6 Champions-Trinket - im Early Access verfügbar - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" }, -- ⚠️ UNVERIFIED
             { id = "2a9b4f4c", text = "Erhöhe den Ruhm von Hara'ti auf Rang 8 für 1/6 Champions-Gürtel - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" }, -- ⚠️ UNVERIFIED
             { id = "6f39070d", text = "Erhöhe den Ruhm von Silbermond auf Rang 9 für 1/6 Champions-Helm - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" },
