@@ -1,3 +1,11 @@
+## [2.1.7] (2026-03-03)
+- fix: correct residual over-escaped quotes in locale Data files
+- fix: stop backslash accumulation in locale Data files
+- ci: add daily workflow run cleanup, keep publish runs for 7 days
+- Update locales: convert suffix rename + tooltip keys
+- Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU
+- Updated interface versions: 120001, 120000, 110207
+
 ## [2.1.6] (2026-03-03)
 - Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU
 - Updated interface versions: 120001, 120000, 110207
