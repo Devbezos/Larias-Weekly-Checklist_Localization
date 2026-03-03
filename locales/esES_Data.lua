@@ -49,7 +49,7 @@ local DATASET = {
         title = "Pretemporada semana 1 - 3 de marzo - M0",
         items = {
             { id = "c3de7d35", text = "No gastes ningún Blasón hasta que se indique" },
-            { id = "c06ee1a3", text = "Si estás en un alt y no ves algunas de estas misiones, ve a Soridormi en la Posada de Lunargenta y elige \\\"Detuve la Tormenta del Vacío\\\" para saltarte la campaña." }, -- ⚠️ UNVERIFIED
+            { id = "c06ee1a3", text = "Si estás en un alt y no ves algunas de estas misiones, ve a Soridormi en la Posada de Lunargenta y elige \\\\\\\"Detuve la Tormenta del Vacío\\\\\\\" para saltarte la campaña." }, -- ⚠️ UNVERIFIED
             { id = "6b199064", text = "Sube el renombre de la Singularidad a rango 7 para abalorio de campeón 1/6 - disponible en acceso anticipado - proviene de misión del vendedor de renombre (no se compra)" },
             { id = "2a9b4f4c", text = "Sube el renombre de Hara'ti a rango 8 para cinturón de campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - proviene de misión del vendedor de renombre (no se compra)" }, -- ⚠️ UNVERIFIED
             { id = "6f39070d", text = "Sube el renombre de Luna de Plata a rango 9 para yelmo de campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - proviene de misión del vendedor de renombre (no se compra)" },

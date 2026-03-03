@@ -49,7 +49,7 @@ local DATASET = {
         title = "Vorsaison Woche 1 - 3. März - M0s",
         items = {
             { id = "c3de7d35", text = "Keine Wappen ausgeben, bis es angewiesen wird" },
-            { id = "c06ee1a3", text = "Wenn du auf einem Twink bist und einige dieser Quests nicht siehst, gehe zu Soridormi im Gasthaus von Silbermond und wähle \\\\\\\"Ich habe den Leerensturm gestoppt\\\\\\\", um die Kampagne zu überspringen." },
+            { id = "c06ee1a3", text = "Wenn du auf einem Twink bist und einige dieser Quests nicht siehst, gehe zu Soridormi im Gasthaus von Silbermond und wähle \\\\\\\\\\\\\\\"Ich habe den Leerensturm gestoppt\\\\\\\\\\\\\\\", um die Kampagne zu überspringen." },
             { id = "6b199064", text = "Erhöhe den Ruhm der Singularität auf Rang 7 für 1/6 Champions-Trinket - im Early Access verfügbar - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" }, -- ⚠️ UNVERIFIED
             { id = "2a9b4f4c", text = "Erhöhe den Ruhm von Hara'ti auf Rang 8 für 1/6 Champions-Gürtel - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" }, -- ⚠️ UNVERIFIED
             { id = "6f39070d", text = "Erhöhe den Ruhm von Silbermond auf Rang 9 für 1/6 Champions-Helm - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" },

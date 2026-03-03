@@ -49,7 +49,7 @@ local DATASET = {
         title = "Pré-temporada Semana 1 - 3 de março - M0",
         items = {
             { id = "c3de7d35", text = "Não gaste nenhum Brasão até receber instruções" },
-            { id = "c06ee1a3", text = "Se você está em um personagem alternativo e não vê algumas dessas missões, vá até Soridormi na Estalagem de Lua Prateada e escolha \\\"Eu Detive a Tempestade Etérea\\\" para pular a campanha." }, -- ⚠️ UNVERIFIED
+            { id = "c06ee1a3", text = "Se você está em um personagem alternativo e não vê algumas dessas missões, vá até Soridormi na Estalagem de Lua Prateada e escolha \\\\\\\"Eu Detive a Tempestade Etérea\\\\\\\" para pular a campanha." }, -- ⚠️ UNVERIFIED
             { id = "6b199064", text = "Aumente o renome da Singularidade para posto 7 para 1/6 berloque de campeão - disponível no acesso antecipado - vem de missão do vendedor de renome (não é comprado)" },
             { id = "2a9b4f4c", text = "Aumente o renome de Hara'ti para posto 8 para 1/6 cinto de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" },
             { id = "6f39070d", text = "Aumente o renome de Luaprata para posto 9 para 1/6 elmo de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" }, -- ⚠️ UNVERIFIED
