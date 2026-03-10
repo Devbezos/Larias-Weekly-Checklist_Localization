@@ -74,7 +74,8 @@ local DATASET = {
             { id = "18fb09f9", text = "Guarda 160 emblemas Veteranos para fabricar 2 objetos Veteranos con Adornos (Estos no requieren Chispas)" },
             { id = "907d099d", text = "Nota especial para clases con doble arma - probablemente puedas fabricar ahora. Consulta la Guía para saber qué y cuándo fabricar." },
             { id = "75c5fe6e", text = "Si no completado, continúa subiendo la reputación para piezas de campeón" },
-            { id = "e0ecce24", text = "Completa la misión de evento mundial semanal para obtener alijo cumbre y chispa de Lady Liadrin" },
+            { id = "1f299f34", text = "Completa la misión semanal Chispas de Guerra del dador de misiones JcJ en el sur de Luna Argéntea. No muestra una chispa como recompensa pero sí da una. Las misiones del mundo dan 25% de progreso, los tesoros también dan algo. Debes tener el modo guerra activado." }, -- ⚠️ UNVERIFIED
+            { id = "5fd1b2ad", text = "NO HAGAS la misión JcJ del anillo/amuleto heroico. No puedes terminar la cadena de misiones hasta después de que abran las m+" },
             { id = "9626318e", text = "(Opcional) Completa la misión semanal de mazmorra de Halduron Ala Luminosa para obtener 1000 de renombre" },
             { id = "8b55f0c7", text = "(Opcional) Completa la Velada de Saltheril semanal en el Bosque Canción Eterna." },
             { id = "8e107032", text = "(Opcional) Completa el Evento de Abundancia semanal en Zul'aman." },
@@ -99,7 +100,6 @@ local DATASET = {
             { id = "e66847d8", text = "Haz LFR para piezas de conjunto - obtener un bono de 4 piezas permitirá que caigan cargas de catalizador de todo el contenido" },
             { id = "e0ecce24", text = "Completa la misión de evento mundial semanal para obtener alijo cumbre y chispa de Lady Liadrin" },
             { id = "9686fde4", text = "Completa la misión semanal de vivienda de Vaeli para ¿emblemas de héroe? (se actualizará cuando esté disponible)" },
-            { id = "ca5a8044", text = "Si está disponible, completa la misión de JcJ para obtener cuello/anillo de héroe garantizado - tal vez se puede hacer con el rango JcJ opcional de abajo" },
             { id = "d8d237fa", text = "(Opcional) Sube rango JcJ a 1600 para carga de catalizador (esta es la misma carga de catalizador compartida con 2,000 de puntuación M+ de la semana siguiente). Si consigues 2 piezas de conjunto de tu banda esta semana, esto te permitiría catalizar 2 objetos y empezar a recibir cargas de Catalizador de tus m+ la próxima semana." },
             { id = "1104f71c", text = "(Opcional) Completa un Tour Mundial de mazmorras M0 - recompensa nivel de objeto de campeón - bloqueo diario - ¡NO TE QUEMES! M+ abre la próxima semana y reemplazará todo esto." },
             { id = "7828e484", text = "(Opcional) Si no quieres hacer tours mundiales de mazmorras M0 todos los días, considera hacer una mazmorra con una baratija muy buena cada día para tener la oportunidad de conseguirla" },
@@ -130,8 +130,8 @@ local DATASET = {
             { id = "74924a7b", text = "Farmea +10 para equipo 266 en cada hueco" },
             { id = "e4965db1", text = "Antes de la banda Mítica, Mejora 11 objetos de héroe 3/6 una vez cada uno. Si no tienes tantos objetos Heroicos, mejora un anillo o baratija más para reducir el riesgo de desperdiciar emblemas." },
             { id = "cbfb6966", text = "Mítico: si tienes suerte y consigues un objeto de pista mítica, pasa al consejo de mejoras de la semana que viene para él." },
-            { id = "5bdc8d65", text = "Rastrear emblemas gastados: 220/220 Heroicos, 0/220 Míticos - nunca guardes emblemas Míticos" },
-            { id = "721f006f", text = "Nivel de objeto final: 4x266, 11x269" },
+            { id = "00cb43a8", text = "Seguimiento de emblemas gastados: 220/220 Heroico, 0/220 Mítico - nunca guardes emblemas Míticos - puede variar si fabricaste" },
+            { id = "adb492bd", text = "Nivel de objeto final: 4x266, 11x269 - puede variar si fabricaste" },
         },
     },
 
@@ -145,8 +145,8 @@ local DATASET = {
             { id = "c316485a", text = "Heroico: Mejora 2 de tus objetos 4/6 269 a 6/6 276 por 80 Emblemas Heroicos" },
             { id = "2568bd36", text = "Mítico: Si tu objeto de cámara era 1/6, mejora primero su contraparte heroica a 6/6 heroico por 20 Emblemas Heroicos. Mejora tu objeto de categoría Mítica 1/6 272 a 6/6 289 por 80 emblemas Míticos." },
             { id = "484da4b0", text = "Si obtuviste un 2do objeto de categoría mítica, salta al consejo de mejora de la próxima semana para él." },
-            { id = "a501f690", text = "Rastrear emblemas gastados: 320/320 Heroicos, 160/320 Míticos - nunca guardes emblemas Míticos" },
-            { id = "02884180", text = "Nivel de objeto final: 3x266, 8x269, 2x276h, 1x285(fabricado), 1x289" },
+            { id = "40b01764", text = "Seguimiento de emblemas gastados: 320/320 Heroico, 160/320 Mítico - nunca guardes emblemas Míticos - puede variar si fabricaste" },
+            { id = "c0774809", text = "Nivel de objeto final: 2x266, 8x269, 2x276h, 2x285(fabricado), 1x289 - puede variar si fabricaste" },
         },
     },
 
@@ -160,7 +160,7 @@ local DATASET = {
             { id = "2568bd36", text = "Mítico: Si tu objeto de cámara era 1/6, mejora primero su contraparte heroica a 6/6 heroico por 20 Emblemas Heroicos. Mejora tu objeto de categoría Mítica 1/6 272 a 6/6 289 por 80 emblemas Míticos." },
             { id = "0ccf5c83", text = "Mítico: mejora tu botín de banda 275 de pista mítica 2/6 a 6/6 289 por 80 crestalboradas míticas." },
             { id = "bccfe037", text = "Rastrear emblemas gastados: 420/400 Heroicos, 320/420 Míticos - nunca guardes emblemas Míticos" },
-            { id = "8b8cde46", text = "Nivel de objeto final: 2x266, 5x269, 4x276h, 1x285(crafteado), 3x289" },
+            { id = "8184483b", text = "Nivel de objeto final: 2x266, 4x269, 4x276h, 2x285(fabricado), 3x289" },
         },
     },
 
@@ -188,7 +188,7 @@ local DATASET = {
             { id = "2568bd36", text = "Mítico: Si tu objeto de cámara era 1/6, mejora primero su contraparte heroica a 6/6 heroico por 20 Emblemas Heroicos. Mejora tu objeto de categoría Mítica 1/6 272 a 6/6 289 por 80 emblemas Míticos." },
             { id = "0ccf5c83", text = "Mítico: mejora tu botín de banda 275 de pista mítica 2/6 a 6/6 289 por 80 crestalboradas míticas." },
             { id = "4f11d7d8", text = "Rastrear emblemas gastados: 560/620 Heroicos, 620/620 Míticos - nunca guardes emblemas Míticos" },
-            { id = "67f84375", text = "Nivel de objeto final: 7x276h, 2x285(crafteado), 1x285, 5x289" },
+            { id = "37472f94", text = "Nivel de objeto final: 7x276h, 2x285(fabricado), 1x285, 5x289" },
         },
     },
 

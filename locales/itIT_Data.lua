@@ -74,7 +74,8 @@ local DATASET = {
             { id = "18fb09f9", text = "Conserva 160 stemmi Veterano per creare 2 oggetti Veterano con Abbellimenti (questi non richiedono Scintille)" },
             { id = "907d099d", text = "Nota speciale per le classi dual wield - probabilmente puoi creare ora. Controlla la Guida per cosa e quando creare." },
             { id = "75c5fe6e", text = "Se non completato, continua ad aumentare la reputazione per i pezzi campione" },
-            { id = "e0ecce24", text = "Completa la missione settimanale dell'evento mondiale per cache culminante e scintilla da Dama Liadrin" },
+            { id = "1f299f34", text = "Completa la missione settimanale Scintille di Guerra dal fornitore di missioni PvP a Lunargenta Sud. Non mostra una scintilla come ricompensa ma ne dà una. Le missioni mondiali danno il 25% di completamento, anche i tesori ne danno un po'. Devi avere la modalità guerra attiva." },
+            { id = "5fd1b2ad", text = "NON FARE la missione PvP per l'anello/amuleto eroico. Non puoi finire la catena di missioni fino a dopo l'apertura di m+" },
             { id = "9626318e", text = "(Opzionale) Completa la missione settimanale della spedizione da Halduron Alasolare per 1000 rinomanza" },
             { id = "8b55f0c7", text = "(Opzionale) Completa il Soirée di Saltheril settimanale nei Boschi di Cantosole." }, -- ⚠️ UNVERIFIED
             { id = "8e107032", text = "(Opzionale) Completa l'Evento di Abbondanza settimanale a Zul'aman." },
@@ -99,7 +100,6 @@ local DATASET = {
             { id = "e66847d8", text = "Fai LFR per pezzi del set - ottenere un bonus set da 4 pezzi permetterà alle cariche del catalizzatore di cadere da tutti i contenuti" },
             { id = "e0ecce24", text = "Completa la missione settimanale dell'evento mondiale per cache culminante e scintilla da Dama Liadrin" },
             { id = "9686fde4", text = "Completa la missione settimanale dell'abitazione da Vaeli per ?stemmi eroe? (verrà aggiornato quando sarà disponibile)" },
-            { id = "ca5a8044", text = "Se disponibile, completa la missione pvp per collana/anello eroe garantito - può essere fatto forse con il grado PvP opzionale sotto" },
             { id = "d8d237fa", text = "(Opzionale) Aumenta il grado PVP a 1600 per carica del catalizzatore (questa è la stessa carica del catalizzatore condivisa con il punteggio M+ di 2.000 della prossima settimana). Se ottieni 2 pezzi del set dall'incursione questa settimana, questo ti permetterebbe di catalizzare 2 oggetti e iniziare a ricevere cadute di carica del Catalizzatore dalle tue m+ la prossima settimana." },
             { id = "1104f71c", text = "(Opzionale) Completa un Tour Mondiale delle spedizioni M0 - ricompense di livello oggetto champ - blocco giornaliero - NON BRUCIARTI! M+ si apre la prossima settimana e rimpiazzerà tutto questo." },
             { id = "7828e484", text = "(Opzionale) Se non vuoi fare tour mondiali di spedizioni M0 ogni giorno, considera di fare una spedizione con un ottimo ninnolo ogni giorno per avere una possibilità di ottenerlo" },
@@ -130,8 +130,8 @@ local DATASET = {
             { id = "74924a7b", text = "Farma i +10 per equipaggiamento liv. 266 in ogni slot" },
             { id = "e4965db1", text = "Prima dell'incursione Mitica, Potenzia 11 oggetti eroe 3/6 una volta ciascuno. Se non hai così tanti oggetti Eroici, potenzia un anello o ninnolo in più per ridurre il rischio di sprecare stemmi." },
             { id = "cbfb6966", text = "Mitico: se hai un oggetto del percorso mitico, passa ai consigli di potenziamento della settimana successiva." },
-            { id = "5bdc8d65", text = "Traccia stemmi spesi: 220/220 Eroici, 0/220 Mitici - non conservare mai stemmi Mitici" },
-            { id = "721f006f", text = "Livello oggetto finale: 4x266, 11x269" },
+            { id = "00cb43a8", text = "Traccia stemmi spesi: 220/220 Eroico, 0/220 Mitico - non tenere mai stemmi Mitici - può variare se hai creato oggetti" },
+            { id = "adb492bd", text = "Livello oggetto finale: 4x266, 11x269 - può variare se hai creato oggetti" },
         },
     },
 
@@ -145,8 +145,8 @@ local DATASET = {
             { id = "c316485a", text = "Eroico: Potenzia 2 dei tuoi oggetti 4/6 269 a 6/6 276 per 80 Stemmi Eroici" },
             { id = "2568bd36", text = "Mitico: Se il tuo oggetto dalla cassa era 1/6, potenzia prima la sua controparte eroica a 6/6 eroico per 20 Stemmi Eroici. Potenzia il tuo oggetto di traccia Mitico 1/6 272 a 6/6 289 per 80 stemmi Mitici." },
             { id = "484da4b0", text = "Se hai ottenuto un 2° oggetto di traccia mitica, salta ai consigli di potenziamento della prossima settimana per esso." },
-            { id = "a501f690", text = "Traccia stemmi spesi: 320/320 Eroici, 160/320 Mitici - non conservare mai stemmi Mitici" },
-            { id = "02884180", text = "Livello oggetto finale: 3x266, 8x269, 2x276h, 1x285(creato), 1x289" },
+            { id = "40b01764", text = "Traccia stemmi spesi: 320/320 Eroico, 160/320 Mitico - non tenere mai stemmi Mitici - può variare se hai creato oggetti" },
+            { id = "c0774809", text = "Livello oggetto finale: 2x266, 8x269, 2x276h, 2x285(creato), 1x289 - può variare se hai creato oggetti" },
         },
     },
 
@@ -160,7 +160,7 @@ local DATASET = {
             { id = "2568bd36", text = "Mitico: Se il tuo oggetto dalla cassa era 1/6, potenzia prima la sua controparte eroica a 6/6 eroico per 20 Stemmi Eroici. Potenzia il tuo oggetto di traccia Mitico 1/6 272 a 6/6 289 per 80 stemmi Mitici." },
             { id = "0ccf5c83", text = "Mitico: potenzia il tuo bottino del raid 2/6 275 del percorso mitico a 6/6 289 per 80 emblemi mitici." },
             { id = "bccfe037", text = "Traccia stemmi spesi: 420/400 Eroici, 320/420 Mitici - non conservare mai stemmi Mitici" },
-            { id = "8b8cde46", text = "Livello oggetto finale: 2x266, 5x269, 4x276h, 1x285(craftato), 3x289" },
+            { id = "8184483b", text = "Livello oggetto finale: 2x266, 4x269, 4x276h, 2x285(creato), 3x289" },
         },
     },
 
@@ -188,7 +188,7 @@ local DATASET = {
             { id = "2568bd36", text = "Mitico: Se il tuo oggetto dalla cassa era 1/6, potenzia prima la sua controparte eroica a 6/6 eroico per 20 Stemmi Eroici. Potenzia il tuo oggetto di traccia Mitico 1/6 272 a 6/6 289 per 80 stemmi Mitici." },
             { id = "0ccf5c83", text = "Mitico: potenzia il tuo bottino del raid 2/6 275 del percorso mitico a 6/6 289 per 80 emblemi mitici." },
             { id = "4f11d7d8", text = "Traccia stemmi spesi: 560/620 Eroici, 620/620 Mitici - non conservare mai stemmi Mitici" },
-            { id = "67f84375", text = "Livello oggetto finale: 7x276h, 2x285(craftato), 1x285, 5x289" },
+            { id = "37472f94", text = "Livello oggetto finale: 7x276h, 2x285(creato), 1x285, 5x289" },
         },
     },
 

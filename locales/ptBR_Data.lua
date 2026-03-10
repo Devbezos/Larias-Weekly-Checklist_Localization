@@ -74,7 +74,8 @@ local DATASET = {
             { id = "18fb09f9", text = "Guarde 160 insígnias Veteranas para criar 2x itens Veteranos com Embelezamentos (Estes não usam Faíscas)" },
             { id = "907d099d", text = "Nota especial para classes de duas armas - você provavelmente pode criar agora. Consulte o Guia para saber o que e quando criar." },
             { id = "75c5fe6e", text = "Se não concluído, continue elevando o renome para peças campeã" },
-            { id = "e0ecce24", text = "Complete a missão de evento mundial semanal para baú pináculo e faísca da Lady Liadrin" },
+            { id = "1f299f34", text = "Complete a missão semanal Centelhas da Guerra do fornecedor de missões JxJ no Sul de Silvermoon. Ela não mostra uma centelha como recompensa mas concede uma. Missões mundiais dão 25% de conclusão, tesouros também dão um pouco. Deve estar com modo de guerra ativado." }, -- ⚠️ UNVERIFIED
+            { id = "5fd1b2ad", text = "NÃO FAÇA a missão JxJ do anel/amuleto heroico. Você não pode terminar a linha de missões até depois que m+ abrir" },
             { id = "9626318e", text = "(Opcional) Complete a missão semanal de masmorra de Halduron Asa Luminosa para 1000 de renome" },
             { id = "8b55f0c7", text = "(Opcional) Complete o semanal Sarau de Saltheril na Floresta de Canção Eterna." },
             { id = "8e107032", text = "(Opcional) Complete o evento semanal Abundância em Zul'aman." },
@@ -99,7 +100,6 @@ local DATASET = {
             { id = "e66847d8", text = "Faça LFR para peças de conjunto - obter o bônus de 4 peças permitirá que cargas do catalisador caiam de todo o conteúdo" },
             { id = "e0ecce24", text = "Complete a missão de evento mundial semanal para baú pináculo e faísca da Lady Liadrin" },
             { id = "9686fde4", text = "Complete a missão semanal de moradia de Vaeli para ?insígnias heroicas? (será atualizado quando for ao ar)" }, -- ⚠️ UNVERIFIED
-            { id = "ca5a8044", text = "Se disponível, complete a missão de pvp para colar/anel heroico garantido - pode ser feito com a classificação PvP opcional abaixo" },
             { id = "d8d237fa", text = "(Opcional) Aumente a classificação PVP para 1600 para carga do catalisador (esta é a mesma carga do catalisador compartilhada com 2.000 de classificação M+ da próxima semana). Se você conseguir 2 peças de conjunto do seu raide esta semana, isso permitirá catalizar 2 itens e começar a receber quedas de carga do Catalisador do seu m+ na próxima semana." },
             { id = "1104f71c", text = "(Opcional) Complete uma Turnê Mundial de masmorras M0 - recompensa nível de item campeão - bloqueio diário - NÃO SE ESGOTE! M+ abre na próxima semana e substituirá tudo isso." },
             { id = "7828e484", text = "(Opcional) Se você não quiser fazer turnês mundiais de masmorras M0 todos os dias, considere fazer uma masmorra com um berloque muito bom todos os dias para ter chance de consegui-lo" },
@@ -130,8 +130,8 @@ local DATASET = {
             { id = "74924a7b", text = "Farme +10s para equipamento nível 266 em todos os slots" },
             { id = "e4965db1", text = "Antes do raide Mítico, Melhore 11x itens heroicos 3/6 uma vez cada. Se você não tiver tantos itens Heroicos, melhore um anel ou berloque mais para reduzir o risco de desperdiçar insígnias." },
             { id = "cbfb6966", text = "Mítico: se tiver sorte e obteve um item da trilha mítica, pule para o conselho de melhoria da próxima semana." },
-            { id = "5bdc8d65", text = "Rastreie insígnias gastas: 220/220 Heroica, 0/220 Mítica - nunca guarde insígnias Míticas" },
-            { id = "721f006f", text = "Nível de item final: 4x266, 11x269" },
+            { id = "00cb43a8", text = "Rastreie insígnias gastas: 220/220 Heroica, 0/220 Mítica - nunca acumule insígnias Míticas - pode variar se você criou itens" },
+            { id = "adb492bd", text = "Nível de item final: 4x266, 11x269 - pode variar se você criou itens" },
         },
     },
 
@@ -145,8 +145,8 @@ local DATASET = {
             { id = "c316485a", text = "Heroico: Melhore 2 de seus itens 4/6 269 para 6/6 276 por 80 Insígnias Heroicas" },
             { id = "2568bd36", text = "Mítico: Se seu item do cofre foi 1/6, melhore sua contraparte heroica primeiro para 6/6 heroico por 20 Insígnias Heroicas. Melhore seu item de trilha Mítica 1/6 272 para 6/6 289 por 80 insígnias Míticas." },
             { id = "484da4b0", text = "Se você conseguiu um 2º item de trilha mítica, pule para o conselho de melhoria da próxima semana para ele." },
-            { id = "a501f690", text = "Rastreie insígnias gastas: 320/320 Heroica, 160/320 Mítica - nunca guarde insígnias Míticas" },
-            { id = "02884180", text = "Nível de item final: 3x266, 8x269, 2x276h, 1x285(criado), 1x289" },
+            { id = "40b01764", text = "Rastreie insígnias gastas: 320/320 Heroica, 160/320 Mítica - nunca acumule insígnias Míticas - pode variar se você criou itens" },
+            { id = "c0774809", text = "Nível de item final: 2x266, 8x269, 2x276h, 2x285(criado), 1x289 - pode variar se você criou itens" },
         },
     },
 
@@ -160,7 +160,7 @@ local DATASET = {
             { id = "2568bd36", text = "Mítico: Se seu item do cofre foi 1/6, melhore sua contraparte heroica primeiro para 6/6 heroico por 20 Insígnias Heroicas. Melhore seu item de trilha Mítica 1/6 272 para 6/6 289 por 80 insígnias Míticas." },
             { id = "0ccf5c83", text = "Mítico: melhore seu item da raid 2/6 275 da trilha mítica para 6/6 289 por 80 Brasões Míticos." },
             { id = "bccfe037", text = "Rastreie insígnias gastas: 420/400 Heroica, 320/420 Mítica - nunca guarde insígnias Míticas" },
-            { id = "8b8cde46", text = "Nível de item final: 2x266, 5x269, 4x276h, 1x285(criado), 3x289" },
+            { id = "8184483b", text = "Nível de item final: 2x266, 4x269, 4x276h, 2x285(criado), 3x289" },
         },
     },
 
@@ -188,7 +188,7 @@ local DATASET = {
             { id = "2568bd36", text = "Mítico: Se seu item do cofre foi 1/6, melhore sua contraparte heroica primeiro para 6/6 heroico por 20 Insígnias Heroicas. Melhore seu item de trilha Mítica 1/6 272 para 6/6 289 por 80 insígnias Míticas." },
             { id = "0ccf5c83", text = "Mítico: melhore seu item da raid 2/6 275 da trilha mítica para 6/6 289 por 80 Brasões Míticos." },
             { id = "4f11d7d8", text = "Rastreie insígnias gastas: 560/620 Heroica, 620/620 Mítica - nunca guarde insígnias Míticas" },
-            { id = "67f84375", text = "Nível de item final: 7x276h, 2x285(criado), 1x285, 5x289" },
+            { id = "37472f94", text = "Nível de item final: 7x276h, 2x285(criado), 1x285, 5x289" },
         },
     },
 
