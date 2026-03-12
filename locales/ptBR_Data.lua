@@ -41,7 +41,7 @@ local DATASET = {
         id = "50281d6f",
         title = "Pré-temporada Semana 1 - 3 de março - M0",
         items = {
-            { id = "18fb09f9", text = "Guarde 160 insígnias Veteranas para criar 2x itens Veteranos com Embelezamentos (Estes não usam Faíscas)" },
+            { id = "79c35167", text = "Guarde 160 insígnias Veterano para criação - veja as instruções mais abaixo (Estas não requerem Centelhas)" },
             { id = "e8cef00e", text = "Consulte o Guia para saber o que e quando criar." },
             { id = "c06ee1a3", text = "Se você está em um personagem alternativo e não vê algumas dessas missões, vá até Soridormi na Estalagem de Lua Prateada e escolha \"Eu Detive a Tempestade Etérea\" para pular a campanha." }, -- ⚠️ UNVERIFIED
             { id = "755d27e7", text = "Eleve o renome de A Singularidade para nível 7 para um trinket campeão 1/6 - vem de uma missão do vendedor de renome" },
@@ -71,8 +71,8 @@ local DATASET = {
         id = "ff1f5a67",
         title = "Pré-temporada Semana 2 - 10 de março - M0",
         items = {
-            { id = "18fb09f9", text = "Guarde 160 insígnias Veteranas para criar 2x itens Veteranos com Embelezamentos (Estes não usam Faíscas)" },
-            { id = "907d099d", text = "Nota especial para classes de duas armas - você provavelmente pode criar agora. Consulte o Guia para saber o que e quando criar." },
+            { id = "79c35167", text = "Guarde 160 insígnias Veterano para criação - veja as instruções mais abaixo (Estas não requerem Centelhas)" },
+            { id = "b4de098c", text = "Nota especial para classes de armas duplas - você provavelmente já pode criar seu item de centelha. Consulte o Guia para o que e quando criar." },
             { id = "0d50e744", text = "NA: A Blizzard aplicou um hotfix adicionando uma missão de centelha PvE da Liadrin. Se você já completou a de PvP, pode pular esta, pois ela não dá uma quarta centelha. Se você não completou nenhuma missão de centelha esta semana, faça a da Liadrin para obter sua terceira centelha." },
             { id = "ab127896", text = "EU: Após a reinicialização, complete a missão semanal da Liadrin para obter uma centelha." },
             { id = "5fd1b2ad", text = "NÃO FAÇA a missão JxJ do anel/amuleto heroico. Você não pode terminar a linha de missões até depois que m+ abrir" },
@@ -87,7 +87,7 @@ local DATASET = {
             { id = "7b67a15d", text = "(Opcional) Complete Presa Difícil aleatória para maximizar insígnias Veteranas em cada personagem" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Complete um tour mundial das masmorras M0 - recompensa nível de item veteranário - não melhore ainda" },
             { id = "dc01eba9", text = "Se você tem alguma peça de aventureiro sobrando, você pode aprimorá-las livremente." },
-            { id = "161febe2", text = "Se você fizer raide na terça-feira dia 17, crie peças Veteranas com Embelezamentos que não usam faíscas. Consulte o guia para mais informações." },
+            { id = "5853685a", text = "Se você fizer raide na terça-feira dia 17, leia as etapas de criação da próxima semana. Caso contrário, espere até o dia da sua raide ou o dia anterior à sua raide para fazer isso." },
         },
     },
 
@@ -96,20 +96,20 @@ local DATASET = {
         title = "Temporada 1 Semana 1 - 17 de Mar - Semana Heroica, 2ª criação",
         items = {
             { id = "791379ba", text = "Não gaste nenhuma Insígnia Heroica ou Mítica até ser instruído a fazê-lo. Consulte o Guia para entender por que guardamos insígnias." },
-            { id = "2f4447eb", text = "Nota especial para Guerreiros Fúria - você provavelmente pode criar agora. Consulte o Guia para saber o que e quando criar." },
+            { id = "128e2f0b", text = "Nota especial para Guerreiros Fúria - você provavelmente já pode criar seu item de centelha. Consulte o Guia para o que e quando criar." },
             { id = "e66847d8", text = "Faça LFR para peças de conjunto - obter o bônus de 4 peças permitirá que cargas do catalisador caiam de todo o conteúdo" },
             { id = "e0ecce24", text = "Complete a missão de evento mundial semanal para baú pináculo e faísca da Lady Liadrin" },
             { id = "9686fde4", text = "Complete a missão semanal de moradia de Vaeli para ?insígnias heroicas? (será atualizado quando for ao ar)" }, -- ⚠️ UNVERIFIED
             { id = "d8d237fa", text = "(Opcional) Aumente a classificação PVP para 1600 para carga do catalisador (esta é a mesma carga do catalisador compartilhada com 2.000 de classificação M+ da próxima semana). Se você conseguir 2 peças de conjunto do seu raide esta semana, isso permitirá catalizar 2 itens e começar a receber quedas de carga do Catalisador do seu m+ na próxima semana." },
-            { id = "1104f71c", text = "(Opcional) Complete uma Turnê Mundial de masmorras M0 - recompensa nível de item campeão - bloqueio diário - NÃO SE ESGOTE! M+ abre na próxima semana e substituirá tudo isso." },
-            { id = "7828e484", text = "(Opcional) Se você não quiser fazer turnês mundiais de masmorras M0 todos os dias, considere fazer uma masmorra com um berloque muito bom todos os dias para ter chance de consegui-lo" },
+            { id = "ef789b0b", text = "(Opcional) Complete um Tour Mundial de masmorras M0. Estas darão recompensas de nível de item campeão com bloqueio diário - NÃO SE ESGOTE! M+ abre na próxima semana e substituirá tudo isso." },
+            { id = "d78939c6", text = "Tarefa Diária: considere fazer uma m0 específica que drope um ótimo amuleto para você todos os dias. O item será nível de item campeão (raide normal) e pode ser um bom impulso para a raide da próxima semana se você ainda não conseguir farmá-lo no Heroico." },
             { id = "22842538", text = "Complete 2x Presa de Pesadelo para equipamento Campeão em cada personagem" }, -- ⚠️ UNVERIFIED
-            { id = "b8a280cb", text = "Se Pesadelo tiver uma missão semanal para um item de trilha Heroica, faça isso também." }, -- ⚠️ UNVERIFIED
+            { id = "f3eb6555", text = "Se Presa do Pesadelo tiver uma missão semanal para um item de trilha Herói, faça isso também." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Mate o Chefe Mundial para item campeão 2/6 de nível 250" },
             { id = "b6846065", text = "Faça delves abundantes nível 8 ou superior, use mapa em delve nível 8+ - enquanto faz isso, desbloqueie delves nível 11" },
             { id = "e796ddb6", text = "Ainda não confirmado - preencha seu cofre em todos os espaços para múltiplas chances de itens de conjunto na próxima semana." },
-            { id = "a73e9cab", text = "Antes do raide, crie 2x peças de nível 246, 2x embelezamentos em espaços fracos, use 160 Insígnias Vet. Estes não usam Faíscas. Consulte o Guia para mais informações." },
-            { id = "679a07b9", text = "Antes do raide, gaste todas as Insígnias de Aventureiro, Veterano e Campeão melhorando qualquer coisa. Não gaste insígnias Heroicas ou Míticas." },
+            { id = "5519fcb5", text = "Depois de fazer o máximo possível acima, mas ANTES da raide, crie 2 peças de nível de item 246 com embelezamentos em espaços fracos, usando 160 Insígnias Vet. ESTAS NÃO REQUEREM CENTELHAS. Os itens que você está criando são os itens de qualidade azul na bancada de criação nos quais você insere 80 insígnias Veterano para aumentar seu nível de item. Consulte o Guia para mais informações. Também pode pedir ajuda no Discord se precisar." },
+            { id = "146b7d62", text = "Depois de fazer o máximo possível acima, mas ANTES da raide, gaste todas as Insígnias de Aventureiro, Veterano e Campeão melhorando qualquer coisa. Não gaste insígnias Heroicas ou Míticas." },
             { id = "8824d048", text = "Rastreie insígnias gastas: 0/100 Heroica, 0/100 Mítica" },
         },
     },
@@ -128,7 +128,7 @@ local DATASET = {
             { id = "26d0b610", text = "Faça pelo menos uma Imersão Abundante de nível 11 para obter a missão da Pedra-Rúnica Rachada" }, -- ⚠️ UNVERIFIED
             { id = "286f219c", text = "Continue gastando todos os Brasões aventureiros, veteranários e campeões melhorando qualquer coisa" },
             { id = "74924a7b", text = "Farme +10s para equipamento nível 266 em todos os slots" },
-            { id = "e4965db1", text = "Antes do raide Mítico, Melhore 11x itens heroicos 3/6 uma vez cada. Se você não tiver tantos itens Heroicos, melhore um anel ou berloque mais para reduzir o risco de desperdiçar insígnias." },
+            { id = "ae0baeca", text = "Depois das repetições N/H mas ANTES da raide Mítica, melhore 11 itens herói 3/6 uma vez cada. Se você não tiver tantos itens Heroicos, melhore um anel ou amuleto mais para reduzir o risco de desperdiçar insígnias." },
             { id = "cbfb6966", text = "Mítico: se tiver sorte e obteve um item da trilha mítica, pule para o conselho de melhoria da próxima semana." },
             { id = "00cb43a8", text = "Rastreie insígnias gastas: 220/220 Heroica, 0/220 Mítica - nunca acumule insígnias Míticas - pode variar se você criou itens" },
             { id = "adb492bd", text = "Nível de item final: 4x266, 11x269 - pode variar se você criou itens" },

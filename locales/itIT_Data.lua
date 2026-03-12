@@ -41,7 +41,7 @@ local DATASET = {
         id = "50281d6f",
         title = "Pre-stagione settimana 1 - 3 marzo - M0",
         items = {
-            { id = "18fb09f9", text = "Conserva 160 stemmi Veterano per creare 2 oggetti Veterano con Abbellimenti (questi non richiedono Scintille)" },
+            { id = "79c35167", text = "Conserva 160 stemmi Veterano per la creazione di oggetti - vedi le istruzioni più avanti (Questi non richiedono Scintille)" },
             { id = "e8cef00e", text = "Controlla la Guida per cosa e quando creare." },
             { id = "c06ee1a3", text = "Se sei su un alt e non vedi alcune di queste missioni, vai da Soridormi nella Locanda di Lunargenta e scegli \"Ho Fermato la Tempesta del Vuoto\" per saltare la campagna." }, -- ⚠️ UNVERIFIED
             { id = "755d27e7", text = "Porta la fama della Singolarità al rango 7 per un trinket campione 1/6 - proviene da una missione del venditore di fama" },
@@ -71,8 +71,8 @@ local DATASET = {
         id = "ff1f5a67",
         title = "Pre-stagione settimana 2 - 10 marzo - M0",
         items = {
-            { id = "18fb09f9", text = "Conserva 160 stemmi Veterano per creare 2 oggetti Veterano con Abbellimenti (questi non richiedono Scintille)" },
-            { id = "907d099d", text = "Nota speciale per le classi dual wield - probabilmente puoi creare ora. Controlla la Guida per cosa e quando creare." },
+            { id = "79c35167", text = "Conserva 160 stemmi Veterano per la creazione di oggetti - vedi le istruzioni più avanti (Questi non richiedono Scintille)" },
+            { id = "b4de098c", text = "Nota speciale per le classi con doppia arma - probabilmente puoi creare il tuo oggetto con scintilla ora. Controlla la Guida per cosa e quando creare." },
             { id = "0d50e744", text = "NA: Blizzard ha corretto con un hotfix una missione PvE per una scintilla da Liadrin. Se hai già completato quella PvP, puoi saltare questa poiché non dà una quarta scintilla. Se non hai completato nessuna missione per scintilla questa settimana, completa quella di Liadrin per la tua terza scintilla." },
             { id = "ab127896", text = "EU: Dopo il reset, completa la missione settimanale di Liadrin per una scintilla." },
             { id = "5fd1b2ad", text = "NON FARE la missione PvP per l'anello/amuleto eroico. Non puoi finire la catena di missioni fino a dopo l'apertura di m+" },
@@ -87,7 +87,7 @@ local DATASET = {
             { id = "7b67a15d", text = "(Opzionale) Completa Preda Ardua casuale per raggiungere il limite di stemmi Veterano su ogni personaggio" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Completa un tour mondiale dei dungeon M0 - ricompensa livello oggetto veterano - non potenziare ancora" },
             { id = "dc01eba9", text = "Se hai ancora pezzi avventuriero, sentiti libero di potenziarli." },
-            { id = "161febe2", text = "Se fai incursione martedì 17, crea pezzi Veterano con Abbellimenti che non richiedono scintille. Controlla la guida per maggiori informazioni." },
+            { id = "5853685a", text = "Se fai incursione martedì 17, leggi i passaggi di creazione della prossima settimana. Altrimenti, aspetta fino al giorno della tua incursione o il giorno prima della tua incursione per farlo." },
         },
     },
 
@@ -96,20 +96,20 @@ local DATASET = {
         title = "Stagione 1 Settimana 1 - 17 Mar - Settimana Eroica, 2° creazione",
         items = {
             { id = "791379ba", text = "Non spendere stemmi Eroici o Mitici finché non ti viene detto di farlo. Controlla la Guida per sapere perché conserviamo gli stemmi." },
-            { id = "2f4447eb", text = "Nota speciale per i Guerrieri Furia - probabilmente puoi creare ora. Controlla la Guida per cosa e quando creare." },
+            { id = "128e2f0b", text = "Nota speciale per i Guerrieri Furia - probabilmente puoi creare il tuo oggetto con scintilla ora. Controlla la Guida per cosa e quando creare." },
             { id = "e66847d8", text = "Fai LFR per pezzi del set - ottenere un bonus set da 4 pezzi permetterà alle cariche del catalizzatore di cadere da tutti i contenuti" },
             { id = "e0ecce24", text = "Completa la missione settimanale dell'evento mondiale per cache culminante e scintilla da Dama Liadrin" },
             { id = "9686fde4", text = "Completa la missione settimanale dell'abitazione da Vaeli per ?stemmi eroe? (verrà aggiornato quando sarà disponibile)" },
             { id = "d8d237fa", text = "(Opzionale) Aumenta il grado PVP a 1600 per carica del catalizzatore (questa è la stessa carica del catalizzatore condivisa con il punteggio M+ di 2.000 della prossima settimana). Se ottieni 2 pezzi del set dall'incursione questa settimana, questo ti permetterebbe di catalizzare 2 oggetti e iniziare a ricevere cadute di carica del Catalizzatore dalle tue m+ la prossima settimana." },
-            { id = "1104f71c", text = "(Opzionale) Completa un Tour Mondiale delle spedizioni M0 - ricompense di livello oggetto champ - blocco giornaliero - NON BRUCIARTI! M+ si apre la prossima settimana e rimpiazzerà tutto questo." },
-            { id = "7828e484", text = "(Opzionale) Se non vuoi fare tour mondiali di spedizioni M0 ogni giorno, considera di fare una spedizione con un ottimo ninnolo ogni giorno per avere una possibilità di ottenerlo" },
+            { id = "ef789b0b", text = "(Facoltativo) Completa un Tour Mondiale di segrete M0. Queste ricompenseranno livello oggetto campione con blocco giornaliero - NON ESAURIRTI! M+ si apre la prossima settimana e sostituirà tutto questo." },
+            { id = "d78939c6", text = "Compito Giornaliero: considera di fare una specifica m0 che rilascia un ottimo ninnolo per te ogni giorno. L'oggetto sarà livello oggetto campione (incursione normale) e potrebbe essere un bel potenziamento per l'incursione della prossima settimana se non riesci ancora a farmarlo su Eroico." },
             { id = "22842538", text = "Completa 2 Prede Incubo per equipaggiamento Campione su ogni personaggio" }, -- ⚠️ UNVERIFIED
-            { id = "b8a280cb", text = "Se Incubo ha una missione settimanale per un oggetto di traccia Eroe, falla anche quella." }, -- ⚠️ UNVERIFIED
+            { id = "f3eb6555", text = "Se Preda dell'Incubo ha una missione settimanale per un oggetto di livello Eroe, falla anche quella." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Uccidi il Boss Mondiale per oggetto 2/6 250 livello oggetto champ" },
             { id = "b6846065", text = "Fai ricognizioni abbondanti livello 8 o superiore, usa mappa su ricognizione livello 8+  - mentre fai questo, sblocca le ricognizioni livello 11" },
             { id = "e796ddb6", text = "Non ancora confermato - riempi la tua cassa in ogni slot per molteplici possibilità di ottenere oggetti del set la prossima settimana." },
-            { id = "a73e9cab", text = "Prima dell'incursione, crea 2 pezzi 246 livello oggetto, 2 abbellimenti su slot deboli, usa 160 Stemmi Vet. Questi non richiedono Scintille. Controlla la Guida per maggiori informazioni." },
-            { id = "679a07b9", text = "Prima dell'incursione, spendi tutti gli stemmi Avventuriero, Veterano e Campione potenziando qualsiasi cosa. Non spendere stemmi Eroici o Mitici." },
+            { id = "5519fcb5", text = "Dopo aver fatto quanto più possibile sopra, ma PRIMA dell'incursione, crea 2 pezzi livello oggetto 246 con abbellimenti su slot deboli, usando 160 Stemmi Veterano. QUESTI NON RICHIEDONO SCINTILLE. Gli oggetti che stai creando sono gli oggetti di qualità blu al banco di creazione in cui inserisci 80 stemmi Veterano per aumentare il loro livello oggetto. Controlla la Guida per maggiori informazioni. Puoi anche chiedere nel Discord per aiuto se ne hai bisogno." },
+            { id = "146b7d62", text = "Dopo aver fatto quanto più possibile sopra, ma PRIMA dell'incursione, spendi tutti gli Stemmi Avventuriero, Veterano e Campione per potenziare qualsiasi cosa. Non spendere stemmi Eroici o Mitici." },
             { id = "8824d048", text = "Traccia stemmi spesi: 0/100 Eroici, 0/100 Mitici" },
         },
     },
@@ -128,7 +128,7 @@ local DATASET = {
             { id = "26d0b610", text = "Fai almeno una Scorribanda generosa di livello 11 per ottenere la missione della Pietra Runica Incrinata" }, -- ⚠️ UNVERIFIED
             { id = "286f219c", text = "Continua a spendere tutti gli Emblemi esploratore, veterano e campione potenziando tutto" },
             { id = "74924a7b", text = "Farma i +10 per equipaggiamento liv. 266 in ogni slot" },
-            { id = "e4965db1", text = "Prima dell'incursione Mitica, Potenzia 11 oggetti eroe 3/6 una volta ciascuno. Se non hai così tanti oggetti Eroici, potenzia un anello o ninnolo in più per ridurre il rischio di sprecare stemmi." },
+            { id = "ae0baeca", text = "Dopo le riesecuzioni N/E ma PRIMA dell'incursione Mitica, Potenzia 11 oggetti eroe 3/6 una volta ciascuno. Se non hai così tanti oggetti Eroici, potenzia un anello o ninnolo di più per ridurre il rischio di sprecare stemmi." },
             { id = "cbfb6966", text = "Mitico: se hai un oggetto del percorso mitico, passa ai consigli di potenziamento della settimana successiva." },
             { id = "00cb43a8", text = "Traccia stemmi spesi: 220/220 Eroico, 0/220 Mitico - non tenere mai stemmi Mitici - può variare se hai creato oggetti" },
             { id = "adb492bd", text = "Livello oggetto finale: 4x266, 11x269 - può variare se hai creato oggetti" },

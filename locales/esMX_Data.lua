@@ -41,7 +41,7 @@ local DATASET = {
         id = "50281d6f",
         title = "Pretemporada semana 1 - 3 de marzo - M0",
         items = {
-            { id = "18fb09f9", text = "Guarda 160 emblemas Veteranos para fabricar 2 objetos Veteranos con Adornos (Estos no requieren Chispas)" },
+            { id = "79c35167", text = "Guarda 160 blasones de Veterano para fabricación - ve más abajo para instrucciones (Estos no requieren Chispas)" },
             { id = "e8cef00e", text = "Consulta la Guía para saber qué y cuándo fabricar." },
             { id = "c06ee1a3", text = "Si estás en un alt y no ves algunas de estas misiones, ve con Soridormi en la Posada de Ciudad de Lunargenta y elige \"Detuve la Tormenta del Vacío\" para saltar la campaña." }, -- ⚠️ UNVERIFIED
             { id = "755d27e7", text = "Sube el renombre de La Singularidad al rango 7 para obtener un alhaja de campeón 1/6 - proviene de una misión del vendedor de renombre" }, -- ⚠️ UNVERIFIED
@@ -71,8 +71,8 @@ local DATASET = {
         id = "ff1f5a67",
         title = "Pretemporada semana 2 - 10 de marzo - M0",
         items = {
-            { id = "18fb09f9", text = "Guarda 160 emblemas Veteranos para fabricar 2 objetos Veteranos con Adornos (Estos no requieren Chispas)" },
-            { id = "907d099d", text = "Nota especial para clases con doble arma - probablemente puedas fabricar ahora. Consulta la Guía para saber qué y cuándo fabricar." },
+            { id = "79c35167", text = "Guarda 160 blasones de Veterano para fabricación - ve más abajo para instrucciones (Estos no requieren Chispas)" },
+            { id = "b4de098c", text = "Nota especial para clases de doble empuñadura - probablemente puedes fabricar tu objeto de chispa ahora. Revisa la Guía para saber qué y cuándo fabricar." },
             { id = "0d50e744", text = "NA: Blizzard aplicó un parche urgente con una misión de chispa PvE de Liadrin. Si ya completaste la de JcJ, puedes omitir esta ya que no otorga una cuarta chispa. Si no has completado ninguna misión de chispa esta semana, completa la de Liadrin para tu tercera chispa." },
             { id = "ab127896", text = "EU: Después de tu reinicio, completa la misión semanal de Liadrin para obtener una chispa." },
             { id = "5fd1b2ad", text = "NO HAGAS la misión JcJ del anillo/amuleto heroico. No puedes terminar la cadena de misiones hasta después de que abran las m+" },
@@ -87,7 +87,7 @@ local DATASET = {
             { id = "7b67a15d", text = "(Opcional) Completa Presa Dura aleatoria para alcanzar el límite de emblemas Veteranos en cada personaje" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Completa un tour mundial de mazmorras M0 – recompensa nivel de objeto veterano – no mejores todavía" },
             { id = "dc01eba9", text = "Si te quedan piezas de aventurero, siéntete libre de mejorarlas." },
-            { id = "161febe2", text = "Si haces bandas el martes 17, fabrica piezas Veteranas con Adornos que no requieran chispas. Consulta la guía para más información." },
+            { id = "5853685a", text = "Si haces incursión el martes 17, lee los pasos de fabricación de la próxima semana. De lo contrario, espera hasta el día de tu incursión o el día anterior a tu incursión para hacer esto." },
         },
     },
 
@@ -96,20 +96,20 @@ local DATASET = {
         title = "Temporada 1 Semana 1 - 17 de marzo - Semana Heroica, 2da fabricación",
         items = {
             { id = "791379ba", text = "No gastes ningún Emblema Heroico o Mítico hasta que se te indique. Consulta la Guía para entender por qué guardamos emblemas." },
-            { id = "2f4447eb", text = "Nota especial para Guerreros Furia - probablemente puedas fabricar ahora. Consulta la Guía para saber qué y cuándo fabricar." },
+            { id = "128e2f0b", text = "Nota especial para Guerreros Furia - probablemente puedes fabricar tu objeto de chispa ahora. Revisa la Guía para saber qué y cuándo fabricar." },
             { id = "e66847d8", text = "Haz LFR para piezas de conjunto - obtener un bono de 4 piezas permitirá que caigan cargas de catalizador de todo el contenido" },
             { id = "e0ecce24", text = "Completa la misión de evento mundial semanal para obtener alijo cumbre y chispa de Lady Liadrin" },
             { id = "9686fde4", text = "Completa la misión semanal de vivienda de Vaeli para ¿emblemas de héroe? (se actualizará cuando esté disponible)" },
             { id = "d8d237fa", text = "(Opcional) Sube rango JcJ a 1600 para carga de catalizador (esta es la misma carga de catalizador compartida con 2,000 de puntuación M+ de la semana siguiente). Si consigues 2 piezas de conjunto de tu banda esta semana, esto te permitiría catalizar 2 objetos y empezar a recibir cargas de Catalizador de tus m+ la próxima semana." },
-            { id = "1104f71c", text = "(Opcional) Completa un Tour Mundial de mazmorras M0 - recompensa nivel de objeto de campeón - bloqueo diario - ¡NO TE QUEMES! M+ abre la próxima semana y reemplazará todo esto." },
-            { id = "7828e484", text = "(Opcional) Si no quieres hacer tours mundiales de mazmorras M0 todos los días, considera hacer una mazmorra con una baratija muy buena cada día para tener la oportunidad de conseguirla" },
+            { id = "ef789b0b", text = "(Opcional) Completa un Tour Mundial de mazmorras M0. Estas otorgarán nivel de objeto de campeón con bloqueo diario - ¡NO TE AGOTES! M+ abre la próxima semana y reemplazará todo esto." },
+            { id = "d78939c6", text = "Tarea Diaria: considera hacer una m0 específica que suelte un gran abalorio para ti cada día. El objeto será nivel de objeto de campeón (incursión normal) y podría ser un buen impulso para la incursión de la próxima semana si aún no logras conseguirlo en Heroico." },
             { id = "22842538", text = "Completa 2 Presas Pesadilla para obtener equipo de Campeón en cada personaje" }, -- ⚠️ UNVERIFIED
-            { id = "b8a280cb", text = "Si Pesadilla tiene una misión semanal para un objeto de categoría Héroe, haz eso también." }, -- ⚠️ UNVERIFIED
+            { id = "f3eb6555", text = "Si Presa de Pesadilla tiene una misión semanal para un objeto de categoría Héroe, haz eso también." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Mata al Jefe Mundial para obtener objeto de campeón 2/6 nivel 250" },
             { id = "b6846065", text = "Haz incursiones abundantes nivel 8 o superior, usa mapa en incursión nivel 8+; mientras haces esto, desbloquea incursiones nivel 11" },
             { id = "e796ddb6", text = "No confirmado aún - llena tu cámara en cada espacio para múltiples oportunidades de obtener objetos de conjunto la próxima semana." },
-            { id = "a73e9cab", text = "Antes de la banda, fabrica 2 piezas de nivel 246, 2 adornos en espacios débiles, usa 160 Emblemas Vet. Estos no requieren Chispas. Consulta la Guía para más información." },
-            { id = "679a07b9", text = "Antes de la banda, gasta todos los Emblemas de Aventurero, Veterano y Campeón mejorando cualquier cosa. No gastes emblemas Heroicos o Míticos." },
+            { id = "5519fcb5", text = "Después de hacer todo lo que puedas arriba, pero ANTES de la incursión, fabrica 2 piezas de nivel de objeto 246 con adornos en ranuras débiles, usando 160 Blasones de Vet. ESTOS NO REQUIEREN CHISPAS. Los objetos que estás fabricando son los objetos de calidad azul en la mesa de fabricación en los que insertas 80 blasones de Veterano para aumentar su nivel de objeto. Revisa la Guía para más información. También puedes pedir ayuda en el Discord si la necesitas." },
+            { id = "146b7d62", text = "Después de hacer todo lo que puedas arriba, pero ANTES de la incursión, gasta todos los Blasones de Aventurero, Veterano y Campeón mejorando cualquier cosa. No gastes blasones Heroicos o Míticos." },
             { id = "8824d048", text = "Rastrear emblemas gastados: 0/100 Heroicos, 0/100 Míticos" },
         },
     },
@@ -128,7 +128,7 @@ local DATASET = {
             { id = "26d0b610", text = "Haz al menos una Profundidad abundante T11 para conseguir la misión de Piedra rúnica agrietada" }, -- ⚠️ UNVERIFIED
             { id = "286f219c", text = "Continúa gastando todas las crestalboradas de aventurero, veterano y campeón mejorándolo todo" },
             { id = "74924a7b", text = "Farmea +10 para equipo 266 en cada hueco" },
-            { id = "e4965db1", text = "Antes de la banda Mítica, Mejora 11 objetos de héroe 3/6 una vez cada uno. Si no tienes tantos objetos Heroicos, mejora un anillo o baratija más para reducir el riesgo de desperdiciar emblemas." },
+            { id = "ae0baeca", text = "Después de las repeticiones N/H pero ANTES de la incursión Mítica, Mejora 11 objetos héroe 3/6 una vez cada uno. Si no tienes tantos objetos Heroicos, mejora un anillo o abalorio más para reducir el riesgo de desperdiciar blasones." },
             { id = "cbfb6966", text = "Mítico: si tienes suerte y consigues un objeto de pista mítica, pasa al consejo de mejoras de la semana que viene para él." },
             { id = "00cb43a8", text = "Seguimiento de emblemas gastados: 220/220 Heroico, 0/220 Mítico - nunca guardes emblemas Míticos - puede variar si fabricaste" },
             { id = "adb492bd", text = "Nivel de objeto final: 4x266, 11x269 - puede variar si fabricaste" },

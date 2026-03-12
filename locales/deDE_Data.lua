@@ -41,7 +41,7 @@ local DATASET = {
         id = "50281d6f",
         title = "Vorsaison Woche 1 - 3. März - M0s",
         items = {
-            { id = "18fb09f9", text = "Spare 160 Veteranenwappen für die Herstellung von 2x Veteranengegenständen mit Verzierungen (Diese benötigen keine Funken)" },
+            { id = "79c35167", text = "Spare 160 Veteranenwappen für die Herstellung - siehe weiter unten für Anweisungen (Diese benötigen keine Funken)" },
             { id = "e8cef00e", text = "Prüfe den Leitfaden, was und wann hergestellt werden soll." },
             { id = "c06ee1a3", text = "Wenn du auf einem Twink bist und einige dieser Quests nicht siehst, gehe zu Soridormi im Gasthaus von Silbermond und wähle \"Ich habe den Leerensturm gestoppt\", um die Kampagne zu überspringen." },
             { id = "755d27e7", text = "Erhöhe den Ruhm der Singularität auf Rang 7 für ein 1/6-Champion-Schmuckstück - kommt von einer Quest vom Ruhmverkäufer" }, -- ⚠️ UNVERIFIED
@@ -71,8 +71,8 @@ local DATASET = {
         id = "ff1f5a67",
         title = "Vorsaison Woche 2 - 10. März - M0s",
         items = {
-            { id = "18fb09f9", text = "Spare 160 Veteranenwappen für die Herstellung von 2x Veteranengegenständen mit Verzierungen (Diese benötigen keine Funken)" },
-            { id = "907d099d", text = "Besonderer Hinweis für Klassen mit beidhändigem Kampf - du kannst wahrscheinlich jetzt herstellen. Prüfe den Leitfaden, was und wann hergestellt werden soll." },
+            { id = "79c35167", text = "Spare 160 Veteranenwappen für die Herstellung - siehe weiter unten für Anweisungen (Diese benötigen keine Funken)" },
+            { id = "b4de098c", text = "Besonderer Hinweis für Klassen mit Zweihandführung - du kannst wahrscheinlich jetzt deinen Funkengegenstand herstellen. Prüfe den Leitfaden für was und wann du herstellen solltest." },
             { id = "0d50e744", text = "NA: Blizzard hat per Hotfix eine PvE-Funkenquest von Liadrin hinzugefügt. Wenn du bereits die PvP-Quest abgeschlossen hast, kannst du diese überspringen, da sie keinen vierten Funken gibt. Wenn du diese Woche noch keine Funkenquest abgeschlossen hast, mache die Liadrin-Quest für deinen dritten Funken." },
             { id = "ab127896", text = "EU: Nach deinem Reset, schließe die Wochenquest von Liadrin für einen Funken ab." },
             { id = "5fd1b2ad", text = "Mache NICHT die PvP-Quest für den heroischen Ring/das heroische Amulett. Du kannst die Questreihe nicht beenden, bevor M+ öffnet" },
@@ -87,7 +87,7 @@ local DATASET = {
             { id = "7b67a15d", text = "(Optional) Schließe zufällige Harte Beute ab, um Veteranenwappen auf jedem Charakter zu maximieren" }, -- ⚠️ UNVERIFIED
             { id = "a7ee4829", text = "Welttour der M0-Dungeons abschließen – Veteran-Gs – noch nicht aufwerten" },
             { id = "dc01eba9", text = "Wenn du noch Abenteuerergegenstände übrig hast, kannst du diese gerne aufwerten." },
-            { id = "161febe2", text = "Wenn du am Dienstag, den 17., raidest, stelle Veteranenstücke mit Verzierungen her, die keine Funken benötigen. Prüfe den Leitfaden für mehr Informationen." },
+            { id = "5853685a", text = "Wenn du am Dienstag, den 17. raidest, lies die Herstellungsschritte der nächsten Woche. Ansonsten warte bis zum Tag deines Schlachtzugs oder am Tag vor deinem Schlachtzug, um dies zu tun." },
         },
     },
 
@@ -96,20 +96,20 @@ local DATASET = {
         title = "Saison 1 Woche 1 - 17. März - Heroische Woche, 2. Herstellung",
         items = {
             { id = "791379ba", text = "Gib keine heroischen oder mythischen Wappen aus, bis es dir gesagt wird. Prüfe den Leitfaden, warum wir Wappen zurückhalten." },
-            { id = "2f4447eb", text = "Besonderer Hinweis für Furorkrieger - du kannst wahrscheinlich jetzt herstellen. Prüfe den Leitfaden, was und wann hergestellt werden soll." },
+            { id = "128e2f0b", text = "Besonderer Hinweis für Furorkrieger - du kannst wahrscheinlich jetzt deinen Funkengegenstand herstellen. Prüfe den Leitfaden für was und wann du herstellen solltest." },
             { id = "e66847d8", text = "Mache LFR für Setteile - das Erhalten eines 4er-Setbonus ermöglicht es, dass Katalysatorladungen aus allen Inhalten droppen" },
             { id = "e0ecce24", text = "Schließe die wöchentliche Weltereignisquest für Gipfelcache und Funken von Lady Liadrin ab" },
             { id = "9686fde4", text = "Schließe die wöchentliche Behausungsquest von Vaeli für ?Heldenwappen? ab (wird aktualisiert, wenn es live geht)" },
             { id = "d8d237fa", text = "(Optional) Erhöhe die PVP-Wertung auf 1600 für eine Katalysatorladung (dies ist dieselbe Katalysatorladung, die mit 2.000 M+-Wertung aus der nächsten Woche geteilt wird). Wenn du diese Woche 2 Setteile aus deinem Schlachtzug bekommst, würde dir dies erlauben, 2 Gegenstände zu katalysieren und nächste Woche Katalysatorladungen aus deinen M+ zu erhalten." },
-            { id = "1104f71c", text = "(Optional) Schließe eine Welttour von M0-Verliesen ab - belohnt mit Champion-Gegenstandsstufe - tägliche Sperre - BRENN DICH NICHT AUS! M+ öffnet nächste Woche und wird all das ersetzen." },
-            { id = "7828e484", text = "(Optional) Wenn du keine Welttouren von M0-Verliesen jeden Tag machen möchtest, erwäge, jeden Tag ein Verlies mit einem sehr guten Schmuckstück zu absolvieren, für eine Chance, es zu bekommen" },
+            { id = "ef789b0b", text = "(Optional) Absolviere eine Welttournee durch M0-Dungeons. Diese belohnen Championgegenstandsstufe mit täglicher Sperre - BRENNE NICHT AUS! M+ öffnet nächste Woche und wird all das ersetzen." },
+            { id = "d78939c6", text = "Tägliche Aufgabe: Erwäge, jeden Tag ein bestimmtes M0 zu laufen, das ein großartiges Schmuckstück für dich droppt. Der Gegenstand wird Championgegenstandsstufe (normaler Schlachtzug) haben und könnte ein schöner Boost sein, wenn du nächste Woche in den Schlachtzug gehst, falls du es noch nicht auf Heroisch farmen konntest." },
             { id = "22842538", text = "Schließe 2x Albtraumbeute für Championausrüstung auf jedem Charakter ab" }, -- ⚠️ UNVERIFIED
-            { id = "b8a280cb", text = "Wenn Albtraum eine wöchentliche Quest für einen Heldenpfad-Gegenstand hat, mache das ebenfalls." }, -- ⚠️ UNVERIFIED
+            { id = "f3eb6555", text = "Wenn Albtraumbeute eine wöchentliche Quest für einen Heldengegenstand hat, mache diese ebenfalls." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Töte den Weltboss für Champion 2/6 Gegenstand mit Gegenstandsstufe 250" },
             { id = "b6846065", text = "Mache T8 oder höhere ertragreiche Tiefen, benutze Karte auf T8+-Tiefe - während du das machst, schalte T11-Tiefen frei" },
             { id = "e796ddb6", text = "Noch nicht bestätigt - fülle deine Truhe in jedem Slot für mehrere Chancen auf Setteile nächste Woche." },
-            { id = "a73e9cab", text = "Vor dem Schlachtzug stelle 2x 246er Gegenstandsstufen-Teile her, 2x Verzierungen auf schwachen Slots, benutze 160 Vet-Wappen. Diese benötigen keine Funken. Prüfe den Leitfaden für mehr Informationen." },
-            { id = "679a07b9", text = "Vor dem Schlachtzug gib alle Abenteurer-, Veteranen- und Championwappen für Aufwertungen aus. Gib keine heroischen oder mythischen Wappen aus." },
+            { id = "5519fcb5", text = "Nachdem du so viel wie möglich von oben erledigt hast, aber VOR dem Schlachtzug, stelle 2x 246 Gegenstandsstufengegenstände mit Verzierungen auf schwachen Plätzen her, indem du 160 Veteranenwappen verwendest. DIESE BENÖTIGEN KEINE FUNKEN. Die Gegenstände, die du herstellst, sind die blauen Qualitätsgegenstände an der Herstellungsbank, in die du 80x Veteranenwappen einfügst, um ihre Gegenstandsstufe zu erhöhen. Prüfe den Leitfaden für weitere Informationen. Du kannst auch im Discord um Hilfe bitten, falls du sie brauchst." },
+            { id = "146b7d62", text = "Nachdem du so viel wie möglich von oben erledigt hast, aber VOR dem Schlachtzug, gib alle Abenteurerwappen, Veteranenwappen und Championenwappen aus, um irgendetwas aufzuwerten. Gib keine Heroischen oder Mythischen Wappen aus." },
             { id = "8824d048", text = "Verfolge ausgegebene Wappen: 0/100 Heroisch, 0/100 Mythisch" },
         },
     },
@@ -128,7 +128,7 @@ local DATASET = {
             { id = "26d0b610", text = "Mindestens eine T11-Üppige Tiefe für den Zerbrochener-Schlussstein-Quest machen" }, -- ⚠️ UNVERIFIED
             { id = "286f219c", text = "Weiterhin alle Abenteurer-, Veteran- und Champion-Wappen für Upgrades ausgeben" },
             { id = "74924a7b", text = "+10er farmen für 266-Ausrüstung in jedem Slot" },
-            { id = "e4965db1", text = "Vor dem mythischen Schlachtzug werte 11x 3/6 Heldengegenstände jeweils einmal auf. Wenn du nicht so viele heroische Gegenstände hast, werte einen Ring oder ein Schmuckstück mehr auf, um das Risiko der Verschwendung von Wappen zu reduzieren." },
+            { id = "ae0baeca", text = "Nach N/H-Reclears, aber VOR dem Mythischen Schlachtzug, werte 11x 3/6 Heldengegenstände jeweils einmal auf. Wenn du nicht so viele Heroische Gegenstände hast, werte einen Ring oder ein Schmuckstück mehr auf, um das Risiko der Verschwendung von Wappen zu reduzieren." },
             { id = "cbfb6966", text = "Mythisch: Falls du ein Mythen-Spur-Item hast, Upgrade-Tipps der nächsten Woche dafür nutzen." },
             { id = "00cb43a8", text = "Verfolge ausgegebene Wappen: 220/220 Heroisch, 0/220 Mythisch - halte niemals Mythische Wappen zurück - kann variieren, falls du etwas hergestellt hast" },
             { id = "adb492bd", text = "Endgültige Gegenstandsstufe: 4x266, 11x269 - kann variieren, falls du etwas hergestellt hast" },
