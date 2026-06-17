@@ -1,3 +1,9 @@
+## [2.1.28] (2026-06-17)
+- Update publish-stable.yml
+- updates
+- Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU zhCN
+- Updated interface versions: 120007, 120005, 120001
+
 ## [2.1.27] (2026-04-22)
 - translations
 - Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU zhCN
