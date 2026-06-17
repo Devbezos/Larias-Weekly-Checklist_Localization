@@ -1,6 +1,11 @@
 name: Publish Stable
 
 on:
+  schedule:
+    # GitHub Actions cron uses UTC. We trigger at both 15:00 and 16:00 UTC,
+    # then gate the real job so it only proceeds at 11:00 in Toronto.
+    - cron: "0 15 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -17,10 +22,36 @@ permissions:
   contents: write
 
 jobs:
-  publish:
-    # Avoid looping when this workflow pushes a version-bump commit.
-    if: github.event_name != 'push' || github.actor != 'github-actions[bot]' || !contains(github.event.head_commit.message, 'Post-release:')
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
 
+    steps:
+      - name: Check Toronto schedule window
+        id: check
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          TORONTO_HOUR=$(TZ=America/Toronto date +%H)
+          if [ "$TORONTO_HOUR" = "11" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Toronto local time is 11:00. Continuing."
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Toronto local time is not 11:00. Skipping this UTC cron slot."
+          fi
+
+  publish:
+    needs: guard
+    if: needs.guard.outputs.should_run == 'true' && (github.event_name != 'push' || github.actor != 'github-actions[bot]' || !contains(github.event.head_commit.message, 'Post-release:'))
+    # Avoid looping when this workflow pushes a version-bump commit.
     runs-on: ubuntu-latest
 
     steps:
@@ -97,9 +128,18 @@ jobs:
           SHOULD_RELEASE=false
           if [ "${FORCE_DEPLOY:-false}" = "true" ] || [ "$LOCALES_CHANGED" = "true" ]; then
             SHOULD_RELEASE=true
+          elif [ "$TOC_CHANGED" = "true" ]; then
+            # Any Wago-driven Interface version bump should publish a release,
+            # even when locale content itself did not change.
+            SHOULD_RELEASE=true
           fi
 
-          # If only toc changed (interface bump) with no locales change, still commit but no release.
+          # Scheduled runs should only publish when the toc actually changed.
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$TOC_CHANGED" != "true" ]; then
+            SHOULD_RELEASE=false
+          fi
+
+          # Keep committing whenever the toc or release content changed.
           SHOULD_COMMIT=false
           if [ "$TOC_CHANGED" = "true" ] || [ "$SHOULD_RELEASE" = "true" ]; then
             SHOULD_COMMIT=true
