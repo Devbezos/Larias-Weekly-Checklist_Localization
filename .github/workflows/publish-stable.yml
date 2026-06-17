@@ -155,8 +155,14 @@ jobs:
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          IFACE=$(sed -n 's/^## Interface:[[:space:]]*//p' LariasWeeklyChecklist_Localization.toc | head -n 1 | cut -d',' -f1 | tr -d '[:space:]')
+          if [[ "$IFACE" =~ ^[0-9]{6}$ ]]; then
+            PATCH_VERSION="$((IFACE / 10000)).$(((IFACE / 100) % 100)).$((IFACE % 100))"
+          else
+            PATCH_VERSION="unknown"
+          fi
           git add LariasWeeklyChecklist_Localization.toc
-          git diff --cached --quiet || { git commit -m "Auto-update toc (no release) [skip ci]"; git push; }
+          git diff --cached --quiet || { git commit -m "Automated update addon version for patch ${PATCH_VERSION} [skip ci]"; git push; }
 
       - name: Tag at current version, then bump post-release
         if: steps.check.outputs.should_release == 'true'
