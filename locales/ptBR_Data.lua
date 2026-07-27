@@ -20,25 +20,23 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "067d2566",
+        id = "e509045c",
         title = "Semana 5 - 14 Abr - Acabou com Brasões Heroicos",
         items = {
-            { id = "9375e497", text = "Abra o cofre (item mito 272+)" },
-            { id = "83fd4310", text = "Complete a missão semanal do evento mundial para fagulha da Lady Liadrin" },
-            { id = "1db5f946", text = "Farme +10s para cofre + brasões" },
-            { id = "da97880d", text = "Atualize a história da Forja do Vazio para poder obter rolagens bônus na próxima semana" },
-            { id = "f9978f0e", text = "Não fabrique se você pode obter itens do cofre superiores a 1/6" },
+            { id = "30b4da39", text = "Abra o cofre (item mito 272+)" },
+            { id = "1799862a", text = "Complete a missão semanal do evento mundial para fagulha da Lady Liadrin" },
+            { id = "1222989f", text = "Farme +10s para cofre + brasões" },
+            { id = "89973dea", text = "Atualize a história da Forja do Vazio para poder obter rolagens bônus na próxima semana" },
+            { id = "c386743b", text = "Não fabrique se você pode obter itens do cofre superiores a 1/6" },
+            { id = "facfee6f", text = "Publiquei um novo guia descrevendo o que está por vir. Conselhos semana a semana serão adicionados mais perto do lançamento da temporada" },
         },
     },
 
     {
-        id = "599ab6a0",
+        id = "4f758212",
         title = "Semana 6 - 21 de Abr - Rolagens Bônus Desbloqueadas",
         items = {
-            { id = "f9978f0e", text = "Não fabrique se você pode obter itens do cofre superiores a 1/6" },
-            { id = "66e83cc1", text = "Aprimore itens Míticos conforme os obtiver, preferindo elevá-los para 289 para o salto de +4" },
-            { id = "90409a11", text = "Complete a missão da história da Forja do Vazio da Blizzard para desbloquear rolagens bônus - consulte o guia sobre o melhor uso das rolagens bônus daqui para frente" },
-            { id = "f9978f0e", text = "Não fabrique se você pode obter itens do cofre superiores a 1/6" },
+            { id = "a55dc6cf", text = "Não fabrique se você pode obter itens do cofre superiores a 1/6" },
         },
     },
 }

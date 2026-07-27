@@ -20,25 +20,23 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "067d2566",
+        id = "e509045c",
         title = "Semana 5 - 14 de abril - Terminado con emblemas heroicos",
         items = {
-            { id = "9375e497", text = "Abrir cámara (objeto mítico de 272+)" },
-            { id = "83fd4310", text = "Completa la misión semanal del evento mundial para obtener una chispa de Lady Liadrin" },
-            { id = "1db5f946", text = "Farmea +10 para la cámara + emblemas" },
-            { id = "da97880d", text = "Ponte al día con la historia de Forjavacío para poder obtener tiradas de bonificación la próxima semana" },
-            { id = "f9978f0e", text = "No fabricar si puedes obtener objetos de la cámara superiores a 1/6" },
+            { id = "30b4da39", text = "Abrir cámara (objeto mítico de 272+)" },
+            { id = "1799862a", text = "Completa la misión semanal del evento mundial para obtener una chispa de Lady Liadrin" },
+            { id = "1222989f", text = "Farmea +10 para la cámara + emblemas" },
+            { id = "89973dea", text = "Ponte al día con la historia de Forjavacío para poder obtener tiradas de bonificación la próxima semana" },
+            { id = "c386743b", text = "No fabricar si puedes obtener objetos de la cámara superiores a 1/6" },
+            { id = "facfee6f", text = "He publicado una nueva guía que describe lo que viene. Los consejos semana a semana se agregarán más cerca del lanzamiento de la temporada" },
         },
     },
 
     {
-        id = "599ab6a0",
+        id = "4f758212",
         title = "Semana 6 - 21 abr - Desbloqueo de tiradas de bonificación",
         items = {
-            { id = "f9978f0e", text = "No fabricar si puedes obtener objetos de la cámara superiores a 1/6" },
-            { id = "66e83cc1", text = "Mejora objetos míticos a medida que los obtengas, prefiriendo llevarlos a 289 para el salto de +4" },
-            { id = "90409a11", text = "Completa la misión de la historia de Forjavacío de Blizzard para desbloquear tiradas de bonificación - revisa la guía sobre el mejor uso de las tiradas de bonificación en adelante" },
-            { id = "f9978f0e", text = "No fabricar si puedes obtener objetos de la cámara superiores a 1/6" },
+            { id = "a55dc6cf", text = "No fabricar si puedes obtener objetos de la cámara superiores a 1/6" },
         },
     },
 }
