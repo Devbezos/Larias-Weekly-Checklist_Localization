@@ -1,3 +1,10 @@
+## [2.1.29] (2026-07-27)
+- Auto-translate all-locales – AI-generated, unverified terms flagged
+- Sync locale string keys with addon updates
+- Update publish-stable.yml
+- Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU zhCN
+- Updated interface versions: 120007, 120005, 120001
+
 ## [2.1.28] (2026-06-17)
 - Update publish-stable.yml
 - updates
