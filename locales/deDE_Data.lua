@@ -27,7 +27,7 @@ local DATASET = {
             { id = "1799862a", text = "Schließe die wöchentliche Weltereignis-Quest für einen Funken von Lady Liadrin ab" },
             { id = "1222989f", text = "Farme +10er für Gewölbe + Wappen" },
             { id = "89973dea", text = "Hol die Leerenschmiede-Storyline nach, damit du nächste Woche Bonuswürfe bekommst" },
-            { id = "c386743b", text = "Nicht herstellen, wenn du Gewölbe-Gegenstände höher als 1/6 bekommen kannst" },
+            { id = "abbe6f81", text = "Optionale Strategie zum Sparen degenerierter Wappen pro Charakter - siehe Anleitung für mehr Informationen" }, -- ⚠️ UNVERIFIED
             { id = "facfee6f", text = "Ich habe einen neuen Leitfaden veröffentlicht, der beschreibt, was kommt. Woche-für-Woche-Ratschläge werden näher am Saisonstart hinzugefügt" },
         },
     },

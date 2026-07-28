@@ -27,7 +27,7 @@ local DATASET = {
             { id = "1799862a", text = "Completa la misión semanal de evento mundial para obtener una chispa de Lady Liadrin" },
             { id = "1222989f", text = "Farmea +10s para cámara + emblemas" },
             { id = "89973dea", text = "Ponte al día con la historia de Forjavacío para poder obtener tiradas de bonificación la próxima semana" },
-            { id = "c386743b", text = "No fabricar si puedes obtener objetos de la cámara superiores a 1/6" },
+            { id = "abbe6f81", text = "Estrategia opcional de ahorro de blasones degradados por personaje - consulta la guía para más información" },
             { id = "facfee6f", text = "He publicado una nueva guía que describe lo que viene. Los consejos semana a semana se añadirán más cerca del lanzamiento de la temporada" },
         },
     },

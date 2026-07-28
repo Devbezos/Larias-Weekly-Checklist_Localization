@@ -27,7 +27,7 @@ local DATASET = {
             { id = "1799862a", text = "Terminez la quête d'événement mondial hebdomadaire pour obtenir une étincelle auprès de Dame Liadrin" },
             { id = "1222989f", text = "Farmez des +10 pour le coffre + écussons" },
             { id = "89973dea", text = "Rattrapez l'histoire de la Forgevide pour pouvoir obtenir des jets bonus la semaine prochaine" },
-            { id = "c386743b", text = "Ne craftez pas si vous pouvez obtenir des objets de l'armurerie supérieurs à 1/6" },
+            { id = "abbe6f81", text = "Stratégie optionnelle de sauvegarde de crêtes dégénérées par personnage - consultez le guide pour plus d'informations" }, -- ⚠️ UNVERIFIED
             { id = "facfee6f", text = "J'ai publié un nouveau guide détaillant ce qui arrive. Les conseils semaine par semaine seront ajoutés plus près du lancement de la saison" },
         },
     },

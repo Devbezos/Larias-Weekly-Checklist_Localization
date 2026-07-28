@@ -27,7 +27,7 @@ local DATASET = {
             { id = "1799862a", text = "Complete a missão semanal do evento mundial para fagulha da Lady Liadrin" },
             { id = "1222989f", text = "Farme +10s para cofre + brasões" },
             { id = "89973dea", text = "Atualize a história da Forja do Vazio para poder obter rolagens bônus na próxima semana" },
-            { id = "c386743b", text = "Não fabrique se você pode obter itens do cofre superiores a 1/6" },
+            { id = "abbe6f81", text = "Estratégia opcional de economia de cristas degeneradas por personagem - confira o guia para mais informações" }, -- ⚠️ UNVERIFIED
             { id = "facfee6f", text = "Publiquei um novo guia descrevendo o que está por vir. Conselhos semana a semana serão adicionados mais perto do lançamento da temporada" },
         },
     },

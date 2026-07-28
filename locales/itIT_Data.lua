@@ -27,7 +27,7 @@ local DATASET = {
             { id = "1799862a", text = "Completa la missione settimanale dell'evento mondiale per ottenere una scintilla da Lady Liadrin" },
             { id = "1222989f", text = "Farma +10 per forziere + stemmi" },
             { id = "89973dea", text = "Recupera la trama di Forgiavuoto così potrai ottenere tiri bonus la prossima settimana" }, -- ⚠️ UNVERIFIED
-            { id = "c386743b", text = "Non creare se puoi ottenere oggetti dalla cassaforte superiori a 1/6" },
+            { id = "abbe6f81", text = "Strategia opzionale di risparmio stemmi degenerati per personaggio - consulta la guida per maggiori informazioni" }, -- ⚠️ UNVERIFIED
             { id = "facfee6f", text = "Ho pubblicato una nuova guida che illustra cosa ci aspetta. I consigli settimanali verranno aggiunti più vicino al lancio della stagione" },
         },
     },
