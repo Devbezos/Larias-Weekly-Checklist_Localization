@@ -69,7 +69,12 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: pip install anthropic ftfy
+
+      # ── 4. Validate locale files before translation/commit ───────────────
+      - name: Validate locale files
+        run: |
+          python -u scripts/validate_locale_files.py locales
 
       # ── 4. Translate data files (enUS_Data.lua -> *_Data.lua) ──────────────
       - name: Translate data files
@@ -86,7 +91,13 @@ jobs:
           fi
           python -u scripts/auto_translate_data.py $ARGS
 
-      # ── 6. Commit directly to master ───────────────────────────────────────
+      # ── 6. Validate generated locale output before commit ─────────────────
+      - name: Validate generated locale output
+        if: steps.params.outputs.dry_run != 'true'
+        run: |
+          python -u scripts/validate_locale_files.py locales
+
+      # ── 7. Commit directly to master ───────────────────────────────────────
       - name: Commit translations to master
         if: steps.params.outputs.dry_run != 'true'
         id: commit
@@ -108,7 +119,7 @@ jobs:
           git push origin HEAD:${{ github.event.repository.default_branch }}
           echo "has_changes=true" >> "$GITHUB_OUTPUT"
 
-      # ── 7. Trigger Publish Stable ───────────────────────────────────────────
+      # ── 8. Trigger Publish Stable ───────────────────────────────────────────
       - name: Trigger publish-stable workflow
         if: steps.commit.outputs.has_changes == 'true'
         env:
