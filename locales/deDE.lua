@@ -105,7 +105,7 @@ local STRINGS = {
     COLOR_PICKER_TEXT           = "Text",
     COLOR_PICKER_HDR            = "Kopfzeile",
     -- Status banner
-    STATUS_SHEET_UPDATE_FMT     = "Tabellen-Update erkannt – Du hast %d Version(en) Rückstand",
+    STATUS_SHEET_UPDATE_FMT     = "Tabellen-Update erkannt - Du hast %d Version(en) Rückstand",
     STATUS_NO_TRANSLATION_FMT   = "Keine Übersetzung für %s verfügbar. Trage gerne bei!",
     STATUS_TRANSLATION_NOTICE   = "Englisch ist die aktuellste Sprache. Deine Checkliste könnte leicht veraltet sein.",
     UI_OPACITY_LABEL            = "Deckkraft",
@@ -137,7 +137,7 @@ local STRINGS = {
     ALT_SUMMARY_UPGRADE_COST_TITLE_FMT = "Aufwertungskosten: %s",
     ALT_SUMMARY_AVAILABLE_NEED_FMT = "Verfügbar: %d  /  Benötigt: %d",
     ALT_SUMMARY_HELD_TRADEUP_FMT = "Besessen: %d  +  Tausch: %d",
-    ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Verzierter Gegenstand – ignoriert)",
+    ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Verzierter Gegenstand - ignoriert)",
     ALT_SUMMARY_NO_SLOTS_NEED_UPGRADING = "Keine Slots benötigen Aufwertung",
     ALT_SUMMARY_SIGIL_NEEDED_FMT = "%s / %d benötigt",
     ALT_SUMMARY_SIGIL_BREAKDOWN_FMT = "%d Siegel + %d Fragmente",

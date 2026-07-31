@@ -105,7 +105,7 @@ local STRINGS = {
     COLOR_PICKER_TEXT           = "Texto",
     COLOR_PICKER_HDR            = "Cabeçalho",
     -- Status banner
-    STATUS_SHEET_UPDATE_FMT     = "Atualização da planilha detectada – você está %d versão/versões atrás",
+    STATUS_SHEET_UPDATE_FMT     = "Atualização da planilha detectada - você está %d versão/versões atrás",
     STATUS_NO_TRANSLATION_FMT   = "Nenhuma tradução disponível para %s. Considere contribuir!",
     STATUS_TRANSLATION_NOTICE   = "O inglês é o idioma mais atualizado. Sua lista pode estar ligeiramente desatualizada.",
     UI_OPACITY_LABEL            = "Opacidade",
@@ -137,7 +137,7 @@ local STRINGS = {
     ALT_SUMMARY_UPGRADE_COST_TITLE_FMT = "Custo de melhoria: %s",
     ALT_SUMMARY_AVAILABLE_NEED_FMT = "Disponível: %d  /  Necessário: %d",
     ALT_SUMMARY_HELD_TRADEUP_FMT = "Em posse: %d  +  Troca: %d",
-    ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Item embelezado – ignorado)",
+    ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Item embelezado - ignorado)",
     ALT_SUMMARY_NO_SLOTS_NEED_UPGRADING = "Nenhum espaço precisa de melhoria",
     ALT_SUMMARY_SIGIL_NEEDED_FMT = "%s / %d necessário",
     ALT_SUMMARY_SIGIL_BREAKDOWN_FMT = "%d sigilos + %d fragmentos",

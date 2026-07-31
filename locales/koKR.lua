@@ -106,7 +106,7 @@ local STRINGS = {
     COLOR_PICKER_HDR            = "헤더",
 
     -- Status banner
-    STATUS_SHEET_UPDATE_FMT     = "스프레드시트 업데이트 감지됨 – %d 버전 뒤처짐",
+    STATUS_SHEET_UPDATE_FMT     = "스프레드시트 업데이트 감지됨 - %d 버전 뒤처짐",
     STATUS_NO_TRANSLATION_FMT   = "%s에 대한 번역이 없습니다. 기여를 고려해 주세요!",
     STATUS_TRANSLATION_NOTICE   = "영어가 가장 최신 언어입니다. 체크리스트가 약간 구버전일 수 있습니다.",
     UI_OPACITY_LABEL            = "불투명도",
@@ -136,7 +136,7 @@ local STRINGS = {
     ALT_SUMMARY_UPGRADE_COST_TITLE_FMT = "%s 강화 비용",
     ALT_SUMMARY_AVAILABLE_NEED_FMT = "보유: %d  /  필요: %d",
     ALT_SUMMARY_HELD_TRADEUP_FMT = "보유: %d  +  교환: %d",
-    ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(장식 효과 제작 장비 – 제외됨)",
+    ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(장식 효과 제작 장비 - 제외됨)",
     ALT_SUMMARY_NO_SLOTS_NEED_UPGRADING = "강화가 필요한 슬롯 없음",
     ALT_SUMMARY_SIGIL_NEEDED_FMT = "%s / %d 필요",
     ALT_SUMMARY_SIGIL_BREAKDOWN_FMT = "븉인 %d + 파편 %d",

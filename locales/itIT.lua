@@ -105,7 +105,7 @@ local STRINGS = {
     COLOR_PICKER_TEXT           = "Testo",
     COLOR_PICKER_HDR            = "Intestazione",
     -- Status banner
-    STATUS_SHEET_UPDATE_FMT     = "Aggiornamento foglio rilevato – sei %d versione/i indietro",
+    STATUS_SHEET_UPDATE_FMT     = "Aggiornamento foglio rilevato - sei %d versione/i indietro",
     STATUS_NO_TRANSLATION_FMT   = "Nessuna traduzione disponibile per %s. Considera di contribuire!",
     STATUS_TRANSLATION_NOTICE   = "L'inglese è la lingua più aggiornata. La tua lista potrebbe essere leggermente obsoleta.",
     UI_OPACITY_LABEL            = "Opacità",
@@ -137,7 +137,7 @@ local STRINGS = {
     ALT_SUMMARY_UPGRADE_COST_TITLE_FMT = "Costo potenziamento: %s",
     ALT_SUMMARY_AVAILABLE_NEED_FMT = "Disponibile: %d  /  Necessario: %d",
     ALT_SUMMARY_HELD_TRADEUP_FMT = "In possesso: %d  +  Scambio: %d",
-    ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Oggetto abbellito – ignorato)",
+    ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Oggetto abbellito - ignorato)",
     ALT_SUMMARY_NO_SLOTS_NEED_UPGRADING = "Nessuno slot richiede potenziamento",
     ALT_SUMMARY_SIGIL_NEEDED_FMT = "%s / %d necessario",
     ALT_SUMMARY_SIGIL_BREAKDOWN_FMT = "%d sigilli + %d frammenti",

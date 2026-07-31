@@ -38,8 +38,8 @@ local DATASET = {
             { id = "5d64cd66", text = "No fabricar si puedes obtener objetos de la cámara superiores a 1/6" },
             { id = "4de0b2be", text = "Completa la campaña de introducción de la nueva zona" },
             { id = "7508a529", text = "Completa un recorrido mundial de M0 para obtener equipo de nivel 292" },
-            { id = "1cbf10d3", text = "Completa 2x Presa Difícil para obtener equipo de nivel 292" }, -- ⚠️ UNVERIFIED
-            { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para diversión y equipo de LFR." }, -- ⚠️ UNVERIFIED
+            { id = "1cbf10d3", text = "Completa 2x Presa Difícil para obtener equipo de nivel 292" }, -- WARNING UNVERIFIED
+            { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para diversión y equipo de LFR." }, -- WARNING UNVERIFIED
             { id = "70348198", text = "Completa la misión semanal de chispa" },
         },
     },
@@ -51,9 +51,9 @@ local DATASET = {
             { id = "77d4d31b", text = "Toma una tirada adicional si está disponible, una pieza de conjunto si tu hermandad no hace divisiones, y un engaste si tu hermandad sí las hace" },
             { id = "1ad52558", text = "Haz LFR para piezas de conjunto." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
-            { id = "02a1debb", text = "Completa ?? Azta'rec para obtener 60 Emblemas héroe sin límite y 30 Emblemas míticos sin límite - esto se puede completar en grupo para los emblemas. Sin confirmar para la Temporada 2." }, -- ⚠️ UNVERIFIED
-            { id = "856adbfe", text = "Completa 1 profundidad Nivel 11 con un mapa para un objeto héroe rápido y la misión de Piedra angular Agrietada de temporada 2 para 20 Emblemas héroe y míticos sin límite. Azta'rec tiene una alta probabilidad de soltar un mapa, pero si no te suelta uno, una fuente fácil de la \"invocación de jefe\" para profundidades es hacer la misión semanal de presa pesadilla. Garantiza darte uno. Si tienes amigos/compañeros de hermandad con tiempo extra, pueden hacerlo, luego invocas al jefe en una profundidad de 5 jugadores y todos saquean un mapa." }, -- ⚠️ UNVERIFIED
-            { id = "47d8b971", text = "No hagas el nuevo \"jefe mundial/de guarida\" en dificultades superiores - es un jefe de banda normal." }, -- ⚠️ UNVERIFIED
+            { id = "02a1debb", text = "Completa ?? Azta'rec para obtener 60 Emblemas héroe sin límite y 30 Emblemas míticos sin límite - esto se puede completar en grupo para los emblemas. Sin confirmar para la Temporada 2." }, -- WARNING UNVERIFIED
+            { id = "856adbfe", text = "Completa 1 profundidad Nivel 11 con un mapa para un objeto héroe rápido y la misión de Piedra angular Agrietada de temporada 2 para 20 Emblemas héroe y míticos sin límite. Azta'rec tiene una alta probabilidad de soltar un mapa, pero si no te suelta uno, una fuente fácil de la \"invocación de jefe\" para profundidades es hacer la misión semanal de presa pesadilla. Garantiza darte uno. Si tienes amigos/compañeros de hermandad con tiempo extra, pueden hacerlo, luego invocas al jefe en una profundidad de 5 jugadores y todos saquean un mapa." }, -- WARNING UNVERIFIED
+            { id = "47d8b971", text = "No hagas el nuevo \"jefe mundial/de guarida\" en dificultades superiores - es un jefe de banda normal." }, -- WARNING UNVERIFIED
             { id = "0cbc66bc", text = "Farmea +10 para piezas de nivel 311 3/6h, espacios de alijo y todos tus diversos Emblemas." },
             { id = "a5222545", text = "Sigue la guía de tirada adicional y fabricación del Discord de tu Clase." },
             { id = "c68ca026", text = "Limpia completamente Normal/Heroico." },
