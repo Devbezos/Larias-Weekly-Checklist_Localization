@@ -1,3 +1,8 @@
+## [2.1.31] (2026-07-31)
+- Auto-translate all-locales – AI-generated, unverified terms flagged
+- Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU zhCN
+- Updated interface versions: 120007, 120005, 120001
+
 ## [2.1.30] (2026-07-28)
 - Auto-translate all-locales – AI-generated, unverified terms flagged
 - Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU zhCN
