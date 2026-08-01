@@ -27,7 +27,7 @@ local DATASET = {
             { id = "7bea945b", text = "Schließe die wöchentliche Weltereignis-Quest für einen Funken von Lady Liadrin ab" },
             { id = "1222989f", text = "Farme +10er für Gewölbe + Wappen" },
             { id = "89973dea", text = "Hol die Leerenschmiede-Storyline nach, damit du nächste Woche Bonuswürfe bekommst" },
-            { id = "abbe6f81", text = "Optionale Strategie zum Sparen degenerierter Wappen pro Charakter - siehe Anleitung für mehr Informationen" }, -- ⚠️ UNVERIFIED
+            { id = "abbe6f81", text = "Optionale Strategie zum Sparen degenerierter Wappen pro Charakter - siehe Anleitung für mehr Informationen" }, -- WARNING UNVERIFIED
         },
     },
 
@@ -38,7 +38,7 @@ local DATASET = {
             { id = "5d64cd66", text = "Nicht herstellen, wenn du Gewölbe-Gegenstände höher als 1/6 bekommen kannst" },
             { id = "4de0b2be", text = "Schließe die Einführungskampagne der neuen Zone ab" },
             { id = "7508a529", text = "Schließe eine Welttour von M0s für 292 ilvl Ausrüstung ab" },
-            { id = "1cbf10d3", text = "Schließe 2x Harte Beute für 292 ilvl Ausrüstung ab" }, -- ⚠️ UNVERIFIED
+            { id = "1cbf10d3", text = "Schließe 2x Harte Beute für 292 ilvl Ausrüstung ab" }, -- WARNING UNVERIFIED
             { id = "66e39766", text = "Schließe den neuen Bau-Schlachtzugboss auf Storymodus-Schwierigkeit für Spaß und LFR-Ausrüstung ab." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
         },
@@ -51,8 +51,8 @@ local DATASET = {
             { id = "77d4d31b", text = "Nimm einen Bonuswurf, falls verfügbar, ein Tier-Teil, wenn deine Gilde keine Splits macht, und einen Sockel, wenn deine Gilde Splits macht" },
             { id = "1ad52558", text = "Mache LFR für Tier-Teile." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
-            { id = "02a1debb", text = "Schließe ?? Azta'rec für 60 unbegrenzte Helden-Wappen und 30 unbegrenzte Mythisch-Wappen ab - dies kann in einer Gruppe für die Wappen abgeschlossen werden. Unbestätigt für Saison 2." }, -- ⚠️ UNVERIFIED
-            { id = "856adbfe", text = "Schließe 1 Stufe-11-Tiefe mit einer Karte für einen schnellen Helden-Gegenstand und die Saison-2-Gesprungener-Schlüsselstein-Quest für 20 unbegrenzte Helden- und Mythisch-Wappen ab. Azta'rec hat eine hohe Chance, eine Karte fallen zu lassen, aber falls er dir keine gibt, ist eine einfache Quelle für die \"Bossbeschwörung\" in Tiefen die wöchentliche Albtraum-Beute-Quest. Sie gibt dir garantiert eine. Wenn du Freunde/Gildenmitglieder mit zusätzlicher Zeit hast, können sie es machen, dann beschwörst du den Boss in einer 5-Mann-Tiefe und jeder plündert eine Karte." }, -- ⚠️ UNVERIFIED
+            { id = "02a1debb", text = "Schließe ?? Azta'rec für 60 unbegrenzte Helden-Wappen und 30 unbegrenzte Mythisch-Wappen ab - dies kann in einer Gruppe für die Wappen abgeschlossen werden. Unbestätigt für Saison 2." }, -- WARNING UNVERIFIED
+            { id = "856adbfe", text = "Schließe 1 Stufe-11-Tiefe mit einer Karte für einen schnellen Helden-Gegenstand und die Saison-2-Gesprungener-Schlüsselstein-Quest für 20 unbegrenzte Helden- und Mythisch-Wappen ab. Azta'rec hat eine hohe Chance, eine Karte fallen zu lassen, aber falls er dir keine gibt, ist eine einfache Quelle für die \"Bossbeschwörung\" in Tiefen die wöchentliche Albtraum-Beute-Quest. Sie gibt dir garantiert eine. Wenn du Freunde/Gildenmitglieder mit zusätzlicher Zeit hast, können sie es machen, dann beschwörst du den Boss in einer 5-Mann-Tiefe und jeder plündert eine Karte." }, -- WARNING UNVERIFIED
             { id = "47d8b971", text = "Mache den neuen \"Welt-/Bau-Boss\" nicht auf höheren Schwierigkeitsgraden - es ist ein normaler Schlachtzugboss." },
             { id = "0cbc66bc", text = "Farme +10s für 3/6h 311 Gegenstandsstufen-Teile, Tresorfächer und all deine verschiedenen Wappen." },
             { id = "a5222545", text = "Folge dem Bonuswurf- und Handwerksleitfaden deines Klassen-Discords." },
@@ -85,7 +85,7 @@ local DATASET = {
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
             { id = "a032b050", text = "Farme +12s, falls du für Wappen musst. Du musst diese Saison nicht M+ spammen, wenn du deine Wappen aus anderen Quellen bekommen kannst." },
             { id = "a5222545", text = "Folge dem Bonuswurf- und Handwerksleitfaden deines Klassen-Discords." },
-            { id = "f5a1090c", text = "Degeneriert: Auf deinem Mist-Twink, den du opferst, stufe alle deine Mythisch-Wappen zu Helden-Wappen herunter und hole dir die Held-des-Mythos-Errungenschaft, um günstigere Verbesserungen auf deinem Main zu machen. Dies ist nur eine degenerierte Strategie; ich empfehle nicht, sie zu machen, und ich werde sie in den zukünftigen Berechnungen nicht einbeziehen." }, -- ⚠️ UNVERIFIED
+            { id = "f5a1090c", text = "Degeneriert: Auf deinem Mist-Twink, den du opferst, stufe alle deine Mythisch-Wappen zu Helden-Wappen herunter und hole dir die Held-des-Mythos-Errungenschaft, um günstigere Verbesserungen auf deinem Main zu machen. Dies ist nur eine degenerierte Strategie; ich empfehle nicht, sie zu machen, und ich werde sie in den zukünftigen Berechnungen nicht einbeziehen." }, -- WARNING UNVERIFIED
             { id = "be0f768b", text = "Heroisch: Verbessere einen 3/6h-Gegenstand auf 6/6h für 60 Heroische Wappen. Verbessere 1 3/6h-Gegenstand auf 4/6h für 20 Heroische Wappen. Verwende 20 Helden-Wappen für einen Mythisch-1/6-Gegenstand, den du zuerst auf 2/6 verbessern musst." },
             { id = "02a6dfca", text = "Mythisch: Verbessere entweder deinen Bonuswurf-Gegenstand oder deinen Drop-Gegenstand auf 6/6M mit 80 Mythisch-Wappen. Vergiss nicht, zuerst einen heroischen Gegenstand auf 6/6 heroisch für 20 Heroische Wappen in diesem Slot zu verbessern." },
         },
