@@ -2,6 +2,7 @@
 scripts/deploy_to_wow.ps1
 scripts/*.py
 !scripts/auto_translate*.py
+!scripts/validate_locale_files.py
 .env
 
 __pycache__/
