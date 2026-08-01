@@ -26,8 +26,8 @@ local DATASET = {
             { id = "30b4da39", text = "Apri forziere (oggetto mito 272+)" },
             { id = "7bea945b", text = "Completa la missione settimanale dell'evento mondiale per ottenere una scintilla da Lady Liadrin" },
             { id = "1222989f", text = "Farma +10 per forziere + stemmi" },
-            { id = "89973dea", text = "Recupera la trama di Forgiavuoto così potrai ottenere tiri bonus la prossima settimana" }, -- WARNING UNVERIFIED
-            { id = "abbe6f81", text = "Strategia opzionale di risparmio stemmi degenerati per personaggio - consulta la guida per maggiori informazioni" }, -- WARNING UNVERIFIED
+            { id = "89973dea", text = "Recupera la trama di Forgiavuoto così potrai ottenere tiri bonus la prossima settimana" },
+            { id = "abbe6f81", text = "Strategia opzionale di risparmio stemmi degenerati per personaggio - consulta la guida per maggiori informazioni" },
         },
     },
 
@@ -38,7 +38,7 @@ local DATASET = {
             { id = "5d64cd66", text = "Non creare se puoi ottenere oggetti dalla cassaforte superiori a 1/6" },
             { id = "4de0b2be", text = "Completa la campagna introduttiva della nuova zona" },
             { id = "7508a529", text = "Completa un tour mondiale di M0 per equipaggiamento livello oggetto 292" },
-            { id = "1cbf10d3", text = "Completa 2x Preda Difficile per equipaggiamento livello oggetto 292" }, -- WARNING UNVERIFIED
+            { id = "1cbf10d3", text = "Completa 2x Preda Difficile per equipaggiamento livello oggetto 292" },
             { id = "66e39766", text = "Completa il nuovo boss dell'incursione Tana in difficoltà modalità storia per divertimento e equipaggiamento CDF." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
         },
@@ -48,11 +48,11 @@ local DATASET = {
         id = "a932c06c",
         title = "Settimana 1 - 18 Ago - Inizio Stagione",
         items = {
-            { id = "77d4d31b", text = "Prendi un tiro bonus se disponibile, un pezzo di serie se la tua gilda non fa split, e un incavo se la tua gilda li fa" },
+            { id = "f68afbf5", text = "Prendi un tiro bonus se disponibile, altrimenti prendi un pezzo di tier se la tua gilda non fa split, e un incavo se la tua gilda li fa" }, -- ⚠️ UNVERIFIED
             { id = "1ad52558", text = "Fai CDF per i pezzi di serie." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
-            { id = "02a1debb", text = "Completa ?? Azta'rec per 60 Stemmi eroe senza limite e 30 Stemmi mitico senza limite - può essere completato in gruppo per gli stemmi. Non confermato per la Stagione 2." }, -- WARNING UNVERIFIED
-            { id = "856adbfe", text = "Completa 1 Delve di Livello 11 con una mappa per un oggetto eroe rapido e la missione Pietra Chiave Incrinata della stagione 2 per 20 Stemmi Eroe e Mitico senza limite. Azta'rec ha un'alta probabilità di far cadere una mappa ma se non ti fa cadere una, una fonte facile dell'\"evocazione del boss\" per i delve è fare la missione settimanale preda incubo. È garantito che te ne dia una. Se hai amici/membri della gilda con tempo extra, possono farla, poi evochi il boss in un delve da 5 giocatori e tutti saccheggiano una mappa." }, -- WARNING UNVERIFIED
+            { id = "02a1debb", text = "Completa ?? Azta'rec per 60 Stemmi eroe senza limite e 30 Stemmi mitico senza limite - può essere completato in gruppo per gli stemmi. Non confermato per la Stagione 2." },
+            { id = "856adbfe", text = "Completa 1 Delve di Livello 11 con una mappa per un oggetto eroe rapido e la missione Pietra Chiave Incrinata della stagione 2 per 20 Stemmi Eroe e Mitico senza limite. Azta'rec ha un'alta probabilità di far cadere una mappa ma se non ti fa cadere una, una fonte facile dell'\"evocazione del boss\" per i delve è fare la missione settimanale preda incubo. È garantito che te ne dia una. Se hai amici/membri della gilda con tempo extra, possono farla, poi evochi il boss in un delve da 5 giocatori e tutti saccheggiano una mappa." },
             { id = "47d8b971", text = "Non fare il nuovo \"boss mondiale/della tana\" in difficoltà superiori - è un boss di incursione normale." },
             { id = "0cbc66bc", text = "Farma +10 per pezzi 3/6e livello oggetto 311, slot della cassa e tutti i tuoi vari Stemmi." },
             { id = "a5222545", text = "Segui la guida al tiro bonus e alla creazione del Discord della tua Classe." },

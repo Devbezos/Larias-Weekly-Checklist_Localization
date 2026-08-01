@@ -36,9 +36,9 @@ local DATASET = {
         title = "Semana 6 - 21 abr - Desbloqueo de tiradas de bonificación",
         items = {
             { id = "5d64cd66", text = "No fabricar si puedes obtener objetos de la cámara superiores a 1/6" },
-            { id = "4de0b2be", text = "Complete the new zone intro campaign" },
+            { id = "4de0b2be", text = "Completa la campaña de introducción de la nueva zona" },
             { id = "7508a529", text = "Completa un tour mundial de M0 para obtener equipo de nivel 292" },
-            { id = "1cbf10d3", text = "Completa 2 veces Presa Difícil para obtener equipo de nivel 292" }, -- WARNING UNVERIFIED
+            { id = "1cbf10d3", text = "Completa 2 veces Presa Difícil para obtener equipo de nivel 292" },
             { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para diversión y equipo de BRB." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
         },
@@ -48,11 +48,11 @@ local DATASET = {
         id = "a932c06c",
         title = "Semana 1 - 18 Ago - Comienza la Temporada",
         items = {
-            { id = "77d4d31b", text = "Usa una tirada adicional si está disponible, una pieza de conjunto si tu hermandad no hace divisiones, y un engaste si tu hermandad sí las hace" },
+            { id = "f68afbf5", text = "Usa una tirada adicional si está disponible, de lo contrario elige una pieza de conjunto si tu hermandad no hace divisiones, y un engaste si tu hermandad sí las hace" },
             { id = "1ad52558", text = "Haz BRB para piezas de conjunto." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
-            { id = "02a1debb", text = "Completa ?? Azta'rec para obtener 60 blasones heroicos sin límite y 30 blasones míticos sin límite - esto se puede completar en grupo para los blasones. Sin confirmar para la Temporada 2." }, -- WARNING UNVERIFIED
-            { id = "856adbfe", text = "Completa 1 caverna de Nivel 11 con un mapa para obtener un objeto heroico rápido y la misión de la Piedra angular agrietada de la temporada 2 para 20 blasones heroicos y míticos sin límite. Azta'rec tiene una alta probabilidad de soltar un mapa pero si no te lo suelta, una fuente fácil de la \"invocación de jefe\" para cavernas es hacer la misión semanal de presa de pesadilla. Está garantizado que te dará uno. Si tienes amigos/hermanos de hermandad con tiempo extra, pueden hacerlo, luego tú invocas al jefe en una caverna de 5 jugadores y todos consiguen un mapa." }, -- WARNING UNVERIFIED
+            { id = "02a1debb", text = "Completa ?? Azta'rec para obtener 60 blasones heroicos sin límite y 30 blasones míticos sin límite - esto se puede completar en grupo para los blasones. Sin confirmar para la Temporada 2." },
+            { id = "856adbfe", text = "Completa 1 caverna de Nivel 11 con un mapa para obtener un objeto heroico rápido y la misión de la Piedra angular agrietada de la temporada 2 para 20 blasones heroicos y míticos sin límite. Azta'rec tiene una alta probabilidad de soltar un mapa pero si no te lo suelta, una fuente fácil de la \"invocación de jefe\" para cavernas es hacer la misión semanal de presa de pesadilla. Está garantizado que te dará uno. Si tienes amigos/hermanos de hermandad con tiempo extra, pueden hacerlo, luego tú invocas al jefe en una caverna de 5 jugadores y todos consiguen un mapa." },
             { id = "47d8b971", text = "No hagas el nuevo \"jefe mundial/de guarida\" en dificultades superiores - es un jefe de banda normal." },
             { id = "0cbc66bc", text = "Farmea +10 para piezas de nivel 311 3/6h, huecos de alijo y todos tus diversos blasones." },
             { id = "a5222545", text = "Sigue la guía de tiradas adicionales y fabricación del Discord de tu clase." },
@@ -85,7 +85,7 @@ local DATASET = {
             { id = "70348198", text = "Completa la misión semanal de chispa" },
             { id = "a032b050", text = "Farmea +12 si lo necesitas para blasones. No tienes que spamear M+ esta temporada si puedes conseguir tus blasones de otras fuentes." },
             { id = "a5222545", text = "Sigue la guía de tiradas adicionales y fabricación del Discord de tu clase." },
-            { id = "f5a1090c", text = "Degenerado: En tu secundario de mierda que estás sacrificando, degrada todos tus blasones míticos a blasones heroicos y consigue el logro Héroe del Mito para hacer mejoras más baratas en tu personaje principal. Esta es una estrategia degenerada únicamente; no recomiendo hacerlo y no lo incluiré en los cálculos en adelante." }, -- WARNING UNVERIFIED
+            { id = "f5a1090c", text = "Degenerado: En tu secundario de mierda que estás sacrificando, degrada todos tus blasones míticos a blasones heroicos y consigue el logro Héroe del Mito para hacer mejoras más baratas en tu personaje principal. Esta es una estrategia degenerada únicamente; no recomiendo hacerlo y no lo incluiré en los cálculos en adelante." },
             { id = "be0f768b", text = "Heroica: Mejora un objeto 3/6h a 6/6h por 60 blasones heroicos. Mejora 1 objeto 3/6h a 4/6h por 20 blasones heroicos. Usa 20 blasones heroicos para un objeto mítico 1/6 que necesites mejorar primero a 2/6." },
             { id = "02a6dfca", text = "Mítica: Mejora tu objeto de tirada adicional o tu objeto caído a 6/6M usando 80 blasones míticos. No olvides mejorar primero un objeto heroico a 6/6 heroico por 20 blasones heroicos en ese hueco." },
         },

@@ -27,7 +27,7 @@ local DATASET = {
             { id = "7bea945b", text = "Terminez la quête d'événement mondial hebdomadaire pour obtenir une étincelle auprès de Dame Liadrin" },
             { id = "1222989f", text = "Farmez des +10 pour le coffre + écussons" },
             { id = "89973dea", text = "Rattrapez l'histoire de la Forgevide pour pouvoir obtenir des jets bonus la semaine prochaine" },
-            { id = "abbe6f81", text = "Stratégie optionnelle de sauvegarde de crêtes dégénérées par personnage - consultez le guide pour plus d'informations" }, -- WARNING UNVERIFIED
+            { id = "abbe6f81", text = "Stratégie optionnelle de sauvegarde de crêtes dégénérées par personnage - consultez le guide pour plus d'informations" },
         },
     },
 
@@ -38,8 +38,8 @@ local DATASET = {
             { id = "5d64cd66", text = "Ne craftez pas si vous pouvez obtenir des objets de l'armurerie supérieurs à 1/6" },
             { id = "4de0b2be", text = "Terminer la campagne d'introduction de la nouvelle zone" },
             { id = "7508a529", text = "Terminer un tour du monde de M0 pour obtenir de l'équipement ilvl 292" },
-            { id = "1cbf10d3", text = "Terminer 2x Proie difficile pour obtenir de l'équipement ilvl 292" }, -- WARNING UNVERIFIED
-            { id = "66e39766", text = "Terminer le nouveau boss de raid du Repaire en difficulté mode histoire pour le plaisir et l'équipement RDR." }, -- WARNING UNVERIFIED
+            { id = "1cbf10d3", text = "Terminer 2x Proie difficile pour obtenir de l'équipement ilvl 292" },
+            { id = "66e39766", text = "Terminer le nouveau boss de raid du Repaire en difficulté mode histoire pour le plaisir et l'équipement RDR." },
             { id = "70348198", text = "Terminer la quête hebdomadaire d'étincelle" },
         },
     },
@@ -48,11 +48,11 @@ local DATASET = {
         id = "a932c06c",
         title = "Semaine 1 - 18 août - Début de saison",
         items = {
-            { id = "77d4d31b", text = "Prendre un bonus roll si disponible, une pièce d'ensemble si votre guilde ne fait pas de splits, et une châsse si votre guilde en fait" },
+            { id = "f68afbf5", text = "Prenez un lancer de dé bonus si disponible, sinon prenez une pièce de palier si votre guilde ne fait pas de splits, et une châsse si votre guilde en fait" }, -- ⚠️ UNVERIFIED
             { id = "1ad52558", text = "Faire le RDR pour les pièces d'ensemble." },
             { id = "70348198", text = "Terminer la quête hebdomadaire d'étincelle" },
-            { id = "02a1debb", text = "Terminer ?? Azta'rec pour 60 Crêtes héroïques sans plafond et 30 Crêtes mythiques sans plafond - cela peut être terminé en groupe pour les crêtes. Non confirmé pour la Saison 2." }, -- WARNING UNVERIFIED
-            { id = "856adbfe", text = "Terminer 1 exploration de Niveau 11 avec une carte pour un objet héroïque rapide et la quête de Pierre-clé fissurée de la saison 2 pour 20 Crêtes héroïques et mythiques sans plafond. Azta'rec a une forte chance de lâcher une carte mais s'il ne vous en donne pas, une source facile de l'\"invocation de boss\" pour les explorations est de faire la quête hebdomadaire de proie cauchemardesque. Elle est garantie de vous en donner une. Si vous avez des amis/membres de guilde avec du temps en plus, ils peuvent la faire, puis vous invoquez le boss dans une exploration à 5 joueurs et tout le monde récupère une carte." }, -- WARNING UNVERIFIED
+            { id = "02a1debb", text = "Terminer ?? Azta'rec pour 60 Crêtes héroïques sans plafond et 30 Crêtes mythiques sans plafond - cela peut être terminé en groupe pour les crêtes. Non confirmé pour la Saison 2." },
+            { id = "856adbfe", text = "Terminer 1 exploration de Niveau 11 avec une carte pour un objet héroïque rapide et la quête de Pierre-clé fissurée de la saison 2 pour 20 Crêtes héroïques et mythiques sans plafond. Azta'rec a une forte chance de lâcher une carte mais s'il ne vous en donne pas, une source facile de l'\"invocation de boss\" pour les explorations est de faire la quête hebdomadaire de proie cauchemardesque. Elle est garantie de vous en donner une. Si vous avez des amis/membres de guilde avec du temps en plus, ils peuvent la faire, puis vous invoquez le boss dans une exploration à 5 joueurs et tout le monde récupère une carte." },
             { id = "47d8b971", text = "Ne pas faire le nouveau \"boss mondial/du repaire\" en difficultés supérieures - c'est un boss de raid normal." },
             { id = "0cbc66bc", text = "Farmer des +10 pour des pièces 3/6h de niveau d'objet 311, des emplacements de coffre et toutes vos différentes Crêtes." },
             { id = "a5222545", text = "Suivre le guide de bonus roll et d'artisanat du Discord de votre classe." },
@@ -85,7 +85,7 @@ local DATASET = {
             { id = "70348198", text = "Terminer la quête hebdomadaire d'étincelle" },
             { id = "a032b050", text = "Farmer des +12 si vous en avez besoin pour les crêtes. Vous n'êtes pas obligé de spammer M+ cette saison si vous pouvez obtenir vos crêtes d'autres sources." },
             { id = "a5222545", text = "Suivre le guide de bonus roll et d'artisanat du Discord de votre classe." },
-            { id = "f5a1090c", text = "Dégénéré : Sur votre reroll pourri que vous sacrifiez, déclasser toutes vos crêtes mythiques en crêtes héroïques et obtenir le haut fait Héros du mythe pour rendre les améliorations moins chères sur votre personnage principal. C'est une stratégie dégénérée uniquement ; je ne recommande pas de la faire et je ne l'inclurai pas dans les calculs à venir." }, -- WARNING UNVERIFIED
+            { id = "f5a1090c", text = "Dégénéré : Sur votre reroll pourri que vous sacrifiez, déclasser toutes vos crêtes mythiques en crêtes héroïques et obtenir le haut fait Héros du mythe pour rendre les améliorations moins chères sur votre personnage principal. C'est une stratégie dégénérée uniquement ; je ne recommande pas de la faire et je ne l'inclurai pas dans les calculs à venir." },
             { id = "be0f768b", text = "Héroïque : Améliorer un objet 3/6h à 6/6h pour 60 Crêtes héroïques. Améliorer 1 objet 3/6h à 4/6h pour 20 Crêtes héroïques. Utiliser 20 Crêtes héroïques pour un objet mythique 1/6 que vous devez d'abord améliorer à 2/6." },
             { id = "02a6dfca", text = "Mythique : Améliorer soit votre objet de bonus roll soit votre objet lâché à 6/6M en utilisant 80 Crêtes mythiques. N'oubliez pas d'améliorer d'abord un objet héroïque à 6/6 héroïque pour 20 Crêtes héroïques dans cet emplacement." },
         },

@@ -27,7 +27,7 @@ local DATASET = {
             { id = "7bea945b", text = "Complete a missão semanal do evento mundial para fagulha da Lady Liadrin" },
             { id = "1222989f", text = "Farme +10s para cofre + brasões" },
             { id = "89973dea", text = "Atualize a história da Forja do Vazio para poder obter rolagens bônus na próxima semana" },
-            { id = "abbe6f81", text = "Estratégia opcional de economia de cristas degeneradas por personagem - confira o guia para mais informações" }, -- WARNING UNVERIFIED
+            { id = "abbe6f81", text = "Estratégia opcional de economia de cristas degeneradas por personagem - confira o guia para mais informações" },
         },
     },
 
@@ -36,7 +36,7 @@ local DATASET = {
         title = "Semana 6 - 21 de Abr - Rolagens Bônus Desbloqueadas",
         items = {
             { id = "5d64cd66", text = "Não fabrique se você pode obter itens do cofre superiores a 1/6" },
-            { id = "4de0b2be", text = "Complete the new zone intro campaign" },
+            { id = "4de0b2be", text = "Complete a campanha introdutória da nova zona" },
             { id = "7508a529", text = "Complete um tour mundial de M0's para equipamento ilvl 292" },
             { id = "1cbf10d3", text = "Complete 2x Presa Difícil para equipamento ilvl 292" },
             { id = "66e39766", text = "Complete o novo chefe de raide do Covil na dificuldade modo história para diversão e equipamento LFR." },
@@ -48,11 +48,11 @@ local DATASET = {
         id = "a932c06c",
         title = "Semana 1 - 18 Ago - Início da Temporada",
         items = {
-            { id = "77d4d31b", text = "Pegue um bônus de rolagem se estiver disponível, uma peça de tier se sua guilda não faz splits, e um soquete se sua guilda faz" },
+            { id = "f68afbf5", text = "Pegue uma rolagem bônus se estiver disponível, caso contrário pegue uma peça de conjunto se sua guilda não faz divisões, e um soquete se sua guilda faz" },
             { id = "1ad52558", text = "Faça LFR para peças de tier." },
             { id = "70348198", text = "Complete a missão semanal de centelha" },
-            { id = "02a1debb", text = "Complete ?? Azta'rec para 60 Cristas de herói sem limite e 30 Cristas Míticas sem limite - isso pode ser completado em grupo para as cristas. Não confirmado para a Temporada 2." }, -- WARNING UNVERIFIED
-            { id = "856adbfe", text = "Complete 1 delve de Nível 11 com um mapa para um item de herói rápido e a missão de Pedra-chave Rachada da temporada 2 para 20 Cristas de Herói e Míticas sem limite. Azta'rec tem uma alta chance de dropar um mapa, mas se não dropar, uma fonte fácil de \"invocação de chefe\" para delves é fazer a missão semanal de presa de pesadelo. É garantido que você receberá um. Se você tiver amigos/guildies com tempo extra, eles podem fazer, então você invoca o chefe em um delve de 5 jogadores e todos saqueiam um mapa." }, -- WARNING UNVERIFIED
+            { id = "02a1debb", text = "Complete ?? Azta'rec para 60 Cristas de herói sem limite e 30 Cristas Míticas sem limite - isso pode ser completado em grupo para as cristas. Não confirmado para a Temporada 2." },
+            { id = "856adbfe", text = "Complete 1 delve de Nível 11 com um mapa para um item de herói rápido e a missão de Pedra-chave Rachada da temporada 2 para 20 Cristas de Herói e Míticas sem limite. Azta'rec tem uma alta chance de dropar um mapa, mas se não dropar, uma fonte fácil de \"invocação de chefe\" para delves é fazer a missão semanal de presa de pesadelo. É garantido que você receberá um. Se você tiver amigos/guildies com tempo extra, eles podem fazer, então você invoca o chefe em um delve de 5 jogadores e todos saqueiam um mapa." },
             { id = "47d8b971", text = "Não faça o novo \"chefe mundial/do covil\" em dificuldades superiores - é um chefe de raide normal." },
             { id = "0cbc66bc", text = "Farme +10's para peças de nível de item 311 3/6h, slots de cofre e todas as suas várias Cristas." },
             { id = "a5222545", text = "Siga o guia de bônus de rolagem e criação do Discord da sua Classe." },
