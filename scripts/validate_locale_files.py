@@ -9,12 +9,13 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List
 
 MOJIBAKE_PATTERNS = [
-    r"�",
-    r"Ã(?=[A-Za-z0-9])",
-    r"â€™|â€œ|â€|â€“|â€¦|â€|â€‹",
-    r"â(?=[A-Za-z0-9])",
-    r"ð(?=[A-Za-z0-9])",
-    r"ï(?=[A-Za-z0-9])",
+    "\uFFFD",
+    "\u00EF\u00BF\u00BD",
+    "\u00E2\u20AC[\u2122\u0153\u009D\u201C\u00A6\u2039]",
+    "\u00E2\u20AC[^\\s\"]?",
+    "\u00C3[\u00A6\u00A5\u00A7\u00A9\u00AA\u00BC\u00B6\u00A4\u00B1]",
+    "\u00C5[\u201C\u00A1\u00BE]",
+    "\u00C2[\u00B0\u00B1\u00B4\u00AB\u00BB]",
 ]
 
 
