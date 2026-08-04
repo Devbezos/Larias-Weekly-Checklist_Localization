@@ -37,7 +37,7 @@ local DATASET = {
         items = {
             { id = "4de0b2be", text = "Terminer la campagne d'introduction de la nouvelle zone" },
             { id = "7508a529", text = "Terminer un tour du monde de M0 pour obtenir de l'équipement ilvl 292" },
-            { id = "1cbf10d3", text = "Terminer 2x Proie difficile pour obtenir de l'équipement ilvl 292" },
+            { id = "e2863827", text = "Terminer 2x Proie difficile pour de l'équipement ilvl 279 si nécessaire" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Terminer le nouveau boss de raid du Repaire en difficulté mode histoire pour le plaisir et l'équipement RDR." },
             { id = "59e21858", text = "Terminez ? Azta'rec pour 30 armoiries héroïques non plafonnées et pour vous entraîner pour ?? la semaine prochaine" }, -- ⚠️ UNVERIFIED
             { id = "1fa9d1cc", text = "Terminez les profondeurs pour finir vos emplacements de quêtes mondiales si vous ne faites pas de splits" },
@@ -60,6 +60,7 @@ local DATASET = {
             { id = "c68ca026", text = "Clear complet Normal/Héroïque." },
             { id = "34c5bada", text = "Avant d'entrer en Mythique, améliorez trois objets héroïques 3/6 à 6/6 - les objets que vous choisissez dépendront de si vous prévoyez de relancer un bonus pour un objet dans cet emplacement. Cela devrait coûter 180/180 armoiries héroïques." },
             { id = "f7ab089c", text = "Comme toujours, si vous obtenez un objet mythique avant que le guide ne s'y attende, améliorez-le si vous avez les armoiries héroïques pour économiser les armoiries mythiques" },
+            { id = "375a260d", text = "Vous pouvez librement dépenser les armoiries de champion et inférieures à tout moment." },
             { id = "d3caf44e", text = "Total des armoiries dépensées jusqu'à présent : 180/180 Héroïque | 80/150 Mythique" },
         },
     },

@@ -37,7 +37,7 @@ local DATASET = {
         items = {
             { id = "4de0b2be", text = "Completa la campagna introduttiva della nuova zona" },
             { id = "7508a529", text = "Completa un tour mondiale di M0 per equipaggiamento livello oggetto 292" },
-            { id = "1cbf10d3", text = "Completa 2x Preda Difficile per equipaggiamento livello oggetto 292" },
+            { id = "e2863827", text = "Completa 2x Preda Difficile per equipaggiamento livello oggetto 279 se necessario" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Completa il nuovo boss dell'incursione Tana in difficoltà modalità storia per divertimento e equipaggiamento CDF." },
             { id = "59e21858", text = "Completa ? Azta'rec per 30 Stemmi eroe illimitati e per esercitarti per ?? la prossima settimana" },
             { id = "1fa9d1cc", text = "Completa le spedizioni per terminare i tuoi slot missioni del mondo se non fai split" },
@@ -60,6 +60,7 @@ local DATASET = {
             { id = "c68ca026", text = "Completa interamente Normale/Eroico." },
             { id = "34c5bada", text = "Prima di entrare in Mitica, migliora tre oggetti traccia eroe 3/6 a 6/6 - gli oggetti che scegli dipenderanno da se prevedi di fare un tiro bonus per un oggetto in quello slot. Questo dovrebbe richiedere 180/180 stemmi eroe." },
             { id = "f7ab089c", text = "Come sempre, se ottieni un oggetto mitico prima che la guida se lo aspetti, miglioralo se hai gli stemmi eroe per risparmiare gli stemmi leggenda" },
+            { id = "375a260d", text = "Puoi spendere liberamente le creste campione e inferiori in qualsiasi momento." }, -- ⚠️ UNVERIFIED
             { id = "d3caf44e", text = "Totale Stemmi spesi finora: 180/180 Eroico | 80/150 Mitico" },
         },
     },

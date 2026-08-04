@@ -37,7 +37,7 @@ local DATASET = {
         items = {
             { id = "4de0b2be", text = "Completa la campaña de introducción de la nueva zona" },
             { id = "7508a529", text = "Completa un tour mundial de M0 para obtener equipo de nivel 292" },
-            { id = "1cbf10d3", text = "Completa 2 veces Presa Difícil para obtener equipo de nivel 292" },
+            { id = "e2863827", text = "Completa 2x Presa difícil para equipo de nivel 279 si es necesario" },
             { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para diversión y equipo de BRB." },
             { id = "59e21858", text = "Completa ? Azta'rec para conseguir 30 Blasones de héroe sin límite y practicar para ?? la próxima semana" },
             { id = "1fa9d1cc", text = "Completa profundidades para terminar tus huecos de misiones del mundo si no haces splits" },
@@ -60,6 +60,7 @@ local DATASET = {
             { id = "c68ca026", text = "Limpieza completa Normal/Heroica." },
             { id = "34c5bada", text = "Antes de entrar en Mítico, mejora tres objetos de pista de héroe 3/6 a 6/6 - los objetos que elijas dependerán de si planeas usar tirada extra en ese hueco. Esto debería consumir 180/180 blasones de héroe." },
             { id = "f7ab089c", text = "Como siempre, si consigues un objeto mítico antes de lo que espera la guía, mejóralo si tienes los blasones de héroe para ahorrar los blasones míticos" },
+            { id = "375a260d", text = "Puedes gastar libremente blasones de campeón e inferiores en cualquier momento." },
             { id = "d3caf44e", text = "Total de Blasones gastados hasta ahora: 180/180 Heroico | 80/150 Mítico" },
         },
     },

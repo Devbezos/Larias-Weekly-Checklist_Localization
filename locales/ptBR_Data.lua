@@ -37,7 +37,7 @@ local DATASET = {
         items = {
             { id = "4de0b2be", text = "Complete a campanha introdutória da nova zona" },
             { id = "7508a529", text = "Complete um tour mundial de M0's para equipamento ilvl 292" },
-            { id = "1cbf10d3", text = "Complete 2x Presa Difícil para equipamento ilvl 292" },
+            { id = "e2863827", text = "Complete 2x Presa Difícil para equipamento ilvl 279 se necessário" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Complete o novo chefe de raide do Covil na dificuldade modo história para diversão e equipamento LFR." },
             { id = "59e21858", text = "Complete ? Azta'rec para 30 Insígnias heroicas sem limite e para praticar para ?? na próxima semana" }, -- ⚠️ UNVERIFIED
             { id = "1fa9d1cc", text = "Complete profundezas para completar seus slots de missões mundiais se você não fizer divisões" },
@@ -60,6 +60,7 @@ local DATASET = {
             { id = "c68ca026", text = "Limpe completamente Normal/Heroico." },
             { id = "34c5bada", text = "Antes de entrar no Mítico, aprimore três itens 3/6 de trilha heroica para 6/6 - os itens que você escolher dependerão se você planeja usar bônus de rolagem em um item naquele slot. Isso deve consumir 180/180 insígnias heroicas." },
             { id = "f7ab089c", text = "Como sempre, se você conseguir um item mítico antes do que o guia espera, aprimore-o se tiver insígnias heroicas para economizar as insígnias míticas" },
+            { id = "375a260d", text = "Você pode gastar livremente insígnias de campeão e inferiores a qualquer momento." }, -- ⚠️ UNVERIFIED
             { id = "d3caf44e", text = "Total de Insígnias gastas até agora: 180/180 Heroica | 80/150 Mítica" },
         },
     },

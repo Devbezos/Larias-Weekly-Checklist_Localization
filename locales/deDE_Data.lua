@@ -37,7 +37,7 @@ local DATASET = {
         items = {
             { id = "4de0b2be", text = "Schließe die Einführungskampagne der neuen Zone ab" },
             { id = "7508a529", text = "Schließe eine Welttour von M0s für 292 ilvl Ausrüstung ab" },
-            { id = "1cbf10d3", text = "Schließe 2x Harte Beute für 292 ilvl Ausrüstung ab" },
+            { id = "e2863827", text = "Schließe 2x Harte Beute für 279er Ausrüstung ab, falls nötig" },
             { id = "66e39766", text = "Schließe den neuen Bau-Schlachtzugboss auf Storymodus-Schwierigkeit für Spaß und LFR-Ausrüstung ab." },
             { id = "59e21858", text = "Schließe ? Azta'rec für 30 ungedeckelte Helden-Wappen ab und um für ?? nächste Woche zu üben" },
             { id = "1fa9d1cc", text = "Schließe Tiefen ab, um deine Weltquest-Slots zu füllen, falls du keine Splits machst" },
@@ -60,6 +60,7 @@ local DATASET = {
             { id = "c68ca026", text = "Vollständige Säuberung Normal/Heroisch." },
             { id = "34c5bada", text = "Bevor du in Mythisch gehst, werte drei 3/6 Heldenstufe-Gegenstände auf 6/6 auf - welche Gegenstände du wählst, hängt davon ab, ob du planst, einen Bonuswurf für diesen Slot zu machen. Das sollte 180/180 Heldenwappen kosten." },
             { id = "f7ab089c", text = "Wie immer gilt: Wenn du einen mythischen Gegenstand erhältst, bevor die Anleitung es erwartet, werte ihn auf, wenn du die Heldenwappen hast, um die Mythoswappen zu sparen" },
+            { id = "375a260d", text = "Du kannst Champion-Wappen und niedrigere jederzeit frei ausgeben." },
             { id = "d3caf44e", text = "Wappen bisher ausgegeben: 180/180 Heroisch | 80/150 Mythisch" },
         },
     },
