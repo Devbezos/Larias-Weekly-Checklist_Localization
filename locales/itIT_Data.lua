@@ -1,5 +1,5 @@
 --[[
-Italian (itIT) checklist data for Larias's Weekly Checklist
+Italian (itIT) checklist data for Larias' Weekly Checklist
 
 NOTE: IDs are kept identical to the enUS dataset so completion tracking stays consistent
 across locales.

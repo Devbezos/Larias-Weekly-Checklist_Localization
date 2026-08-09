@@ -1,6 +1,6 @@
-# Larias's Weekly Checklist: Localization
+# Larias' Weekly Checklist: Localization
 
-This repo is an **optional companion addon** that ships extra locales for **Larias's Weekly Checklist**.
+This repo is an **optional companion addon** that ships extra locales for **Larias' Weekly Checklist**.
 
 For full contribution guidelines including terminology rules, testing steps, and PR instructions, see [CONTRIBUTING.md](CONTRIBUTING.md).
 

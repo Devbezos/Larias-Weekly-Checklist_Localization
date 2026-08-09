@@ -1,6 +1,6 @@
 # Contributing Translations
 
-Thank you for helping localize **Larias's Weekly Checklist**! This guide covers everything you need to submit a clean, correct translation.
+Thank you for helping localize **Larias' Weekly Checklist**! This guide covers everything you need to submit a clean, correct translation.
 
 ---
 
@@ -46,7 +46,7 @@ Where `<LOCALE>` is the standard WoW locale code: `deDE`, `frFR`, `esES`, `esMX`
 2. Change `local LOCALE = "enUS"` to your locale code.
 3. Translate every **value** in the `STRINGS = { ... }` table.
    - Keep all **keys** exactly as-is (e.g. `RESET_BUTTON`, `TAB_OPTIONS`).
-   - Keep `DISPLAY_NAME` as `"Larias's Weekly Checklist"` — do not translate the addon name.
+   - Keep `DISPLAY_NAME` as `"Larias' Weekly Checklist"` — do not translate the addon name.
 4. For `TRACKING_CREST_NAMES_BY_ID`, translate crest tier names by their numeric ID key (see `translation-context.json` for confirmed names per locale).
 
 ### Step 2 — Create the data file

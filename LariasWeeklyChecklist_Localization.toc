@@ -1,6 +1,6 @@
 ## Interface: 120007, 120005, 120001
-## Title: Larias's Weekly Checklist: Localization
-## Notes: Localization data for Larias's Weekly Checklist
+## Title: Larias' Weekly Checklist: Localization
+## Notes: Localization data for Larias' Weekly Checklist
 ## Author: Larias
 ## Version: 2.1.32
 ## IconTexture: Interface\AddOns\LariasWeeklyChecklist_Localization\assets\icon

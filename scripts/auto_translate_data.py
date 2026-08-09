@@ -478,7 +478,7 @@ def write_locale_file(
     # Header
     lines += [
         "--[[",
-        f"{native} ({locale}) checklist data for Larias's Weekly Checklist",
+        f"{native} ({locale}) checklist data for Larias' Weekly Checklist",
         "",
         "NOTE: IDs are kept identical to the enUS dataset so completion tracking stays consistent",
         "across locales.",
