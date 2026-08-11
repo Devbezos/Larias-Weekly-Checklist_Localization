@@ -209,6 +209,34 @@ def apply_glossary(text: str, glossary: dict) -> str:
     return text
 
 
+_SAFE_PUNCT_TRANSLATION = str.maketrans({
+    "\u2010": "-",
+    "\u2011": "-",
+    "\u2012": "-",
+    "\u2013": "-",
+    "\u2014": "-",
+    "\u2015": "-",
+    "\u2018": "'",
+    "\u2019": "'",
+    "\u201a": "'",
+    "\u201b": "'",
+    "\u201c": '"',
+    "\u201d": '"',
+    "\u201e": '"',
+    "\u201f": '"',
+    "\u2026": "...",
+    "\u00a0": " ",
+    "\ufeff": "",
+    "\ufe0e": "",
+    "\ufe0f": "",
+})
+
+
+def sanitize_model_text(text: str) -> str:
+    """Normalize risky model punctuation without touching locale letters."""
+    return text.translate(_SAFE_PUNCT_TRANSLATION)
+
+
 # ---------------------------------------------------------------------------
 # Build the translation prompt
 # ---------------------------------------------------------------------------
@@ -238,6 +266,8 @@ This is checklist data – section titles and task descriptions for weekly WoW a
       SOMEID = "translated value",
       SOMEID__title = "translated section title",
 • Do NOT write \\uXXXX unicode escapes — write literal UTF-8 characters only.
+• Use safe plain punctuation: ASCII hyphen-minus (-), apostrophe ('), and quote (") only.
+• Do NOT use typographic punctuation or symbols such as en dash, em dash, curly quotes, fancy apostrophes, ellipsis, non-breaking spaces, emoji, or variation selectors.
 • Preserve ALL % format specifiers exactly (%s, %d, \\n, etc.) — never translate them.
 • Do NOT add or remove entries. Translate exactly the entries listed below.
 • Append  -- ⚠️ UNVERIFIED  after lines containing WoW-specific terms you are not 100% certain about.
@@ -389,7 +419,7 @@ def parse_response(raw: str) -> dict:
         m = _RESPONSE_LINE.match(line)
         if m:
             key  = m.group(1)
-            text = m.group(2)
+            text = sanitize_model_text(m.group(2))
             unverified = "UNVERIFIED" in line
             result[key] = (text, unverified)
     return result
@@ -490,7 +520,7 @@ def translate_locale(locale_code: str, enus_sections: list, glossary: dict,
     locale_glossary = glossary.get(locale_code, {})
     if locale_glossary and translated:
         translated = {
-            k: (apply_glossary(text, locale_glossary), unv)
+            k: (sanitize_model_text(apply_glossary(text, locale_glossary)), unv)
             for k, (text, unv) in translated.items()
         }
 

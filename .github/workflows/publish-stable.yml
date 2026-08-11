@@ -90,7 +90,7 @@ jobs:
 
           # Normalize toc: strip any alpha suffix, ensure stable title.
           sed -i "s/^## Version:.*/## Version: $VERSION/" "$TOC"
-          sed -i "s/^## Title:.*/## Title: Larias's Weekly Checklist: Localization/" "$TOC"
+          sed -i "s/^## Title:.*/## Title: Larias' Weekly Checklist: Localization/" "$TOC"
 
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
@@ -254,7 +254,7 @@ jobs:
           if [ -z "${DISCORD_WEBHOOK_URL:-}" ]; then exit 0; fi
 
           RELEASE_URL="https://github.com/${REPO}/releases/tag/${TAG}"
-          MSG=" **Larias's Weekly Checklist: Localization ${TAG}** is live!\n\n GitHub: ${RELEASE_URL}\n Workflow: ${RUN_URL}"
+          MSG=" **Larias' Weekly Checklist: Localization ${TAG}** is live!\n\n GitHub: ${RELEASE_URL}\n Workflow: ${RUN_URL}"
           export MSG
 
           payload=$(python3 - <<'PY'

@@ -1,5 +1,5 @@
 {
-  "_readme": "Verified WoW terminology for each locale. Keys are English game terms that may appear untranslated in Claude output; values are the correct in-game translations. Applied as a post-processing replacement pass AFTER Claude translates -- longest key matched first to prevent partial matches. Do NOT add underscore-prefixed keys; they are ignored.",
+  "_readme": "Verified WoW terminology for each locale. Keys are English game terms that may appear untranslated in Claude output; values are the correct in-game translations. Applied as a post-processing replacement pass AFTER Claude translates -- longest key matched first to prevent partial matches. Claude output must use safe plain punctuation: ASCII hyphen-minus (-), apostrophe ('), and quote (\") only. Do not use typographic punctuation or symbols such as en dash, em dash, curly quotes, fancy apostrophes, ellipsis, non-breaking spaces, emoji, or variation selectors. Do NOT add underscore-prefixed keys; they are ignored.",
   "frFR": {
     "Bountiful Delves": "Gouffres abondants",
     "Delves": "Gouffres",

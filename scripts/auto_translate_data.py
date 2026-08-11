@@ -256,6 +256,34 @@ def apply_glossary(text: str, glossary: dict) -> str:
     return text
 
 
+_SAFE_PUNCT_TRANSLATION = str.maketrans({
+    "\u2010": "-",
+    "\u2011": "-",
+    "\u2012": "-",
+    "\u2013": "-",
+    "\u2014": "-",
+    "\u2015": "-",
+    "\u2018": "'",
+    "\u2019": "'",
+    "\u201a": "'",
+    "\u201b": "'",
+    "\u201c": '"',
+    "\u201d": '"',
+    "\u201e": '"',
+    "\u201f": '"',
+    "\u2026": "...",
+    "\u00a0": " ",
+    "\ufeff": "",
+    "\ufe0e": "",
+    "\ufe0f": "",
+})
+
+
+def sanitize_model_text(text: str) -> str:
+    """Normalize risky model punctuation without touching locale letters."""
+    return text.translate(_SAFE_PUNCT_TRANSLATION)
+
+
 # ---------------------------------------------------------------------------
 # Batch builder
 # ---------------------------------------------------------------------------
@@ -352,7 +380,11 @@ You are translating a World of Warcraft addon's weekly checklist data into {LOCA
 • Each element: {{"id": "<id>", "translated": "<translation>", "unverified": <true|false>}}
 • Set "unverified": true if you are not 100% certain about any WoW-specific term in that line.
 • Preserve ALL % format specifiers (%s, %d, \\n) verbatim.
-• Write literal UTF-8 characters — NEVER \\uXXXX escape sequences.• Return PLAIN TEXT strings — do NOT use Lua escape sequences like \" or \\ in translated values.• ALL-CAPS STATUS MARKERS at end of strings (e.g. "- NOT AVAILABLE IN EARLY ACCESS") must be
+• Write literal UTF-8 characters — NEVER \\uXXXX escape sequences.
+• Return PLAIN TEXT strings — do NOT use Lua escape sequences like \" or \\ in translated values.
+• Use safe plain punctuation: ASCII hyphen-minus (-), apostrophe ('), and quote (") only.
+• Do NOT use typographic punctuation or symbols such as en dash, em dash, curly quotes, fancy apostrophes, ellipsis, non-breaking spaces, emoji, or variation selectors.
+• ALL-CAPS STATUS MARKERS at end of strings (e.g. "- NOT AVAILABLE IN EARLY ACCESS") must be
   translated into {locale_code} and remain ALL-CAPS at the end of the string.
 • Output exactly the same number of elements as the input, in the same order.
 
@@ -394,7 +426,7 @@ def call_claude(locale_code: str, entries: list, client, model: str) -> dict:
             # Claude sometimes returns Lua-escaped quotes (\" instead of ").
             # Strip that extra layer so lua_escape() doesn't double-escape them.
             out[item["id"]] = {
-                "translated": fully_unescape(str(item["translated"])),
+                "translated": sanitize_model_text(fully_unescape(str(item["translated"]))),
                 "unverified": bool(item.get("unverified", False)),
             }
     return out
@@ -478,7 +510,7 @@ def write_locale_file(
     # Header
     lines += [
         "--[[",
-        f"{native} ({locale}) checklist data for Larias's Weekly Checklist",
+        f"{native} ({locale}) checklist data for Larias' Weekly Checklist",
         "",
         "NOTE: IDs are kept identical to the enUS dataset so completion tracking stays consistent",
         "across locales.",
@@ -575,7 +607,7 @@ def translate_locale(
     locale_glossary = glossary.get(locale, {})
     if locale_glossary:
         for entry in new_translations.values():
-            entry["translated"] = apply_glossary(entry["translated"], locale_glossary)
+            entry["translated"] = sanitize_model_text(apply_glossary(entry["translated"], locale_glossary))
 
     print(f"  [{locale}] \u2713 Claude returned {len(new_translations)} translation(s).")
     tmap = dict(tmap)  # shallow copy

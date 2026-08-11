@@ -1,5 +1,5 @@
 --[[
-Spanish (Latin America) (esMX) checklist data for Larias's Weekly Checklist
+Spanish (Latin America) (esMX) checklist data for Larias' Weekly Checklist
 
 NOTE: IDs are kept identical to the enUS dataset so completion tracking stays consistent
 across locales.
