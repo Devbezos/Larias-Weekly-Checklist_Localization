@@ -29,8 +29,8 @@ local DATASET = {
             { id = "66e39766", text = "完成新巢穴团队首领的故事模式难度，获得乐趣和随机团队装备。" },
             { id = "70348198", text = "完成每周火花任务" },
             { id = "59e21858", text = "完成?阿兹塔雷克以获得30个无上限英雄徽记，并为下周的??做练习" },
-            { id = "db6bed39", text = "If not already unlocked, unlock up to tier 11 Delves so you can run one next week" },
-            { id = "090e43c1", text = "If you are not doing raid splits next week, you should fill out your delve vault to try to get tier pieces. If you are doing splits next week, just make sure that you have 3 total slots filled so you can get a socket." },
+            { id = "db6bed39", text = "如果尚未解锁，请解锁最高11层地下堡，以便下周可以进行一次" },
+            { id = "090e43c1", text = "如果下周不打团本分组，你应该填满你的地下堡宝库以尝试获得套装。如果下周要打分组，只需确保填满3个栏位即可获得镶孔。" },
         },
     },
 
@@ -39,11 +39,11 @@ local DATASET = {
         title = "第1周 - 8月18日 - 赛季开始",
         items = {
             { id = "f6802606", text = "如果你的公会不做分组，拾取一件套装。如果你的公会做分组，拾取一个镶孔。" },
-            { id = "1fb55f58", text = "You can freely spend any champion and below crests at any time." },
+            { id = "1fb55f58", text = "你可以随时自由使用任何勇士及以下徽章。" },
             { id = "1ad52558", text = "做随机团队以获得套装。" },
             { id = "70348198", text = "完成每周火花任务" },
-            { id = "078b6f7f", text = "Complete ?? Azta'rec for 60 uncapped hero Crests(30 if you already did ? difficulty) and 30 uncapped Myth Crests. Confirmed for S2" },
-            { id = "1798a832", text = "Complete 1 Tier 11 delve with a map for a quick hero item and the season 2 Cracked Keystone quest for 20 uncapped Hero and Myth crests. Azta'rec has a high chance of dropping a map but if he doesn't drop you one, an easy source of the \"boss summoning\" for delves is doing the weekly nightmare prey quest. It's guaranteed to give you one. If you have friends/guildies with extra time, they can do it, then you summon the boss in a 5-man delve and everyone loots a map. WARNING: This gives a keystone for m+. If you plan on using the \"fill your inventory\" trick to get a higher tier key, do that before doing this." },
+            { id = "078b6f7f", text = "完成??阿兹塔雷克以获得60个无上限英雄徽章(如果已完成?难度则为30个)和30个无上限神话徽章。第二赛季确认" }, -- ⚠️ UNVERIFIED
+            { id = "1798a832", text = "使用地图完成1次11层地下堡以获得快速英雄物品和第二赛季的裂纹钥石任务，奖励20个无上限英雄和神话徽章。阿兹塔雷克有很高几率掉落地图，但如果没有掉落，获得地下堡\"首领召唤\"的简单方法是完成每周噩梦猎物任务。它保证会给你一个。如果你有朋友/公会成员有额外时间，他们可以完成任务，然后你在5人地下堡中召唤首领，每个人都能拾取地图。警告：这会给你一个大秘境钥石。如果你计划使用\"填满背包\"技巧来获得更高层钥石，请在此之前完成。" },
             { id = "c20c805a", text = "不要在普通+难度野外组队新的\"世界/巢穴首领\"。你会和你的公会一起做这个。" },
             { id = "0cbc66bc", text = "刷+10以获得3/6h 311装等物品、宝库槽位和你的各种徽记。" },
             { id = "c68ca026", text = "全通普通/英雄。" },
@@ -57,7 +57,7 @@ local DATASET = {
         id = "4c73f265",
         title = "第2周 - 8月25日",
         items = {
-            { id = "2cb1a5fb", text = "IMPORTANT: Check Guide for links to resources for where to bonus roll." },
+            { id = "2cb1a5fb", text = "重要：查看指南以获取额外奖励掷骰位置的资源链接。" },
             { id = "f66d3849", text = "拾取额外掷骰 - 你的宝库战利品无关紧要。(这有点夸张 - 你可能想要拾取一个M+饰品)" },
             { id = "82c130d3", text = "如果你仍然需要套装，做随机团队获得套装。" },
             { id = "70348198", text = "完成每周火花任务" },
@@ -77,7 +77,7 @@ local DATASET = {
             { id = "70348198", text = "完成每周火花任务" },
             { id = "a032b050", text = "如果你需要徽记，刷+12。如果你可以从其他来源获得徽记，这个赛季你不必疯狂刷M+。" },
             { id = "be0f768b", text = "英雄: 将一件3/6h物品升级到6/6h，需要60英雄徽记。将1件3/6h物品升级到4/6h，需要20英雄徽记。使用20英雄徽记为一件你需要先升级到2/6的神话1/6物品。" },
-            { id = "9721de46", text = "Mythic: Upgrade either your bonus roll item or a drop item to 6/6M using 80 Myth Crests each. Don't forget to upgrade a heroic item to 6/6 heroic for 20 Heroic Crests in that slot first." },
+            { id = "9721de46", text = "神话：使用80个神话徽章将你的额外奖励掷骰物品或掉落物品升级到6/6M。不要忘记先使用20个英雄徽章将该部位的英雄物品升级到6/6英雄。" },
             { id = "f7ab089c", text = "一如既往，如果你在指南预期之前获得神话物品，如果你有英雄徽记就升级它以节省神话徽记" },
             { id = "c20119f7", text = "到目前为止花费的徽记总数: 380/380 英雄 | 320/350 神话" },
         },
@@ -98,11 +98,11 @@ local DATASET = {
 
     {
         id = "d27e3b4f",
-        title = "Week 5+ - Sep 15+ - Done with Hero Crests with imperfect drops",
+        title = "第5周+ - 9月15日+ - 英雄徽章完成但掉落不完美",
         items = {
             { id = "f66d3849", text = "拾取额外掷骰 - 你的宝库战利品无关紧要。(这有点夸张 - 你可能想要拾取一个M+饰品)" },
             { id = "70348198", text = "完成每周火花任务" },
-            { id = "197d06bc", text = "If you didn't have perfect drops, you finish with Hero crests this week." },
+            { id = "197d06bc", text = "如果你的掉落不完美，本周你会完成英雄徽章。" },
             { id = "a032b050", text = "如果你需要徽记，刷+12。如果你可以从其他来源获得徽记，这个赛季你不必疯狂刷M+。" },
         },
     },
