@@ -28,6 +28,7 @@ local DATASET = {
             { id = "e2863827", text = "Completa 2x Presa difícil para equipo de nivel 279 si es necesario" },
             { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para diversión y equipo de BRB." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
+            { id = "690c60ea", text = "Desbloquea un Crisol de Energías Erráticas de Temporada 2 que puede mejorarse a 295 al aceptar una misión en el altar de mejora de tormenta del vacío. ¡Simúlalo!" }, -- ⚠️ UNVERIFIED
             { id = "be465df9", text = "Completa las Bóvedas de Atal'Utek: Un recorrido tóxico para obtener 1/2 de un objeto de campeón 1/6 y, más importante aún, un mapa de incursión de Temporada 2. ¡NO USES EL MAPA TODAVÍA!" },
             { id = "e87e921a", text = "Avanza en incursiones hasta desbloquear n11. Mientras haces esto, una vez que hayas alcanzado una incursión n8, haz la incursión n8 con la mejora del mapa para obtener un objeto de héroe 1/6. Debería ser la única fuente de objetos de héroe esta semana." },
             { id = "090e43c1", text = "Si no vas a hacer divisiones de banda la próxima semana, deberías llenar tu cámara de Profundidades para intentar conseguir piezas de conjunto. Si vas a hacer divisiones la próxima semana, solo asegúrate de tener 3 ranuras totales llenas para poder conseguir un engaste." },

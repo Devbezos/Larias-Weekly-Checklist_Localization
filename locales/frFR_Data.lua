@@ -28,6 +28,7 @@ local DATASET = {
             { id = "e2863827", text = "Terminer 2x Proie difficile pour de l'équipement ilvl 279 si nécessaire" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Terminer le nouveau boss de raid du Repaire en difficulté mode histoire pour le plaisir et l'équipement RDR." },
             { id = "70348198", text = "Terminez la quête hebdomadaire d'étincelle" },
+            { id = "690c60ea", text = "Débloquez un Creuset d'énergies erratiques de saison 2 qui peut être amélioré à 295 en récupérant une quête à l'autel d'amélioration de tempête du Vide. Simulez-le !" }, -- ⚠️ UNVERIFIED
             { id = "be465df9", text = "Terminez Chambres fortes d'Atal'Utek : Une visite toxique pour 1/2 d'un objet de champion 1/6 et surtout une carte de profondeur Saison 2. N'UTILISEZ PAS ENCORE LA CARTE !" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Progressez dans les profondeurs jusqu'a debloquer le n11. En faisant cela, une fois que vous avez atteint une profondeur n8, faites la profondeur n8 avec le bonus de carte pour obtenir un objet de heros 1/6. Devrait etre la seule source d'objets de heros cette semaine." }, -- ⚠️ UNVERIFIED
             { id = "090e43c1", text = "Si vous ne faites pas de raids fractionnés la semaine prochaine, vous devriez remplir votre coffre de Profondeurs pour essayer d'obtenir des pièces de set. Si vous faites des fractionnés la semaine prochaine, assurez-vous simplement d'avoir 3 emplacements remplis au total pour pouvoir obtenir une châsse." },
