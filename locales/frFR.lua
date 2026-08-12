@@ -140,6 +140,7 @@ local STRINGS = {
     ALT_SUMMARY_AVAILABLE_NEED_FMT = "Disponible : %d  /  Nécessaire : %d",
     ALT_SUMMARY_HELD_TRADEUP_FMT = "En possession : %d  +  Échange : %d",
     ALT_SUMMARY_ACHIEVEMENT_ILVL_FMT = "Niveau d'objet : %s / %d",
+    ALT_SUMMARY_ACHIEVEMENT_ILVL_NOTE = "* Le niveau d'objet utilise les valeurs de filigrane ; anneaux, bijoux et armes doivent avoir des niveaux d'objet identiques pour compter séparément.",
     ALT_SUMMARY_ACHIEVEMENT_CAP_WEEKS_FMT = "Semaines restantes : %d",
     ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Objet enjolivé - ignoré)",
     RESTORE_HIDDEN_ACHIEVEMENT_SUFFIX = "(Haut fait)",

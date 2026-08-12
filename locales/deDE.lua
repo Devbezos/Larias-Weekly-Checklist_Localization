@@ -140,6 +140,7 @@ local STRINGS = {
     ALT_SUMMARY_AVAILABLE_NEED_FMT = "Verfügbar: %d  /  Benötigt: %d",
     ALT_SUMMARY_HELD_TRADEUP_FMT = "Besessen: %d  +  Tausch: %d",
     ALT_SUMMARY_ACHIEVEMENT_ILVL_FMT = "Gegenstandsstufe: %s / %d",
+    ALT_SUMMARY_ACHIEVEMENT_ILVL_NOTE = "* Gegenstandsstufe verwendet Wasserzeichenwerte; Ringe, Schmuckstücke und Waffen müssen passende Gegenstandsstufen haben, um getrennt zu zählen.",
     ALT_SUMMARY_ACHIEVEMENT_CAP_WEEKS_FMT = "Verbleibende Wochen: %d",
     ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Verzierter Gegenstand - ignoriert)",
     RESTORE_HIDDEN_ACHIEVEMENT_SUFFIX = "(Erfolg)",
