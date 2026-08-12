@@ -28,9 +28,9 @@ local DATASET = {
             { id = "e2863827", text = "如果需要，完成2次困难猎物以获得279装等装备" },
             { id = "66e39766", text = "完成新巢穴团队首领的故事模式难度，获得乐趣和随机团队装备。" },
             { id = "70348198", text = "完成每周火花任务" },
-            { id = "3e1089cd", text = "Complete \"Sparks of War\" weekly quest for 2nd spark - you can easily do this with Voidstorm world quests on war mode" },
+            { id = "061c31ef", text = "战争火花再次被热修复并且再次给予火花。" },
             { id = "690c60ea", text = "解锁一个第二赛季的不稳定能量坩埚,可以通过在虚空风暴升级祭坛接取任务升级到295。模拟它!" }, -- ⚠️ UNVERIFIED
-            { id = "3bf6be20", text = "Complete Vaults of Atal'Utek: A Toxic Tour for 1/2 of a 1/6 champion item and more importantly a Season 2 delve map. DO NOT USE THE MAP YET! (read the next line, you'll use it this week)" },
+            { id = "3bf6be20", text = "完成阿塔乌泰克宝库：毒性之旅以获得1/6冠军物品的1/2以及更重要的第2赛季地下堡地图。暂时不要使用该地图！(阅读下一行，你将在本周使用它)" },
             { id = "e87e921a", text = "推进地下堡直到解锁11层。在此过程中,一旦达到8层地下堡,使用地图增益完成8层地下堡以获得1/6英雄物品。这应该是本周英雄物品的唯一来源。" }, -- ⚠️ UNVERIFIED
             { id = "090e43c1", text = "如果下周不打团本分组，你应该填满你的地下堡宝库以尝试获得套装。如果下周要打分组，只需确保填满3个栏位即可获得镶孔。" },
         },

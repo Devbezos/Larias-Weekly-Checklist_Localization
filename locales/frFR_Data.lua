@@ -28,7 +28,7 @@ local DATASET = {
             { id = "e2863827", text = "Terminer 2x Proie difficile pour de l'équipement ilvl 279 si nécessaire" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Terminer le nouveau boss de raid du Repaire en difficulté mode histoire pour le plaisir et l'équipement RDR." },
             { id = "70348198", text = "Terminez la quête hebdomadaire d'étincelle" },
-            { id = "3e1089cd", text = "Terminez la quête hebdomadaire \"Étincelles de radiance of War\" pour la 2ème étincelle - vous pouvez facilement le faire avec les quêtes mondiales Voidstorm en mode guerre" }, -- ⚠️ UNVERIFIED
+            { id = "061c31ef", text = "Les étincelles de guerre ont été corrigées à nouveau et donnent de nouveau une étincelle." },
             { id = "690c60ea", text = "Débloquez un Creuset d'énergies erratiques de saison 2 qui peut être amélioré à 295 en récupérant une quête à l'autel d'amélioration de tempête du Vide. Simulez-le !" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Terminez Voûtes d'Atal'Utek: A Toxic Tour pour 1/2 d'un objet de champion 1/6 et surtout une carte de profondeur Saison 2. N'UTILISEZ PAS ENCORE LA CARTE ! (lisez la ligne suivante, vous l'utiliserez cette semaine)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Progressez dans les profondeurs jusqu'a debloquer le n11. En faisant cela, une fois que vous avez atteint une profondeur n8, faites la profondeur n8 avec le bonus de carte pour obtenir un objet de heros 1/6. Devrait etre la seule source d'objets de heros cette semaine." }, -- ⚠️ UNVERIFIED

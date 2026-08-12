@@ -28,7 +28,7 @@ local DATASET = {
             { id = "e2863827", text = "Completa 2x Presa difícil para equipo de nivel 279 si es necesario" },
             { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para diversión y equipo de BRB." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
-            { id = "3e1089cd", text = "Completa la misión semanal \"Chispas de guerra\" para obtener la 2ª chispa - puedes hacerlo fácilmente con misiones de mundo de Tormenta del Vacío en modo guerra" }, -- ⚠️ UNVERIFIED
+            { id = "061c31ef", text = "Chispas de guerra ha sido arreglado de nuevo con un parche rápido y vuelve a dar una chispa." },
             { id = "690c60ea", text = "Desbloquea un Crisol de Energías Erráticas de Temporada 2 que puede mejorarse a 295 al aceptar una misión en el altar de mejora de tormenta del vacío. ¡Simúlalo!" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Completa Cámaras de Atal'Utek: Un recorrido tóxico para obtener 1/2 de un objeto de campeón 1/6 y, más importante, un mapa de profundidad de Temporada 2. ¡NO USES EL MAPA TODAVÍA! (lee la siguiente línea, lo usarás esta semana)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Avanza en incursiones hasta desbloquear n11. Mientras haces esto, una vez que hayas alcanzado una incursión n8, haz la incursión n8 con la mejora del mapa para obtener un objeto de héroe 1/6. Debería ser la única fuente de objetos de héroe esta semana." },

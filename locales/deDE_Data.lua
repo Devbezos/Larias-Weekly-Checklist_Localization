@@ -28,7 +28,7 @@ local DATASET = {
             { id = "e2863827", text = "Schließe 2x Harte Beute für 279er Ausrüstung ab, falls nötig" },
             { id = "66e39766", text = "Schließe den neuen Bau-Schlachtzugboss auf Storymodus-Schwierigkeit für Spaß und LFR-Ausrüstung ab." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
-            { id = "3e1089cd", text = "Schließe die wöchentliche Quest \"Funken des Krieges\" für den 2. Funken ab - du kannst dies einfach mit Leerensturm-Weltquests im Kriegsmodus erledigen" }, -- ⚠️ UNVERIFIED
+            { id = "061c31ef", text = "Funken des Krieges wurde ERNEUT per Hotfix geändert und gewährt wieder einen Funken." }, -- ⚠️ UNVERIFIED
             { id = "690c60ea", text = "Schalte einen Tiegel der unberechenbaren Energien aus Saison 2 frei, der auf 295 aufgewertet werden kann, indem du eine Quest am Leerensturm-Aufwertungsaltar annimmst. Simuliere ihn!" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Schließe Gewölbe von Atal'Utek: Eine toxische Tour für 1/2 eines 1/6 Champion-Gegenstands und noch wichtiger eine Saison 2 Tiefenkarte ab. VERWENDE DIE KARTE NOCH NICHT! (lies die nächste Zeile, du wirst sie diese Woche verwenden)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Steigere Tiefen bis du Stufe 11 freischaltest. Sobald du dabei eine Stufe 8 Tiefe erreicht hast, schließe die Stufe 8 Tiefe mit dem Kartenbuff ab um einen 1/6 Helden-Gegenstand zu erhalten. Sollte diese Woche die einzige Quelle für Helden-Gegenstände sein." }, -- ⚠️ UNVERIFIED

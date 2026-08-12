@@ -28,7 +28,7 @@ local DATASET = {
             { id = "e2863827", text = "Completa 2x Presa Difícil para equipo de nivel 279 si es necesario" },
             { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para diversión y equipo de LFR." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
-            { id = "3e1089cd", text = "Completa la misión semanal \"Chispas de guerra\" para obtener la 2da chispa - puedes hacerlo fácilmente con las misiones de mundo de Tormenta del Vacío en modo de guerra" }, -- ⚠️ UNVERIFIED
+            { id = "061c31ef", text = "Chispas de guerra fue reparado con HOTFIX OTRA VEZ y está dando una chispa de nuevo." },
             { id = "690c60ea", text = "Desbloquea un Crisol de Energias Erraticas de Temporada 2 que puede mejorarse a 295 al recoger una mision en el altar de mejora de tormenta de vacio. Simulalo!" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Completa Bóvedas de Atal'Utek: Un recorrido tóxico para obtener 1/2 de un objeto de campeón 1/6 y más importante un mapa de caverna de Temporada 2. ¡NO USES EL MAPA TODAVÍA! (lee la siguiente línea, lo usarás esta semana)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Avanza en incursiones hasta desbloquear t11. Mientras haces esto, una vez que hayas alcanzado una incursión t8, haz la incursión t8 con la mejora del mapa para obtener un objeto de héroe 1/6. Debería ser la única fuente de objetos de héroe esta semana." },
