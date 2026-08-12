@@ -28,8 +28,8 @@ local DATASET = {
             { id = "e2863827", text = "Completa 2x Preda Difficile per equipaggiamento livello oggetto 279 se necessario" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Completa il nuovo boss dell'incursione Tana in difficoltà modalità storia per divertimento e equipaggiamento CDF." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
-            { id = "59e21858", text = "Completa ? Azta'rec per 30 Stemmi eroe illimitati e per esercitarti per ?? la prossima settimana" },
-            { id = "db6bed39", text = "Se non ancora sbloccato, sblocca fino alle Spedizioni di livello 11 così puoi farne una la prossima settimana" },
+            { id = "be465df9", text = "Completa Volte di Atal'Utek: Un Tour Tossico per 1/2 di un oggetto campione 1/6 e, cosa più importante, una mappa spedizione Stagione 2. NON USARE ANCORA LA MAPPA!" }, -- ⚠️ UNVERIFIED
+            { id = "e87e921a", text = "Avanza nelle spedizioni finché non sblocchi il livello 11. Nel farlo, una volta raggiunta una spedizione livello 8, completa la spedizione livello 8 con il potenziamento mappa per ottenere un oggetto eroe 1/6. Dovrebbe essere l'unica fonte di oggetti eroe questa settimana." }, -- ⚠️ UNVERIFIED
             { id = "090e43c1", text = "Se non stai facendo split raid la prossima settimana, dovresti riempire il tuo deposito spedizioni per cercare di ottenere pezzi del set. Se stai facendo split la prossima settimana, assicurati solo di avere 3 slot totali riempiti così puoi ottenere un incavo." },
         },
     },

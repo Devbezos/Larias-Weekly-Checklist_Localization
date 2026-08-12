@@ -28,8 +28,8 @@ local DATASET = {
             { id = "e2863827", text = "Complete 2x Presa Difícil para equipamento ilvl 279 se necessário" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Complete o novo chefe de raide do Covil na dificuldade modo história para diversão e equipamento LFR." },
             { id = "70348198", text = "Complete a missão semanal de centelha" },
-            { id = "59e21858", text = "Complete ? Azta'rec para 30 Insígnias heroicas sem limite e para praticar para ?? na próxima semana" }, -- ⚠️ UNVERIFIED
-            { id = "db6bed39", text = "Se ainda não estiver desbloqueado, desbloqueie até o nível 11 de Explorações para que você possa fazer uma na próxima semana" },
+            { id = "be465df9", text = "Complete Criptas de Atal'Utek: Um Passeio Toxico para 1/2 de um item de campeao 1/6 e mais importante um mapa de delve da Temporada 2. NAO USE O MAPA AINDA!" }, -- ⚠️ UNVERIFIED
+            { id = "e87e921a", text = "Avance nas delves ate desbloquear t11. Enquanto faz isso, assim que alcancar uma delve t8, faca a delve t8 com o bonus do mapa para obter um item de heroi 1/6. Deve ser a unica fonte de itens de heroi esta semana." }, -- ⚠️ UNVERIFIED
             { id = "090e43c1", text = "Se você não estiver fazendo splits de raide na próxima semana, você deve preencher seu cofre de explorações para tentar conseguir peças de conjunto. Se você estiver fazendo splits na próxima semana, apenas certifique-se de ter 3 slots preenchidos para poder conseguir um engaste." },
         },
     },

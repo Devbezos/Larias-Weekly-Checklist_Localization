@@ -28,8 +28,8 @@ local DATASET = {
             { id = "e2863827", text = "Schließe 2x Harte Beute für 279er Ausrüstung ab, falls nötig" },
             { id = "66e39766", text = "Schließe den neuen Bau-Schlachtzugboss auf Storymodus-Schwierigkeit für Spaß und LFR-Ausrüstung ab." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
-            { id = "59e21858", text = "Schließe ? Azta'rec für 30 ungedeckelte Helden-Wappen ab und um für ?? nächste Woche zu üben" },
-            { id = "db6bed39", text = "Falls noch nicht freigeschaltet, schalte Tiefen bis Stufe 11 frei, damit du nächste Woche eine durchführen kannst" },
+            { id = "be465df9", text = "Schließe Gewölbe von Atal'Utek: Eine giftige Tour ab für 1/2 eines 1/6 Champion-Gegenstands und wichtiger noch eine Saison 2 Tiefenkarte. BENUTZE DIE KARTE NOCH NICHT!" }, -- ⚠️ UNVERIFIED
+            { id = "e87e921a", text = "Steigere Tiefen bis du Stufe 11 freischaltest. Sobald du dabei eine Stufe 8 Tiefe erreicht hast, schließe die Stufe 8 Tiefe mit dem Kartenbuff ab um einen 1/6 Helden-Gegenstand zu erhalten. Sollte diese Woche die einzige Quelle für Helden-Gegenstände sein." }, -- ⚠️ UNVERIFIED
             { id = "090e43c1", text = "Falls du nächste Woche keine Schlachtzug-Splits machst, solltest du deine Tiefen-Truhe füllen, um zu versuchen, Set-Teile zu bekommen. Falls du nächste Woche Splits machst, stelle einfach sicher, dass du insgesamt 3 Plätze gefüllt hast, damit du eine Fassung bekommen kannst." },
         },
     },
