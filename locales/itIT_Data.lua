@@ -28,8 +28,9 @@ local DATASET = {
             { id = "e2863827", text = "Completa 2x Preda Difficile per equipaggiamento livello oggetto 279 se necessario" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Completa il nuovo boss dell'incursione Tana in difficoltà modalità storia per divertimento e equipaggiamento CDF." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
-            { id = "690c60ea", text = "Unlock a Season 2 Crucible of Erratic Energies that can be upgraded to 295 by picking up a quest at the voidstorm upgrade altar. Sim it!" },
-            { id = "be465df9", text = "Completa Volte di Atal'Utek: Un Tour Tossico per 1/2 di un oggetto campione 1/6 e, cosa più importante, una mappa spedizione Stagione 2. NON USARE ANCORA LA MAPPA!" }, -- ⚠️ UNVERIFIED
+            { id = "3e1089cd", text = "Completa la missione settimanale \"Scintille di Guerra\" per la seconda scintilla - puoi farlo facilmente con le missioni mondiali di Voidstorm in modalita guerra" }, -- ⚠️ UNVERIFIED
+            { id = "690c60ea", text = "Sblocca un Crogiolo di Energie Erratiche di Stagione 2 che puo essere potenziato a 295 raccogliendo una missione all'altare di potenziamento di voidstorm. Fai una simulazione!" }, -- ⚠️ UNVERIFIED
+            { id = "3bf6be20", text = "Completa Volte di Atal'Utek: Un Tour Tossico per 1/2 di un oggetto campione 1/6 e piu importante una mappa di delve di Stagione 2. NON USARE ANCORA LA MAPPA! (leggi la riga successiva, la userai questa settimana)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Avanza nelle spedizioni finché non sblocchi il livello 11. Nel farlo, una volta raggiunta una spedizione livello 8, completa la spedizione livello 8 con il potenziamento mappa per ottenere un oggetto eroe 1/6. Dovrebbe essere l'unica fonte di oggetti eroe questa settimana." }, -- ⚠️ UNVERIFIED
             { id = "090e43c1", text = "Se non stai facendo split raid la prossima settimana, dovresti riempire il tuo deposito spedizioni per cercare di ottenere pezzi del set. Se stai facendo split la prossima settimana, assicurati solo di avere 3 slot totali riempiti così puoi ottenere un incavo." },
         },

@@ -28,8 +28,9 @@ local DATASET = {
             { id = "e2863827", text = "Complete 2x Presa Difícil para equipamento ilvl 279 se necessário" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Complete o novo chefe de raide do Covil na dificuldade modo história para diversão e equipamento LFR." },
             { id = "70348198", text = "Complete a missão semanal de centelha" },
+            { id = "3e1089cd", text = "Complete a missão semanal \"Faíscas da Guerra\" para a 2ª faísca - você pode fazer isso facilmente com missões mundiais de Tempestade do Caos no modo de guerra" }, -- ⚠️ UNVERIFIED
             { id = "690c60ea", text = "Desbloqueie um Cadinho de Energias Erraticas da Temporada 2 que pode ser aprimorado ate 295 ao pegar uma missao no altar de aprimoramento da tempestade vil. Simule!" }, -- ⚠️ UNVERIFIED
-            { id = "be465df9", text = "Complete Criptas de Atal'Utek: Um Passeio Toxico para 1/2 de um item de campeao 1/6 e mais importante um mapa de delve da Temporada 2. NAO USE O MAPA AINDA!" }, -- ⚠️ UNVERIFIED
+            { id = "3bf6be20", text = "Complete Câmaras de Atal'Utek: Um Passeio Tóxico para 1/2 de um item de campeão 1/6 e mais importante um mapa de escavação da Temporada 2. NÃO USE O MAPA AINDA! (leia a próxima linha, você vai usá-lo esta semana)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Avance nas delves ate desbloquear t11. Enquanto faz isso, assim que alcancar uma delve t8, faca a delve t8 com o bonus do mapa para obter um item de heroi 1/6. Deve ser a unica fonte de itens de heroi esta semana." }, -- ⚠️ UNVERIFIED
             { id = "090e43c1", text = "Se você não estiver fazendo splits de raide na próxima semana, você deve preencher seu cofre de explorações para tentar conseguir peças de conjunto. Se você estiver fazendo splits na próxima semana, apenas certifique-se de ter 3 slots preenchidos para poder conseguir um engaste." },
         },
