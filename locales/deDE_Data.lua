@@ -23,7 +23,7 @@ local DATASET = {
         id = "21fa8e1b",
         title = "Woche 6 - 21. Apr - Bonuswürfe freigeschaltet",
         items = {
-            { id = "4de0b2be", text = "Schließe die Einführungskampagne der neuen Zone ab" },
+            { id = "e3f0c2bd", text = "Schließe die Einführungskampagne der neuen Zone ab." },
             { id = "7508a529", text = "Schließe eine Welttour von M0s für 292 ilvl Ausrüstung ab" },
             { id = "e2863827", text = "Schließe 2x Harte Beute für 279er Ausrüstung ab, falls nötig" },
             { id = "66e39766", text = "Schließe den neuen Bau-Schlachtzugboss auf Storymodus-Schwierigkeit für Spaß und LFR-Ausrüstung ab." },
@@ -32,7 +32,8 @@ local DATASET = {
             { id = "690c60ea", text = "Schalte einen Tiegel der unberechenbaren Energien aus Saison 2 frei, der auf 295 aufgewertet werden kann, indem du eine Quest am Leerensturm-Aufwertungsaltar annimmst. Simuliere ihn!" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Schließe Gewölbe von Atal'Utek: Eine toxische Tour für 1/2 eines 1/6 Champion-Gegenstands und noch wichtiger eine Saison 2 Tiefenkarte ab. VERWENDE DIE KARTE NOCH NICHT! (lies die nächste Zeile, du wirst sie diese Woche verwenden)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Steigere Tiefen bis du Stufe 11 freischaltest. Sobald du dabei eine Stufe 8 Tiefe erreicht hast, schließe die Stufe 8 Tiefe mit dem Kartenbuff ab um einen 1/6 Helden-Gegenstand zu erhalten. Sollte diese Woche die einzige Quelle für Helden-Gegenstände sein." }, -- ⚠️ UNVERIFIED
-            { id = "090e43c1", text = "Falls du nächste Woche keine Schlachtzug-Splits machst, solltest du deine Tiefen-Truhe füllen, um zu versuchen, Set-Teile zu bekommen. Falls du nächste Woche Splits machst, stelle einfach sicher, dass du insgesamt 3 Plätze gefüllt hast, damit du eine Fassung bekommen kannst." },
+            { id = "0e77abc6", text = "Wenn du nächste Woche keine Schlachtzug-Splits machst, solltest du deine Grufttresor-Auswahl mit Tier-6-Grüften füllen, um zu versuchen, Tier-Teile zu bekommen. Wenn du nächste Woche Splits machst, stelle einfach sicher, dass du insgesamt 3 Plätze gefüllt hast, damit du eine Sockelung bekommen kannst." }, -- ⚠️ UNVERIFIED
+            { id = "1fb55f58", text = "Du kannst jederzeit alle Champion- und niedrigeren Wappen ausgeben." },
         },
     },
 
@@ -41,7 +42,7 @@ local DATASET = {
         title = "Woche 1 - 18. Aug - Saisonstart",
         items = {
             { id = "f6802606", text = "Nimm ein Tier-Teil, wenn deine Gilde keine Splits macht. Nimm eine Sockelung, wenn deine Gilde Splits macht." },
-            { id = "1fb55f58", text = "Du kannst jederzeit alle Champion- und niedrigeren Wappen frei ausgeben." },
+            { id = "1fb55f58", text = "Du kannst jederzeit alle Champion- und niedrigeren Wappen ausgeben." },
             { id = "1ad52558", text = "Mache LFR für Tier-Teile." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
             { id = "078b6f7f", text = "Schließe ?? Azta'rec ab für 60 unbegrenzte Helden-Wappen (30, falls du bereits ? Schwierigkeitsgrad abgeschlossen hast) und 30 unbegrenzte Mythos-Wappen. Bestätigt für S2" },
@@ -60,7 +61,7 @@ local DATASET = {
         title = "Woche 2 - 25. Aug",
         items = {
             { id = "2cb1a5fb", text = "WICHTIG: Siehe Leitfaden für Links zu Ressourcen, wo Bonuswurf eingesetzt werden soll." },
-            { id = "f66d3849", text = "Nimm einen Bonuswurf - deine Truhen-Beute ist egal. (das ist leicht übertrieben - du möchtest vielleicht ein M+-Schmuckstück nehmen)" },
+            { id = "d800e84b", text = "Öffne deinen Tresor - Prüfe den Guide, was du nehmen solltest." },
             { id = "82c130d3", text = "Mache LFR für Tier-Teile, falls du noch Tier brauchst." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
             { id = "a032b050", text = "Farme +12er, falls du es für Wappen brauchst. Du musst diese Saison nicht M+ spammen, falls du deine Wappen aus anderen Quellen bekommen kannst." },
@@ -75,7 +76,7 @@ local DATASET = {
         id = "212586b9",
         title = "Woche 3 - 1. Sep",
         items = {
-            { id = "f66d3849", text = "Nimm einen Bonuswurf - deine Truhen-Beute ist egal. (das ist leicht übertrieben - du möchtest vielleicht ein M+-Schmuckstück nehmen)" },
+            { id = "d800e84b", text = "Öffne deinen Tresor - Prüfe den Guide, was du nehmen solltest." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
             { id = "a032b050", text = "Farme +12er, falls du es für Wappen brauchst. Du musst diese Saison nicht M+ spammen, falls du deine Wappen aus anderen Quellen bekommen kannst." },
             { id = "be0f768b", text = "Heroisch: Verbessere einen 3/6h-Gegenstand auf 6/6h für 60 Heroische Wappen. Verbessere 1 3/6h-Gegenstand auf 4/6h für 20 Heroische Wappen. Verwende 20 Helden-Wappen für einen Mythisch-1/6-Gegenstand, den du zuerst auf 2/6 verbessern musst." },
@@ -89,7 +90,7 @@ local DATASET = {
         id = "c607b160",
         title = "Woche 4 - 8. Sep - Fertig mit Heldenwappen bei perfekten Drops",
         items = {
-            { id = "f66d3849", text = "Nimm einen Bonuswurf - deine Truhen-Beute ist egal. (das ist leicht übertrieben - du möchtest vielleicht ein M+-Schmuckstück nehmen)" },
+            { id = "d800e84b", text = "Öffne deinen Tresor - Prüfe den Guide, was du nehmen solltest." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
             { id = "a032b050", text = "Farme +12er, falls du es für Wappen brauchst. Du musst diese Saison nicht M+ spammen, falls du deine Wappen aus anderen Quellen bekommen kannst." },
             { id = "744d79f9", text = "Heroisch: Werte 1 3/6h Gegenstand auf 6/6h für 60 Heroische Wappen auf. Du bist mit Heldenwappen bei absolut perfekten Drops diese Woche fertig. Andernfalls wird es nächste Woche sein." },
@@ -102,7 +103,7 @@ local DATASET = {
         id = "d27e3b4f",
         title = "Woche 5+ - 15. Sep+ - Fertig mit Helden-Wappen bei unvollkommenen Drops",
         items = {
-            { id = "f66d3849", text = "Nimm einen Bonuswurf - deine Truhen-Beute ist egal. (das ist leicht übertrieben - du möchtest vielleicht ein M+-Schmuckstück nehmen)" },
+            { id = "d800e84b", text = "Öffne deinen Tresor - Prüfe den Guide, was du nehmen solltest." },
             { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
             { id = "197d06bc", text = "Falls du keine perfekten Drops hattest, wirst du diese Woche mit Helden-Wappen fertig." },
             { id = "a032b050", text = "Farme +12er, falls du es für Wappen brauchst. Du musst diese Saison nicht M+ spammen, falls du deine Wappen aus anderen Quellen bekommen kannst." },

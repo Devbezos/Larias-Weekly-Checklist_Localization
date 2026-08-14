@@ -23,7 +23,7 @@ local DATASET = {
         id = "21fa8e1b",
         title = "Semana 6 - 21 abr - Desbloqueo de tiradas de bonificación",
         items = {
-            { id = "4de0b2be", text = "Completa la campaña de introducción de la nueva zona" },
+            { id = "e3f0c2bd", text = "Completa la campaña de introducción de la nueva zona." },
             { id = "7508a529", text = "Completa un tour mundial de M0 para obtener equipo de nivel 292" },
             { id = "e2863827", text = "Completa 2x Presa difícil para equipo de nivel 279 si es necesario" },
             { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para diversión y equipo de BRB." },
@@ -32,7 +32,8 @@ local DATASET = {
             { id = "690c60ea", text = "Desbloquea un Crisol de Energías Erráticas de Temporada 2 que puede mejorarse a 295 al aceptar una misión en el altar de mejora de tormenta del vacío. ¡Simúlalo!" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Completa Cámaras de Atal'Utek: Un recorrido tóxico para obtener 1/2 de un objeto de campeón 1/6 y, más importante, un mapa de profundidad de Temporada 2. ¡NO USES EL MAPA TODAVÍA! (lee la siguiente línea, lo usarás esta semana)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Avanza en incursiones hasta desbloquear n11. Mientras haces esto, una vez que hayas alcanzado una incursión n8, haz la incursión n8 con la mejora del mapa para obtener un objeto de héroe 1/6. Debería ser la única fuente de objetos de héroe esta semana." },
-            { id = "090e43c1", text = "Si no vas a hacer divisiones de banda la próxima semana, deberías llenar tu cámara de Profundidades para intentar conseguir piezas de conjunto. Si vas a hacer divisiones la próxima semana, solo asegúrate de tener 3 ranuras totales llenas para poder conseguir un engaste." },
+            { id = "0e77abc6", text = "Si no vas a hacer divisiones de banda la próxima semana, deberías completar tu cámara de profundidades con Profundidades de nivel 6 para intentar conseguir piezas de conjunto. Si vas a hacer divisiones la próxima semana, solo asegúrate de tener 3 ranuras totales completadas para poder conseguir un engaste." },
+            { id = "1fb55f58", text = "Puedes gastar libremente blasones de campeón o inferiores en cualquier momento." },
         },
     },
 
@@ -41,7 +42,7 @@ local DATASET = {
         title = "Semana 1 - 18 Ago - Comienza la Temporada",
         items = {
             { id = "f6802606", text = "Coge una pieza de conjunto si tu hermandad no hace splits. Coge un engaste si tu hermandad sí hace splits." },
-            { id = "1fb55f58", text = "Puedes gastar libremente cualquier blasón de campeón e inferior en cualquier momento." },
+            { id = "1fb55f58", text = "Puedes gastar libremente blasones de campeón o inferiores en cualquier momento." },
             { id = "1ad52558", text = "Haz BRB para piezas de conjunto." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
             { id = "078b6f7f", text = "Completa ?? Azta'rec para 60 blasones de héroe sin límite (30 si ya hiciste la dificultad ?) y 30 blasones míticos sin límite. Confirmado para T2" },
@@ -60,7 +61,7 @@ local DATASET = {
         title = "Semana 2 - 25 Ago",
         items = {
             { id = "2cb1a5fb", text = "IMPORTANTE: Consulta la guía para enlaces a recursos sobre dónde usar la tirada adicional." },
-            { id = "f66d3849", text = "Coge una tirada adicional - tu botín de cámara no importa. (esto es ligeramente hiperbólico - puede que quieras coger un abalorio de m+)" },
+            { id = "d800e84b", text = "Abre tu cámara - Consulta la guía para saber qué elegir." },
             { id = "82c130d3", text = "Haz BRB para piezas de conjunto si aún necesitas conjunto." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
             { id = "a032b050", text = "Farmea +12 si lo necesitas para blasones. No tienes que hacer M+ sin parar esta temporada si puedes conseguir tus blasones de otras fuentes." },
@@ -75,7 +76,7 @@ local DATASET = {
         id = "212586b9",
         title = "Semana 3 - 1 Sep",
         items = {
-            { id = "f66d3849", text = "Coge una tirada adicional - tu botín de cámara no importa. (esto es ligeramente hiperbólico - puede que quieras coger un abalorio de m+)" },
+            { id = "d800e84b", text = "Abre tu cámara - Consulta la guía para saber qué elegir." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
             { id = "a032b050", text = "Farmea +12 si lo necesitas para blasones. No tienes que hacer M+ sin parar esta temporada si puedes conseguir tus blasones de otras fuentes." },
             { id = "be0f768b", text = "Heroica: Mejora un objeto 3/6h a 6/6h por 60 blasones heroicos. Mejora 1 objeto 3/6h a 4/6h por 20 blasones heroicos. Usa 20 blasones heroicos para un objeto mítico 1/6 que necesites mejorar primero a 2/6." },
@@ -89,7 +90,7 @@ local DATASET = {
         id = "c607b160",
         title = "Semana 4 - 8 Sep - Terminado con Blasones de héroe con botín perfecto",
         items = {
-            { id = "f66d3849", text = "Coge una tirada adicional - tu botín de cámara no importa. (esto es ligeramente hiperbólico - puede que quieras coger un abalorio de m+)" },
+            { id = "d800e84b", text = "Abre tu cámara - Consulta la guía para saber qué elegir." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
             { id = "a032b050", text = "Farmea +12 si lo necesitas para blasones. No tienes que hacer M+ sin parar esta temporada si puedes conseguir tus blasones de otras fuentes." },
             { id = "744d79f9", text = "Heroico: Mejora 1 objeto 3/6h a 6/6h por 60 Blasones heroicos. Terminas con blasones de héroe con botín absolutamente perfecto esta semana. De lo contrario, será la próxima semana." },
@@ -102,7 +103,7 @@ local DATASET = {
         id = "d27e3b4f",
         title = "Semana 5+ - 15 sep+ - Terminado con blasones de héroe con botín imperfecto",
         items = {
-            { id = "f66d3849", text = "Coge una tirada adicional - tu botín de cámara no importa. (esto es ligeramente hiperbólico - puede que quieras coger un abalorio de m+)" },
+            { id = "d800e84b", text = "Abre tu cámara - Consulta la guía para saber qué elegir." },
             { id = "70348198", text = "Completa la misión semanal de chispa" },
             { id = "197d06bc", text = "Si no tuviste botín perfecto, terminas con blasones de héroe esta semana." },
             { id = "a032b050", text = "Farmea +12 si lo necesitas para blasones. No tienes que hacer M+ sin parar esta temporada si puedes conseguir tus blasones de otras fuentes." },

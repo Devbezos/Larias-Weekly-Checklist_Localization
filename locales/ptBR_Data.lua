@@ -23,7 +23,7 @@ local DATASET = {
         id = "21fa8e1b",
         title = "Semana 6 - 21 de Abr - Rolagens Bônus Desbloqueadas",
         items = {
-            { id = "4de0b2be", text = "Complete a campanha introdutória da nova zona" },
+            { id = "e3f0c2bd", text = "Complete a campanha introdutória da nova zona." },
             { id = "7508a529", text = "Complete um tour mundial de M0's para equipamento ilvl 292" },
             { id = "e2863827", text = "Complete 2x Presa Difícil para equipamento ilvl 279 se necessário" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Complete o novo chefe de raide do Covil na dificuldade modo história para diversão e equipamento LFR." },
@@ -32,7 +32,8 @@ local DATASET = {
             { id = "690c60ea", text = "Desbloqueie um Cadinho de Energias Erraticas da Temporada 2 que pode ser aprimorado ate 295 ao pegar uma missao no altar de aprimoramento da tempestade vil. Simule!" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Complete Câmaras de Atal'Utek: Um Passeio Tóxico para 1/2 de um item de campeão 1/6 e mais importante um mapa de escavação da Temporada 2. NÃO USE O MAPA AINDA! (leia a próxima linha, você vai usá-lo esta semana)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Avance nas delves ate desbloquear t11. Enquanto faz isso, assim que alcancar uma delve t8, faca a delve t8 com o bonus do mapa para obter um item de heroi 1/6. Deve ser a unica fonte de itens de heroi esta semana." }, -- ⚠️ UNVERIFIED
-            { id = "090e43c1", text = "Se você não estiver fazendo splits de raide na próxima semana, você deve preencher seu cofre de explorações para tentar conseguir peças de conjunto. Se você estiver fazendo splits na próxima semana, apenas certifique-se de ter 3 slots preenchidos para poder conseguir um engaste." },
+            { id = "0e77abc6", text = "Se você não for fazer divisões de raide na próxima semana, você deve preencher seu cofre de delve com Imersões nível 6 para tentar conseguir peças de conjunto. Se você for fazer divisões na próxima semana, apenas certifique-se de ter 3 espaços preenchidos no total para poder conseguir um engaste." },
+            { id = "1fb55f58", text = "Você pode gastar livremente quaisquer insígnias de campeão ou inferior a qualquer momento." },
         },
     },
 
@@ -41,7 +42,7 @@ local DATASET = {
         title = "Semana 1 - 18 Ago - Início da Temporada",
         items = {
             { id = "f6802606", text = "Pegue uma peça de conjunto se sua guilda não fizer divisões. Pegue um encaixe se sua guilda fizer divisões." },
-            { id = "1fb55f58", text = "Você pode gastar livremente qualquer insígnia de campeão e abaixo a qualquer momento." },
+            { id = "1fb55f58", text = "Você pode gastar livremente quaisquer insígnias de campeão ou inferior a qualquer momento." },
             { id = "1ad52558", text = "Faça LFR para peças de tier." },
             { id = "70348198", text = "Complete a missão semanal de centelha" },
             { id = "078b6f7f", text = "Complete ?? Azta'rec para 60 Insígnias de Herói sem limite (30 se você já fez a dificuldade ?) e 30 Insígnias Míticas sem limite. Confirmado para T2" },
@@ -60,7 +61,7 @@ local DATASET = {
         title = "Semana 2 - 25 Ago",
         items = {
             { id = "2cb1a5fb", text = "IMPORTANTE: Verifique o Guia para links de recursos sobre onde usar rolagem de bônus." },
-            { id = "f66d3849", text = "Pegue uma rolagem de bônus - seu saque do cofre não importa. (isso é um pouco hiperbólico - você pode querer pegar um trinket de m+)" },
+            { id = "d800e84b", text = "Abra seu cofre - Confira o Guia para saber o que pegar." },
             { id = "82c130d3", text = "Faça LFR para peças de tier se ainda precisar de tier." },
             { id = "70348198", text = "Complete a missão semanal de centelha" },
             { id = "a032b050", text = "Farme +12's se você precisar de insígnias. Você não precisa fazer spam de M+ esta temporada se conseguir suas insígnias de outras fontes." },
@@ -75,7 +76,7 @@ local DATASET = {
         id = "212586b9",
         title = "Semana 3 - 1 Set",
         items = {
-            { id = "f66d3849", text = "Pegue uma rolagem de bônus - seu saque do cofre não importa. (isso é um pouco hiperbólico - você pode querer pegar um trinket de m+)" },
+            { id = "d800e84b", text = "Abra seu cofre - Confira o Guia para saber o que pegar." },
             { id = "70348198", text = "Complete a missão semanal de centelha" },
             { id = "a032b050", text = "Farme +12's se você precisar de insígnias. Você não precisa fazer spam de M+ esta temporada se conseguir suas insígnias de outras fontes." },
             { id = "be0f768b", text = "Heroico: Melhore um item 3/6h para 6/6h por 60 Cristas Heroicas. Melhore 1 item 3/6h para 4/6h por 20 Cristas Heroicas. Use 20 Cristas de Herói para um item mítico 1/6 que você precisa melhorar para 2/6 primeiro." },
@@ -89,7 +90,7 @@ local DATASET = {
         id = "c607b160",
         title = "Semana 4 - 8 de Set - Terminado Com Insígnias Heroicas com drops perfeitos",
         items = {
-            { id = "f66d3849", text = "Pegue uma rolagem de bônus - seu saque do cofre não importa. (isso é um pouco hiperbólico - você pode querer pegar um trinket de m+)" },
+            { id = "d800e84b", text = "Abra seu cofre - Confira o Guia para saber o que pegar." },
             { id = "70348198", text = "Complete a missão semanal de centelha" },
             { id = "a032b050", text = "Farme +12's se você precisar de insígnias. Você não precisa fazer spam de M+ esta temporada se conseguir suas insígnias de outras fontes." },
             { id = "744d79f9", text = "Heroico: Aprimore 1 item 3/6h para 6/6h por 60 Insígnias Heroicas. Você terminou com insígnias heroicas com drops absolutamente perfeitos nesta semana. Caso contrário, será na próxima semana." },
@@ -102,7 +103,7 @@ local DATASET = {
         id = "d27e3b4f",
         title = "Semana 5+ - 15 de Set+ - Concluído com Insígnias de Herói com drops imperfeitos",
         items = {
-            { id = "f66d3849", text = "Pegue uma rolagem de bônus - seu saque do cofre não importa. (isso é um pouco hiperbólico - você pode querer pegar um trinket de m+)" },
+            { id = "d800e84b", text = "Abra seu cofre - Confira o Guia para saber o que pegar." },
             { id = "70348198", text = "Complete a missão semanal de centelha" },
             { id = "197d06bc", text = "Se você não teve drops perfeitos, você termina com Insígnias de Herói esta semana." },
             { id = "a032b050", text = "Farme +12's se você precisar de insígnias. Você não precisa fazer spam de M+ esta temporada se conseguir suas insígnias de outras fontes." },

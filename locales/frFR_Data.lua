@@ -23,7 +23,7 @@ local DATASET = {
         id = "21fa8e1b",
         title = "Semaine 6 - 21 avr - Déverrouillage des jets bonus",
         items = {
-            { id = "4de0b2be", text = "Terminer la campagne d'introduction de la nouvelle zone" },
+            { id = "e3f0c2bd", text = "Terminez la campagne d'introduction de la nouvelle zone." },
             { id = "7508a529", text = "Terminer un tour du monde de M0 pour obtenir de l'équipement ilvl 292" },
             { id = "e2863827", text = "Terminer 2x Proie difficile pour de l'équipement ilvl 279 si nécessaire" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Terminer le nouveau boss de raid du Repaire en difficulté mode histoire pour le plaisir et l'équipement RDR." },
@@ -32,7 +32,8 @@ local DATASET = {
             { id = "690c60ea", text = "Débloquez un Creuset d'énergies erratiques de saison 2 qui peut être amélioré à 295 en récupérant une quête à l'autel d'amélioration de tempête du Vide. Simulez-le !" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Terminez Voûtes d'Atal'Utek: A Toxic Tour pour 1/2 d'un objet de champion 1/6 et surtout une carte de profondeur Saison 2. N'UTILISEZ PAS ENCORE LA CARTE ! (lisez la ligne suivante, vous l'utiliserez cette semaine)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Progressez dans les profondeurs jusqu'a debloquer le n11. En faisant cela, une fois que vous avez atteint une profondeur n8, faites la profondeur n8 avec le bonus de carte pour obtenir un objet de heros 1/6. Devrait etre la seule source d'objets de heros cette semaine." }, -- ⚠️ UNVERIFIED
-            { id = "090e43c1", text = "Si vous ne faites pas de raids fractionnés la semaine prochaine, vous devriez remplir votre coffre de Profondeurs pour essayer d'obtenir des pièces de set. Si vous faites des fractionnés la semaine prochaine, assurez-vous simplement d'avoir 3 emplacements remplis au total pour pouvoir obtenir une châsse." },
+            { id = "0e77abc6", text = "Si vous ne faites pas de splits de raid la semaine prochaine, vous devriez remplir votre coffre de profondeurs avec des profondeurs niveau 6 pour essayer d'obtenir des pieces de set. Si vous faites des splits la semaine prochaine, assurez-vous simplement d'avoir 3 emplacements remplis au total pour pouvoir obtenir une chasse." },
+            { id = "1fb55f58", text = "Vous pouvez librement depenser toutes les cretes de champion et inferieures a tout moment." },
         },
     },
 
@@ -41,7 +42,7 @@ local DATASET = {
         title = "Semaine 1 - 18 août - Début de saison",
         items = {
             { id = "f6802606", text = "Prenez une pièce d'ensemble si votre guilde ne fait pas de splits. Prenez une châsse si votre guilde fait des splits." },
-            { id = "1fb55f58", text = "Vous pouvez librement dépenser toutes les armoiries de champion et inférieures à tout moment." },
+            { id = "1fb55f58", text = "Vous pouvez librement depenser toutes les cretes de champion et inferieures a tout moment." },
             { id = "1ad52558", text = "Faire le RDR pour les pièces d'ensemble." },
             { id = "70348198", text = "Terminez la quête hebdomadaire d'étincelle" },
             { id = "078b6f7f", text = "Terminez ?? Azta'rec pour 60 armoiries de héros non plafonnées (30 si vous avez déjà fait la difficulté ?) et 30 armoiries mythiques non plafonnées. Confirmé pour la S2" }, -- ⚠️ UNVERIFIED
@@ -60,7 +61,7 @@ local DATASET = {
         title = "Semaine 2 - 25 août",
         items = {
             { id = "2cb1a5fb", text = "IMPORTANT : Consultez le guide pour les liens vers les ressources indiquant où utiliser les relances de bonus." },
-            { id = "f66d3849", text = "Prenez une relance de bonus - votre butin de coffre n'a pas d'importance. (c'est légèrement hyperbolique - vous pourriez vouloir prendre un bijou de m+)" },
+            { id = "d800e84b", text = "Ouvrez votre coffre - Consultez le guide pour savoir quoi prendre." },
             { id = "82c130d3", text = "Faire le RDR pour les pièces d'ensemble si vous avez encore besoin de l'ensemble." },
             { id = "70348198", text = "Terminez la quête hebdomadaire d'étincelle" },
             { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les armoiries. Vous n'avez pas à spammer M+ cette saison si vous pouvez obtenir vos armoiries d'autres sources." },
@@ -75,7 +76,7 @@ local DATASET = {
         id = "212586b9",
         title = "Semaine 3 - 1er sept.",
         items = {
-            { id = "f66d3849", text = "Prenez une relance de bonus - votre butin de coffre n'a pas d'importance. (c'est légèrement hyperbolique - vous pourriez vouloir prendre un bijou de m+)" },
+            { id = "d800e84b", text = "Ouvrez votre coffre - Consultez le guide pour savoir quoi prendre." },
             { id = "70348198", text = "Terminez la quête hebdomadaire d'étincelle" },
             { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les armoiries. Vous n'avez pas à spammer M+ cette saison si vous pouvez obtenir vos armoiries d'autres sources." },
             { id = "be0f768b", text = "Héroïque : Améliorer un objet 3/6h à 6/6h pour 60 Crêtes héroïques. Améliorer 1 objet 3/6h à 4/6h pour 20 Crêtes héroïques. Utiliser 20 Crêtes héroïques pour un objet mythique 1/6 que vous devez d'abord améliorer à 2/6." },
@@ -89,7 +90,7 @@ local DATASET = {
         id = "c607b160",
         title = "Semaine 4 - 8 sept - Terminé avec les armoiries héroïques avec des drops parfaits",
         items = {
-            { id = "f66d3849", text = "Prenez une relance de bonus - votre butin de coffre n'a pas d'importance. (c'est légèrement hyperbolique - vous pourriez vouloir prendre un bijou de m+)" },
+            { id = "d800e84b", text = "Ouvrez votre coffre - Consultez le guide pour savoir quoi prendre." },
             { id = "70348198", text = "Terminez la quête hebdomadaire d'étincelle" },
             { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les armoiries. Vous n'avez pas à spammer M+ cette saison si vous pouvez obtenir vos armoiries d'autres sources." },
             { id = "744d79f9", text = "Héroïque : Améliorez 1 objet 3/6h à 6/6h pour 60 armoiries héroïques. Vous avez terminé avec les armoiries héroïques avec des drops absolument parfaits cette semaine. Sinon, ce sera la semaine prochaine." },
@@ -102,7 +103,7 @@ local DATASET = {
         id = "d27e3b4f",
         title = "Semaine 5+ - 15 sept+ - Terminé avec les armoiries de héros avec des butins imparfaits",
         items = {
-            { id = "f66d3849", text = "Prenez une relance de bonus - votre butin de coffre n'a pas d'importance. (c'est légèrement hyperbolique - vous pourriez vouloir prendre un bijou de m+)" },
+            { id = "d800e84b", text = "Ouvrez votre coffre - Consultez le guide pour savoir quoi prendre." },
             { id = "70348198", text = "Terminez la quête hebdomadaire d'étincelle" },
             { id = "197d06bc", text = "Si vous n'avez pas eu de butins parfaits, vous terminez avec les armoiries de héros cette semaine." },
             { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les armoiries. Vous n'avez pas à spammer M+ cette saison si vous pouvez obtenir vos armoiries d'autres sources." },

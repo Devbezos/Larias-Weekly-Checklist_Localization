@@ -23,7 +23,7 @@ local DATASET = {
         id = "21fa8e1b",
         title = "Settimana 6 - 21 Apr - Sblocco Tiri Bonus",
         items = {
-            { id = "4de0b2be", text = "Completa la campagna introduttiva della nuova zona" },
+            { id = "e3f0c2bd", text = "Completa la campagna introduttiva della nuova zona." },
             { id = "7508a529", text = "Completa un tour mondiale di M0 per equipaggiamento livello oggetto 292" },
             { id = "e2863827", text = "Completa 2x Preda Difficile per equipaggiamento livello oggetto 279 se necessario" }, -- ⚠️ UNVERIFIED
             { id = "66e39766", text = "Completa il nuovo boss dell'incursione Tana in difficoltà modalità storia per divertimento e equipaggiamento CDF." },
@@ -32,7 +32,8 @@ local DATASET = {
             { id = "690c60ea", text = "Sblocca un Crogiolo di Energie Erratiche di Stagione 2 che puo essere potenziato a 295 raccogliendo una missione all'altare di potenziamento di voidstorm. Fai una simulazione!" }, -- ⚠️ UNVERIFIED
             { id = "3bf6be20", text = "Completa Volte di Atal'Utek: Un Tour Tossico per 1/2 di un oggetto campione 1/6 e piu importante una mappa di delve di Stagione 2. NON USARE ANCORA LA MAPPA! (leggi la riga successiva, la userai questa settimana)" }, -- ⚠️ UNVERIFIED
             { id = "e87e921a", text = "Avanza nelle spedizioni finché non sblocchi il livello 11. Nel farlo, una volta raggiunta una spedizione livello 8, completa la spedizione livello 8 con il potenziamento mappa per ottenere un oggetto eroe 1/6. Dovrebbe essere l'unica fonte di oggetti eroe questa settimana." }, -- ⚠️ UNVERIFIED
-            { id = "090e43c1", text = "Se non stai facendo split raid la prossima settimana, dovresti riempire il tuo deposito spedizioni per cercare di ottenere pezzi del set. Se stai facendo split la prossima settimana, assicurati solo di avere 3 slot totali riempiti così puoi ottenere un incavo." },
+            { id = "0e77abc6", text = "Se non stai facendo split di incursioni la prossima settimana, dovresti riempire il tuo forziere delle spedizioni con Spedizioni di livello 6 per cercare di ottenere pezzi del set. Se stai facendo split la prossima settimana, assicurati solo di avere 3 slot totali riempiti in modo da poter ottenere un incavo." },
+            { id = "1fb55f58", text = "Puoi spendere liberamente stemmi campione e inferiori in qualsiasi momento." },
         },
     },
 
@@ -41,7 +42,7 @@ local DATASET = {
         title = "Settimana 1 - 18 Ago - Inizio Stagione",
         items = {
             { id = "f6802606", text = "Prendi un pezzo set se la tua gilda non fa split. Prendi un alloggiamento se la tua gilda fa split." },
-            { id = "1fb55f58", text = "Puoi spendere liberamente qualsiasi stemma campione e inferiore in qualsiasi momento." },
+            { id = "1fb55f58", text = "Puoi spendere liberamente stemmi campione e inferiori in qualsiasi momento." },
             { id = "1ad52558", text = "Fai CDF per i pezzi di serie." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
             { id = "078b6f7f", text = "Completa ?? Azta'rec per 60 Stemmi eroe senza cap (30 se hai già fatto difficoltà ?) e 30 Stemmi mito senza cap. Confermato per S2" },
@@ -60,7 +61,7 @@ local DATASET = {
         title = "Settimana 2 - 25 Ago",
         items = {
             { id = "2cb1a5fb", text = "IMPORTANTE: Controlla la Guida per i link alle risorse su dove usare i tiri bonus." },
-            { id = "f66d3849", text = "Prendi un tiro bonus - il loot del tuo deposito non importa. (questo è leggermente iperbolico - potresti volere un trinket m+)" },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
             { id = "82c130d3", text = "Fai CDF per i pezzi di serie se hai ancora bisogno della serie." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
             { id = "a032b050", text = "Farma +12 se ne hai bisogno per gli stemmi. Non devi spammare M+ questa stagione se puoi ottenere i tuoi stemmi da altre fonti." },
@@ -75,7 +76,7 @@ local DATASET = {
         id = "212586b9",
         title = "Settimana 3 - 1 Set",
         items = {
-            { id = "f66d3849", text = "Prendi un tiro bonus - il loot del tuo deposito non importa. (questo è leggermente iperbolico - potresti volere un trinket m+)" },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
             { id = "a032b050", text = "Farma +12 se ne hai bisogno per gli stemmi. Non devi spammare M+ questa stagione se puoi ottenere i tuoi stemmi da altre fonti." },
             { id = "be0f768b", text = "Eroico: Potenzia un oggetto 3/6e a 6/6e per 60 Stemmi Eroico. Potenzia 1 oggetto 3/6e a 4/6e per 20 Stemmi Eroico. Usa 20 Stemmi Eroe per un oggetto mitico 1/6 che devi prima potenziare a 2/6." },
@@ -89,7 +90,7 @@ local DATASET = {
         id = "c607b160",
         title = "Settimana 4 - 8 Set - Finito con Stemmi Eroe con drop perfetti",
         items = {
-            { id = "f66d3849", text = "Prendi un tiro bonus - il loot del tuo deposito non importa. (questo è leggermente iperbolico - potresti volere un trinket m+)" },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
             { id = "a032b050", text = "Farma +12 se ne hai bisogno per gli stemmi. Non devi spammare M+ questa stagione se puoi ottenere i tuoi stemmi da altre fonti." },
             { id = "744d79f9", text = "Eroico: Migliora 1 oggetto 3/6h a 6/6h per 60 Stemmi Eroici. Hai finito con gli stemmi eroe con drop assolutamente perfetti questa settimana. Altrimenti, sarà la prossima settimana." },
@@ -102,7 +103,7 @@ local DATASET = {
         id = "d27e3b4f",
         title = "Settimana 5+ - 15 Set+ - Finito con gli Stemmi eroe con drop imperfetti",
         items = {
-            { id = "f66d3849", text = "Prendi un tiro bonus - il loot del tuo deposito non importa. (questo è leggermente iperbolico - potresti volere un trinket m+)" },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
             { id = "197d06bc", text = "Se non hai avuto drop perfetti, finisci con gli Stemmi eroe questa settimana." },
             { id = "a032b050", text = "Farma +12 se ne hai bisogno per gli stemmi. Non devi spammare M+ questa stagione se puoi ottenere i tuoi stemmi da altre fonti." },
