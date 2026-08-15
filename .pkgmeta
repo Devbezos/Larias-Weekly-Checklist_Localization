@@ -28,6 +28,7 @@ ignore:
   - translation-context.json
   - codex.md
   - codex_for_agent.md
+  - CLAUDE.md
   - locales_auto_fix_report.json
   - locales_batch.json
   - setup-libs.ps1
