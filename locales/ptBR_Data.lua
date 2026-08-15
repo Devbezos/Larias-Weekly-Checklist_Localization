@@ -20,39 +20,40 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "21fa8e1b",
-        title = "Semana 6 - 21 de Abr - Rolagens Bônus Desbloqueadas",
+        id = "46b99ca0",
+        title = "Semana 0 - 11 de Ago - Pre-Temporada - SEMANA ATUAL",
         items = {
-            { id = "e3f0c2bd", text = "Complete a campanha introdutória da nova zona." },
-            { id = "7508a529", text = "Complete um tour mundial de M0's para equipamento ilvl 292" },
-            { id = "e2863827", text = "Complete 2x Presa Difícil para equipamento ilvl 279 se necessário" }, -- ⚠️ UNVERIFIED
-            { id = "66e39766", text = "Complete o novo chefe de raide do Covil na dificuldade modo história para diversão e equipamento LFR." },
-            { id = "70348198", text = "Complete a missão semanal de centelha" },
-            { id = "061c31ef", text = "Centelhas de guerra foi corrigido NOVAMENTE e está dando uma centelha novamente." }, -- ⚠️ UNVERIFIED
-            { id = "690c60ea", text = "Desbloqueie um Cadinho de Energias Erraticas da Temporada 2 que pode ser aprimorado ate 295 ao pegar uma missao no altar de aprimoramento da tempestade vil. Simule!" }, -- ⚠️ UNVERIFIED
-            { id = "3bf6be20", text = "Complete Câmaras de Atal'Utek: Um Passeio Tóxico para 1/2 de um item de campeão 1/6 e mais importante um mapa de escavação da Temporada 2. NÃO USE O MAPA AINDA! (leia a próxima linha, você vai usá-lo esta semana)" }, -- ⚠️ UNVERIFIED
-            { id = "e87e921a", text = "Avance nas delves ate desbloquear t11. Enquanto faz isso, assim que alcancar uma delve t8, faca a delve t8 com o bonus do mapa para obter um item de heroi 1/6. Deve ser a unica fonte de itens de heroi esta semana." }, -- ⚠️ UNVERIFIED
-            { id = "0e77abc6", text = "Se você não for fazer divisões de raide na próxima semana, você deve preencher seu cofre de delve com Imersões nível 6 para tentar conseguir peças de conjunto. Se você for fazer divisões na próxima semana, apenas certifique-se de ter 3 espaços preenchidos no total para poder conseguir um engaste." },
-            { id = "1fb55f58", text = "Você pode gastar livremente quaisquer insígnias de campeão ou inferior a qualquer momento." },
+            { id = "1fb55f58", text = "Voce pode gastar livremente quaisquer brasoes de campeao e inferiores a qualquer momento." },
+            { id = "e3f0c2bd", text = "Complete a campanha introdutoria da nova zona." },
+            { id = "7508a529", text = "Complete um tour mundial de M0's para equipamento de nivel de item 292" },
+            { id = "e2863827", text = "Complete 2x Presa Dificil para equipamento de nivel de item 279 se necessario" }, -- ⚠️ UNVERIFIED
+            { id = "66e39766", text = "Complete o novo chefe de raide do Covil na dificuldade modo historia para diversao e equipamento de LFR." }, -- ⚠️ UNVERIFIED
+            { id = "8c0621a3", text = "Complete 2x missoes semanais de centelha - voce podera obter mais 2 na proxima semana" },
+            { id = "690c60ea", text = "Desbloqueie um Cadinho de Energias Erraticas da Temporada 2 que pode ser aprimorado para 295 pegando uma missao no altar de aprimoramento da tempestade do vazio. Simule!" }, -- ⚠️ UNVERIFIED
+            { id = "c9797aa9", text = "Complete Camaras de Atal'Utek: Um Passeio Toxico para um mapa de delve da Temporada 2. Nao use ate desbloquear delves T8" }, -- ⚠️ UNVERIFIED
+            { id = "bbfd5a28", text = "Avance em delves ate desbloquear t11. Enquanto faz isso, assim que alcancar um delve t8, faca o delve t8 com o bonus de mapa para obter um item heroico 1/6. Deve ser a unica fonte de itens heroicos nesta semana." },
+            { id = "15ba7791", text = "(OPCIONAL) Incrivelmente degenerado: Se voce quiser tentar o chefe de Delve ?? do HOF na proxima semana, seja degenerado e suba Alleria para nivel 80. Essa e a coisa mais idiota que voce poderia fazer neste fim de semana, entao e claro que varios dos meus raidistas fizeram isso. Voce faz isso entrando no Delve Anel da Gloria em T11 com o curio Favor de Dunduns equipado, que permite que voce colete curios automaticamente ao passar por cima deles. Voce passa por cima de todos os curios, sai do delve e repete por 6+ horas." }, -- ⚠️ UNVERIFIED
+            { id = "2ee86b71", text = "(OPCIONAL) Uma coisa menos degenerada que voce poderia fazer e Verificar o Guia para um link para informacoes do Codice Corrosivo de Neryssa e escolher dois desses poderes para obter. Eles funcionam no covil do chefe de delve ??." }, -- ⚠️ UNVERIFIED
+            { id = "0e77abc6", text = "Se voce nao estiver fazendo divisoes de raide na proxima semana, voce deve preencher seu cofre de delve com Imersões de nivel 6 para tentar obter pecas de conjunto. Se voce estiver fazendo divisoes na proxima semana, apenas certifique-se de ter 3 espacos preenchidos no total para poder obter um encaixe." },
         },
     },
 
     {
-        id = "a932c06c",
-        title = "Semana 1 - 18 Ago - Início da Temporada",
+        id = "7a8db7e2",
+        title = "Semana 1 - 18 de Ago - Inicio da Temporada - Ainda nao atualizado abaixo para 4x centelhas",
         items = {
-            { id = "f6802606", text = "Pegue uma peça de conjunto se sua guilda não fizer divisões. Pegue um encaixe se sua guilda fizer divisões." },
-            { id = "1fb55f58", text = "Você pode gastar livremente quaisquer insígnias de campeão ou inferior a qualquer momento." },
-            { id = "1ad52558", text = "Faça LFR para peças de tier." },
-            { id = "70348198", text = "Complete a missão semanal de centelha" },
-            { id = "078b6f7f", text = "Complete ?? Azta'rec para 60 Insígnias de Herói sem limite (30 se você já fez a dificuldade ?) e 30 Insígnias Míticas sem limite. Confirmado para T2" },
-            { id = "1798a832", text = "Complete 1 Exploração nível 11 com um mapa para um item de herói rápido e a missão de Pedra-chave Rachada da temporada 2 para 20 Insígnias de Herói e Míticas sem limite. Azta'rec tem uma alta chance de dropar um mapa, mas se ele não dropar um para você, uma fonte fácil da \"invocação de chefe\" para explorações é fazer a missão semanal de presa do pesadelo. É garantido que ela dará uma para você. Se você tiver amigos/membros da guilda com tempo extra, eles podem fazê-la, então você invoca o chefe em uma exploração de 5 jogadores e todos saqueiam um mapa. AVISO: Isso dá uma pedra-chave para m+. Se você planeja usar o truque de \"encher seu inventário\" para conseguir uma chave de nível superior, faça isso antes de fazer isto." },
-            { id = "c20c805a", text = "Não faça pug do novo \"chefe mundial/covil\" em dificuldades normais+. Você fará isso com sua guilda." },
-            { id = "0cbc66bc", text = "Farme +10's para peças de nível de item 311 3/6h, slots de cofre e todas as suas várias Cristas." },
-            { id = "c68ca026", text = "Limpe completamente Normal/Heroico." },
-            { id = "34c5bada", text = "Antes de entrar no Mítico, aprimore três itens 3/6 de trilha heroica para 6/6 - os itens que você escolher dependerão se você planeja usar bônus de rolagem em um item naquele slot. Isso deve consumir 180/180 insígnias heroicas." },
-            { id = "f7ab089c", text = "Como sempre, se você conseguir um item mítico antes do que o guia espera, aprimore-o se tiver insígnias heroicas para economizar as insígnias míticas" },
-            { id = "d3caf44e", text = "Total de Insígnias gastas até agora: 180/180 Heroica | 80/150 Mítica" },
+            { id = "f6802606", text = "Pegue uma peca de conjunto se sua guilda nao faz divisoes. Pegue um encaixe se sua guilda faz divisoes." },
+            { id = "1fb55f58", text = "Voce pode gastar livremente quaisquer brasoes de campeao e inferiores a qualquer momento." },
+            { id = "1ad52558", text = "Faca LFR para pecas de conjunto." },
+            { id = "479fea56", text = "Complete 2x missoes semanais de centelha para um total de 4" },
+            { id = "87bf0a54", text = "Complete ?? Azta'rec para 60 Brasoes Heroicos sem limite e 30 Brasoes Miticos sem limite. Confirmado para T2" }, -- ⚠️ UNVERIFIED
+            { id = "1798a832", text = "Complete 1 delve de Nivel 11 com um mapa para um item heroico rapido e a missao de Pedra-chave Rachada da temporada 2 para 20 Brasoes Heroicos e Miticos sem limite. Azta'rec tem uma alta chance de soltar um mapa, mas se ele nao soltar um para voce, uma fonte facil de \"invocacao de chefe\" para delves e fazer a missao semanal de presa pesadelo. E garantido que tera um. Se voce tiver amigos/membros de guilda com tempo extra, eles podem fazer isso, entao voce invoca o chefe em um delve de 5 jogadores e todos pegam um mapa. AVISO: Isso da uma pedra-chave para m+. Se voce planeja usar o truque de \"encher seu inventario\" para obter uma chave de nivel mais alto, faca isso antes de fazer esta missao." }, -- ⚠️ UNVERIFIED
+            { id = "c20c805a", text = "Nao faca pug do novo \"chefe mundial/de covil\" nas dificuldades normal+. Voce fara isso com sua guilda." },
+            { id = "0cbc66bc", text = "Farme +10's para pecas 3/6h de nivel de item 311, espacos de cofre e todos os seus varios Brasoes." },
+            { id = "c68ca026", text = "Complete totalmente Normal/Heroico." },
+            { id = "34c5bada", text = "Antes de entrar no Mitico, aprimore tres itens de trilha heroica 3/6 para 6/6 - os itens que voce escolher dependerao de se voce planeja fazer rolagem de bonus em um item naquele espaco. Isso deve custar 180/180 brasoes heroicos." },
+            { id = "f7ab089c", text = "Como sempre, se voce obter um item mitico antes do que o guia espera, aprimore-o se tiver os brasoes heroicos para economizar os brasoes miticos" },
+            { id = "d3caf44e", text = "Total de Brasoes gastos ate agora: 180/180 Heroico | 80/150 Mitico" },
         },
     },
 
@@ -81,7 +82,7 @@ local DATASET = {
             { id = "a032b050", text = "Farme +12's se você precisar de insígnias. Você não precisa fazer spam de M+ esta temporada se conseguir suas insígnias de outras fontes." },
             { id = "be0f768b", text = "Heroico: Melhore um item 3/6h para 6/6h por 60 Cristas Heroicas. Melhore 1 item 3/6h para 4/6h por 20 Cristas Heroicas. Use 20 Cristas de Herói para um item mítico 1/6 que você precisa melhorar para 2/6 primeiro." },
             { id = "9721de46", text = "Mítico: Melhore seu item de rolagem de bônus ou um item dropado para 6/6M usando 80 Insígnias Míticas cada. Não se esqueça de melhorar um item heroico para 6/6 heroico por 20 Insígnias Heroicas naquele slot primeiro." },
-            { id = "f7ab089c", text = "Como sempre, se você conseguir um item mítico antes do que o guia espera, aprimore-o se tiver insígnias heroicas para economizar as insígnias míticas" },
+            { id = "f7ab089c", text = "Como sempre, se voce obter um item mitico antes do que o guia espera, aprimore-o se tiver os brasoes heroicos para economizar os brasoes miticos" },
             { id = "c20119f7", text = "Total de Insígnias gastas até agora: 380/380 Heroica | 320/350 Mítica" },
         },
     },

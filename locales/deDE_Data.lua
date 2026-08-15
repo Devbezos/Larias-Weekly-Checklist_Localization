@@ -20,39 +20,40 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "21fa8e1b",
-        title = "Woche 6 - 21. Apr - Bonuswürfe freigeschaltet",
+        id = "46b99ca0",
+        title = "Woche 0 - 11. Aug - Vorsaison - AKTUELLE WOCHE",
         items = {
+            { id = "1fb55f58", text = "Du kannst Wappen der Stufe Champion und darunter jederzeit frei ausgeben." },
             { id = "e3f0c2bd", text = "Schließe die Einführungskampagne der neuen Zone ab." },
-            { id = "7508a529", text = "Schließe eine Welttour von M0s für 292 ilvl Ausrüstung ab" },
-            { id = "e2863827", text = "Schließe 2x Harte Beute für 279er Ausrüstung ab, falls nötig" },
-            { id = "66e39766", text = "Schließe den neuen Bau-Schlachtzugboss auf Storymodus-Schwierigkeit für Spaß und LFR-Ausrüstung ab." },
-            { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
-            { id = "061c31ef", text = "Funken des Krieges wurde ERNEUT per Hotfix geändert und gewährt wieder einen Funken." }, -- ⚠️ UNVERIFIED
-            { id = "690c60ea", text = "Schalte einen Tiegel der unberechenbaren Energien aus Saison 2 frei, der auf 295 aufgewertet werden kann, indem du eine Quest am Leerensturm-Aufwertungsaltar annimmst. Simuliere ihn!" }, -- ⚠️ UNVERIFIED
-            { id = "3bf6be20", text = "Schließe Gewölbe von Atal'Utek: Eine toxische Tour für 1/2 eines 1/6 Champion-Gegenstands und noch wichtiger eine Saison 2 Tiefenkarte ab. VERWENDE DIE KARTE NOCH NICHT! (lies die nächste Zeile, du wirst sie diese Woche verwenden)" }, -- ⚠️ UNVERIFIED
-            { id = "e87e921a", text = "Steigere Tiefen bis du Stufe 11 freischaltest. Sobald du dabei eine Stufe 8 Tiefe erreicht hast, schließe die Stufe 8 Tiefe mit dem Kartenbuff ab um einen 1/6 Helden-Gegenstand zu erhalten. Sollte diese Woche die einzige Quelle für Helden-Gegenstände sein." }, -- ⚠️ UNVERIFIED
-            { id = "0e77abc6", text = "Wenn du nächste Woche keine Schlachtzug-Splits machst, solltest du deine Grufttresor-Auswahl mit Tier-6-Grüften füllen, um zu versuchen, Tier-Teile zu bekommen. Wenn du nächste Woche Splits machst, stelle einfach sicher, dass du insgesamt 3 Plätze gefüllt hast, damit du eine Sockelung bekommen kannst." }, -- ⚠️ UNVERIFIED
-            { id = "1fb55f58", text = "Du kannst jederzeit alle Champion- und niedrigeren Wappen ausgeben." },
+            { id = "7508a529", text = "Absolviere eine Welttour von M0s für Ausrüstung mit Gegenstandsstufe 292" },
+            { id = "e2863827", text = "Schließe 2x Harte Beute für Ausrüstung mit Gegenstandsstufe 279 ab, falls nötig" },
+            { id = "66e39766", text = "Besiege den neuen Schleier-Schlachtzugboss im Storymodus für Spaß und LFR-Ausrüstung." },
+            { id = "8c0621a3", text = "Schließe 2x wöchentliche Funken-Quests ab - du kannst nächste Woche 2 weitere erhalten" },
+            { id = "690c60ea", text = "Schalte einen Schmelztiegel unbeständiger Energien von Saison 2 frei, der auf 295 verbessert werden kann, indem du eine Quest am Verbesserungsaltar des Leersturms annimmst. Simuliere es!" }, -- ⚠️ UNVERIFIED
+            { id = "c9797aa9", text = "Schließe Gewölbe von Atal'Utek: Eine toxische Tour für eine Saison 2 Tiefenkarte ab. Verwende sie nicht, bis du T8-Tiefen freigeschaltet hast" },
+            { id = "bbfd5a28", text = "Absolviere Tiefen, bis du T11 freischaltest. Sobald du dabei eine T8-Tiefe erreicht hast, absolviere die T8-Tiefe mit dem Kartenbuff, um einen 1/6-Helden-Gegenstand zu erhalten. Es sollte diese Woche die einzige Quelle für Helden-Gegenstände sein." },
+            { id = "15ba7791", text = "(OPTIONAL) Unglaublich degeneriert: Wenn du nächste Woche den HOF-??-Tiefenboss versuchen willst, sei degeneriert und bringe Alleria auf Stufe 80. Das ist das Dümmste, was du dieses Wochenende möglicherweise tun könntest, also haben es natürlich mehrere meiner Schlachtzuger gemacht. Du tust dies, indem du die Ring des Ruhms-Tiefe auf T11 mit dem ausgerüsteten Dunduns-Gunst-Kuriosität betrittst, die es dir ermöglicht, Kuriositäten automatisch aufzusammeln, indem du über sie läufst. Du läufst über alle Kuriositäten, verlässt die Tiefe und wiederholst dies 6+ Stunden lang." }, -- ⚠️ UNVERIFIED
+            { id = "2ee86b71", text = "(OPTIONAL) Eine weniger degenerierte Sache, die du tun könntest, ist den Guide für einen Link zu Neryssas ätzendem Kodex-Informationen zu überprüfen und zwei dieser Kräfte zu erhalten. Sie funktionieren im ??-Tiefenboss-Schleier." }, -- ⚠️ UNVERIFIED
+            { id = "0e77abc6", text = "Wenn du nächste Woche keine Schlachtzug-Splits machst, solltest du deine Tiefentruhe mit Stufe-6-Tiefen füllen, um zu versuchen, Set-Teile zu bekommen. Wenn du nächste Woche Splits machst, stelle einfach sicher, dass du insgesamt 3 Slots gefüllt hast, damit du eine Fassung erhalten kannst." },
         },
     },
 
     {
-        id = "a932c06c",
-        title = "Woche 1 - 18. Aug - Saisonstart",
+        id = "7a8db7e2",
+        title = "Woche 1 - 18. Aug - Saison beginnt - Unten noch nicht für 4x Funken aktualisiert",
         items = {
-            { id = "f6802606", text = "Nimm ein Tier-Teil, wenn deine Gilde keine Splits macht. Nimm eine Sockelung, wenn deine Gilde Splits macht." },
-            { id = "1fb55f58", text = "Du kannst jederzeit alle Champion- und niedrigeren Wappen ausgeben." },
-            { id = "1ad52558", text = "Mache LFR für Tier-Teile." },
-            { id = "70348198", text = "Schließe die wöchentliche Funken-Quest ab" },
-            { id = "078b6f7f", text = "Schließe ?? Azta'rec ab für 60 unbegrenzte Helden-Wappen (30, falls du bereits ? Schwierigkeitsgrad abgeschlossen hast) und 30 unbegrenzte Mythos-Wappen. Bestätigt für S2" },
-            { id = "1798a832", text = "Schließe 1 Stufe-11-Tiefe mit einer Karte ab für einen schnellen Helden-Gegenstand und die Saison-2-Quest 'Rissiger Schlüsselstein' für 20 unbegrenzte Helden- und Mythos-Wappen. Azta'rec hat eine hohe Chance, eine Karte fallen zu lassen, aber falls er dir keine gibt, ist eine einfache Quelle für die \"Boss-Beschwörung\" in Tiefen die wöchentliche Albtraum-Beute-Quest. Sie gibt dir garantiert eine. Falls du Freunde/Gildenmitglieder mit extra Zeit hast, können sie sie machen, dann beschwörst du den Boss in einer 5-Mann-Tiefe und jeder erhält eine Karte. WARNUNG: Dies gibt einen Schlüsselstein für M+. Falls du planst, den \"Inventar füllen\"-Trick zu nutzen, um einen höherstufigen Schlüssel zu bekommen, mache das vorher." },
-            { id = "c20c805a", text = "Mache den neuen \"Welt-/Höhlenboss\" nicht in PUGs auf Normal+ Schwierigkeiten. Du wirst dies mit deiner Gilde machen." },
-            { id = "0cbc66bc", text = "Farme +10s für 3/6h 311 Gegenstandsstufen-Teile, Tresorfächer und all deine verschiedenen Wappen." },
-            { id = "c68ca026", text = "Vollständige Säuberung Normal/Heroisch." },
-            { id = "34c5bada", text = "Bevor du in Mythisch gehst, werte drei 3/6 Heldenstufe-Gegenstände auf 6/6 auf - welche Gegenstände du wählst, hängt davon ab, ob du planst, einen Bonuswurf für diesen Slot zu machen. Das sollte 180/180 Heldenwappen kosten." },
-            { id = "f7ab089c", text = "Wie immer gilt: Wenn du einen mythischen Gegenstand erhältst, bevor die Anleitung es erwartet, werte ihn auf, wenn du die Heldenwappen hast, um die Mythoswappen zu sparen" },
-            { id = "d3caf44e", text = "Wappen bisher ausgegeben: 180/180 Heroisch | 80/150 Mythisch" },
+            { id = "f6802606", text = "Nimm ein Set-Teil, wenn deine Gilde keine Splits macht. Nimm eine Fassung, wenn deine Gilde Splits macht." },
+            { id = "1fb55f58", text = "Du kannst Wappen der Stufe Champion und darunter jederzeit frei ausgeben." },
+            { id = "1ad52558", text = "Absolviere LFR für Set-Teile." },
+            { id = "479fea56", text = "Schließe 2x wöchentliche Funken-Quests für insgesamt 4 ab" },
+            { id = "87bf0a54", text = "Schließe ??-Azta'rec für 60 unbegrenzte Helden-Wappen und 30 unbegrenzte Mythos-Wappen ab. Bestätigt für S2" }, -- ⚠️ UNVERIFIED
+            { id = "1798a832", text = "Schließe 1 Stufe-11-Tiefe mit einer Karte für einen schnellen Helden-Gegenstand und die Saison-2-Quest Rissiger Schlüsselstein für 20 unbegrenzte Helden- und Mythos-Wappen ab. Azta'rec hat eine hohe Chance, eine Karte fallen zu lassen, aber falls er dir keine gibt, ist eine einfache Quelle für die \"Bossbeschwörung\" für Tiefen die wöchentliche Albtraum-Beute-Quest. Sie gibt dir garantiert eine. Wenn du Freunde/Gildenmitglieder mit zusätzlicher Zeit hast, können sie es tun, dann beschwörst du den Boss in einer 5-Mann-Tiefe und jeder plündert eine Karte. WARNUNG: Dies gibt einen Schlüsselstein für M+. Wenn du planst, den \"Inventar-füllen\"-Trick zu verwenden, um einen höherstufigen Schlüssel zu bekommen, tue das, bevor du dies tust." }, -- ⚠️ UNVERIFIED
+            { id = "c20c805a", text = "Mache den neuen \"Welt-/Schleierboss\" nicht per Zufallsgruppe auf Normal+ Schwierigkeiten. Du wirst dies mit deiner Gilde machen." },
+            { id = "0cbc66bc", text = "Farme +10er für 3/6h-Gegenstände mit Gegenstandsstufe 311, Truhenplätze und all deine verschiedenen Wappen." },
+            { id = "c68ca026", text = "Vollständiges Räumen Normal/Heroisch." },
+            { id = "34c5bada", text = "Bevor du Mythisch betrittst, verbessere drei 3/6-Heldenpfad-Gegenstände auf 6/6 - welche Gegenstände du wählst, hängt davon ab, ob du planst, einen Bonuswurf für einen Gegenstand in diesem Slot zu machen. Dies sollte 180/180 Helden-Wappen kosten." },
+            { id = "f7ab089c", text = "Wie immer, wenn du einen mythischen Gegenstand früher erhältst, als der Guide es erwartet, verbessere ihn, wenn du die Helden-Wappen hast, um die Mythos-Wappen zu sparen" },
+            { id = "d3caf44e", text = "Bisher ausgegebene Wappen insgesamt: 180/180 Heroisch | 80/150 Mythisch" },
         },
     },
 
@@ -81,7 +82,7 @@ local DATASET = {
             { id = "a032b050", text = "Farme +12er, falls du es für Wappen brauchst. Du musst diese Saison nicht M+ spammen, falls du deine Wappen aus anderen Quellen bekommen kannst." },
             { id = "be0f768b", text = "Heroisch: Verbessere einen 3/6h-Gegenstand auf 6/6h für 60 Heroische Wappen. Verbessere 1 3/6h-Gegenstand auf 4/6h für 20 Heroische Wappen. Verwende 20 Helden-Wappen für einen Mythisch-1/6-Gegenstand, den du zuerst auf 2/6 verbessern musst." },
             { id = "9721de46", text = "Mythisch: Verbessere entweder deinen Bonuswurf-Gegenstand oder einen gedropten Gegenstand auf 6/6M mit je 80 Mythos-Wappen. Vergiss nicht, zuerst einen heroischen Gegenstand für diesen Slot auf 6/6 heroisch für 20 Helden-Wappen zu verbessern." },
-            { id = "f7ab089c", text = "Wie immer gilt: Wenn du einen mythischen Gegenstand erhältst, bevor die Anleitung es erwartet, werte ihn auf, wenn du die Heldenwappen hast, um die Mythoswappen zu sparen" },
+            { id = "f7ab089c", text = "Wie immer, wenn du einen mythischen Gegenstand früher erhältst, als der Guide es erwartet, verbessere ihn, wenn du die Helden-Wappen hast, um die Mythos-Wappen zu sparen" },
             { id = "c20119f7", text = "Wappen bisher ausgegeben: 380/380 Heroisch | 320/350 Mythisch" },
         },
     },
