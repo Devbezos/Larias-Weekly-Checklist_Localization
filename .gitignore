@@ -3,6 +3,8 @@ scripts/deploy_to_wow.ps1
 scripts/*.py
 !scripts/auto_translate*.py
 !scripts/validate_locale_files.py
+!scripts/update_toc_interface.py
+!scripts/bump_toc_version.py
 .env
 
 __pycache__/
@@ -11,3 +13,12 @@ __pycache__/
 .tmp/
 
 upstream/
+
+# Dev-only / generated / not required for deployment, not run by any CI workflow
+codex.md
+codex_for_agent.md
+CLAUDE.md
+locales_auto_fix_report.json
+locales_batch.json
+LariasWeeklyChecklist.lua
+tests/

@@ -140,6 +140,7 @@ local STRINGS = {
     ALT_SUMMARY_AVAILABLE_NEED_FMT = "Доступно: %d  /  Нужно: %d",
     ALT_SUMMARY_HELD_TRADEUP_FMT = "В наличии: %d  +  Обмен: %d",
     ALT_SUMMARY_ACHIEVEMENT_ILVL_FMT = "Уровень предметов: %s / %d",
+    ALT_SUMMARY_ACHIEVEMENT_ILVL_NOTE = "* Этот уровень предметов рассчитывается по значениям водяного знака. Для колец, аксессуаров и оружия используется предмет с более низким уровнем, пока оба соответствующих слота не будут иметь одинаковый уровень предметов. *",
     ALT_SUMMARY_ACHIEVEMENT_CAP_WEEKS_FMT = "Осталось недель: %d",
     ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(Украшенный крафт - игнорируется)",
     RESTORE_HIDDEN_ACHIEVEMENT_SUFFIX = "(Достижение)",

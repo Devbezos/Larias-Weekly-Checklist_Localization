@@ -153,6 +153,7 @@ local STRINGS = {
 	ALT_SUMMARY_AVAILABLE_NEED_FMT = "可用: %d  /  需要: %d",
 	ALT_SUMMARY_HELD_TRADEUP_FMT = "持有: %d  +  兑换: %d",
 	ALT_SUMMARY_ACHIEVEMENT_ILVL_FMT = "物品等级: %s / %d",
+	ALT_SUMMARY_ACHIEVEMENT_ILVL_NOTE = "* 此物品等级使用水印值计算。对于戒指、饰品和武器，会使用物品等级较低的那件，直到两个对应栏位拥有相同物品等级。 *",
 	ALT_SUMMARY_ACHIEVEMENT_CAP_WEEKS_FMT = "剩余周数: %d",
 	ALT_SUMMARY_LIMITED_CRAFTED_IGNORED = "(装饰效果制作装备 - 已忽略)",
 	RESTORE_HIDDEN_ACHIEVEMENT_SUFFIX = "(成就)",
