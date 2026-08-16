@@ -1,5 +1,8 @@
 # Larias' Weekly Checklist: Localization
 
+[![CurseForge](https://img.shields.io/badge/CurseForge-Install-F16436)](https://www.curseforge.com/wow/addons/lariass-weekly-midnight-checklist-localization)
+[![Wago](https://img.shields.io/badge/Wago-Install-C1272D)](https://addons.wago.io/addons/mNw78XNo)
+
 This repo is an **optional companion addon** that ships extra locales for **Larias' Weekly Checklist**.
 
 For full contribution guidelines including terminology rules, testing steps, and PR instructions, see [CONTRIBUTING.md](CONTRIBUTING.md).
