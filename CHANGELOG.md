@@ -1,3 +1,8 @@
+## [2.1.47] (2026-08-19)
+- Auto-translate all-locales – AI-generated, unverified terms flagged
+- Updated locales: deDE esES esMX frFR itIT koKR ptBR ruRU zhCN
+- Updated interface versions: 120100, 120007, 120005
+
 ## [2.1.46] (2026-08-17)
 - Auto-translate all-locales – AI-generated, unverified terms flagged
 - Revert "Auto-translate all-locales – AI-generated, unverified terms flagged"
