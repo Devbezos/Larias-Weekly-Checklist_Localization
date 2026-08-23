@@ -53,7 +53,7 @@ local DATASET = {
             { id = "c20c805a", text = "No hagas pug del nuevo \"jefe de mundo/guarida\" en dificultades normal+. Harás esto con tu hermandad." },
             { id = "0cbc66bc", text = "Farmea +10 para piezas 3/6h de nivel de objeto 311, ranuras de cámara y todos tus diversos emblemas." },
             { id = "c68ca026", text = "Despeje completo de Normal/Heroico." },
-            { id = "34c5bada", text = "Antes de entrar en Mítico, mejora tres objetos de ruta héroe 3/6 a 6/6 - los objetos que elijas dependerán de si planeas hacer tirada extra de un objeto en ese hueco. Esto debería costar 180/180 emblemas héroe." },
+            { id = "57c283c4", text = "Antes de entrar en Mítico, mejora tres objetos de categoría heroica 3/6 a 6/6 - los objetos que elijas dependerán de si planeas usar la tirada adicional en ese hueco. No debes mejorar huecos en los que tengas intención de usar la tirada adicional para objetos míticos. Esto debería consumir 180/180 blasones heroicos." },
             { id = "69319517", text = "Si fabricas un arma de 2 manos, puedes adelantarte y fabricar esto a 5/6M por 80 emblemas míticos. Sin embargo, esto es un gran compromiso y Blizzard ha anunciado un parche de ajustes para el 25 de agosto. Si podrías cambiar de especialización (equilibrio -> feral, fdk -> profano, etc.) que requieren un tipo de arma diferente, deberías esperar." }, -- ⚠️ UNVERIFIED
             { id = "7bad141c", text = "Si no fabricas un arma de 2 manos, fabrica un objeto a 5/6M por 80 emblemas míticos." },
             { id = "f7ab089c", text = "Como siempre, si consigues un objeto mítico antes de lo que la guía espera, mejóralo si tienes los emblemas héroe para ahorrar los emblemas míticos" },

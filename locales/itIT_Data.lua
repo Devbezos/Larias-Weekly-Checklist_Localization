@@ -53,7 +53,7 @@ local DATASET = {
             { id = "c20c805a", text = "Non fare il nuovo \"boss mondiale/tana\" in difficolta' normale+ in PUG. Lo farai con la tua gilda." },
             { id = "0cbc66bc", text = "Farma +10 per pezzi 3/6e livello oggetto 311, slot del forziere e tutti i tuoi vari Blasoni." },
             { id = "c68ca026", text = "Completa tutto Normale/Eroico." },
-            { id = "34c5bada", text = "Prima di entrare in Mitico, potenzia tre oggetti traccia eroe 3/6 a 6/6 - gli oggetti che scegli dipenderanno se hai intenzione di fare un tiro bonus per un oggetto in quello slot. Questo dovrebbe richiedere 180/180 blasoni eroe." },
+            { id = "57c283c4", text = "Prima di entrare in Mitica, potenzia tre oggetti traccia eroe 3/6 a 6/6 - gli oggetti che scegli dipenderanno dal fatto che prevedi di tirare bonus un oggetto in quello slot. Non dovresti potenziare slot in cui intendi tirare bonus oggetti mitici. Questo dovrebbe richiedere 180/180 stemmi eroe." }, -- ⚠️ UNVERIFIED
             { id = "69319517", text = "Se crei un'arma a 2 mani, puoi andare avanti e crearla a 5/6M per 80 blasoni Mitico. Tuttavia, questo e' un grande impegno e Blizzard ha annunciato una patch di bilanciamento per il 25 agosto. Se potresti cambiare specializzazione (boomie -> feral, fdk -> unholy ecc) che richiedono un tipo di arma diverso, dovresti aspettare." }, -- ⚠️ UNVERIFIED
             { id = "7bad141c", text = "Se non crei un'arma a 2 mani, crea un oggetto a 5/6M per 80 blasoni Mitico." },
             { id = "f7ab089c", text = "Come sempre, se ottieni un oggetto mitico prima di quanto la guida si aspetti, potenzialo se hai i blasoni eroe per risparmiare i blasoni mitico" },

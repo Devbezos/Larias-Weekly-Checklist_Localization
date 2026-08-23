@@ -53,7 +53,7 @@ local DATASET = {
             { id = "c20c805a", text = "Não faça pug do novo \"chefe mundial/de covil\" em dificuldades normal+. Você fará isso com sua guilda." },
             { id = "0cbc66bc", text = "Farme +10's para peças 3/6h nivel de item 311, slots de cofre e todas as suas várias Cristas." },
             { id = "c68ca026", text = "Complete totalmente Normal/Heroico." },
-            { id = "34c5bada", text = "Antes de entrar no Mitico, aprimore três itens 3/6 trilha heroica para 6/6 - os itens que você escolhe vão depender de se você planeja fazer rolagem bônus em um item nesse slot. Isso deve levar 180/180 cristas heroicas." },
+            { id = "57c283c4", text = "Antes de entrar no Mitico, aprimore tres itens 3/6 de trilha heroica para 6/6 - os itens que voce escolher dependerao de se voce planeja usar rolagem bonus em um item naquele slot. Voce nao deve aprimorar slots nos quais pretende usar rolagem bonus para itens miticos. Isso deve consumir 180/180 insígnias heroicas." },
             { id = "69319517", text = "Se craftando uma arma de 2 mãos, você pode ir em frente e craftar isso em 5/6M por 80 cristas Miticas. No entanto, isso é um grande comprometimento e a Blizzard anunciou um patch de ajuste para 25 de agosto. Se você pode trocar de specs (druida equilibrio -> feral, fdk -> unholy etc) que requerem um tipo de arma diferente, você deve esperar." }, -- ⚠️ UNVERIFIED
             { id = "7bad141c", text = "Se não craftando uma arma de 2 mãos, crafte um item em 5/6M por 80 cristas Miticas." },
             { id = "f7ab089c", text = "Como sempre, se você conseguir um item mitico antes do guia esperar que você consiga, aprimore-o se você tiver as cristas heroicas para poupar as cristas miticas" },
