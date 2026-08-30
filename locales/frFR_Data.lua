@@ -23,7 +23,7 @@ local DATASET = {
         id = "21fa8e1b",
         title = "Semaine 0 - 11 août - Pré-saison",
         items = {
-            { id = "1fb55f58", text = "Vous pouvez librement dépenser toutes les armoiries de champion et inférieures à tout moment." },
+            { id = "1fb55f58", text = "Vous pouvez librement depenser toutes les armoiries de champion et inferieures a tout moment." },
             { id = "e3f0c2bd", text = "Terminez la campagne d'introduction de la nouvelle zone." },
             { id = "7508a529", text = "Terminez un tour du monde des M0 pour de l'équipement niveau 292" },
             { id = "e2863827", text = "Terminez 2x Proie difficile pour de l'équipement niveau 279 si nécessaire" }, -- ⚠️ UNVERIFIED
@@ -39,43 +39,44 @@ local DATASET = {
     },
 
     {
-        id = "29f0211e",
-        title = "Semaine 1 - 18 août - Début de saison - MIS A JOUR - Semaine actuelle",
+        id = "a932c06c",
+        title = "Semaine 1 - 18 Aout - Debut de Saison",
         items = {
-            { id = "ed3ed033", text = "Prenez une pièce d'ensemble si votre guilde ne fait pas de splits. Prenez une châsse si votre guilde fait des splits. AVERTISSEMENT: CELA PEUT VOUS DONNER UNE CLÉ - ASSUREZ-VOUS D'OBTENIR UNE CLÉ +10 AVANT DE PRENDRE UN OBJET." },
-            { id = "1fb55f58", text = "Vous pouvez librement dépenser toutes les armoiries de champion et inférieures à tout moment." },
-            { id = "1ad52558", text = "Faites le RFR pour les pièces d'ensemble." },
-            { id = "bada8c98", text = "Commencez la série de quêtes de relance bonus de saison 2 dans la Tempête du vide" }, -- ⚠️ UNVERIFIED
-            { id = "479fea56", text = "Terminez 2x quêtes d'étincelle hebdomadaires pour un total de 4" },
-            { id = "e20bf519", text = "Terminez ?? Azta'rec pour 60 écussons de héros non plafonnés et 30 écussons mythiques non plafonnés. Confirmé pour S2. Addon Snakesays recommandé pour faciliter grandement." }, -- ⚠️ UNVERIFIED
-            { id = "d786018f", text = "Si vous avez un groupe préformé, vous pouvez obtenir une clé +10 pour tout le monde. Vous pouvez avoir une équipe de 4 alts + 1 personnage principal, obtenir une clé de la dame qui rétrograde votre clé, la monter à +11 puis la faire avec les personnages principaux et tout le monde obtient une +10. Il y a une meilleure façon, cependant, qui a fonctionné en S1: remplissez complètement votre inventaire avec des objets (les marteaux de forgeron sont un bon choix). Demandez à une personne d'obtenir une +2 et de la pousser à 11 sans que personne d'autre ne pille le coffre. Le butin vous sera envoyé par courrier. Une fois que vous atteignez une +11, videz votre inventaire puis pillez la +11." },
-            { id = "1798a832", text = "Terminez 1 délave de palier 11 avec une carte pour un objet héros rapide et la quête Pierre-clé fissurée de saison 2 pour 20 armoiries héros et mythiques non plafonnées. Azta'rec a une forte chance de faire tomber une carte mais s'il ne vous en fait pas tomber une, une source facile de l'\"invocation de boss\" pour les délaves est de faire la quête hebdomadaire de proie cauchemar. Elle est garantie de vous en donner une. Si vous avez des amis/membres de guilde avec du temps supplémentaire, ils peuvent le faire, puis vous invoquez le boss dans un délave à 5 joueurs et tout le monde pille une carte. AVERTISSEMENT: Cela donne une pierre-clé pour m+. Si vous prévoyez d'utiliser l'astuce \"remplir votre inventaire\" pour obtenir une clé de palier supérieur, faites-le avant de faire cela." }, -- ⚠️ UNVERIFIED
-            { id = "c20c805a", text = "Ne faites pas le nouveau \"boss du monde/repaire\" en difficulté normale+ en aléatoire. Vous ferez cela avec votre guilde." },
-            { id = "0cbc66bc", text = "Farmez des +10 pour des pièces 3/6h niveau 311, des emplacements de coffre et toutes vos diverses armoiries." },
-            { id = "c68ca026", text = "Nettoyage complet Normal/Héroïque." },
-            { id = "57c283c4", text = "Avant d'entrer en Mythique, ameliorez trois objets de piste heroique 3/6 a 6/6 - les objets que vous choisissez depend de si vous prevoyez d'utiliser un bonus de butin pour cet emplacement. Vous ne devriez pas ameliorer les emplacements pour lesquels vous comptez obtenir des objets mythiques par bonus de butin. Cela devrait necessiter 180/180 cretes heroiques." }, -- ⚠️ UNVERIFIED
-            { id = "69319517", text = "Si vous craftez une arme à deux mains, vous pouvez aller de l'avant et la crafter à 5/6M pour 80 armoiries mythiques. Cependant, c'est un gros engagement et Blizzard a annoncé un patch d'équilibrage pour le 25 août. Si vous pourriez changer de spécialisation (équilibre -> farouche, DK givre -> impie etc) qui nécessitent un type d'arme différent, vous devriez attendre." }, -- ⚠️ UNVERIFIED
-            { id = "7bad141c", text = "Si vous ne craftez pas une arme à deux mains, craftez un objet à 5/6M pour 80 armoiries mythiques." },
-            { id = "f7ab089c", text = "Comme toujours, si vous obtenez un objet mythique avant que le guide ne s'y attende, améliorez-le si vous avez les armoiries héros pour économiser les armoiries mythiques" },
-            { id = "05917f80", text = "Si vous êtes dégénéré CONSULTEZ LE GUIDE, équipez-le et plafonnez les armoiries." },
-            { id = "d3caf44e", text = "Total d'armoiries dépensées jusqu'à présent: 180/180 Héroïque | 80/150 Mythique" },
+            { id = "ed3ed033", text = "Prenez une piece d'ensemble si votre guilde ne fait pas de splits. Prenez une chasse si votre guilde fait des splits. ATTENTION: CECI PEUT VOUS DONNER UNE CLE - ASSUREZ-VOUS D'OBTENIR UNE CLE +10 AVANT DE PRENDRE UN OBJET." },
+            { id = "1fb55f58", text = "Vous pouvez librement depenser toutes les armoiries de champion et inferieures a tout moment." },
+            { id = "1ad52558", text = "Faites le RFR pour les pieces d'ensemble." },
+            { id = "bada8c98", text = "Commencez la serie de quetes de relance de Saison 2 dans la Tempete du Vide" }, -- ⚠️ UNVERIFIED
+            { id = "479fea56", text = "Completez 2 quetes d'etincelle hebdomadaires pour un total de 4" },
+            { id = "e20bf519", text = "Completez ?? Azta'rec pour 60 Armoiries heroiques non plafonnees et 30 Armoiries mythiques non plafonnees. Confirme pour S2. Addon Snakesays recommande pour le rendre vraiment facile." }, -- ⚠️ UNVERIFIED
+            { id = "d786018f", text = "Si vous avez un groupe preconstitue, vous pouvez obtenir une cle +10 pour tout le monde. Vous pouvez avoir une equipe de 4 rerolls + 1 main, obtenir une cle de la dame qui rabaisse votre cle, la monter jusqu'a +11 puis la faire sur les mains et tout le monde obtient une +10. Il y a une meilleure facon cependant, qui a fonctionne en S1: remplissez completement votre inventaire avec des objets (les marteaux de forgeron sont un bon choix). Demandez a une personne d'obtenir une +2 et de la pousser a 11 sans que personne d'autre ne pille le coffre. Le butin vous sera envoye par courrier. Une fois arrive a +11, degagez votre inventaire puis pillez le +11." }, -- ⚠️ UNVERIFIED
+            { id = "1798a832", text = "Completez 1 Profondeur niveau 11 avec une carte pour un objet heroique rapide et la quete Pierre-cle fissure de saison 2 pour 20 Armoiries heroiques et mythiques non plafonnees. Azta'rec a une forte chance de lacher une carte mais s'il ne vous en donne pas une, une source facile de \"convocation de boss\" pour les profondeurs est de faire la quete hebdomadaire de proie cauchemardesque. Elle est garantie de vous en donner une. Si vous avez des amis/membres de guilde avec du temps en plus, ils peuvent la faire, puis vous invoquez le boss dans une profondeur a 5 joueurs et tout le monde recoit une carte. ATTENTION: Ceci donne une pierre-cle pour m+. Si vous prevoyez d'utiliser l'astuce \"remplir votre inventaire\" pour obtenir une cle de niveau superieur, faites-le avant de faire ceci." }, -- ⚠️ UNVERIFIED
+            { id = "c20c805a", text = "Ne rejoignez pas le nouveau \"boss de monde/repaire\" en difficultes normales+ en PUG. Vous le ferez avec votre guilde." },
+            { id = "0cbc66bc", text = "Farmez des +10 pour des pieces 3/6h niveau d'objet 311, emplacements de chambre forte et toutes vos diverses Armoiries." },
+            { id = "c68ca026", text = "Nettoyage complet Normal/Heroique." },
+            { id = "57c283c4", text = "Avant d'entrer en Mythique, ameliorez trois objets heroiques 3/6 a 6/6 - les objets que vous choisissez dependent de si vous prevoyez de relancer un objet dans cet emplacement. Vous ne devriez pas ameliorer les emplacements dans lesquels vous avez l'intention de relancer des objets mythiques. Cela devrait prendre 180/180 armoiries heroiques." },
+            { id = "69319517", text = "Si vous fabriquez une arme a 2 mains, vous pouvez la fabriquer a 5/6M pour 80 Armoiries mythiques. Cependant, c'est un gros engagement et Blizzard a annonce un patch d'equilibrage pour le 25 aout. Si vous pourriez changer de specialisation (equilibre -> feral, fdk -> unholy etc) qui necessite un type d'arme different, vous devriez attendre." }, -- ⚠️ UNVERIFIED
+            { id = "7bad141c", text = "Si vous ne fabriquez pas une arme a 2 mains, fabriquez un objet a 5/6M pour 80 Armoiries mythiques." },
+            { id = "f7ab089c", text = "Comme toujours, si vous obtenez un objet mythique avant que le guide ne le prevoit, ameliorez-le si vous avez les armoiries heroiques pour economiser les armoiries mythiques" },
+            { id = "c84b4730", text = "Si vous etes un acharne VERIFIEZ LE GUIDE, equipez-le et plafonnez les armoiries. cela ne fonctionne plus, les armoiries retrogradees comptent contre le plafond" }, -- ⚠️ UNVERIFIED
+            { id = "d3caf44e", text = "Total des Armoiries depensees jusqu'a present: 180/180 Heroiques | 80/150 Mythiques" },
         },
     },
 
     {
-        id = "4c73f265",
-        title = "Semaine 2 - 25 août",
+        id = "23b49805",
+        title = "Semaine 2 - 25 Aout - Semaine actuelle",
         items = {
-            { id = "2cb1a5fb", text = "IMPORTANT : Consultez le guide pour les liens vers les ressources indiquant où utiliser les relances de bonus." },
-            { id = "d800e84b", text = "Ouvrez votre chambre forte - Consultez le guide pour savoir quoi prendre." },
-            { id = "82c130d3", text = "Faire le RDR pour les pièces d'ensemble si vous avez encore besoin de l'ensemble." },
-            { id = "70348198", text = "Complétez la quête d'étincelle hebdomadaire" },
-            { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les crêtes. Vous n'êtes pas obligé de spammer M+ cette saison si vous pouvez obtenir vos crêtes d'autres sources." },
-            { id = "663d01ea", text = "Héroïque : Améliorez un objet 3/6h à 6/6h pour 60 armoiries héroïques. Utilisez 40 armoiries héroïques pour deux objets mythiques 1/6 que vous devez d'abord améliorer à 2/6." },
-            { id = "4e1c826e", text = "Mythique(relance bonus sur un boss héroïque) : Fabriquez votre deuxième objet à 5/6M pour 80 crêtes mythiques. Améliorez votre objet de relance bonus à 6/6M en utilisant 80 crêtes mythiques. N'oubliez pas d'améliorer d'abord un objet héroïque à 6/6 héroïque pour 20 crêtes héroïques dans cet emplacement." },
-            { id = "11e358a5", text = "Mythique(relance bonus mythique ou pris objet 6/6 de la chambre forte) : Fabriquez votre deuxième objet à 5/6M pour 80 crêtes mythiques. Si vous obtenez un objet en butin, améliorez-le à 6/6M en utilisant 80 crêtes mythiques." },
-            { id = "05917f80", text = "Si vous êtes dégénéré CONSULTEZ LE GUIDE, équipez-le et plafonnez les armoiries." },
-            { id = "9e721538", text = "Total des armoiries dépensées jusqu'à présent : 280/280 Héroïque | 240/250 Mythique" },
+            { id = "2cb1a5fb", text = "IMPORTANT: Verifiez le Guide pour les liens vers les ressources sur ou utiliser la relance." },
+            { id = "d800e84b", text = "Ouvrez votre chambre forte - Verifiez le Guide pour savoir quoi prendre." },
+            { id = "82c130d3", text = "Faites le RFR pour les pieces d'ensemble si vous avez encore besoin d'ensemble." },
+            { id = "5a34820f", text = "Faites la quete de voyage temporel pour une chance d'obtenir de l'ensemble" },
+            { id = "70348198", text = "Completez la quete d'etincelle hebdomadaire" },
+            { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les armoiries. Vous n'avez pas besoin de spammer M+ cette saison si vous pouvez obtenir vos armoiries d'autres sources." },
+            { id = "663d01ea", text = "Heroique: Ameliorez un objet 3/6h a 6/6h pour 60 Armoiries heroiques. Utilisez 40 Armoiries heroiques pour deux objets mythiques 1/6 que vous devez d'abord ameliorer a 2/6." },
+            { id = "4e1c826e", text = "Mythique(relance sur un boss Heroique): Fabriquez votre deuxieme objet a 5/6M pour 80 Armoiries mythiques. Ameliorez votre objet relance a 6/6M en utilisant 80 Armoiries mythiques. N'oubliez pas d'ameliorer d'abord un objet heroique a 6/6 heroique pour 20 Armoiries heroiques dans cet emplacement." },
+            { id = "11e358a5", text = "Mythique(relance mythique ou objet 6/6 pris de la chambre forte): Fabriquez votre deuxieme objet a 5/6M pour 80 Armoiries mythiques. Si vous obtenez un objet en butin, ameliorez-le a 6/6M en utilisant 80 Armoiries mythiques." },
+            { id = "c84b4730", text = "Si vous etes un acharne VERIFIEZ LE GUIDE, equipez-le et plafonnez les armoiries. cela ne fonctionne plus, les armoiries retrogradees comptent contre le plafond" }, -- ⚠️ UNVERIFIED
+            { id = "9e721538", text = "Total des Armoiries depensees jusqu'a present: 280/280 Heroiques | 240/250 Mythiques" },
         },
     },
 
@@ -83,14 +84,14 @@ local DATASET = {
         id = "212586b9",
         title = "Semaine 3 - 1er sept.",
         items = {
-            { id = "d800e84b", text = "Ouvrez votre chambre forte - Consultez le guide pour savoir quoi prendre." },
-            { id = "70348198", text = "Complétez la quête d'étincelle hebdomadaire" },
-            { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les crêtes. Vous n'êtes pas obligé de spammer M+ cette saison si vous pouvez obtenir vos crêtes d'autres sources." },
+            { id = "d800e84b", text = "Ouvrez votre chambre forte - Verifiez le Guide pour savoir quoi prendre." },
+            { id = "70348198", text = "Completez la quete d'etincelle hebdomadaire" },
+            { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les armoiries. Vous n'avez pas besoin de spammer M+ cette saison si vous pouvez obtenir vos armoiries d'autres sources." },
             { id = "be0f768b", text = "Héroïque : Améliorer un objet 3/6h à 6/6h pour 60 Crêtes héroïques. Améliorer 1 objet 3/6h à 4/6h pour 20 Crêtes héroïques. Utiliser 20 Crêtes héroïques pour un objet mythique 1/6 que vous devez d'abord améliorer à 2/6." },
             { id = "0f46d1be", text = "Mythique(relance bonus sur un boss héroïque) : Soit fabriquez votre troisième objet à 5/6M pour 80 crêtes mythiques OU améliorez votre objet de relance bonus à 6/6M en utilisant 80 crêtes mythiques. N'oubliez pas d'améliorer d'abord un objet héroïque à 6/6 héroïque pour 20 crêtes héroïques dans cet emplacement." },
             { id = "dd6a18d6", text = "Mythique(relance bonus mythique ou pris objet 6/6 de la chambre forte) : Fabriquez votre troisième objet à 5/6M pour 80 crêtes mythiques." },
-            { id = "05917f80", text = "Si vous êtes dégénéré CONSULTEZ LE GUIDE, équipez-le et plafonnez les armoiries." },
-            { id = "f7ab089c", text = "Comme toujours, si vous obtenez un objet mythique avant que le guide ne s'y attende, améliorez-le si vous avez les armoiries héros pour économiser les armoiries mythiques" },
+            { id = "c84b4730", text = "Si vous etes un acharne VERIFIEZ LE GUIDE, equipez-le et plafonnez les armoiries. cela ne fonctionne plus, les armoiries retrogradees comptent contre le plafond" }, -- ⚠️ UNVERIFIED
+            { id = "f7ab089c", text = "Comme toujours, si vous obtenez un objet mythique avant que le guide ne le prevoit, ameliorez-le si vous avez les armoiries heroiques pour economiser les armoiries mythiques" },
             { id = "c20119f7", text = "Total des armoiries dépensées jusqu'à présent : 380/380 Héroïque | 320/350 Mythique" },
         },
     },
@@ -99,10 +100,9 @@ local DATASET = {
         id = "fd6e56ee",
         title = "Semaine 4 - 8 septembre",
         items = {
-            { id = "d800e84b", text = "Ouvrez votre chambre forte - Consultez le guide pour savoir quoi prendre." },
-            { id = "70348198", text = "Complétez la quête d'étincelle hebdomadaire" },
-            { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les crêtes. Vous n'êtes pas obligé de spammer M+ cette saison si vous pouvez obtenir vos crêtes d'autres sources." },
-            { id = "0a147b5b", text = "Si vous êtes un dégénéré CONSULTEZ LE GUIDE, rétrogradez toutes vos crêtes mythiques en héroïques et améliorez tous vos objets à 6/6h sur votre alt. Utilisez cette réduction pour améliorer votre main." },
+            { id = "d800e84b", text = "Ouvrez votre chambre forte - Verifiez le Guide pour savoir quoi prendre." },
+            { id = "70348198", text = "Completez la quete d'etincelle hebdomadaire" },
+            { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les armoiries. Vous n'avez pas besoin de spammer M+ cette saison si vous pouvez obtenir vos armoiries d'autres sources." },
             { id = "744d79f9", text = "Héroïque : Améliorez 1 objet 3/6h à 6/6h pour 60 crêtes héroïques. Vous en avez fini avec les crêtes héroïques avec des butins absolument parfaits cette semaine. Sinon, ce sera la semaine prochaine." },
             { id = "6aef7ab9", text = "Mythique(relance bonus sur un boss héroïque les 2 premières semaines) : Fabriquez votre troisième objet à 5/6M pour 80 crêtes mythiques et améliorez votre objet de relance bonus OU objet butin à 4/6M en utilisant 40 crêtes mythiques. N'oubliez pas d'améliorer d'abord un objet héroïque à 6/6 héroïque pour 20 crêtes héroïques dans cet emplacement." },
             { id = "8454275a", text = "Mythique(relance bonus mythique ou pris objet 6/6 de la chambre forte) : Si vous obtenez un objet en butin, améliorez-le à 6/6M en utilisant 80 crêtes mythiques. Si vous obtenez un deuxième objet en butin, améliorez-le à 4/6M en utilisant 40 crêtes mythiques." },
@@ -114,9 +114,9 @@ local DATASET = {
         id = "9d16aa2f",
         title = "Semaine 5 - 15 septembre - Fini avec les crêtes héroïques",
         items = {
-            { id = "d800e84b", text = "Ouvrez votre chambre forte - Consultez le guide pour savoir quoi prendre." },
-            { id = "70348198", text = "Complétez la quête d'étincelle hebdomadaire" },
-            { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les crêtes. Vous n'êtes pas obligé de spammer M+ cette saison si vous pouvez obtenir vos crêtes d'autres sources." },
+            { id = "d800e84b", text = "Ouvrez votre chambre forte - Verifiez le Guide pour savoir quoi prendre." },
+            { id = "70348198", text = "Completez la quete d'etincelle hebdomadaire" },
+            { id = "a032b050", text = "Farmez des +12 si vous en avez besoin pour les armoiries. Vous n'avez pas besoin de spammer M+ cette saison si vous pouvez obtenir vos armoiries d'autres sources." },
             { id = "4b0e1a28", text = "Héroïque : Améliorez tous les objets restants à 6/6h." },
             { id = "c266c060", text = "Mythique(tous les chemins) : Soit fabriquez votre quatrième objet à 5/6M pour 80 crêtes mythiques ou améliorez un butin naturel à 6/6M en utilisant 80 crêtes mythiques. Améliorez un objet butin à 5/6M en utilisant 20 crêtes mythiques." },
         },
@@ -126,8 +126,8 @@ local DATASET = {
         id = "ebe5928e",
         title = "Semaine 6 - 22 septembre+ -",
         items = {
-            { id = "d800e84b", text = "Ouvrez votre chambre forte - Consultez le guide pour savoir quoi prendre." },
-            { id = "70348198", text = "Complétez la quête d'étincelle hebdomadaire" },
+            { id = "d800e84b", text = "Ouvrez votre chambre forte - Verifiez le Guide pour savoir quoi prendre." },
+            { id = "70348198", text = "Completez la quete d'etincelle hebdomadaire" },
             { id = "1df64ea4", text = "Passez une merveilleuse Saison 2 et bonne chance à tout le monde !" },
         },
     },
