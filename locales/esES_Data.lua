@@ -20,25 +20,6 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "21fa8e1b",
-        title = "Semana 0 - 11 ago - Pretemporada",
-        items = {
-            { id = "1fb55f58", text = "Puedes gastar libremente cualquier emblema de campeon o inferior en cualquier momento." },
-            { id = "e3f0c2bd", text = "Completa la campaña de introducción de la nueva zona." },
-            { id = "7508a529", text = "Completa un tour mundial de M0 para obtener equipo de nivel de objeto 292" },
-            { id = "e2863827", text = "Completa 2x Presa difícil para obtener equipo de nivel de objeto 279 si es necesario" }, -- ⚠️ UNVERIFIED
-            { id = "66e39766", text = "Completa el nuevo jefe de banda de la Guarida en dificultad modo historia para divertirte y obtener equipo de BRR." },
-            { id = "8c0621a3", text = "Completa 2x misiones semanales de chispa - podrás conseguir 2 más la semana que viene" },
-            { id = "690c60ea", text = "Desbloquea un Crisol de energías erráticas de Temporada 2 que puede mejorarse a 295 recogiendo una misión en el altar de mejora de tormenta del vacío. ¡Simulalo!" }, -- ⚠️ UNVERIFIED
-            { id = "c9797aa9", text = "Completa Bóvedas de Atal'Utek: Un tour tóxico para obtener un mapa de profundidades de Temporada 2. No lo uses hasta que hayas desbloqueado profundidades N8" }, -- ⚠️ UNVERIFIED
-            { id = "bbfd5a28", text = "Sube profundidades hasta desbloquear n11. Mientras haces esto, una vez que hayas alcanzado una profundidad n8, haz la profundidad n8 con la bonificación de mapa para obtener un objeto héroe 1/6. Debería ser la única fuente de objetos héroe esta semana." },
-            { id = "15ba7791", text = "(OPCIONAL) Increíblemente degenerado: Si quieres intentar el jefe de Profundidad ?? de HDF la semana que viene, sé degenerado y sube a Alleria a nivel 80. Esto es lo más estúpido que podrías hacer este fin de semana, así que por supuesto varios de mis incursores lo han hecho. Haces esto entrando en la Profundidad Anillo de Gloria en N11 con el curioso Favor de Dunduns equipado, que te permite recoger curisos automáticamente pasando por encima de ellos. Procedes a pasar por encima de todos los curisos, sales de la profundidad y repites durante 6+ horas." }, -- ⚠️ UNVERIFIED
-            { id = "2ee86b71", text = "(OPCIONAL) Algo menos degenerado que podrías hacer es consultar la Guía para un enlace a la información del Códice corrosivo de Neryssa y conseguir dos de estos poderes. Funcionan en la guarida del jefe de profundidad ??." }, -- ⚠️ UNVERIFIED
-            { id = "0e77abc6", text = "Si no vas a hacer splits de banda la semana que viene, deberías llenar tu cámara de profundidades con Profundidades de nivel 6 para intentar conseguir piezas de conjunto. Si vas a hacer splits la semana que viene, solo asegúrate de tener 3 ranuras totales llenas para poder conseguir un engaste." },
-        },
-    },
-
-    {
         id = "a932c06c",
         title = "Semana 1 - 18 ago - Inicio de temporada",
         items = {

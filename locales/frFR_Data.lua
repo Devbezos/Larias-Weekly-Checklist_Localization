@@ -20,25 +20,6 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "21fa8e1b",
-        title = "Semaine 0 - 11 août - Pré-saison",
-        items = {
-            { id = "1fb55f58", text = "Vous pouvez librement depenser toutes les armoiries de champion et inferieures a tout moment." },
-            { id = "e3f0c2bd", text = "Terminez la campagne d'introduction de la nouvelle zone." },
-            { id = "7508a529", text = "Terminez un tour du monde des M0 pour de l'équipement niveau 292" },
-            { id = "e2863827", text = "Terminez 2x Proie difficile pour de l'équipement niveau 279 si nécessaire" }, -- ⚠️ UNVERIFIED
-            { id = "66e39766", text = "Terminez le nouveau boss de raid du Repaire en difficulté histoire pour le plaisir et l'équipement RFR." },
-            { id = "8c0621a3", text = "Terminez 2x quêtes d'étincelle hebdomadaires - vous pourrez en obtenir 2 de plus la semaine prochaine" },
-            { id = "690c60ea", text = "Débloquez un Creuset des énergies erratiques de saison 2 qui peut être amélioré à 295 en récupérant une quête à l'autel d'amélioration de tempête du vide. Simulez-le!" }, -- ⚠️ UNVERIFIED
-            { id = "c9797aa9", text = "Terminez Voûtes d'Atal'Utek: Une visite toxique pour une carte de dédale de saison 2. Ne l'utilisez pas avant d'avoir débloqué les délaves T8" }, -- ⚠️ UNVERIFIED
-            { id = "bbfd5a28", text = "Progressez dans les délaves jusqu'à débloquer t11. En faisant cela, une fois que vous avez atteint un délave t8, faites le délave t8 avec le bonus de carte pour obtenir un objet héros 1/6. Cela devrait être la seule source d'objets héros cette semaine." },
-            { id = "15ba7791", text = "(OPTIONNEL) Incroyablement dégénéré: Si vous voulez essayer le boss de délave ?? du HOF la semaine prochaine, soyez dégénéré et montez Alleria au niveau 80. C'est la chose la plus stupide que vous puissiez faire ce week-end, donc bien sûr plusieurs de mes raideurs l'ont fait. Vous faites cela en entrant dans le délave Anneau de gloire en T11 avec le curio Faveur de Dundun équipé qui vous permet de ramasser automatiquement les curios en passant dessus. Vous procédez à ramasser tous les curios, quittez le délave, et répétez pendant 6+ heures." }, -- ⚠️ UNVERIFIED
-            { id = "2ee86b71", text = "(OPTIONNEL) Une chose moins dégénérée que vous pourriez faire est de consulter le guide pour un lien vers les informations du Codex corrosif de Neryssa et choisir deux de ces pouvoirs à obtenir. Ils fonctionnent dans le repaire du boss de délave ??." }, -- ⚠️ UNVERIFIED
-            { id = "0e77abc6", text = "Si vous ne faites pas de splits de raid la semaine prochaine, vous devriez remplir votre coffre de délave avec des délaves de palier 6 pour essayer d'obtenir des pièces d'ensemble. Si vous faites des splits la semaine prochaine, assurez-vous simplement d'avoir 3 emplacements remplis au total pour pouvoir obtenir une châsse." },
-        },
-    },
-
-    {
         id = "a932c06c",
         title = "Semaine 1 - 18 Aout - Debut de Saison",
         items = {

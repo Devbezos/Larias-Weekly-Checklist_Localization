@@ -20,25 +20,6 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "21fa8e1b",
-        title = "Woche 0 - 11. Aug - Vorsaison",
-        items = {
-            { id = "1fb55f58", text = "Du kannst alle Wappen bis einschließlich Champion jederzeit frei ausgeben." },
-            { id = "e3f0c2bd", text = "Schließe die neue Zonen-Einführungskampagne ab." },
-            { id = "7508a529", text = "Absolviere eine Welttournee von M0s für Ausrüstung mit Gegenstandsstufe 292" },
-            { id = "e2863827", text = "Absolviere 2x Harte Beute für Ausrüstung mit Gegenstandsstufe 279 falls nötig" },
-            { id = "66e39766", text = "Besiege den neuen Höhlenschlachtzugsboss im Storymodus-Schwierigkeitsgrad für Spaß und LFR-Ausrüstung." },
-            { id = "8c0621a3", text = "Absolviere 2x wöchentliche Funken-Quests - du kannst nächste Woche 2 weitere erhalten" },
-            { id = "690c60ea", text = "Schalte einen Saison 2 Tiegel der unberechenbaren Energien frei, der auf 295 aufgewertet werden kann, indem du eine Quest am Leerensturm-Aufwertungsaltar annimmst. Simuliere ihn!" },
-            { id = "c9797aa9", text = "Absolviere Gewölbe von Atal'Utek: Eine toxische Tour für eine Saison 2 Tiefenkarte. Benutze sie nicht, bis du T8-Tiefen freigeschaltet hast" },
-            { id = "bbfd5a28", text = "Pushe Tiefen, bis du T11 freigeschaltet hast. Sobald du dabei eine T8-Tiefe erreicht hast, absolviere die T8-Tiefe mit dem Kartenbuff, um einen 1/6 Helden-Gegenstand zu erhalten. Es sollte diese Woche die einzige Quelle für Helden-Gegenstände sein." },
-            { id = "15ba7791", text = "(OPTIONAL) Unglaublich degeneriert: Wenn du nächste Woche für den HOF den ??-Tiefenboss versuchen möchtest, sei degeneriert und bringe Alleria auf Stufe 80. Dies ist das Dümmste, was du an diesem Wochenende tun könntest, also haben es natürlich mehrere meiner Schlachtzügler getan. Du machst das, indem du die Ring des Ruhms-Tiefe auf T11 mit dem ausgerüsteten Dunduns-Gunst-Kuriosum betrittst, das dir ermöglicht, Kuriosa automatisch aufzusammeln, indem du über sie läufst. Du läufst dann über alle Kuriosa, verlässt die Tiefe und wiederholst das 6+ Stunden lang." }, -- ⚠️ UNVERIFIED
-            { id = "2ee86b71", text = "(OPTIONAL) Eine weniger degenerierte Sache, die du tun könntest, ist im Guide nach einem Link zu Neryssas ätzendem Kodex zu suchen und zwei dieser Kräfte zu bekommen. Sie funktionieren im ??-Tiefenboss-Höhle." }, -- ⚠️ UNVERIFIED
-            { id = "0e77abc6", text = "Wenn du nächste Woche keine Schlachtzugssplits machst, solltest du deine Tiefengewölbe mit Stufe 6 Tiefen füllen, um zu versuchen, Set-Teile zu bekommen. Wenn du nächste Woche Splits machst, stelle einfach sicher, dass du insgesamt 3 Plätze gefüllt hast, damit du eine Sockelung erhalten kannst." },
-        },
-    },
-
-    {
         id = "a932c06c",
         title = "Woche 1 - 18. Aug - Saison beginnt",
         items = {

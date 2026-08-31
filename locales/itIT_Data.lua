@@ -20,25 +20,6 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "21fa8e1b",
-        title = "Settimana 0 - 11 Ago - Pre-Stagione",
-        items = {
-            { id = "1fb55f58", text = "Puoi spendere liberamente qualsiasi stemma campione e inferiore in qualsiasi momento." },
-            { id = "e3f0c2bd", text = "Completa la campagna introduttiva della nuova zona." },
-            { id = "7508a529", text = "Completa un giro del mondo di M0 per equipaggiamento livello oggetto 292" },
-            { id = "e2863827", text = "Completa 2x Preda Difficile per equipaggiamento livello oggetto 279 se necessario" }, -- ⚠️ UNVERIFIED
-            { id = "66e39766", text = "Completa il nuovo boss del raid Tana in modalita' storia per divertimento e equipaggiamento LFR." },
-            { id = "8c0621a3", text = "Completa 2x missioni settimanali scintilla - potrai ottenerne altre 2 la prossima settimana" },
-            { id = "690c60ea", text = "Sblocca un Crogiolo di Energie Erratiche di Stagione 2 che puo' essere potenziato a 295 prendendo una missione all'altare di potenziamento della tempesta del vuoto. Fai una simulazione!" }, -- ⚠️ UNVERIFIED
-            { id = "c9797aa9", text = "Completa Volte di Atal'Utek: Un Tour Tossico per una mappa di delve di Stagione 2. Non usare fino a quando non hai sbloccato i delve T8" }, -- ⚠️ UNVERIFIED
-            { id = "bbfd5a28", text = "Spingi i delve fino a sbloccare t11. Mentre lo fai, una volta raggiunto un delve t8, completa il delve t8 con il bonus mappa per ottenere un oggetto eroe 1/6. Dovrebbe essere l'unica fonte di oggetti eroe questa settimana." },
-            { id = "15ba7791", text = "(OPZIONALE) Incredibilmente degenerato: Se vuoi provare per il boss Delve ?? HOF la prossima settimana, sii degenerato e porta Alleria a livello 80. Questa e' la cosa piu' stupida che potresti possibilmente fare questo weekend quindi ovviamente diversi dei miei raider l'hanno fatto. Lo fai entrando nel Delve Anello della Gloria su T11 con il curio Favore di Dunduns equipaggiato che ti permette di raccogliere automaticamente i curio passandoci sopra. Procedi a passare sopra tutti i curio, esci dal delve, e ripeti per 6+ ore." }, -- ⚠️ UNVERIFIED
-            { id = "2ee86b71", text = "(OPZIONALE) Una cosa meno degenerata che potresti fare e' Controllare la Guida per un link alle informazioni del Codice Corrosivo di Neryssa e ottenere due di questi poteri. Funzionano nella tana del boss delve ??." }, -- ⚠️ UNVERIFIED
-            { id = "0e77abc6", text = "Se non stai facendo split del raid la prossima settimana, dovresti riempire il tuo forziere delve con Delve di livello 6 per provare a ottenere pezzi del set. Se stai facendo split la prossima settimana, assicurati solo di avere 3 slot totali riempiti cosi' puoi ottenere un incastonamento." },
-        },
-    },
-
-    {
         id = "a932c06c",
         title = "Settimana 1 - 18 Ago - Inizio Stagione",
         items = {

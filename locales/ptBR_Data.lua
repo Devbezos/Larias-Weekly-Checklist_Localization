@@ -20,25 +20,6 @@ if type(reg.data) ~= "table" then reg.data = {} end
 local DATASET = {
 
     {
-        id = "21fa8e1b",
-        title = "Semana 0 - 11 de Ago - Pre-Temporada",
-        items = {
-            { id = "1fb55f58", text = "Você pode gastar livremente qualquer insígnia de campeão ou inferior a qualquer momento." },
-            { id = "e3f0c2bd", text = "Complete a campanha introdutória da nova zona." },
-            { id = "7508a529", text = "Complete um tour mundial de M0's para equipamento ilvl 292" },
-            { id = "e2863827", text = "Complete 2x Presa Dificil para equipamento ilvl 279 se necessário" }, -- ⚠️ UNVERIFIED
-            { id = "66e39766", text = "Complete o novo chefe de raide do Covil no modo história para diversão e equipamento de LFR." },
-            { id = "8c0621a3", text = "Complete 2x missões semanais de centelha - você poderá conseguir mais 2 na próxima semana" },
-            { id = "690c60ea", text = "Desbloqueie um Cadinho de Energias Erraticas da Temporada 2 que pode ser aprimorado para 295 pegando uma missão no altar de aprimoramento da tempestade do vazio. Simule!" }, -- ⚠️ UNVERIFIED
-            { id = "c9797aa9", text = "Complete Cofres de Atal'Utek: Um Tour Toxico para um mapa de delve da Temporada 2. Não use até desbloquear delves T8" }, -- ⚠️ UNVERIFIED
-            { id = "bbfd5a28", text = "Avance nos delves até desbloquear t11. Ao fazer isso, uma vez que tenha alcançado um delve t8, faça o delve t8 com o buff do mapa para obter um item heroico 1/6. Deve ser a única fonte de itens heroicos esta semana." },
-            { id = "15ba7791", text = "(OPCIONAL) Incrivelmente degenerado: Se você quer tentar o chefe de Delve ?? do HOF na próxima semana, seja degenerado e suba Alleria para 80. Esta é a coisa mais estúpida que você poderia fazer neste final de semana, então é claro que vários dos meus raideiros fizeram isso. Você faz isso entrando no Delve Anel da Gloria em T11 com o curio Favor de Dunduns equipado, que permite pegar curios automaticamente ao passar por cima deles. Você passa por cima de todos os curios, sai do delve e repete por 6+ horas." }, -- ⚠️ UNVERIFIED
-            { id = "2ee86b71", text = "(OPCIONAL) Uma coisa menos degenerada que você poderia fazer é verificar o Guia para um link com informações do Codice Corrosivo de Neryssa e pegar dois desses poderes. Eles funcionam no covil do chefe de delve ??." }, -- ⚠️ UNVERIFIED
-            { id = "0e77abc6", text = "Se você não está fazendo divisões de raide na próxima semana, você deve preencher seu cofre de delve com Imersões de nível 6 para tentar conseguir peças de tier. Se você está fazendo divisões na próxima semana, apenas certifique-se de ter 3 slots totais preenchidos para poder conseguir um soquete." },
-        },
-    },
-
-    {
         id = "a932c06c",
         title = "Semana 1 - 18 de Ago - Início da Temporada",
         items = {
