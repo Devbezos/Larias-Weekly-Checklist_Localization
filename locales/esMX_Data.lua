@@ -37,43 +37,45 @@ local DATASET = {
             { id = "57c283c4", text = "Antes de entrar a Mitico, mejora tres objetos de ruta heroe 3/6 a 6/6 - los objetos que elijas dependeran de si planeas hacer tirada bonus de un objeto en ese espacio. No deberias mejorar espacios en los que pretendes hacer tirada bonus de objetos miticos. Esto deberia tomar 180/180 emblemas de heroe." },
             { id = "69319517", text = "Si fabricas un arma de 2 manos, puedes seguir adelante y fabricarla a 5/6M por 80 Emblemas miticos. Sin embargo, esto es un gran compromiso y Blizzard ha anunciado un parche de ajustes para el 25 de agosto. Si podrias cambiar de especializacion (equilibrio -> feral, fdk -> profano etc) que requieren un tipo de arma diferente, deberias esperar." },
             { id = "7bad141c", text = "Si no fabricas un arma de 2 manos, fabrica un objeto a 5/6M por 80 Emblemas miticos." },
-            { id = "f7ab089c", text = "Como siempre, si obtienes un objeto mitico antes de lo que la guia espera, mejoralo si tienes los emblemas de heroe para ahorrar los emblemas miticos" },
-            { id = "c84b4730", text = "Si estas siendo un degen REVISA LA GUIA, equipalo y llega al limite de emblemas. esto ya no funciona, los emblemas degradados cuentan contra el limite" }, -- ⚠️ UNVERIFIED
+            { id = "f7ab089c", text = "Como siempre, si consigues un objeto mitico antes de lo que la guia espera, mejoralo si tienes los emblemas heroicos para ahorrar los emblemas miticos" },
+            { id = "c84b4730", text = "Si eres un degen REVISA LA GUIA, equipalo y maxea los emblemas. esto ya no funciona, los emblemas degradados cuentan contra el maximo" }, -- ⚠️ UNVERIFIED
             { id = "d3caf44e", text = "Total de Emblemas gastados hasta ahora: 180/180 Heroico | 80/150 Mitico" },
         },
     },
 
     {
-        id = "23b49805",
-        title = "Semana 2 - 25 ago - Semana actual",
+        id = "4c73f265",
+        title = "Semana 2 - 25 de agosto",
         items = {
-            { id = "2cb1a5fb", text = "IMPORTANTE: Revisa la Guia para enlaces a recursos sobre donde hacer tirada bonus." },
-            { id = "d800e84b", text = "Abre tu boveda - Revisa la Guia para que tomar." },
-            { id = "82c130d3", text = "Haz LFR para piezas de set si aun necesitas set." },
-            { id = "5a34820f", text = "Haz la mision de salto temporal para una oportunidad de set" },
+            { id = "2cb1a5fb", text = "IMPORTANTE: Revisa la Guia para enlaces a recursos de donde usar la tirada adicional." },
+            { id = "d800e84b", text = "Abre tu camara - Revisa la Guia para saber que tomar." },
+            { id = "82c130d3", text = "Haz BFR para piezas de conjunto si aun necesitas conjunto." },
+            { id = "5a34820f", text = "Haz la mision de salto temporal para una oportunidad de conseguir conjunto" },
             { id = "70348198", text = "Completa la mision semanal de chispa" },
-            { id = "a032b050", text = "Farmea +12's si lo necesitas para emblemas. No tienes que spamear M+ esta temporada si puedes conseguir tus emblemas de otras fuentes." },
-            { id = "663d01ea", text = "Heroico: Mejora un objeto 3/6h a 6/6h por 60 Emblemas heroicos. Usa 40 Emblemas de heroe para dos objetos miticos 1/6 que necesitas mejorar a 2/6 primero." },
-            { id = "4e1c826e", text = "Mitico(hiciste tirada bonus de un jefe Heroico): Fabrica tu segundo objeto a 5/6M por 80 Emblemas miticos. Mejora tu objeto de tirada bonus a 6/6M usando 80 Emblemas miticos. No olvides mejorar un objeto heroico a 6/6 heroico por 20 Emblemas heroicos en ese espacio primero." },
-            { id = "11e358a5", text = "Mitico(hiciste tirada bonus de mitico o tomaste objeto 6/6 de la boveda): Fabrica tu segundo objeto a 5/6M por 80 Emblemas miticos. Si obtienes un objeto de botin, mejoralo a 6/6M usando 80 Emblemas miticos." },
-            { id = "c84b4730", text = "Si estas siendo un degen REVISA LA GUIA, equipalo y llega al limite de emblemas. esto ya no funciona, los emblemas degradados cuentan contra el limite" }, -- ⚠️ UNVERIFIED
+            { id = "a032b050", text = "Farmea +12 si lo necesitas para emblemas. No tienes que spamear M+ esta temporada si puedes conseguir tus emblemas de otras fuentes." },
+            { id = "663d01ea", text = "Heroico: Mejora un objeto 3/6h a 6/6h por 60 Emblemas heroicos. Usa 40 emblemas heroicos para dos objetos miticos 1/6 que necesitas mejorar a 2/6 primero." },
+            { id = "4e1c826e", text = "Mitico(tirada adicional en un jefe Heroico): Fabrica tu segundo objeto a 5/6M por 80 emblemas miticos. Mejora tu objeto de tirada adicional a 6/6M usando 80 Emblemas miticos. No olvides mejorar un objeto heroico a 6/6 heroico por 20 Emblemas heroicos en ese espacio primero." },
+            { id = "11e358a5", text = "Mitico(tirada adicional mitica o tomaste objeto 6/6 de la camara): Fabrica tu segundo objeto a 5/6M por 80 emblemas miticos. Si consigues un objeto, mejoralo a 6/6M usando 80 emblemas miticos." },
+            { id = "c84b4730", text = "Si eres un degen REVISA LA GUIA, equipalo y maxea los emblemas. esto ya no funciona, los emblemas degradados cuentan contra el maximo" }, -- ⚠️ UNVERIFIED
             { id = "9e721538", text = "Total de Emblemas gastados hasta ahora: 280/280 Heroico | 240/250 Mitico" },
         },
     },
 
     {
-        id = "212586b9",
-        title = "Semana 3 - 1 de septiembre",
+        id = "89ce7292",
+        title = "Semana 3 - 1 de septiembre - Semana actual",
         items = {
-            { id = "d800e84b", text = "Abre tu boveda - Revisa la Guia para que tomar." },
+            { id = "d800e84b", text = "Abre tu camara - Revisa la Guia para saber que tomar." },
+            { id = "82c130d3", text = "Haz BFR para piezas de conjunto si aun necesitas conjunto." },
+            { id = "d70a8aae", text = "Haz la semanal de exploracion para una oportunidad de conseguir conjunto si aun necesitas conjunto" },
             { id = "70348198", text = "Completa la mision semanal de chispa" },
-            { id = "a032b050", text = "Farmea +12's si lo necesitas para emblemas. No tienes que spamear M+ esta temporada si puedes conseguir tus emblemas de otras fuentes." },
-            { id = "be0f768b", text = "Heroico: Mejora un objeto 3/6h a 6/6h por 60 Emblemas heroicos. Mejora 1 objeto 3/6h a 4/6h por 20 Emblemas heroicos. Usa 20 Emblemas héroe para un objeto mítico 1/6 que necesitas mejorar primero a 2/6." },
-            { id = "0f46d1be", text = "Mitico(tiraste dado extra en un jefe Heroico): O elabora tu tercer objeto a 5/6M por 80 Emblemas miticos O mejora tu objeto de dado extra a 6/6M usando 80 Emblemas miticos. No olvides mejorar un objeto heroico a 6/6 heroico por 20 Emblemas heroicos en ese espacio primero." },
-            { id = "dd6a18d6", text = "Mitico(tiraste dado extra mitico o tomaste objeto 6/6 de boveda): Elabora tu tercer objeto a 5/6M por 80 Emblemas miticos." },
-            { id = "c84b4730", text = "Si estas siendo un degen REVISA LA GUIA, equipalo y llega al limite de emblemas. esto ya no funciona, los emblemas degradados cuentan contra el limite" }, -- ⚠️ UNVERIFIED
-            { id = "f7ab089c", text = "Como siempre, si obtienes un objeto mitico antes de lo que la guia espera, mejoralo si tienes los emblemas de heroe para ahorrar los emblemas miticos" },
-            { id = "c20119f7", text = "Total de Blasones gastados hasta ahora: 380/380 Heroico | 320/350 Mítico" },
+            { id = "a032b050", text = "Farmea +12 si lo necesitas para emblemas. No tienes que spamear M+ esta temporada si puedes conseguir tus emblemas de otras fuentes." },
+            { id = "be0f768b", text = "Heroico: Mejora un objeto 3/6h a 6/6h por 60 Emblemas heroicos. Mejora 1 objeto 3/6h a 4/6h por 20 Emblemas heroicos. Usa 20 emblemas heroicos para un objeto mitico 1/6 que necesitas mejorar a 2/6 primero." },
+            { id = "0f46d1be", text = "Mitico(tirada adicional en un jefe Heroico): O fabrica tu tercer objeto a 5/6M por 80 emblemas miticos O mejora tu objeto de tirada adicional a 6/6M usando 80 Emblemas miticos. No olvides mejorar un objeto heroico a 6/6 heroico por 20 Emblemas heroicos en ese espacio primero." },
+            { id = "dd6a18d6", text = "Mitico(tirada adicional mitica o tomaste objeto 6/6 de la camara): Fabrica tu tercer objeto a 5/6M por 80 emblemas miticos." },
+            { id = "c84b4730", text = "Si eres un degen REVISA LA GUIA, equipalo y maxea los emblemas. esto ya no funciona, los emblemas degradados cuentan contra el maximo" }, -- ⚠️ UNVERIFIED
+            { id = "f7ab089c", text = "Como siempre, si consigues un objeto mitico antes de lo que la guia espera, mejoralo si tienes los emblemas heroicos para ahorrar los emblemas miticos" },
+            { id = "c20119f7", text = "Total de Emblemas gastados hasta ahora: 380/380 Heroico | 320/350 Mitico" },
         },
     },
 
@@ -81,9 +83,9 @@ local DATASET = {
         id = "fd6e56ee",
         title = "Semana 4 - 8 de Sep",
         items = {
-            { id = "d800e84b", text = "Abre tu boveda - Revisa la Guia para que tomar." },
+            { id = "d800e84b", text = "Abre tu camara - Revisa la Guia para saber que tomar." },
             { id = "70348198", text = "Completa la mision semanal de chispa" },
-            { id = "a032b050", text = "Farmea +12's si lo necesitas para emblemas. No tienes que spamear M+ esta temporada si puedes conseguir tus emblemas de otras fuentes." },
+            { id = "a032b050", text = "Farmea +12 si lo necesitas para emblemas. No tienes que spamear M+ esta temporada si puedes conseguir tus emblemas de otras fuentes." },
             { id = "744d79f9", text = "Heroico: Mejora 1 objeto 3/6h a 6/6h por 60 Emblemas heroicos. Has terminado con emblemas de heroe con botines absolutamente perfectos esta semana. De lo contrario, sera la proxima semana." },
             { id = "6aef7ab9", text = "Mitico(tiraste dado extra en un jefe Heroico las primeras 2 semanas): Elabora tu tercer objeto a 5/6M por 80 Emblemas miticos y mejora tu objeto de dado extra O objeto de botin a 4/6M usando 40 Emblemas miticos. No olvides mejorar un objeto heroico a 6/6 heroico por 20 Emblemas heroicos en ese espacio primero." },
             { id = "8454275a", text = "Mitico(tiraste dado extra mitico o tomaste objeto 6/6 de boveda): Si obtienes un objeto de botin, mejoralo a 6/6M usando 80 Emblemas miticos. Si obtienes un segundo objeto de botin, mejoralo a 4/6M usando 40 Emblemas miticos." },
@@ -95,9 +97,9 @@ local DATASET = {
         id = "9d16aa2f",
         title = "Semana 5 - 15 de Sep - Terminado con Emblemas de Heroe",
         items = {
-            { id = "d800e84b", text = "Abre tu boveda - Revisa la Guia para que tomar." },
+            { id = "d800e84b", text = "Abre tu camara - Revisa la Guia para saber que tomar." },
             { id = "70348198", text = "Completa la mision semanal de chispa" },
-            { id = "a032b050", text = "Farmea +12's si lo necesitas para emblemas. No tienes que spamear M+ esta temporada si puedes conseguir tus emblemas de otras fuentes." },
+            { id = "a032b050", text = "Farmea +12 si lo necesitas para emblemas. No tienes que spamear M+ esta temporada si puedes conseguir tus emblemas de otras fuentes." },
             { id = "4b0e1a28", text = "Heroico: Mejora cualquier objeto restante a 6/6h." },
             { id = "c266c060", text = "Mitico(todos los caminos): O Elabora tu cuarto objeto a 5/6M por 80 Emblemas miticos o mejora un botin natural a 6/6M usando 80 emblemas miticos. Mejora un objeto de botin a 5/6M usando 20 Emblemas miticos." },
         },
@@ -107,7 +109,7 @@ local DATASET = {
         id = "ebe5928e",
         title = "Semana 6 - 22 de Sep+ -",
         items = {
-            { id = "d800e84b", text = "Abre tu boveda - Revisa la Guia para que tomar." },
+            { id = "d800e84b", text = "Abre tu camara - Revisa la Guia para saber que tomar." },
             { id = "70348198", text = "Completa la mision semanal de chispa" },
             { id = "1df64ea4", text = "Que tengas una maravillosa Temporada 2 y la mejor de las suertes para todos!" },
         },

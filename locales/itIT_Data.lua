@@ -37,43 +37,45 @@ local DATASET = {
             { id = "57c283c4", text = "Prima di entrare in Mitica, potenzia tre oggetti traccia eroe 3/6 a 6/6 - gli oggetti che scegli dipenderanno dal fatto che tu intenda fare un tiro bonus per un oggetto in quello slot. Non dovresti potenziare slot in cui intendi tirare oggetti mitici con il tiro bonus. Questo dovrebbe richiedere 180/180 stemmi eroe." },
             { id = "69319517", text = "Se crafti un'arma a 2 mani, puoi procedere e craftarla a 5/6M per 80 stemmi mito. Tuttavia, questo e' un grande impegno e Blizzard ha annunciato una patch di bilanciamento per il 25 agosto. Se potresti cambiare specializzazione (boomie -> feral, fdk -> unholy ecc) che richiedono un tipo di arma diverso, dovresti aspettare." },
             { id = "7bad141c", text = "Se non crafti un'arma a 2 mani, crafta un oggetto a 5/6M per 80 stemmi mito." },
-            { id = "f7ab089c", text = "Come sempre, se ottieni un oggetto mitico prima di quanto la guida si aspetti che tu lo faccia, potenzialo se hai gli stemmi eroe per risparmiare gli stemmi mito" },
-            { id = "c84b4730", text = "Se sei un degen CONTROLLA LA GUIDA, equipaggialo e raggiunge il limite di stemmi. questo non funziona piu', gli stemmi declassati contano per il limite" }, -- ⚠️ UNVERIFIED
+            { id = "f7ab089c", text = "Come sempre, se ottieni un oggetto mitico prima di quanto la guida si aspetta, potenzialo se hai i blasoni eroici per risparmiare i blasoni mitici" },
+            { id = "c84b4730", text = "Se stai facendo il degen CONTROLLA LA GUIDA, equipaggialo e raggiungi il cap dei blasoni. questo non funziona piu', i blasoni declassati contano per il cap" }, -- ⚠️ UNVERIFIED
             { id = "d3caf44e", text = "Totale stemmi spesi finora: 180/180 eroici | 80/150 mitici" },
         },
     },
 
     {
-        id = "23b49805",
-        title = "Settimana 2 - 25 Ago - Settimana corrente",
+        id = "4c73f265",
+        title = "Settimana 2 - 25 Ago",
         items = {
-            { id = "2cb1a5fb", text = "IMPORTANTE: Controlla la guida per i link alle risorse su dove fare il tiro bonus." },
-            { id = "d800e84b", text = "Apri la tua cassaforte - Controlla la guida per cosa prendere." },
-            { id = "82c130d3", text = "Fai LFR per i pezzi tier se hai ancora bisogno del tier." },
-            { id = "5a34820f", text = "Fai la missione del timewalking per una possibilita' di tier" },
+            { id = "2cb1a5fb", text = "IMPORTANTE: Controlla la Guida per i link alle risorse su dove usare il bonus roll." },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
+            { id = "82c130d3", text = "Fai LFR per pezzi tier se hai ancora bisogno di tier." },
+            { id = "5a34820f", text = "Fai la missione settimanale delle viaggi nel tempo per una possibilita' di tier" },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
-            { id = "a032b050", text = "Farma +12 se ne hai bisogno per gli stemmi. Non devi spammare M+ questa stagione se puoi ottenere i tuoi stemmi da altre fonti." },
-            { id = "663d01ea", text = "Eroica: Potenzia un oggetto 3/6e a 6/6e per 60 stemmi eroici. Usa 40 stemmi eroe per due oggetti mito 1/6 che devi prima potenziare a 2/6." },
-            { id = "4e1c826e", text = "Mitica(tiro bonus su un boss eroico): Crafta il tuo secondo oggetto a 5/6M per 80 stemmi mito. Potenzia il tuo oggetto da tiro bonus a 6/6M usando 80 stemmi mito. Non dimenticare di potenziare prima un oggetto eroico a 6/6 eroico per 20 stemmi eroici in quello slot." },
-            { id = "11e358a5", text = "Mitica(tiro bonus mitico o preso oggetto 6/6 dalla cassaforte): Crafta il tuo secondo oggetto a 5/6M per 80 stemmi mito. Se ottieni un oggetto drop, potenzialo a 6/6M usando 80 stemmi mito." },
-            { id = "c84b4730", text = "Se sei un degen CONTROLLA LA GUIDA, equipaggialo e raggiunge il limite di stemmi. questo non funziona piu', gli stemmi declassati contano per il limite" }, -- ⚠️ UNVERIFIED
-            { id = "9e721538", text = "Totale stemmi spesi finora: 280/280 eroici | 240/250 mitici" },
+            { id = "a032b050", text = "Farma +12 se ne hai bisogno per i blasoni. Non devi fare spam di M+ questa stagione se puoi ottenere i tuoi blasoni da altre fonti." },
+            { id = "663d01ea", text = "Eroico: Potenzia un oggetto 3/6e a 6/6e per 60 Blasoni Eroici. Usa 40 Blasoni Eroici per due oggetti mitico 1/6 che devi prima potenziare a 2/6." },
+            { id = "4e1c826e", text = "Mitico(bonus roll su un boss Eroico): Crea il tuo secondo oggetto a 5/6M per 80 Blasoni Mitici. Potenzia il tuo oggetto da bonus roll a 6/6M usando 80 Blasoni Mitici. Non dimenticare di potenziare prima un oggetto eroico a 6/6 eroico per 20 Blasoni Eroici in quello slot." },
+            { id = "11e358a5", text = "Mitico(bonus roll mitico o preso oggetto 6/6 dal forziere): Crea il tuo secondo oggetto a 5/6M per 80 Blasoni Mitici. Se ottieni un oggetto drop, potenzialo a 6/6M usando 80 Blasoni Mitici." },
+            { id = "c84b4730", text = "Se stai facendo il degen CONTROLLA LA GUIDA, equipaggialo e raggiungi il cap dei blasoni. questo non funziona piu', i blasoni declassati contano per il cap" }, -- ⚠️ UNVERIFIED
+            { id = "9e721538", text = "Totale Blasoni spesi finora: 280/280 Eroici | 240/250 Mitici" },
         },
     },
 
     {
-        id = "212586b9",
-        title = "Settimana 3 - 1 Set",
+        id = "89ce7292",
+        title = "Settimana 3 - 1 Set - Settimana corrente",
         items = {
-            { id = "d800e84b", text = "Apri la tua cassaforte - Controlla la guida per cosa prendere." },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
+            { id = "82c130d3", text = "Fai LFR per pezzi tier se hai ancora bisogno di tier." },
+            { id = "d70a8aae", text = "Fai la missione settimanale delle spedizioni per una possibilita' di tier se hai ancora bisogno di tier" },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
-            { id = "a032b050", text = "Farma +12 se ne hai bisogno per gli stemmi. Non devi spammare M+ questa stagione se puoi ottenere i tuoi stemmi da altre fonti." },
-            { id = "be0f768b", text = "Eroico: Potenzia un oggetto 3/6e a 6/6e per 60 Stemmi Eroico. Potenzia 1 oggetto 3/6e a 4/6e per 20 Stemmi Eroico. Usa 20 Stemmi Eroe per un oggetto mitico 1/6 che devi prima potenziare a 2/6." },
-            { id = "0f46d1be", text = "Mitico(bonus rollato un boss Eroico): O crea il tuo terzo oggetto a 5/6M per 80 Stemmi Mitico O potenzia il tuo oggetto bonus rollato a 6/6M usando 80 Stemmi Mitico. Non dimenticare di potenziare prima un oggetto eroico a 6/6 eroico per 20 Stemmi Eroico in quello slot." },
-            { id = "dd6a18d6", text = "Mitico(bonus rollato mitico o preso oggetto 6/6 dal forziere): Crea il tuo terzo oggetto a 5/6M per 80 Stemmi Mitico." },
-            { id = "c84b4730", text = "Se sei un degen CONTROLLA LA GUIDA, equipaggialo e raggiunge il limite di stemmi. questo non funziona piu', gli stemmi declassati contano per il limite" }, -- ⚠️ UNVERIFIED
-            { id = "f7ab089c", text = "Come sempre, se ottieni un oggetto mitico prima di quanto la guida si aspetti che tu lo faccia, potenzialo se hai gli stemmi eroe per risparmiare gli stemmi mito" },
-            { id = "c20119f7", text = "Totale Stemmi spesi finora: 380/380 Eroico | 320/350 Mitico" },
+            { id = "a032b050", text = "Farma +12 se ne hai bisogno per i blasoni. Non devi fare spam di M+ questa stagione se puoi ottenere i tuoi blasoni da altre fonti." },
+            { id = "be0f768b", text = "Eroico: Potenzia un oggetto 3/6e a 6/6e per 60 Blasoni Eroici. Potenzia 1 oggetto 3/6e a 4/6e per 20 Blasoni Eroici. Usa 20 Blasoni Eroici per un oggetto mitico 1/6 che devi prima potenziare a 2/6." },
+            { id = "0f46d1be", text = "Mitico(bonus roll su un boss Eroico): O crea il tuo terzo oggetto a 5/6M per 80 Blasoni Mitici O potenzia il tuo oggetto da bonus roll a 6/6M usando 80 Blasoni Mitici. Non dimenticare di potenziare prima un oggetto eroico a 6/6 eroico per 20 Blasoni Eroici in quello slot." },
+            { id = "dd6a18d6", text = "Mitico(bonus roll mitico o preso oggetto 6/6 dal forziere): Crea il tuo terzo oggetto a 5/6M per 80 Blasoni Mitici." },
+            { id = "c84b4730", text = "Se stai facendo il degen CONTROLLA LA GUIDA, equipaggialo e raggiungi il cap dei blasoni. questo non funziona piu', i blasoni declassati contano per il cap" }, -- ⚠️ UNVERIFIED
+            { id = "f7ab089c", text = "Come sempre, se ottieni un oggetto mitico prima di quanto la guida si aspetta, potenzialo se hai i blasoni eroici per risparmiare i blasoni mitici" },
+            { id = "c20119f7", text = "Totale Blasoni spesi finora: 380/380 Eroici | 320/350 Mitici" },
         },
     },
 
@@ -81,9 +83,9 @@ local DATASET = {
         id = "fd6e56ee",
         title = "Settimana 4 - 8 Set",
         items = {
-            { id = "d800e84b", text = "Apri la tua cassaforte - Controlla la guida per cosa prendere." },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
-            { id = "a032b050", text = "Farma +12 se ne hai bisogno per gli stemmi. Non devi spammare M+ questa stagione se puoi ottenere i tuoi stemmi da altre fonti." },
+            { id = "a032b050", text = "Farma +12 se ne hai bisogno per i blasoni. Non devi fare spam di M+ questa stagione se puoi ottenere i tuoi blasoni da altre fonti." },
             { id = "744d79f9", text = "Eroico: Potenzia 1 oggetto 3/6e a 6/6e per 60 Stemmi Eroico. Hai finito con gli stemmi eroe con drop assolutamente perfetti questa settimana. Altrimenti, sara' la prossima settimana." },
             { id = "6aef7ab9", text = "Mitico(bonus rollato un boss Eroico nelle prime 2 settimane): Crea il tuo terzo oggetto a 5/6M per 80 Stemmi Mitico e potenzia il tuo oggetto bonus rollato O drop a 4/6M usando 40 Stemmi Mitico. Non dimenticare di potenziare prima un oggetto eroico a 6/6 eroico per 20 Stemmi Eroico in quello slot." },
             { id = "8454275a", text = "Mitico(bonus rollato mitico o preso oggetto 6/6 dal forziere): Se ottieni un drop, potenzialo a 6/6M usando 80 Stemmi Mitico. Se ottieni un secondo drop, potenzialo a 4/6M usando 40 Stemmi Mitico." },
@@ -95,9 +97,9 @@ local DATASET = {
         id = "9d16aa2f",
         title = "Settimana 5 - 15 Set - Finito con gli Stemmi Eroe",
         items = {
-            { id = "d800e84b", text = "Apri la tua cassaforte - Controlla la guida per cosa prendere." },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
-            { id = "a032b050", text = "Farma +12 se ne hai bisogno per gli stemmi. Non devi spammare M+ questa stagione se puoi ottenere i tuoi stemmi da altre fonti." },
+            { id = "a032b050", text = "Farma +12 se ne hai bisogno per i blasoni. Non devi fare spam di M+ questa stagione se puoi ottenere i tuoi blasoni da altre fonti." },
             { id = "4b0e1a28", text = "Eroico: Potenzia qualsiasi oggetto rimanente a 6/6e." },
             { id = "c266c060", text = "Mitico(tutti i percorsi): O Crea il tuo quarto oggetto a 5/6M per 80 Stemmi Mitico o potenzia un drop naturale a 6/6M usando 80 Stemmi Mitico. Potenzia un drop a 5/6M usando 20 Stemmi Mitico." },
         },
@@ -107,7 +109,7 @@ local DATASET = {
         id = "ebe5928e",
         title = "Settimana 6 - 22 Set+ -",
         items = {
-            { id = "d800e84b", text = "Apri la tua cassaforte - Controlla la guida per cosa prendere." },
+            { id = "d800e84b", text = "Apri il tuo forziere - Controlla la Guida per cosa prendere." },
             { id = "70348198", text = "Completa la missione settimanale della scintilla" },
             { id = "1df64ea4", text = "Buona Stagione 2 e buona fortuna a tutti!" },
         },
